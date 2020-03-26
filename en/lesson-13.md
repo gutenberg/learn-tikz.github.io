@@ -51,7 +51,7 @@ chapters, and appendix, a bibliography, and an index.
 \input{backcover}
 \end{document}
 ```
-<!-- {% end raw %} -->
+<!-- {% endraw %} -->
 
 
 LaTeX lets you split a large document into several files.
