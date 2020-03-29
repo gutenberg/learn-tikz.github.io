@@ -4,8 +4,6 @@ title: Structuring longer documents
 <<<<<<< HEAD
 =======
 
-## Structuring longer documents
-
 This is the skeleton of a book.
 It includes front and back covers, preface, table of contents,
 chapters, and appendix, a bibliography, and an index.
@@ -24,7 +22,7 @@ chapters, and appendix, a bibliography, and an index.
   chap2,
   append
   }
-  
+
 \begin{document}
 \frontmatter
 \input{frontcover}
@@ -75,7 +73,7 @@ The `\include{...}` command always starts a new page.
 To bring in material without that page use `\input{...}`
 (although you lose the referencing advantage of `\includeonly`).
 
-Notice also that 
+Notice also that
 in the preamble, the `\title{...}` and `\author{...}` commands remember the
 information, and after the `\begin{document}` the `\maketitle`
 puts that information into the output.
@@ -93,7 +91,10 @@ The `\frontmatter`, `\mainmatter`, and `\backmatter` commands
 affect the formatting.
 For instance, `\frontmatter` changes the page numbering to
 Roman numbers.
+<<<<<<< HEAD
 
 
 
 >>>>>>> 5b2cddbd... raw
+=======
+>>>>>>> 440b64f7... Remove titles covered by YAML
