@@ -2,7 +2,17 @@
 title: Citations and references
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<script>
+preincludes = {
+ "pre1": {
+    "pre0": "document.bib"
+   }
+}
+</script>
+>>>>>>> dff3f7e1... support multi-file examples via filecontents
 
 For bibliographic citations, while
 you can include reference sources directly in your document,
