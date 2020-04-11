@@ -11,7 +11,6 @@ package
 ```latex
 \documentclass{article}
 \usepackage{graphicx}
-\usepackage{mwe}  % provide example images
 
 \begin{document}
 This picture
