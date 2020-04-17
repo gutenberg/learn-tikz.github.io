@@ -198,4 +198,121 @@ be anything legal in the preamble but _only a single column type_.
 Note that you have to specify vertical rules you want to apply to the right of
 the `\multicolumn` in the `align` argument, _e.g._, `\multicolumn{2}{c|}{stuff}`
 &ndash; but remember, don't use vertical rules.
+<<<<<<< HEAD
 >>>>>>> b46352be... ## for headings
+=======
+
+
+## Tables in Printing Quality with the `booktabs` Package
+
+In this section we will briefly introduce the `booktabs` package, which aids
+the author in the creation of beautifully typeset tables. "Beautiful" means
+in this context that the table is well-readable.
+
+Let us start with a simple table:
+
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+
+\begin{document}
+\begin{tabular}{@{} lll @{}}
+  Animal & Food  & Size   \\
+  dog    & meat  & medium \\
+  horse  & hay   & large  \\
+  frog   & flies & small  \\
+\end{tabular}
+
+\end{document}
+```
+<!-- {% endraw %} -->
+
+Using the `\toprule`, `\midrule` and `\bottomrule` commands from the `booktabs` package we can add some
+horizontal lines.
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+\usepackage{booktabs}
+
+\begin{document}
+
+\begin{tabular}{@{} lll @{}} \toprule
+  Animal & Food  & Size   \\ \midrule
+  dog    & meat  & medium \\
+  horse  & hay   & large  \\
+  frog   & flies & small  \\ \bottomrule
+\end{tabular}
+
+\end{document}
+```
+<!-- {% endraw %} -->
+
+By default `\toprule` and `\bottomrule` are slightly thicker than the
+`\midrule`. The thickness of the lines can be adjusted via the optional
+parameter of these commands:
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+\usepackage{booktabs}
+
+\begin{document}
+
+\begin{tabular}{@{} lll @{}} \toprule[2pt]
+  Animal & Food  & Size   \\ \midrule[1pt]
+  dog    & meat  & medium \\
+  horse  & hay   & large  \\
+  frog   & flies & small  \\ \bottomrule[2pt]
+\end{tabular}
+
+\end{document}
+```
+<!-- {% endraw %} -->
+
+Even more, one can set a left and right indent for the `\midrule`, so
+that this line is a little bit shorter as the `\toprule` and
+`\bottomrule` of the table.
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+\usepackage{booktabs}
+
+\begin{document}
+
+\begin{tabular}{@{} lll@{}} \toprule[2pt]
+  Animal & Food  & Size   \\ \cmidrule[1pt](rl){1-3}
+  dog    & meat  & medium \\
+  horse  & hay   & large  \\
+  frog   & flies & small  \\ \bottomrule[2pt]
+\end{tabular}
+
+\end{document}
+```
+<!-- {% endraw %} -->
+
+The package also provides commands to increase or decrease the height
+of a row. In the following example we increase the height of the
+last row by 0.5 em, which is half of the width of the capital 'M'
+in the currently used font.
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+\usepackage{booktabs}
+
+\begin{document}
+
+\begin{tabular}{@{} lll @{}} \toprule[2pt]
+  Animal & Food  & Size   \\ \cmidrule[1pt](rl){1-3}
+  dog    & meat  & medium \\
+  horse  & hay   & large  \\ \addlinespace[0.5em]
+  frog   & flies & small  \\ \bottomrule[2pt]
+\end{tabular}
+
+\end{document}
+```
+<!-- {% endraw %} -->
+>>>>>>> 259d15c5... Suppress end-of-column space when using booktabs
