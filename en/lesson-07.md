@@ -24,8 +24,55 @@ is an imported PDF.
 
 You can include PNG, JPG, and PDF files.
 If you have more than one version of a graphic then you can write,
+<<<<<<< HEAD
 for instance, `example-image.png`.
 The `\includegraphics` command has [many options](more-07.html).
+=======
+for instance, `example-image.png`. (The `graphicx` package will try to
+guess the extention if you do not give one.)
+
+## Altering graphic appearance
+
+The `\includegraphics` command has many options to control
+the size and shape of included images, and to trim down material. Some of
+these are used a lot, so are worth being aware of.
+
+The most obvious thing to set is the `width` or the `height` of an
+image, which are often given relative to the `\textwidth` and
+`\textheight`. LaTeX will automatically scale the image so that the aspect
+ratio stays correct.
+
+```latex
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+\begin{center}
+  \includegraphics[height = 0.5\textheight]{example-image}
+\end{center}
+Some text
+\begin{center}
+  \includegraphics[width = 0.5\textwidth]{example-image}
+\end{center}
+\end{document}
+```
+
+You can also `scale` images, or rotate them by an `angle`. The other thing you
+might want to do is to `clip` and `trim` an image.
+
+```latex
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+\begin{center}
+  \includegraphics[clip, trim = 0 0 50 50]{example-image}
+\end{center}
+\end{document}
+```
+
+## Making images float
+>>>>>>> dd9cc1b3... Ensure graphics are centred
 
 Traditionally in typesetting, particularly with technical documents,
 graphics may move to another spot in the document.
