@@ -27,9 +27,21 @@ graphics in a subdirectory, then something like
 `\includegraphics[width=30pt]{pix/mom.png}`
 is portable and future-proof.
 
+<<<<<<< HEAD
 LaTeX places graphics with the bottom left on the baseline.
 So you may want to move them horizontally or vertically; this
 has side-by-side graphics that are vertically centered.
+=======
+Spaces in file names are traditionally somewhat problematic, but are now
+generally supported. However, if you have spaces in the name, and you have
+issues, you may wish to try removing the spaces as the first step.
+
+Accented character support is somewhat variable: there are issues with some
+systems, particularly on Windows. If you find issues with accented characters
+in file names, try using only ASCII characters for a test.
+
+## Storing graphics in a subdirectory
+>>>>>>> 3ed4851c... Mention accented char support for filenames
 
 <<<<<<< HEAD
 =======
