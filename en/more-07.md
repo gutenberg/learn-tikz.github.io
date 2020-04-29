@@ -31,6 +31,18 @@ LaTeX places graphics with the bottom left on the baseline.
 So you may want to move them horizontally or vertically; this
 has side-by-side graphics that are vertically centered.
 
+<<<<<<< HEAD
+=======
+A common way to lay out source files is to put all graphics into a subdirectory.
+You can then include the relative path, as is shown above: notice that the
+`/` character is used to separate out parts of the path _even on Windows_.
+
+If you have a lot of graphics, you might want to set up the subdirectory
+in advance. That can be done using `\graphicspath`, which needs braced entry
+for each subdirectory. For example, to include both `figs` and `pics`
+subdirectories, we would have
+
+>>>>>>> 930850de... Avoid confusing Jekyll
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
@@ -50,6 +62,10 @@ These two are centered and separated by a space.
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
+=======
+Notice in particular the trailing `/` in these.
+>>>>>>> 930850de... Avoid confusing Jekyll
 
 ### Producing graphics
 
