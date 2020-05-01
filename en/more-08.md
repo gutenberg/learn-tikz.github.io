@@ -1,3 +1,3 @@
 ---
-title: More on: Tables
+title: "More on: Tables"
 ---
