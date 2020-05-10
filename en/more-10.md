@@ -47,6 +47,7 @@ if the prime factorization of \( m \) is $\prod_p p^{m_p}$.
 \end{document}
 ```
 
+<<<<<<< HEAD
 Look first at the part before the chapter.
 Write mathematics in the middle of text by putting it inside `\( ... \)`
 (you can also put it inside `$ ... $`).
@@ -77,3 +78,31 @@ For instance, get a blackboard boldface Z for the integers
 with `$\mathbb{Z}$`.
 The `amsthm` package gives you theorem environments,
 but those go beyond the scope of this document.
+=======
+# Unicode Math
+
+As will be seen in [Lesson 14](lesson-14) There are variant TeX
+engines that use OpenType fonts. By default these engines still use
+classic TeX math fonts but you may use the `unicode-math` package
+to use OpenType Math fonts. The details of this package are beyond
+this course and we refer you to the
+[package documentation](https://texdoc.net/pkg/unicode-math)
+however we give a small example here.
+
+```
+% !TEX xelatex
+\documentclass[a4paper]{article}
+\usepackage{unicode-math}
+\setmainfont{TeX Gyre Pagella}
+\setmathfont{TeX Gyre Pagella Math}
+
+\begin{document}
+
+One two three
+\[
+\log \alpha + \log \beta = \log(\alpha\beta)
+\]
+
+\end{document}
+```
+>>>>>>> b9c1b5d3... use Pagella as works with latexonline
