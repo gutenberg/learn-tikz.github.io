@@ -8,7 +8,14 @@ title: Citations and references
 <script>
 preincludes = {
  "pre1": {
+<<<<<<< HEAD
     "pre0": "document.bib"
+=======
+    "pre0": "learnlatex.bib"
+   },
+ "pre2": {
+    "pre0": "learnlatex.bib"
+>>>>>>> 17af86e9... set up pre2
    }
 }
 </script>
