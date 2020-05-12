@@ -19,6 +19,7 @@ ABC → αβγ → {\cjkfont 你好}
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 LuaLaTeX example
 
@@ -33,3 +34,11 @@ $ \pi \approx \directlua{ tex.print(math.pi) } $
 \end{document}
 ```
 >>>>>>> a57288b5... remove debug print from lualatex example
+=======
+
+When switching between languages it is usually important to also
+change things like hyphenation patterns and so on, and the `babel` and
+`polyglossia` packages both provide robust features to do this.
+
+
+>>>>>>> 28b8a843... move directlua example to more-
