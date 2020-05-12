@@ -2,9 +2,22 @@
 title: Your first LaTeX document
 ---
 
+<<<<<<< HEAD
 In your editor open a new file `first.tex`.
 Enter the text as it is written below, or you can
 copy and paste from here.
+=======
+Our first LaTeX document is going to be very simple: the idea is to show you
+how a document looks and how to typeset it successfully. It is also your
+first chance to [see how to use the examples here on `learnlatex.org`](help).
+
+If you are using a local LaTeX installation, in your editor create a new file
+called `first.tex`, and either copy–paste the text below or type it in.
+If you are using the online system, you can just click on the buttons in the
+example to try it out! We suggest you try out the online options even if you
+have set up LaTeX locally: this is a good chance to see how the different
+options work.
+>>>>>>> 55a095f3... Add cross-refs to the help page
 ```latex
 \documentclass{article}
 
