@@ -15,7 +15,7 @@ If you are using a local LaTeX installation, in your editor create a new file
 called `first.tex`, and either copy–paste the text below or type it in.
 If you are using the online system, you can just click on the buttons in the
 example to try it out! We suggest you try out the online options even if you
-have set up LaTeX locally: this is a good chance to see how the different
+have set up LaTeX locally; this is a good chance to see how the different
 options work.
 >>>>>>> 55a095f3... Add cross-refs to the help page
 ```latex
@@ -27,9 +27,17 @@ Hey world!
 This is a first document.
 \end{document}
 ```
+<<<<<<< HEAD
 Save the file.
 Compile it, that is, turn it into a PDF document.
 (If you have errors, see the subsection below.)
+=======
+Save the file and typeset it to a PDF document; if you are using a local LaTeX
+installation, the exact button to press will depend on the editor you have
+picked. You should get a PDF file that contains the text above _plus_ a page
+number; LaTeX adds that automatically.
+
+>>>>>>> 8c49207f... corrections from Barbara
 View the output `first.pdf` with
 whatever program you prefer for PDF viewing.
 Looks great; congratulations!
@@ -55,6 +63,15 @@ of people have seen this error before and you'll find the answer there.
 
 
 
+<<<<<<< HEAD
+=======
+LaTeX's error messages try to be helpful, but they are not the same as messages
+in word processors. Some editors also make it hard to see the 'full' text of an
+error, which can hide key details. LaTeX always creates a log of what it is
+doing; this is a text file ending in `.log`. You can always see the full  error
+messages there, and if you have a problem, expert LaTeX users will often ask for a
+copy of your log file.
+>>>>>>> 8c49207f... corrections from Barbara
 
 ## What you've got
 
@@ -80,6 +97,18 @@ You must also nest them, so that if you have
 `\begin{x}  ... \begin{y}` then you must have
 `\end{y}  ... \end{x}`.
 
+<<<<<<< HEAD
+=======
+We can add comments to a LaTeX file by starting them with `%`; let's use
+that to show the structure:
+```latex
+\documentclass[a4paper,12pt]{article} % The document class with options
+% A comment in the preamble
+\begin{document}
+% This is a comment
+This is   a simple
+document\footnote{with a footnote}.
+>>>>>>> 8c49207f... corrections from Barbara
 
 
 ## (Material below here will be folded into other lessons later)
@@ -95,9 +124,18 @@ Because it uses its own auxiliary file, here also you may need to run
 LaTeX twice to resolve the information.
 
 
+<<<<<<< HEAD
+=======
+There are some other characters with special meaning; we've just seen that `~`
+is a 'hard' space, for example. Almost all of these characters  are _very_
+uncommon in normal text, which is why they were chosen for special meanings.
+If you do need to show one of these special characters, we've put some
+[information in the further details page](more-03).
+>>>>>>> 8c49207f... corrections from Barbara
 
 
 
+<<<<<<< HEAD
 ## Citations
 
 Finally, edit the file to say this.
@@ -165,3 +203,9 @@ twice to resolve cross-references.
 (In the `\begin{thebibliography}{9}` line,
 the `9` tells LaTeX that
 no reference is wider than the digit 9.)  
+=======
+Try adding text to your first document, typesetting and seeing the changes in
+your PDF. Make some different paragraphs and add variable spaces. Explore how
+your editor works; click on your source and find how to go to the same line  in
+your PDF. Try adding some hard spaces and see how they influence line-breaking.
+>>>>>>> 8c49207f... corrections from Barbara
