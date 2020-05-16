@@ -29,7 +29,15 @@ for instance, `example-image.png`.
 The `\includegraphics` command has [many options](more-07.html).
 =======
 for instance, `example-image.png`. (The `graphicx` package will try to
+<<<<<<< HEAD
 guess the extention if you do not give one.)
+=======
+guess the extension if you do not give one.)
+
+You'll notice we've used a new environment here, `center`, to put the image
+in the middle horizontally of the page. [A bit later](lesson-11), we'll talk more about
+spacing and positioning.
+>>>>>>> e13f89c5... corrections from Barbara
 
 ## Altering graphic appearance
 
@@ -105,8 +113,28 @@ away from the `Test location` text to the top of the second page,
 because there isn't room for it on the bottom of the first page.
 The `ht` influences where LaTeX can place the float; these two
 letters mean that it can go where it is in the source (next to
+<<<<<<< HEAD
 `Test location`) or to the top of a page.
 <<<<<<< HEAD
+=======
+`Test location`) or to the top of a page. You can use up to four position
+specifiers
+
+- `h` 'Here' (if possible)
+- `t` Top of the page
+- `b` Bottom of the page
+- `p` A dedicated page only for floats
+
+[Later](lesson-11), we will see how to cross-reference floats so you can point
+to them from your text.
+
+You'll probably spot that we've centered the image here using `\centering`
+rather than the `center` environment. Inside a float, you should use
+`\centering` if you want to horizontally center content; this avoids both
+the float and `center` environment adding space.
+
+## Exercise
+>>>>>>> e13f89c5... corrections from Barbara
 
 
 ### More
