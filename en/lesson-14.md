@@ -17,11 +17,17 @@ ABC → αβγ → {\cjkfont 你好}
 
 \end{document}
 ```
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 LuaLaTeX example
+=======
+This selects the TeX Gyre Termes font, as in the `pdflatex` example above. Notably, this approach works for *any* OpenType font.
+Having selected a font, input can now be typed directly in plain Unicode into a source document.
+Here is an example showing some Latin and Greek letters as well as some CJK ideographs:
+>>>>>>> cb97acc4... Corrections from Barbara (2)
 
 ```latex
 %!TEX lualatex
