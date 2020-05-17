@@ -2,6 +2,7 @@
 title: Logical structure
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 LaTeX focuses on the logical structure of your document,
@@ -19,6 +20,20 @@ the document.
 
 Edit the file to say this, then save.
 (Or, you can simply copy and paste it.)
+=======
+
+LaTeX provides ways to concentrate on the logical structure of your document, as well as the
+ability to directly set the appearance. Most of the time, it's much better to use
+methods that focus on structure, as that makes it easy to reuse or alter
+appearance when you have to.
+
+## A first example
+
+We'll start with an example contrasting one of the most common logical markup
+commands in LaTeX, `\emph`, with simply making something italic. (In print,
+that's usually how things are emphasised.)
+
+>>>>>>> ff71cd22... comments from Barbara (2)
 ```latex
 \documentclass{article}
 <<<<<<< HEAD

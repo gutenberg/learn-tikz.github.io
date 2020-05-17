@@ -10,8 +10,8 @@ one takes text and enriches the text with mark--up. This markup tells LaTeX
 about the logical meaning of certain elements of the text, similar to the way
 HTML does.
 
-Take for example the element  `<h2>`  indicating a new section in an HTMLdocument.
-LaTeX also has a command for this, here one would use the `\section` command.
+Take for example the element  `<h2>`  indicating a new section in an HTML document.
+LaTeX also has a command for this; here one would use the `\section` command.
 
 ## The {{ site.latex }} workflow
 

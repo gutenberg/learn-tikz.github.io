@@ -11,7 +11,7 @@ well-known for a series of books known as the "Art of Computer Programming". In
 1973 a new edition of the books was to be made, this was the time when the
 =======
 TeX was originally invented by Stanford professor Donald Knuth. Knuth is
-well-known for a series of books known as the “The Art of Computer Programming” (known as "TAOCP"). In
+well known for a series of books known as the “The Art of Computer Programming” (known as "TAOCP"). In
 1973 a new edition of the books was to be made; this was the time when the
 >>>>>>> 383434be... corrections from Barbara
 typesetting industry switched from traditional typesetting with lead to

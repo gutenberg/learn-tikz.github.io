@@ -4,10 +4,82 @@ title: Math(s)
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 You may be interested in LaTeX because it is the standard for
 writing mathematics.
 We will use the `amsmath` package, developed
 by the American Mathematical Society.
+=======
+## Math mode
+
+You can mark up mathematics in LaTeX in a logical way in what is known as
+'math mode'. In math mode, spaces are ignored and the correct spacing between
+characters is (almost always) applied. There are two forms of math mode: inline
+and display.
+
+```latex
+\documentclass{article}
+\begin{document}
+A sentence with inline mathematics: $y = mx + c$.
+
+A second paragraph containing display maths
+\[
+  y = mx + c
+\]
+See how the paragraph continues after the display.
+\end{document}
+```
+
+You may see 'LaTeX-like' mathematical input in other places, for example
+the MathJaX system for placing equations in web pages. These systems often
+accept slight variations on LaTeX's syntax as they do not actually use LaTeX
+'behind the scenes'. Our examples are all 'correct' LaTeX, so if you see
+something different in another context, it might be because the example is not
+really using LaTeX.
+
+## Inline math mode and mathematical notation
+
+As you can see above, inline math mode is marked using a pair of dollar
+symbols (`$...$`). It is also possible to use the notation `\( ... \)`.
+Simple text is entered without any special markup, and you'll see that it's
+spaced out nicely and has letters in italic; this is normal for mathematics.
+
+We can easily add superscripts and subscripts; these are marked using `^` and
+`_`, respectively.
+
+```latex
+\documentclass{article}
+\begin{document}
+Superscripts $a^{b}$ and subscripts $a_{b}$.
+\end{document}
+```
+
+(You might see examples where simple super- and subscripts are entered without
+braces, but that is not the official syntax and can go wrong; always use
+braces.)
+
+There are a _lot_ of specialist math mode symbol commands. Some of them are quite
+easy, for example `\sin` and `\log` for sine and logarithm or `\theta` for the
+Greek letter.
+
+```latex
+\documentclass{article}
+\begin{document}
+Some symbols: $y = 2 \sin \theta^{2}$.
+\end{document}
+```
+
+We cannot cover all the standard LaTeX math mode commands here, but there are
+many online resources listing the standard set. You can look up math mode
+symbols using the great
+[Detexify](https://personaljournal.ca/paulsutton/detexify) tool.
+
+## Display mathematics
+
+You can use exactly the same commands for display math mode as for inline
+work. Display math mode is set centered and is meant to be 'part of a paragraph'
+where the equation is larger. It's particularly useful for e.g. integrations
+>>>>>>> bcc55465... comments from Barbara (2)
 
 Edit the document to say this.
 ```latex
@@ -38,6 +110,7 @@ to look at the double integral
    \int_{-\infty}^{+\infty} e^{-y^2} \mathrm{d}y\;.
 \end{equation*}
 
+<<<<<<< HEAD
 Therefore
 \begin{equation}
 a\equiv b\pmod{m}
@@ -45,6 +118,17 @@ a\equiv b\pmod{m}
 a\equiv b \pmod{p^{m_p}}\quad\text{for all \( p \)}  
 \end{equation}
 if the prime factorization of \( m \) is $\prod_p p^{m_p}$.
+=======
+- `\mathrm`: roman (upright)
+- `\mathit`: italic spaced as 'text'
+- `\mathbf`: boldface
+- `\mathsf`: sanserif
+- `\mathtt`: monospaced (typewriter)
+- `\mathbb`: double-struck ('blackboard bold')
+
+Each of these takes Latin letters as an argument, so for example we might
+write a matrix as
+>>>>>>> bcc55465... comments from Barbara (2)
 
 \end{document}
 ```
