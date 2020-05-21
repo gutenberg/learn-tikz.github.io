@@ -2,9 +2,197 @@
 title: "More on: Tables"
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 =======
 
-## Numeric alignment of columns
+
+## The other preamble contents
+
+As the lesson didn't cover all the available preamble-tokens, a few others are
+explained with examples here.  You might want to revisit the tables at the start
+of the lesson to get an overview of the things available. The short descriptions
+provided there should suffice to understand what the different column types `m`,
+`b`, `w`, and `W` do after you understood `l`, `c`, `r`, and `p`. If not you
+might want to experiment a bit with them. What's still missing are the handy
+other preamble-tokens `>`, `<`, `@`, `!`, and `|`. 
+
+### Styling a column
+
+Since `>` and `<` can be used to put things before and after the cell contents
+of the respective column, you can use these to add macros which affect the looks
+of a column. For instance, if you want to italicize the first column and put a
+colon after it, you can do the following:
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+\usepackage{array}
+
+\begin{document}
+\begin{tabular}{>{\itshape}l<{:} *{2}{l}}
+  \toprule
+  Animal & Food  & Size   \\
+  \midrule
+  dog    & meat  & medium \\
+  horse  & hay   & large  \\
+  frog   & flies & small  \\
+  \bottomrule
+\end{tabular}
+\end{document}
+```
+<!-- {% endraw %} -->
+
+`\itshape` makes all the following text italic, but its effect is 'contained'
+by the table cell. We will look at manual font formatting [in a few lessons
+time](lesson-11).
+
+You may want the first cell not to be affected
+because it is the table head. Here `\multicolumn` may be used. Remember that
+it can be used to change a single cell's alignment as shown below.
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+\usepackage{array}
+
+\begin{document}
+\begin{tabular}{>{\itshape}l<{:} *{2}{l}}
+  \toprule
+  \multicolumn{1}{l}{Animal} & Food  & Size   \\
+  \midrule
+  dog    & meat  & medium \\
+  horse  & hay   & large  \\
+  frog   & flies & small  \\
+  \bottomrule
+\end{tabular}
+\end{document}
+```
+<!-- {% endraw %} -->
+
+### Manipulating the space between columns
+
+Usually LaTeX pads each column by some space on both ends to give a balanced
+look and separate them. This space is defined with the length `\tabcolsep`. Due
+to the fact that each column is padded on both sides you get one `\tabcolsep` on
+either end of the table, and `2\tabcolsep` between two columns &ndash; one from
+each column. You can adjust this space to any length using `\setlength`:
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+\usepackage{array}
+
+\setlength\tabcolsep{1cm}
+
+\begin{document}
+\begin{tabular}{lll}
+  Animal & Food  & Size   \\
+  dog    & meat  & medium \\
+  horse  & hay   & large  \\
+  frog   & flies & small  \\
+\end{tabular}
+\end{document}
+```
+<!-- {% endraw %} -->
+
+You can change this space to something arbitrary using `@`. This will remove the
+padding between two columns or on either end, and instead put anything in
+between the columns you specify as an argument:
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+\usepackage{array}
+
+\begin{document}
+\begin{tabular}{l@{ : }l@{\hspace{2cm}}l}
+  Animal & Food  & Size   \\
+  dog    & meat  & medium \\
+  horse  & hay   & large  \\
+  frog   & flies & small  \\
+\end{tabular}
+\end{document}
+```
+<!-- {% endraw %} -->
+
+(We'll see `\hspace` [again shortly](lesson-11); you might guess that it adds a
+horizontal space.)
+
+The `!` preamble token does something pretty similar. The difference is, that it
+_adds_ its argument to the space in the center between two columns.
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+\usepackage{array}
+
+\begin{document}
+\begin{tabular}{l!{:}ll}
+  Animal & Food  & Size   \\
+  dog    & meat  & medium \\
+  horse  & hay   & large  \\
+  frog   & flies & small  \\
+\end{tabular}
+\end{document}
+```
+<!-- {% endraw %} -->
+
+
+### Vertical rules
+
+Sometimes you have to use vertical rules.
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+\usepackage{array}
+
+\begin{document}
+\begin{tabular}{l|ll}
+  Animal & Food  & Size   \\
+  dog    & meat  & medium \\
+  horse  & hay   & large  \\
+  frog   & flies & small  \\
+\end{tabular}
+\end{document}
+```
+<!-- {% endraw %} -->
+
+You might notice that the behavior of `|` is pretty similar to `!{decl}`; it
+adds the vertical rule between two columns leaving the padding as it is. There
+is a huge downside to this though; vertical rules don't work with the
+horizontal rules provided by `booktabs`. You can use the horizontal rules
+provided by LaTeX; those are `\hline` (corresponding to `\toprule`, `\midrule`, and
+`\bottomrule`) and `\cline` (which behaves like `\cmidrule`).
+
+## Customizing `booktabs` rules
+
+All the `booktabs` rules and also `\addlinespace` support an optional argument
+in brackets with which you can specify the rule's thickness. In addition the
+trimming provided by `\cmidrule` can be customized by specifying a thickness in
+braces after `r` or `l`.
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+\usepackage{array}
+\usepackage{booktabs}
+
+\begin{document}
+\begin{tabular}{@{} lll@{}} \toprule[2pt]
+  Animal & Food  & Size   \\ \midrule[1pt]
+  dog    & meat  & medium \\
+  \cmidrule[0.5pt](r{1pt}l{1cm}){1-2}
+  horse  & hay   & large  \\
+  frog   & flies & small  \\ \bottomrule[2pt]
+\end{tabular}
+\end{document}
+```
+<!-- {% endraw %} -->
+>>>>>>> aead86e8... Corrections from Barbara (4)
+
+## Numeric alignment in columns
 
 The alignment of numbers in tables can be handled by the column type `S` 
 that is provided by the `siunitx` package.
@@ -21,16 +209,22 @@ A simple example with two aligned numeric columns would be:
 \midrule
 1        &   2.3456 \\
 1.2      &   34.2345 \\
-2.3      &   90.473 \\
+-2.3      &   90.473 \\
 40       &   5642.5 \\
 5.3      &   1.2e3 \\
-0.2      &    e4 \\
+0.2      &    1e4 \\
 \bottomrule
 \end{tabular}
 \end{document}
 ```
 
+<<<<<<< HEAD
 The package provides many possibilities for formatting the numbers in
+=======
+Note that any non-numeric cell must be "protected" by enclosing it in braces.
+
+The `siunitx` package provides many possibilities for formatting the numbers in
+>>>>>>> aead86e8... Corrections from Barbara (4)
 different ways; see the [package
 documentation](https://texdoc.net/pkg/siunitx).
 
@@ -39,7 +233,7 @@ documentation](https://texdoc.net/pkg/siunitx).
 
 The width of a `tabular` environment is automatically determined based
 on the contents of the table. There are two commonly used mechanisms
-to specify the total width.
+to specify a different total width.
 
 Note that it is almost always preferable to format the table to a
 specified width as below (perhaps using a font size such as `\small` if
@@ -52,7 +246,7 @@ The `tabular*` environment takes an additional _width_ argument that
 specifies the total width of the table. Stretchy space must be added
 to the table using the `\extracolsep` command. This space is added
 between all columns from that point in the preamble. It is almost
-always used with `\fill` a special space that stretches to be as large
+always used with `\fill`, a special space that stretches to be as large
 as necessary.
 
 ```latex
@@ -219,12 +413,12 @@ for full details, but we show a simple example here.
 ## Typesetting in narrow columns
 
 The default line breaking settings assume relatively long lines to
-give some flexibility in choosing linebreaks. The following example
+give some flexibility in choosing line breaks. The following example
 shows some possible approaches. The first table shows interword spacing
 stretched and TeX warning about Underfull lines. Using `\raggedright`
 usually avoids this problem but may leave some lines ‘too ragged’. The
-`\RaggedRight` command from the `ragged2e` package is a compromise,
-which allows some raggedness in the line lengths, but will also
+`\RaggedRight` command from the `ragged2e` package is a compromise;
+it allows some raggedness in the line lengths, but will also
 hyphenate where necessary, as shown in the third table.
 
 Note the use of `\arraybackslash` here, which resets the definition of
@@ -243,21 +437,21 @@ text size.
 
 \begin{tabular}[t]{lp{3cm}}
 One & A long text set in a narrow paragraph, with some more example text.\\
-Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate woords.
+Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate words.
 \end{tabular}%
 \begin{tabular}[t]{l>{\raggedright\arraybackslash}p{3cm}}
 One & A long text set in a narrow paragraph, with some more example text.\\
-Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate woords.
+Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate words.
 \end{tabular}%
-\begin{tabular}[t]{l>{\RaggedRight\arraybackslash}p{3cm}}
+\begin{tabular}[t]{l>{\RaggedRight}p{3cm}}
 One & A long text set in a narrow paragraph, with some more example text.\\
-Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate woords.
+Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate words.
 \end{tabular}
 
 \footnotesize
 \begin{tabular}[t]{lp{3cm}}
 One & A long text set in a narrow paragraph, with some more example text.\\
-Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate woords.
+Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate words.
 \end{tabular}
 
 \end{table}
@@ -275,10 +469,61 @@ use, for example
 ```latex
 \newcolumntype{B}{>{\bfseries}c}
 ```
-would allow the use of `B` in tabular preambles to specify a bold
+would allow the use of `B` in table preambles to specify a bold
 centered column.
 
 
+<<<<<<< HEAD
+=======
+## Vertical tricks
+
+Often, rather than making a cell span multiple rows it is better to instead have
+a single row in which some cells are split vertically by the use of nested
+`tabular` environments.
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+\usepackage{array}
+
+\begin{document}
+\begin{tabular}{lcc}
+  \toprule
+  Test & \begin{tabular}{@{}c@{}}A\\a\end{tabular} & \begin{tabular}{@{}c@{}}B\\b\end{tabular} \\
+  \midrule
+  Content & is & here \\
+  Content & is & here \\
+  Content & is & here \\
+  \bottomrule
+\end{tabular}
+\end{document}
+```
+<!-- {% endraw %} -->
+
+Note that you can control vertical alignment by an optional argument to the
+`tabular`; it supports the usage of `t`, `c`, or `b` for top, centered, or
+bottom aligned respectively and is used like this:
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+\usepackage{array}
+
+\begin{document}
+\begin{tabular}{lcc}
+  \toprule
+  Test & \begin{tabular}[b]{@{}c@{}}A\\a\end{tabular} & \begin{tabular}[t]{@{}c@{}}B\\b\end{tabular} \\
+  \midrule
+  Content & is & here \\
+  Content & is & here \\
+  Content & is & here \\
+  \bottomrule
+\end{tabular}
+\end{document}
+```
+<!-- {% endraw %} -->
+
+>>>>>>> aead86e8... Corrections from Barbara (4)
 ## Line spacing in tables
 
 In the main lesson we demonstrated `\addlinespace` from the `booktabs`
