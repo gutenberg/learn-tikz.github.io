@@ -16,7 +16,13 @@ plugins:
 latex: "<span>L<span style='font-variant: small-caps; vertical-align:.35ex;margin-left:-.15em;margin-right:-.05em;'>a</span>T<span style='text-transform:uppercase; vertical-align:-.4ex;margin-left:-.1em;'>e</span>X</span>"
 tex: "<span>T<span style='text-transform:uppercase; vertical-align:-.4ex;margin-left:-.1em;'>e</span>X</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> 5cf5ffe2... Updated logo files
 =======
 >>>>>>> 92eaef88... Try auto-generating a sitemap
+=======
+
+langs:
+   - en
+>>>>>>> 2de37f8a... language switching
