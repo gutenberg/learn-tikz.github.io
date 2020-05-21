@@ -133,6 +133,7 @@ write a matrix as
 \end{document}
 ```
 
+<<<<<<< HEAD
 Look first at the part before the chapter.
 Write mathematics in the middle of text by putting it inside `\( ... \)`
 (you can also put it inside `$ ... $`).
@@ -164,3 +165,17 @@ with `$\mathbb{Z}$`.
 The `amsthm` package gives you theorem environments,
 but those go beyond the scope of this document.
 >>>>>>> a70db997... Top-level titles will come from YAML
+=======
+If you need to make other symbols bold, [see the extra details](more-10).
+
+## Exercises
+
+Try out some basic math mode work: take the examples and switch between
+inline and display math modes. Can you see what effect this has.
+
+Try adding other Greek letters, both lower- and uppercase. You should be
+able to guess the names.
+
+Experiment with the font changing commands: what happens when you try to
+nest them?
+>>>>>>> f9851044... Corrections from Barbara (5)

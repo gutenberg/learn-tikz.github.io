@@ -69,8 +69,39 @@ documentation. Usually the packages are saved in `ctan.org/pkg/<pkg-name>`
 and you can access the README and documentation of the packages stored on CTAN
 there.
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d1b4e9ee... h1 heading added by page template
 =======
+=======
+
+## Books on LaTeX
+
+There are several books available that can help you learn more about LaTeX.
+As a beginner, you will gain a lot from a structured beginners guide, as
+those can give a lot more detail than we've covered here. You might also
+want access to a reference with more detail and recommendations.
+
+The LaTeX team have [a list of books](https://www.latex-project.org/help/books/)
+largely written by members. The most notable are [Lamport's offical
+guide](https://www.informit.com/store/latex-a-document-preparation-system-9780201529838)
+and the comprehensive
+[LaTeX Companion](https://www.informit.com/store/latex-companion-9780201362992).
+
+Other books aimed at learning LaTeX include
+
+- [_Guide to
+  LaTeX_](https://www.informit.com/store/guide-to-latex-9780132651714) by Helmut
+  Kopka and Patrick Daly: available as an e-book
+- [_LaTeX for Complete Novices_](https://www.dickimaw-books.com/latex/novices/) by
+  Nicola Talbot: available as a free e-book or low-cost printed edition
+- [_Using LaTeX to write a PhD
+  thesis_](https://www.dickimaw-books.com/latex/thesis/) by
+  Nicola Talbot: available as a free e-book or low-cost printed edition
+- [_LaTeX Beginner's Guide_](https://www.packtpub.com/gb/hardware-and-creative/latex-beginners-guide)
+  by Stefan Kottwitz: available as an e-book and in print
+- [_LaTeX and Friends_](https://www.springer.com/gp/book/9783642238154) by
+  Marc van Dongen: available as an e-book and in print
+>>>>>>> a1ee6fc9... Corrections from Barbara (5)
 
 ## Getting help
 
@@ -91,8 +122,12 @@ Text
 \end{document}
 ```
 
-and add lines one at a time until you show the issue. You can try to 'cut down'
-your real file, but that can be a long process.
+and add lines one at a time until you show the issue. You can try to
+'cut down' your real file, but that can be a long process.
+
+If you need more text to show page breaking and other effects, then
+packages such as `lipsum` may be used to generate nonsense paragaraphs
+of text while keeping your test file small.
 
 One thing you will want available is your log file; this is created by LaTeX
 every time you run it, and has the same name as your input but ending `.log`.
