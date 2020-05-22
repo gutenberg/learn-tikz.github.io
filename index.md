@@ -34,21 +34,7 @@ examples [in the site help](en/help).
 
 ## The lessons
 
-<ul>
-{%- for page in site.pages | sort: 'path' -%}
-{%- if page.path  contains "en/lesson" %}
-<li><a href="{{page.path | replace: '.md',''}}">
-<b>
-{% if page.path contains "en/lesson-0" %}
-&#160;{{page.path | replace: '.md','' | replace: 'en/lesson-0',''}}
-{% else %}
-{{page.path | replace: '.md','' | replace: 'en/lesson-',''}}
-{% endif %}
-</b>
-&mdash; {{page.title}}</a></li>
-{%- endif -%}
-{%- endfor -%}
-</ul>
+{% include toc.html  prefix="en/lesson" %}
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60,21 +46,8 @@ examples [in the site help](en/help).
 =======
 ### Additional lessons specific to learnlatex.org/en
 
-<ul>
-{%- for page in site.pages | sort: 'path' -%}
-{%- if page.path  contains "en/language" %}
-<li><a href="{{page.path | replace: '.md',''}}">
-<b>
-{% if page.path contains "en/language-0" %}
-&#160;{{page.path | replace: '.md','' | replace: 'en/language-0',''}}
-{% else %}
-{{page.path | replace: '.md','' | replace: 'en/language-',''}}
-{% endif %}
-</b>
-&mdash; {{page.title}}</a></li>
-{%- endif -%}
-{%- endfor -%}
-</ul>
+{% include toc.html  prefix="en/language" %}
+
 
 >>>>>>> f94aeeb7... language- in toc
 ## Going further
