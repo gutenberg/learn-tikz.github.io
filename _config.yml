@@ -25,4 +25,11 @@ tex: "<span>T<span style='text-transform:uppercase; vertical-align:-.4ex;margin-
 
 langs:
    - en
+<<<<<<< HEAD
 >>>>>>> 2de37f8a... language switching
+=======
+   - de
+   - fr
+   - pt
+
+>>>>>>> b3cec993... language stubs
