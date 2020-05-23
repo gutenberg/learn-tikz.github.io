@@ -84,7 +84,7 @@ function latexonlinecc(nd) {
     } else if(t.indexOf("fontspec") !== -1) {
 	cmd="&command=xelatex";
     }
-    ifr.setAttribute("src","https://texlive2020.latexonline.cc/compile?text=" + encodeURIComponent(fconts.replace(commentregex,'') + t.replace(engineregex,'')) + cmd");
+    ifr.setAttribute("src","https://texlive2020.latexonline.cc/compile?text=" + encodeURIComponent(fconts.replace(commentregex,'') + t.replace(engineregex,'')) + cmd);
 }
 
 
