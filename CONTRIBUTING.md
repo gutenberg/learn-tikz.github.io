@@ -82,8 +82,12 @@ ISO 639-1 language code.  The yml `langs` array in `_config.yml` will
 need to be extended to include the language.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 A test site showing the language switching (but without real
 translated text) is [viewable](https://davidcarlisle.github.io/ll)
 >>>>>>> bebe68f8... language switching notes
 =======
 >>>>>>> 9e0bbbb5... remove link  to ll test site as language switching now enabled here
+=======
+See also the [specific guidelines for translators](TRANSLATIONS).
+>>>>>>> abf0fa15... link to TRANSLATORS
