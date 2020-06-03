@@ -14,9 +14,13 @@ first chance to [see how to use the examples here on `learnlatex.org`](help).
 If you are using a local LaTeX installation, in your editor create a new file
 called `first.tex`, and either copy–paste the text below or type it in.
 <<<<<<< HEAD
+<<<<<<< HEAD
 If you are using the online system, you can just click on the buttons in the
 =======
 If you are using the online system, you can just click on the ‘LaTeX.Online’
+=======
+If you are using the online system, you can just click on the ‘LaTeX Online’
+>>>>>>> 790d3101... 2 latex online services
 or ‘Open in Overleaf’ buttons in the
 >>>>>>> 1e1f1daa... Style 'LaTeX.Online'
 example to try it out! We suggest you try out the online options even if you

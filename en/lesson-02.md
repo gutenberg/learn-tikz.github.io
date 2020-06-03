@@ -58,8 +58,15 @@ whereas others are more focused on letting you see the LaTeX code and
 so are closer to having a local installation.
 
 There are systems that let you run LaTeX without needing to be logged in, and we
+<<<<<<< HEAD
 are using one of those, [LaTeX.Online](https://latexonline.cc), to let you
 edit and test the examples we give. For more complete work, the best on-line
+=======
+are using two of those,
+[LaTeX.Online](https://latexonline.cc) and
+[LaTeX-on-HTTP](https://github.com/YtoTech/latex-on-http), to let you
+edit and test the examples we give. For more complete work, the best online
+>>>>>>> 790d3101... 2 latex online services
 systems require that you register before you use them. That lets you save your
 work but also helps the sites not get overloaded. We have set up links so you
 can edit our examples using [Overleaf](https://www.overleaf.com), one of the
