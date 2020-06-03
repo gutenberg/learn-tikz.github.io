@@ -106,12 +106,19 @@ BibTeX is used with either no packages at all or with `natbib`.
 Running a second tool as well as LaTeX is handled in different ways by different
 editors. For our online examples, there are some 'behind the scenes' scripts
 <<<<<<< HEAD
+<<<<<<< HEAD
 that do everything in one go; that's true for LaTeX-Online and Overleaf. Your
 =======
 that do everything in one go; that's true for LaTeX.Online and Overleaf. Your
 >>>>>>> 1e1f1daa... Style 'LaTeX.Online'
 editor might have a single 'do stuff' button or you might have to choose to run
 BibTeX or Biber manually between LaTeX runs.
+=======
+that do everything in one go; that's true for
+LaTeX.Online, LaTeX-on-HTTP and Overleaf.
+Your editor might have a single 'do stuff' button or you might have to
+choose to run BibTeX or Biber manually between LaTeX runs.
+>>>>>>> 790d3101... 2 latex online services
 
 The format of citations and references is independent of your BibTeX database,
 and is set by what is known as a 'style'. We will see that these work slightly
@@ -199,7 +206,11 @@ also available.
 
 Try out both the `natbib` and `biblatex` examples. For `natbib`, you'll need
 to run LaTeX, BibTeX, LaTeX, LaTeX; for `biblatex`, it's LaTeX, Biber, LaTeX.
+<<<<<<< HEAD
 Find out how to do that in your editor, or try the Overleaf and LaTeX-Online
+=======
+Find out how to do that in your editor, or try the Overleaf and LaTeX Online
+>>>>>>> 790d3101... 2 latex online services
 automation.
 
 See what happens when you create new database entries and new citations. Add
