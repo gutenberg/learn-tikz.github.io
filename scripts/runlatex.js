@@ -42,6 +42,11 @@ function llexamples() {
 	    // action=\"https://www.overleaf.com/docs\"
 	    f.innerHTML="<form style=\"display:none\" id=\"form-pre" + i +"\" action=\"https://www.overleaf.com/docs\" method=\"post\" target=\"_blank\"></form>";
 	    p[i].parentNode.insertBefore(f, p[i].nextSibling);
+	    var f2=document.createElement("span");
+	    // action=\"https://httpbin.org/post\"
+	    // action=\"https://latex.ytotech.com/builds/sync\"
+	    f2.innerHTML="<form style=\"display:none\" id=\"form2-pre" + i + "\" name=\"form2-pre" + i +"\" enctype=\"multipart/form-data\" action=\"https://latex.ytotech.com/builds/sync\" method=\"post\" target=\"pre" + i + "ifr\"></form>";
+	    p[i].parentNode.insertBefore(f2, p[i].nextSibling);
 	}
     }
 }
@@ -50,6 +55,7 @@ const commentregex = / %.*/;
 const engineregex = /% *!TEX.*[^a-zA-Z]((pdf|xe|lua|u?p)latex)/i;
 
 function latexonlinecc(nd) {
+<<<<<<< HEAD
     var fconts="";
     if(typeof(preincludes) == "object") {
 	if(typeof(preincludes[nd]) == "object") {
@@ -86,6 +92,9 @@ function latexonlinecc(nd) {
     // that looks to have all lines but still need to zap comments for some reason..
     // alert(encodeURIComponent(fconts));
     var p = document.getElementById(nd);
+=======
+    var p = document.getElementById(nd);
+>>>>>>> eb851494... conditional use of latex-on-http
     var t = p.innerText;
     var cmd="";
     var eng=t.match(engineregex);
@@ -94,7 +103,54 @@ function latexonlinecc(nd) {
     } else if(t.indexOf("fontspec") !== -1) {
 	cmd="&command=xelatex";
     }
+<<<<<<< HEAD
     ifr.setAttribute("src","https://texlive2020.latexonline.cc/compile?text=" + encodeURIComponent(fconts.replace(commentregex,'') + t.replace(engineregex,'')) + cmd);
+=======
+    // no platex on latexonlinecc
+    // checking User Agent isn't great but better than looping
+    if(window.navigator.userAgent.match(/Android.*Firefox/) ||
+       cmd == "&command=platex" ||
+       cmd == "&command=uplatex" ){ 
+	latexonhttp(nd);
+    } else {
+	var fconts="";
+	if(typeof(preincludes) == "object") {
+	    if(typeof(preincludes[nd]) == "object") {
+		fconts= "\n\\makeatletter\\def\\input@path{{latex.out/}}\\makeatother\n";
+		var incl=preincludes[nd];
+		for(prop in incl) {
+		    fconts=fconts+"\n\\begin{filecontents}{" +
+			incl[prop] +
+			"}\n" +
+			document.getElementById(prop).innerText +
+			"\n\\end{filecontents}\n";
+		}
+	    }
+	}
+	// no biber support currently
+	if(t.indexOf("biblatex") !== -1) {
+	    t=t.replace(/usepackage\{biblatex/,'usepackage[]\{biblatex');
+	    t=t.replace(/\]\{biblatex/,',backend=bibtex]\{biblatex');
+	}
+	var b = document.getElementById('lo-' + nd);
+	var ifr= document.getElementById(nd + "ifr");
+	if(ifr == null) {
+	    ifr=document.createElement("iframe");
+	    ifr.setAttribute("width","100%");
+	    ifr.setAttribute("height","500em");
+	    ifr.setAttribute("id",nd + "ifr");
+	    ifr.setAttribute("name",nd + "ifr");
+	    p.parentNode.insertBefore(ifr, b.nextSibling);
+	    d=document.createElement("button");
+	    d.innerText=buttons["Delete Output"];
+	    d.setAttribute("id","del-" + nd);
+	    d.setAttribute("onclick",'deleteoutput("' + nd + '")');
+	    p.parentNode.insertBefore(d, b.nextSibling);
+	}
+	// that looks to have all lines but still need to zap comments for some reason..
+	ifr.setAttribute("src","https://texlive2020.latexonline.cc/compile?text=" + encodeURIComponent(fconts.replace(commentregex,'') + t.replace(engineregex,'')) + cmd);
+    }
+>>>>>>> eb851494... conditional use of latex-on-http
 }
 
 
@@ -140,6 +196,62 @@ function openinoverleaf(nd) {
     addinput(fm,"engine",engv);
     fm.submit();
 }
+
+// https://github.com/YtoTech/latex-on-http
+
+// This could share more code with latexonline version
+function latexonhttp(nd) {
+    var jsn=[];
+    if(typeof(preincludes) == "object") {
+	if(typeof(preincludes[nd]) == "object") {
+	    var incl=preincludes[nd];
+	    for(prop in incl) {
+		jsn.push({path: incl[prop],
+			  content: document.getElementById(prop).innerText
+			 })
+	    }
+	}
+    }
+    var p = document.getElementById(nd);
+    var t = p.innerText;
+    // no biber support currently
+    if(t.indexOf("biblatex") !== -1) {
+	t=t.replace(/usepackage\{biblatex/,'usepackage[]\{biblatex');
+	t=t.replace(/\]\{biblatex/,',backend=bibtex]\{biblatex');
+    }
+    jsn.push({main: true, content: t});
+    var b = document.getElementById('lo-' + nd);
+    var ifr= document.getElementById(nd + "ifr");
+    if(ifr == null) {
+	ifr=document.createElement("iframe");
+	ifr.setAttribute("width","100%");
+	ifr.setAttribute("height","500em");
+	ifr.setAttribute("id",nd + "ifr");
+	ifr.setAttribute("name",nd + "ifr");
+	p.parentNode.insertBefore(ifr, b.nextSibling);
+	d=document.createElement("button");
+	d.innerText=buttons["Delete Output"];
+	d.setAttribute("id","del-" + nd);
+	d.setAttribute("onclick",'deleteoutput("' + nd + '")');
+	p.parentNode.insertBefore(d, b.nextSibling);
+    }
+    var cmd="pdflatex";
+    var eng=t.match(engineregex);
+    if(eng != null) {
+	cmd=eng[1].toLowerCase();
+    } else if(t.indexOf("fontspec") !== -1) {
+	cmd="xelatex";
+    }
+    var fm = document.getElementById('form2-' + nd);
+    fm.innerHTML="";
+    addinputnoenc(fm,"compiler",cmd);
+    addinputnoenc(fm,"resources",JSON.stringify(jsn));
+    fm.submit();
+}
+
+
+
+//
 
 
 function copytoclipboard(nd){
