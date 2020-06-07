@@ -44,6 +44,7 @@ A longer document might therefore look something like the following
 
 <!-- pre0 {% raw %} -->
 ```latex
+<<<<<<< HEAD
 \documentclass[titlepage]{book}
 \usepackage{makeidx}\makeindex
 
@@ -53,6 +54,20 @@ A longer document might therefore look something like the following
 \includeonly{% comment out lines to reduce output
   pref,
   chap1,
+=======
+\documentclass{book}
+\usepackage{biblatex}
+\addbibresource{biblatex-examples.bib}
+
+\title{A Sample Book}
+\author{John Doe \and Joe Bloggs}
+
+\IfFileExists{append.aux}
+{
+\includeonly{
+%  front,
+%  chap1,
+>>>>>>> 4eedd471... use fixed name append as main document aux unreliable in some back ends
   chap2,
   append
   }
