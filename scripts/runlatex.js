@@ -9,8 +9,13 @@ var buttons ={
     "Latex.Online":     "Latex.Online",
 =======
     "LaTeX Online":     "LaTeX Online",
+<<<<<<< HEAD
 >>>>>>> 790d3101... 2 latex online services
     "Delete Output":    "Delete Output"
+=======
+    "Delete Output":    "Delete Output",
+    "Compiling PDF":    "Compiling PDF"
+>>>>>>> f16db7a4... change and localise Loading..... flash text
 }
 
 
@@ -289,7 +294,7 @@ function latexcgi(nd) {
     }
     var  loading=document.createElement("div");
     loading.id=nd+"load";
-    loading.textContent="Loading . . .";
+    loading.textContent=buttons["Compiling PDF"] + " . . .";
     p.parentNode.insertBefore(loading, ifr);
     // scroll only if really close to the bottom
     var rect = b.getBoundingClientRect();
