@@ -97,5 +97,6 @@ l.4 Text_word  $\alpha
                        + \beta$.
 ? 
 ```
+{: .noedit :}
 
 >>>>>>> 34f3c2e2... bring styling closer to rouge div layout
