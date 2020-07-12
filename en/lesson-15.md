@@ -4,8 +4,11 @@ title: Accessing documentation and getting help
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 
 There are several ways to access the documentation of a package or class.
+=======
+>>>>>>> e7ffa776... remove draft banner
 
 ## `texdoc`
 
