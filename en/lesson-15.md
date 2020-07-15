@@ -43,21 +43,34 @@ installed or not found.  A common mistake is to install an _editor_
 such a TeXworks or TeXShop but without installing a TeX system such as
 TeX Live or MikTeX.
 
+<<<<<<< HEAD
 ## Anatomy of a TeX error message
 <div class="highlight">
 <pre>
 \documentclass{article}
 
 \newcommand\mycommand<span style="color:red">\textbold</span>{hmmm}
+=======
+## Anatomy of a {{ site.tex }} error message
+
+```latex
+\documentclass{article}
+
+\newcommand\mycommand{\textbold{hmmm}}
+>>>>>>> 00f7de68... remove 'by hand' formatting and use markdown code blocks, position cursor with ace API
 
 \begin{document}
 
 My command is used here \mycommand.
 
 \end{document}
+<<<<<<< HEAD
 </pre>
 </div>
 >>>>>>> 7aa9176f... bring styling closer to rouge div layout
+=======
+```
+>>>>>>> 00f7de68... remove 'by hand' formatting and use markdown code blocks, position cursor with ace API
 
 will open the documentation of package `<pkg>`. The utility will search the
 available documentation and open what it thinks is the closest match to your
@@ -96,10 +109,19 @@ and then choose from among the results.
 =======
 ## Mismatched braces
 
+<<<<<<< HEAD
 <div class="highlight">
 <pre>
 \documentclass{article}
 
+=======
+
+```latex
+\documentclass{article}
+
+\usepackage[leqno}{amsmath}
+
+>>>>>>> 00f7de68... remove 'by hand' formatting and use markdown code blocks, position cursor with ace API
 \begin{document}
 >>>>>>> 7aa9176f... bring styling closer to rouge div layout
 
@@ -118,6 +140,7 @@ there.
 ## Books on LaTeX
 =======
 \end{document}
+<<<<<<< HEAD
 </pre>
 </div>
 >>>>>>> 7aa9176f... bring styling closer to rouge div layout
@@ -176,6 +199,9 @@ Text
 =======
 </pre>
 </div>
+=======
+```
+>>>>>>> 00f7de68... remove 'by hand' formatting and use markdown code blocks, position cursor with ace API
 
 Here the error is a similar mismatch, `}` is used to end the optional
 argument. Here though the closing brace causes LaTeX's option parsing
@@ -198,17 +224,15 @@ l.3 \usepackage[leqno}
 
 ## Missing files
 
-<div class="highlight">
-<pre>
+```latex
 \documentclass{article}
 
-\usepackage{<span style="color:red">amsmathz</span>}
+\usepackage{amsmathz}
 
 \begin{document}
 
 \end{document}
-</pre>
-</div>
+```
 
 This produces the error
 
@@ -224,22 +248,20 @@ current system.
 
 ## Blank lines in display math
 
-<div class="highlight">
-<pre>
+```
 \documentclass{article}
 
 \begin{document}
 
 Some text
 \begin{equation}
-<span style="background-color:red">      </span>
+
   1=2
-<span style="background-color:red">      </span>
+
 \end{equation}
 
 \end{document}
-</pre>
-</div>
+```
 
 Produces the slightly mysterious error
 
@@ -259,8 +281,21 @@ If you need more text to show page breaking and other effects, then
 packages such as `lipsum` may be used to generate nonsense paragaraphs
 of text while keeping your test file small.
 
+<<<<<<< HEAD
 One thing you will want available is your log file; this is created by LaTeX
 every time you run it, and has the same name as your input but ending `.log`.
 Depending on your desktop interface, you might need to 'show extensions' to
 work out which file it is.
 >>>>>>> 257b5211... Corrections from Barbara (2)
+=======
+Produce small documents with different errors and note the form of the error messages.
+
+<script>
+  window.addEventListener('load', function(){
+      if(editors['pre2'] != null) editors['pre2'].moveCursorTo(2, 31, false);
+      if(editors['pre4'] != null) editors['pre4'].moveCursorTo(2, 18, false);
+      if(editors['pre7'] != null) editors['pre7'].moveCursorTo(2, 20, false);
+      if(editors['pre9'] != null) editors['pre9'].moveCursorTo(6, 0, false);
+  }, false);
+</script>
+>>>>>>> 00f7de68... remove 'by hand' formatting and use markdown code blocks, position cursor with ace API
