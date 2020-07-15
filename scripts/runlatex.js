@@ -232,7 +232,6 @@ function openinoverleaf(nd) {
     fm.submit();
 }
 
-
 function copytoclipboard(nd){
     var p = document.getElementById(nd);
     var nn=document.createElement("textarea");
@@ -285,7 +284,10 @@ function latexcgi(nd) {
     addinput(fm,"engine",engv);
     var rtn = t.match(returnregex);
     var rtnv = "";
-    if(rtn!= null) {
+    if(rtn == null) {
+	// ES6 / IE
+	if (typeof Symbol == "undefined") addinput(fm,"return","pdf");
+    } else {
 	rtnv=rtn[1].toLowerCase();
 	addinput(fm,"return",rtnv);
     }    
