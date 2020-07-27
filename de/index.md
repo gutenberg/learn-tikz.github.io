@@ -3,6 +3,7 @@ title: learnlatex.org
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Welcome to learnlatex.org (German)!
 
 This site aims to help you take the first steps with LaTeX, a document
@@ -39,6 +40,8 @@ errors, you might want to check if your LaTeX system is up-to-date.
 
 ## The lessons
 =======
+=======
+>>>>>>> e8f653ed... Update index.md
 ## Herzlich willkommen bei learnlatex.org!
 
 Diese Seite möchte Sie bei den ersten Schritten mit LaTeX unterstützen. LaTeX ist ein Textsatzsystem für die Erstellung hochwertiger Druckausgaben und kann gerade für Anfänger abschreckend sein, da es _kein_ Textverarbeitungsprogramm ist und zudem nicht als ein einzelnes Programm installiert wird. Unser Ziel ist es, Sie beim Start zu unterstützen ohne gleich _alles_ zeigen zu wollen, was LaTeX kann.
