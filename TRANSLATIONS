@@ -31,9 +31,16 @@ ISO 639-1 two letter language code for your language, which we shall assume is `
 2. Copy top level `index.html` into the `zz` directort and change references to `en` to `zz`.
 =======
 2. Copy top level `index.md` into the `zz` directory and change references to `en` to `zz`.
+<<<<<<< HEAD:TRANSLATIONS
 >>>>>>> 7403be14... index.md not .html:TRANSLATIONS.md
    (See the examples for existing languages, such as `de`).
 3. Add the two level code `zz` to the `langs:` array in the `_config.yml` file.
+=======
+   **Delete** the `zz/index.html` which would force a redirect to the English home page.
+   (See the examples for existing languages, such as `de`).
+
+3. Add the two letter code `zz` to the `langs:` array in the `_config.yml` file.
+>>>>>>> 1c733dff... document that the zz/index.html should be deleted:TRANSLATIONS.md
 4. Translate the fixed strings in the files in `zz/includes` into your language.
    This is for site navigation such as "next lesson" and
    for the buttons used in examples such as "Open in Overleaf".
