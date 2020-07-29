@@ -29,11 +29,15 @@ ISO 639-1 two letter language code for your language, which we shall assume is `
 
 1. Make a new directory `zz` as a copy of the english pages in `en`, including the subdirectory `en/includes`
 <<<<<<< HEAD:TRANSLATIONS
+<<<<<<< HEAD:TRANSLATIONS
 2. Copy top level `index.html` into the `zz` directort and change references to `en` to `zz`.
 =======
 2. Copy top level `index.md` into the `zz` directory and change references to `en` to `zz`.
 <<<<<<< HEAD:TRANSLATIONS
 >>>>>>> 7403be14... index.md not .html:TRANSLATIONS.md
+=======
+2. Copy top level `index.md` into the `zz` directory and change references to `en` to `zz`.
+>>>>>>> 4cd5983c... index.md not .html:TRANSLATIONS.md
    (See the examples for existing languages, such as `de`).
 3. Add the two level code `zz` to the `langs:` array in the `_config.yml` file.
 =======
