@@ -2,7 +2,7 @@
 title: learnlatex.org
 ---
 
-## Welcome to learnlatex.org (French)!
+## Welcome to learnlatex.org (Japanese)!
 
 This site aims to help you take the first steps with LaTeX, a document
 preparation system designed to produce high-quality typeset output. LaTeX can
@@ -24,15 +24,6 @@ way if you do not.
 ## How the examples work
 
 To support your learning, the site includes lots of examples. In
-<<<<<<< HEAD
-[Lesson 2](fr/lesson-02) we will talk about how you use LaTeX both online and with
-a local installation on your own PC. To get you started, we have set up
-our examples so you can edit and run them _in the page_ they are on. We
-have also linked them to [Overleaf](https://www.overleaf.com), one of the
-most popular online LaTeX editing sites. But don't worry, you can also
-use the examples on your own machine. You can read more about how to use the
-examples [in the site help](fr/help).
-=======
 [Lesson 2](lesson-02) we will talk about how you use LaTeX both online and
 with a local installation on your PC. To get you started, we have set up
 our examples so you can edit and run them in this website. We
@@ -40,7 +31,6 @@ have also linked them to [Overleaf](https://www.overleaf.com), one of the
 most popular online LaTeX editing services. But don't worry, you can also
 use the examples on your machine. You can read more about how to use the
 examples in [the help page](help).
->>>>>>> 1af7671a... resync with en/index.md
 
 Our examples are based around using an up-to-date LaTeX installation. They
 all work with both of our online demonstration systems, so if you get
@@ -49,11 +39,11 @@ system is up-to-date.
 
 ## The lessons
 
-{% include toc.html  prefix="fr/lesson" %}
+{% include toc.html  prefix="ja/lesson" %}
 
-### Additional lessons specific to learnlatex.org/fr
+### Additional lessons specific to learnlatex.org/ja
 
-{% include toc.html  prefix="fr/language" %}
+{% include toc.html  prefix="ja/language" %}
 
 
 ## Going further
@@ -61,17 +51,12 @@ system is up-to-date.
 The focused lessons here are not meant to cover everything you'll ever need to
 know about LaTeX; we want to give you enough to get started and to _understand_
 examples and advice elsewhere. We cover getting more information in [the last
-<<<<<<< HEAD
-lesson](fr/lesson-15), but it's worth saying now that getting access to a book
-about LaTeX is still the  best way to learn the detail. We've given some
-=======
 lesson](lesson-16), but it's worth saying now that getting access to a book
 about LaTeX is still the  best way to learn the details. We've given some
->>>>>>> 1af7671a... resync with en/index.md
 recommendations in the last lesson.
 
 Finally we offer a gallery of small examples showing
 a range of different subject areas not covered in this introduction,
 and different LaTeX packages in those areas.
     
-{% include toc.html prefix="fr/extra" %}
+{% include toc.html prefix="ja/extra" %}
