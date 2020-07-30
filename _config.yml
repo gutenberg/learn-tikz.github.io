@@ -35,5 +35,11 @@ langs:
    - de
    - fr
    - pt
+<<<<<<< HEAD
+=======
+   - ja
+   - vi
+   - zh-Hans
+>>>>>>> 2b8821e5... add zh-Hans and adjust JavaScript and liquid as language code not two letter
 
 >>>>>>> b3cec993... language stubs
