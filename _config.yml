@@ -39,7 +39,13 @@ langs:
 =======
    - ja
    - vi
+<<<<<<< HEAD
    - zh-Hans
 >>>>>>> 2b8821e5... add zh-Hans and adjust JavaScript and liquid as language code not two letter
+=======
+   - es
+   - zh-Hans
+
+>>>>>>> cbfa4b58... add zh-Hans and adjust JavaScript and liquid as language code not two letter
 
 >>>>>>> b3cec993... language stubs
