@@ -26,6 +26,7 @@ way if you do not.
 
 To support your learning, the site includes lots of examples. In
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Lesson 2](fr/lesson-02) we will talk about how you use LaTeX both online and with
 a local installation on your own PC. To get you started, we have set up
 our examples so you can edit and run them _in the page_ they are on. We
@@ -42,6 +43,15 @@ most popular online LaTeX editing services. But don't worry, you can also
 use the examples on your machine. You can read more about how to use the
 examples in [the help page](help).
 >>>>>>> 1af7671a... resync with en/index.md
+=======
+[Lesson 2](lesson-02) we will talk about how you use LaTeX both online and
+with a local installation on your PC. To get you started, we have set up
+our examples so you can edit and run them in this website. We
+have also linked them to [Overleaf](https://www.overleaf.com), one of the
+most popular online LaTeX editing services. But don't worry, you can also
+use the examples on your machine. You can read more about how to use the
+examples in [the help page](help).
+>>>>>>> dddf7155... resync with en/index.md
 
 Our examples are based around using an up-to-date LaTeX installation. They
 all work with both of our online demonstration systems, so if you get
@@ -119,12 +129,17 @@ The focused lessons here are not meant to cover everything you'll ever need to
 know about LaTeX; we want to give you enough to get started and to _understand_
 examples and advice elsewhere. We cover getting more information in [the last
 <<<<<<< HEAD
+<<<<<<< HEAD
 lesson](fr/lesson-15), but it's worth saying now that getting access to a book
 about LaTeX is still the  best way to learn the detail. We've given some
 =======
 lesson](lesson-16), but it's worth saying now that getting access to a book
 about LaTeX is still the  best way to learn the details. We've given some
 >>>>>>> 1af7671a... resync with en/index.md
+=======
+lesson](lesson-16), but it's worth saying now that getting access to a book
+about LaTeX is still the  best way to learn the details. We've given some
+>>>>>>> dddf7155... resync with en/index.md
 recommendations in the last lesson.
 =======
 Enfin, nous proposons une galerie de petits exemples montrant différents
