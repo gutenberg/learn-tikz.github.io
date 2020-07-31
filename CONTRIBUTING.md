@@ -85,6 +85,7 @@ need to be extended to include the language.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 A test site showing the language switching (but without real
 translated text) is [viewable](https://davidcarlisle.github.io/ll)
 >>>>>>> bebe68f8... language switching notes
@@ -96,3 +97,6 @@ See also the [specific guidelines for translators](TRANSLATIONS).
 =======
 See also the [specific guidelines for translators](TRANSLATIONS.md).
 >>>>>>> 006a9def... relative links issue #79
+=======
+See also the [specific guidelines for translators](TRANSLATIONS.md).
+>>>>>>> db21eee1... relative links issue #79
