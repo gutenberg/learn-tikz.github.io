@@ -1,5 +1,6 @@
 ---
 title: CONTRIBUTING
+permalink: /CONTRIBUTING
 ---
 
 # Contributing to learnlatex.org
@@ -10,7 +11,7 @@ ideas are all useful.
 ## ChangeLog, commit messages and authors
 
 Please note any significant change to the content of questions in
-[`CHANGELOG.md`](CHANGELOG), including which lesson is changed in the
+[`CHANGELOG.md`](CHANGELOG.md), including which lesson is changed in the
 format `L-<number>`.
 
 Commit messages where the content of a single lesson is changed should start
@@ -19,7 +20,7 @@ separate commits: formatting, typos or other 'non-significant' changes can be
 made for multiple lessons in one go.
 
 If you are making a significant change to the content, please make sure you
-add yourself to the [contributors list](AUTHORS).
+add yourself to the [contributors list](AUTHORS.md).
 
 ## Formatting
 
@@ -83,6 +84,7 @@ need to be extended to include the language.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 A test site showing the language switching (but without real
 translated text) is [viewable](https://davidcarlisle.github.io/ll)
 >>>>>>> bebe68f8... language switching notes
@@ -91,3 +93,6 @@ translated text) is [viewable](https://davidcarlisle.github.io/ll)
 =======
 See also the [specific guidelines for translators](TRANSLATIONS).
 >>>>>>> abf0fa15... link to TRANSLATORS
+=======
+See also the [specific guidelines for translators](TRANSLATIONS.md).
+>>>>>>> 006a9def... relative links issue #79
