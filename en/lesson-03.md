@@ -29,6 +29,7 @@ options work.
 >>>>>>> 55a095f3... Add cross-refs to the help page
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 
 \begin{document}
 Hey world!
@@ -112,6 +113,7 @@ We can add comments to a LaTeX file by starting them with `%`; let's use
 that to show the structure:
 ```latex
 \documentclass[a4paper,12pt]{article} % The document class with options
+\usepackage[T1]{fontenc}
 % A comment in the preamble
 \begin{document}
 % This is a comment

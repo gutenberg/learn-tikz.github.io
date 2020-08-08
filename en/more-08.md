@@ -27,6 +27,7 @@ colon after it, you can do the following:
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{array}
 
 \begin{document}
@@ -54,6 +55,7 @@ it can be used to change a single cell's alignment as shown below.
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{array}
 
 \begin{document}
@@ -81,6 +83,7 @@ each column. You can adjust this space to any length using `\setlength`:
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{array}
 
 \setlength\tabcolsep{1cm}
@@ -103,6 +106,7 @@ between the columns you specify as an argument:
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{array}
 
 \begin{document}
@@ -125,6 +129,7 @@ _adds_ its argument to the space in the center between two columns.
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{array}
 
 \begin{document}
@@ -146,6 +151,7 @@ Sometimes you have to use vertical rules.
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{array}
 
 \begin{document}
@@ -176,6 +182,7 @@ braces after `r` or `l`.
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{array}
 \usepackage{booktabs}
 
@@ -201,7 +208,13 @@ A simple example with two aligned numeric columns would be:
 
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
 \usepackage{booktabs,siunitx}
+=======
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+\usepackage{siunitx}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 \begin{document}
 \begin{tabular}{SS}
 \toprule
@@ -251,6 +264,7 @@ as necessary.
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{array}
 \begin{document}
 
@@ -294,6 +308,7 @@ specification of `p{...}` for an automatically determined width.
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{tabularx}
 \begin{document}
 
@@ -390,7 +405,13 @@ block the same width as the table. Refer to the
 for full details, but we show a simple example here.
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
 \usepackage{array,threeparttable}
+=======
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{threeparttable}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 \begin{document}
 
 \begin{table}
@@ -430,7 +451,13 @@ text size.
 
 ```latex
 \documentclass[a4paper]{article}
+<<<<<<< HEAD
 \usepackage{array,ragged2e}
+=======
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{ragged2e}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 \begin{document}
 
 \begin{table}
@@ -484,6 +511,7 @@ a single row in which some cells are split vertically by the use of nested
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{array}
 
 \begin{document}
@@ -507,6 +535,7 @@ bottom aligned respectively and is used like this:
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{array}
 
 \begin{document}
@@ -546,6 +575,7 @@ The following example demonstrates the `\extrarowheight` parameter.
 
 ```latex
 \documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
 \usepackage{array}
 \begin{document}
 

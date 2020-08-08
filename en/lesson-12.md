@@ -136,6 +136,7 @@ The basic structure of our input is as shown in this example.
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{natbib}
 
 \begin{document}
@@ -169,8 +170,14 @@ some new commands for this.
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
 \usepackage{biblatex}
 \addbibresource{document.bib} % file of reference info
+=======
+\usepackage[T1]{fontenc}
+\usepackage[style=authoryear]{biblatex}
+\addbibresource{learnlatex.bib} % file of reference info
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 
 \begin{document}
 The mathematics showcase is from \cite{ConcreteMath}.

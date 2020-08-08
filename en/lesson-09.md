@@ -13,6 +13,7 @@ in your document you label it, and then in other places you refer to it.
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 
 \begin{document}
 Hey world!

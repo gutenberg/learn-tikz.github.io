@@ -55,6 +55,7 @@ TeX Live or MikTeX.
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 
 \newcommand\mycommand{\textbold{hmmm}}
 >>>>>>> 00f7de68... remove 'by hand' formatting and use markdown code blocks, position cursor with ace API
@@ -81,10 +82,19 @@ using
 <<<<<<< HEAD
 <!-- {% raw %} -->
 ```
+<<<<<<< HEAD
 =======
 ```sh
 >>>>>>> 56952370... Give highlighter some idea about shell commands
 texdoc -l <pkg>
+=======
+! Undefined control sequence.
+\mycommand ->\textbold 
+                       {hmmm}
+l.8 My command is used here \mycommand
+                                      .
+? 
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 ```
 <!-- {% endraw %} -->
 =======
@@ -118,6 +128,7 @@ and then choose from among the results.
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 
 \usepackage[leqno}{amsmath}
 
@@ -216,7 +227,7 @@ although while the error description is unhelpful the following two
 lines do accurately display the location of the error by the use of
 the linebreak showing how far TeX had read:
 ```
-l.3 \usepackage[leqno}
+l.4 \usepackage[leqno}
                       {amsmath}
 ```
 {: .noedit :}
@@ -226,6 +237,7 @@ l.3 \usepackage[leqno}
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 
 \usepackage{amsmathz}
 

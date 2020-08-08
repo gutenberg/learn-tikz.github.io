@@ -10,6 +10,7 @@ package
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 
 \begin{document}
@@ -52,6 +53,7 @@ ratio stays correct.
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 
 \begin{document}
@@ -70,6 +72,7 @@ might want to do is to `clip` and `trim` an image.
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 
 \begin{document}
@@ -89,6 +92,7 @@ This is called a *float*.
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{mwe}  % gives example images
 \usepackage{lipsum}  % produce dummmy text as filler

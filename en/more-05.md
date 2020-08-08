@@ -24,6 +24,7 @@ give you an example of how it works:
 
 ```latex
 \documentclass{beamer}
+\usepackage[T1]{fontenc}
 \begin{document}
 
 \begin{frame}{A first frame}
@@ -58,6 +59,7 @@ class. It automatically sets the size of the page to surround the printed conten
 
 ```latex
 \documentclass{standalone}
+\usepackage[T1]{fontenc}
 \begin{document}
 A simple document: this will be a very small box!
 \end{document}

@@ -82,6 +82,14 @@ source.
 
 <!-- {% raw %} -->
 ```latex
+<<<<<<< HEAD
+=======
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+
+\begin{document}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 \begin{tabular}{lll}
   Animal & Food  & Size   \\
   dog    & meat  & medium \\
@@ -92,7 +100,15 @@ source.
 <!-- {% endraw %} -->
 
 
+<<<<<<< HEAD
 ## Adding Lines
+=======
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 
 <<<<<<< HEAD
 A word of advice prior to introducing lines: Lines should be used really
@@ -128,12 +144,29 @@ time. Compare the above outcome to the following:
 
 <!-- {% raw %} -->
 ```latex
+<<<<<<< HEAD
 \begin{tabular}{|l|ll|}
   Animal  & Food  & Size   \\
   dog     & meat  & medium \\
   horse   & hay   & large  \\
   frog    & flies & small  \\
   microbe & ???
+=======
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+
+\begin{document}
+\begin{tabular}{cp{9cm}}
+  Animal & Description \\
+  dog    & The dog is a member of the genus Canis, which forms part of the
+           wolf-like canids, and is the most widely abundant terrestrial
+           carnivore. \\
+  cat    & The cat is a domestic species of small carnivorous mammal. It is the
+           only domesticated species in the family Felidae and is often referred
+           to as the domestic cat to distinguish it from the wild members of the
+           family. \\
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 \end{tabular}
 ```
 <!-- {% endraw %} -->
@@ -160,9 +193,18 @@ table of this lesson with the newly learned syntax:
 
 <!-- {% raw %} -->
 ```latex
+<<<<<<< HEAD
 \begin{tabular}{lll}
   \hline
   \hline
+=======
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+
+\begin{document}
+\begin{tabular}{*{3}{l}}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
   Animal & Food  & Size   \\
   \hline
   dog    & meat  & medium \\
@@ -214,7 +256,19 @@ Three of the rule commands are: `\toprule`, `\midrule`, and
 
 <!-- {% raw %} -->
 ```latex
+<<<<<<< HEAD
 \begin{tabular}{l !{:} l @{\hspace{1cm}} l}
+=======
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{booktabs}
+
+
+\begin{document}
+\begin{tabular}{lll}
+  \toprule
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
   Animal & Food  & Size   \\
   dog    & meat  & medium \\
   horse  & hay   & large  \\
@@ -253,7 +307,18 @@ column you need to specify that as a range (with both numbers matching).
 
 <!-- {% raw %} -->
 ```latex
+<<<<<<< HEAD
 \begin{tabular}{>{\itshape}l<{:} *{2}{l}}
+=======
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{booktabs}
+
+\begin{document}
+\begin{tabular}{lll}
+  \toprule
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
   Animal & Food  & Size   \\
   dog    & meat  & medium \\
   horse  & hay   & large  \\
@@ -317,6 +382,12 @@ with an optional argument enclosed in parentheses:
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
+=======
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{booktabs}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 
 \begin{document}
 \begin{tabular}{@{} lll @{}}
@@ -345,6 +416,11 @@ case you can use `\addlinespace` to insert a small skip.
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
+=======
+\usepackage[T1]{fontenc}
+\usepackage{array}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 \usepackage{booktabs}
 
 \begin{document}
@@ -383,6 +459,11 @@ single column type_.
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
+=======
+\usepackage[T1]{fontenc}
+\usepackage{array}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 \usepackage{booktabs}
 
 \begin{document}
@@ -413,6 +494,11 @@ table's head row:
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
+=======
+\usepackage[T1]{fontenc}
+\usepackage{array}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 \usepackage{booktabs}
 
 \begin{document}
@@ -446,6 +532,11 @@ correct idea of what was meant without explicitly making cells span rows.
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
+=======
+\usepackage[T1]{fontenc}
+\usepackage{array}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 \usepackage{booktabs}
 
 \begin{document}

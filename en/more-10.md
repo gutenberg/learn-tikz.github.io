@@ -21,6 +21,7 @@ form  omits the equation numbers by default.
 
 ```latex
 \documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
 
 \usepackage{amsmath}
 
@@ -41,11 +42,85 @@ Multline
 \end{document}
 ```
 
+<<<<<<< HEAD
 In addition there are variants of the alignment environments ending
 in `ed` that make a subterm of a larger display for example, `aligned` and
 `gathered`.
 
 # Bold Math
+=======
+### Columns in math alignments
+
+The `amsmath` alignment environments are designed to take pairs of
+columns with the first column of each pair aligned to the right and
+the second aligned to the left. This allows multiple equations to be
+shown, each aligned towards its relation symbol.
+
+```latex
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\begin{document}
+Aligned equations
+\begin{align*}
+a &= b+1   &  c &= d+2  &  e &= f+3   \\
+r &= s^{2} &  t &=u^{3} &  v &= w^{4}
+\end{align*}
+
+\end{document}
+```
+
+
+In addition there are variants of the display environments ending
+in `ed` that make a subterm of a larger display for example, `aligned` and
+`gathered`.
+
+```latex
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\begin{document}
+Aligned:
+\[
+\left.\begin{aligned}
+a&=b\\
+c&=d
+\end{aligned}\right\}
+\Longrightarrow
+\left\{\begin{aligned}
+b&=a\\
+d&=c
+\end{aligned}\right.
+\]
+\end{document}
+```
+
+`aligned` takes a positional optional argument similar to `tabular`.
+This is often useful to align an inline math formula on its top row;
+compare the items in the list in the following example.
+
+```latex
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\begin{document}
+\begin{itemize}
+\item 
+$\begin{aligned}[t]
+a&=b\\
+c&=d
+\end{aligned}$
+\item 
+$\begin{aligned}
+a&=b\\
+c&=d
+\end{aligned}$
+\end{itemize}
+\end{document}
+```
+
+## Bold Math
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 Standard LaTeX has two methods to give bold symbols in math. To make
 an entire expression bold, use `\boldmath` before entering the
 expression. The command `\mathbf` is also available to set individual
@@ -53,6 +128,7 @@ letters or words in upright bold roman.
 
 ```latex
 \documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
 
 \begin{document}
 
@@ -72,8 +148,14 @@ symbols such as = and Greek letters.
 
 >>>>>>> 9e864be0... comments from Barbara (2)
 ```latex
+<<<<<<< HEAD
 \documentclass{book}
 \usepackage{amsmath,amssymb,amsthm}
+=======
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{bm}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 
 \begin{document}
 Hey world!
@@ -84,12 +166,28 @@ This is displacement,
 
 \chapter{Mathematical showcase}
 
+<<<<<<< HEAD
 Solve the following recurrence for \( n,k\geq 0 \):
 \begin{align*}
   Q_{n,0} &= 1
   \quad Q_{0,k} = [k=0];  \\
   Q_{n,k} &= Q_{n-1,k}+Q_{n-1,k-1}+\binom{n}{k}, \quad\text{for \( n,k>0 \).}
 \end{align*}
+=======
+\end{document}
+```
+
+## Mathtools
+The package `mathtools` loads `amsmath` and adds several additional
+features, such as variants of the `amsmath` matrix environments that
+allow the column alignment to be specified.
+```latex
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{mathtools}
+
+\begin{document}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 
 Elementary calculus suffices to evaluate \( C \) if we are clever enough
 to look at the double integral

@@ -16,8 +16,17 @@ title: More on: Cross-referencing
  One small paragraph, which we have filled out a little to make sure you can
  see the effect here!
 
+<<<<<<< HEAD
  One small paragraph, which we have filled out a little to make sure you can
  see the effect here!
+=======
+```latex
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\begin{document}
+One small paragraph, which we have filled out a little to make sure you can
+see the effect here!
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 
  \noindent  One small paragraph, which we have filled out a little to make sure
  you can see the effect here!

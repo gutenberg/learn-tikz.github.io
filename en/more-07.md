@@ -112,6 +112,7 @@ The `float` package will do that.
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{mwe}   % gives example-average.pdf
 \usepackage{lipsum}  % dummy text for filler
@@ -154,6 +155,7 @@ You can get the same effect with the
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{mwe}   % gives example-average.pdf
 \usepackage{lipsum}  % dummy text for filler

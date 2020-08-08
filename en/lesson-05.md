@@ -55,7 +55,17 @@ a bit different
 >>>>>>> be339595... corrections from Barbara, and mention amscls
 
 ```latex
+<<<<<<< HEAD
 \documentclass{book}
+=======
+\documentclass{letter}
+\usepackage[T1]{fontenc}
+\begin{document}
+
+\begin{letter}{Some Address\\Some Street\\Some City}
+
+\opening{Dear Sir or Madam,}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 
 <<<<<<< HEAD
 \begin{document}
@@ -111,7 +121,13 @@ Explore how changing the document class between the standard ones, the KOMA
 bundle and `memoir` affects the appearance of the document.
 >>>>>>> be339595... corrections from Barbara, and mention amscls
 
+<<<<<<< HEAD
 Text of material in the subsection.
+=======
+```latex
+\documentclass{article} % Change the class here
+\usepackage[T1]{fontenc}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 
 
 % ================
