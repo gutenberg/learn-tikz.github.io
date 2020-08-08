@@ -25,6 +25,7 @@ package.
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 
 %\usepackage[french]{babel}
 
@@ -57,6 +58,7 @@ specifically about margins.
 
 ```latex
 \documentclass{book}
+\usepackage[T1]{fontenc}
 \usepackage[margin=1in]{geometry}
 
 \begin{document}

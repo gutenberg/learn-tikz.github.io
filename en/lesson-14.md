@@ -83,7 +83,14 @@ an example showing some Latin and Greek letters as well as some CJK ideographs:
 ```latex
 %!TEX lualatex
 \documentclass{article}
+<<<<<<< HEAD
 
+=======
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\setmainfont{texgyretermes-regular.otf}
+\newfontfamily\cjkfont{FandolSong-Regular.otf}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 \begin{document}
 
 $ \pi \approx \directlua{ tex.print(math.pi) } $

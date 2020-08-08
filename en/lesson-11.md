@@ -10,8 +10,48 @@ and then in other places you refer to it.
 Change the document to this.
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
 \usepackage{amsmath,amssymb,amsthm}
 
+=======
+\usepackage[T1]{fontenc}
+\usepackage[parfill]{parskip}
+\usepackage{lipsum} % Just for some filler text
+\begin{document}
+\lipsum
+\end{document}
+```
+
+## Forcing a new line
+
+Most of the time, you should not force a new line in LaTeX: you almost
+certainly want a new paragraph or to use `parskip`, as we've just seen,
+to put a 'blank line' between paragraphs.
+
+There are a _few_ places where you use `\\` to start a new line without
+starting a new paragraph
+
+- At the end of table rows
+- Inside the `center` environment
+- In poetry (the `verse` environment)
+
+Almost always, if you are not in one of those special places, you should
+_not_ use `\\`.
+
+## Adding explicit space
+
+We can insert a thin space (about half the normal thickness) using
+`\,`. In math mode, there are also other commands: `\.`, `\:` and `\;`,
+and one for a negative space: `\!`.
+
+Very rarely, for example when creating a title page, you might need to
+add explicit horizontal or vertical space. We can use `\hspace` and `\vspace`
+for that.
+
+```latex
+\documentclass{article}
+\usepackage[T1]{fontenc}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 \begin{document}
 Hey world!
 
@@ -23,7 +63,18 @@ This is a first document.
 Text of material for the first section.
 
 
+<<<<<<< HEAD
 \subsection{Subsection of the first section}\label{subsec:labelone}
+=======
+```latex
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\begin{document}
+Let's have some font fun: \textbf{bold}, \textit{italic}, \textrm{roman},
+\textsf{sans serif}, \texttt{monospaced} and \textsc{small caps}.
+\end{document}
+```
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44,6 +95,7 @@ or we can use `{...}` to make an explicit group.
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \begin{document}
 Normal text.
 
@@ -65,6 +117,7 @@ _before_ changing the font size back; see how we add an explicit `\par`
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \begin{document}
 Normal text.
 

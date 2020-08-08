@@ -37,8 +37,12 @@ that's usually how things are emphasised.)
 ```latex
 \documentclass{article}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 \begin{document}
 Some text with \emph{emphasis and \emph{nested} content}.
 
@@ -67,7 +71,11 @@ document.
 
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
 >>>>>>> a04e83de... corrections from Barbara
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 \begin{document}
 Hey world!
 
@@ -133,6 +141,7 @@ There are two common types of list built in to LaTeX.
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \begin{document}
 
 Ordered

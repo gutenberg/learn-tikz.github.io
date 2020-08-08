@@ -17,6 +17,7 @@ instructions to LaTeX:
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \usepackage{imakeidx}
 \makeindex
 \begin{document}

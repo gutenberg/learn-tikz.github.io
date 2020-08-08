@@ -56,6 +56,7 @@ A longer document might therefore look something like the following
   chap1,
 =======
 \documentclass{book}
+\usepackage[T1]{fontenc}
 \usepackage{biblatex}
 \addbibresource{biblatex-examples.bib}
 

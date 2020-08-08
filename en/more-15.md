@@ -18,6 +18,7 @@ main lesson, TeX's display of the error context should still pinpoint the error 
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 
 \usepackage{amsmath}
 
@@ -35,7 +36,7 @@ main lesson, TeX's display of the error context should still pinpoint the error 
 Here the error will be reported on line 11
 
 ```
-l.11 \end{align}
+l.12 \end{align}
 ```
 {: .noedit :}
 
@@ -64,6 +65,7 @@ always concentrate on fixing the first reported error.
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 
 \begin{document}
 Text_word  $\alpha + \beta$.
@@ -80,7 +82,7 @@ TeX does report this correctly with the _first_ error message
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.4 Text_
+l.5 Text_
          word  $\alpha + \beta$.
 ?
 ```
@@ -95,7 +97,7 @@ then continues until the `$` which ends math, so the following
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.4 Text_word  $\alpha
+l.5 Text_word  $\alpha
                        + \beta$.
 ? 
 ```
@@ -115,6 +117,7 @@ to see the error message in the log add `%!TeX log`.
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 
 \begin{document}
 

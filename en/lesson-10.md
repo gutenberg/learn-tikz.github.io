@@ -19,6 +19,7 @@ and display.
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \begin{document}
 A sentence with inline mathematics: $y = mx + c$.
 
@@ -49,6 +50,7 @@ We can easily add superscripts and subscripts; these are marked using `^` and
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \begin{document}
 Superscripts $a^{b}$ and subscripts $a_{b}$.
 \end{document}
@@ -64,6 +66,7 @@ Greek letter.
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 \begin{document}
 Some symbols: $y = 2 \sin \theta^{2}$.
 \end{document}
@@ -83,9 +86,34 @@ where the equation is larger. It's particularly useful for e.g. integrations
 
 Edit the document to say this.
 ```latex
+<<<<<<< HEAD
 \documentclass{book}
 \usepackage{amsmath,amssymb,amsthm}
 
+=======
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\begin{document}
+A paragraph about a larger equation
+\[
+\int_{-\infty}^{+\infty} e^{-x^2} \, dx
+\]
+\end{document}
+```
+
+Notice here how sub-/superscript notation is used to set the limits on the
+integration.
+
+We've added one piece of manual spacing here: `\,` makes a thin space before the
+`dx`, which we need so it does not look like a product.
+
+You often want a numbered equation, which is created using the `equation`
+environment. Let's try the same example again:
+
+```latex
+\documentclass{article}
+\usepackage[T1]{fontenc}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 \begin{document}
 Hey world!
 
@@ -95,13 +123,25 @@ This is displacement,
 
 \chapter{Mathematical showcase}
 
+<<<<<<< HEAD
 Solve the following recurrence for \( n,k\geq 0 \):
+=======
+
+```latex
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+
+\begin{document}
+Solve the following recurrence for $ n,k\geq 0 $:
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 \begin{align*}
   Q_{n,0} &= 1
   \quad Q_{0,k} = [k=0];  \\
   Q_{n,k} &= Q_{n-1,k}+Q_{n-1,k-1}+\binom{n}{k}, \quad\text{for \( n,k>0 \).}
 \end{align*}
 
+<<<<<<< HEAD
 Elementary calculus suffices to evaluate \( C \) if we are clever enough
 to look at the double integral
 \begin{equation*}
@@ -109,6 +149,42 @@ to look at the double integral
   =\int_{-\infty}^{+\infty} e^{-x^2} \mathrm{d}x
    \int_{-\infty}^{+\infty} e^{-y^2} \mathrm{d}y\;.
 \end{equation*}
+=======
+The package also has several other convenient environments, for
+example for matrices.
+
+```latex
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\begin{document}
+AMS matrices.
+\[
+\begin{matrix}
+a & b & c \\
+d & e & f
+\end{matrix}
+\quad
+\begin{pmatrix}
+a & b & c \\
+d & e & f
+\end{pmatrix}
+\quad
+\begin{bmatrix}
+a & b & c \\
+d & e & f
+\end{bmatrix}
+\]
+\end{document}
+```
+
+
+## Fonts in math mode
+
+Unlike normal text, font changes in math mode often convey very specific meaning.
+They are therefore often written explicitly. There are a set of commands you need
+here:
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 
 <<<<<<< HEAD
 Therefore
@@ -128,7 +204,37 @@ if the prime factorization of \( m \) is $\prod_p p^{m_p}$.
 
 Each of these takes Latin letters as an argument, so for example we might
 write a matrix as
+<<<<<<< HEAD
 >>>>>>> bcc55465... comments from Barbara (2)
+=======
+
+```latex
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\begin{document}
+The matrix $\mathbf{M}$.
+\end{document}
+```
+
+Note that the default math italic separates letters so that they may
+be used to denote a product of variables. Use `\mathit` to make a word italic.
+
+The `\math..` font commands use fonts specified for math
+use. Sometimes you need to embed a word that is part of the outer
+sentence structure and needs the current text font, for that you can
+use `\text{...}` (which is provided by the `amsmath` package) or
+specific font styles such as `\textrm{..}`.
+
+```latex
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\begin{document}
+
+$\text{bad use } size  \neq \mathit{size} \neq \mathrm{size} $
+
+\textit{$\text{bad use } size \neq \mathit{size} \neq \mathrm{size} $}
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 
 \end{document}
 ```

@@ -22,6 +22,7 @@ a German keyboard.
 
 ```latex
 \documentclass{article}
+\usepackage[T1]{fontenc}
 
 \usepackage[ngerman]{babel} % Notice that the option name is 'ngerman'
 
@@ -33,6 +34,31 @@ H"ohe
 ```
 
 Other language settings make design changes: for example, in traditional
+<<<<<<< HEAD
 French typography, there is a space before `:`, and this is added if you
 load `babel` with the option `french`.
 >>>>>>> 3b5c2b8f... corrections from Barbara
+=======
+French typography, there is a space before some punctuation signs, like `:`,
+and this is added automatically if you load `babel` with the option `french`.
+
+## Global options
+
+Sometimes, you want an option to be available to all of the packages you've
+loaded. That is done by giving it on the `\documentclass` line: every package
+can 'see' this list. So to pass the language of a document to all packages,
+we might use:
+
+```latex
+\documentclass[ngerman]{article} % Notice that the option name is 'ngerman'
+\usepackage[T1]{fontenc}
+
+\usepackage{babel}
+
+\begin{document}
+
+H"ohe
+
+\end{document}
+```
+>>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
