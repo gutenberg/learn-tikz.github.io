@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Exemples avancés, comme sources d'inspiration"
 ---
 
@@ -16,18 +17,38 @@ pour vous donner envie de poursuivre vos expérimentations avec LaTeX.
 
 
 ## Chimie
+=======
+title: "Examples for further study"
+---
+
+This course has given an overview of the core features of LaTeX.
+LaTeX has vast array of extension packages and is used in many subject
+areas.  We give here some examples, with no explanation here but links
+to the package documentation at [texdoc.net](https://texdoc.net).
+The examples are taken from the package documentation unless otherwise noted.
+
+**Note** that inclusion here is not intended as an endorsement of the
+  package over other similar packages, we just aim for a small sample
+  showing a range of areas not otherwise covered in this course.
+
+## Chemistry
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 
 ### [`mhchem`](https://texdoc.net/pkg/mhchem)
 
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
 \usepackage[T1]{fontenc}
+=======
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 \usepackage{mhchem}
 \begin{document}
 \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-}
 \end{document}
 ```
 
+<<<<<<< HEAD
 
 ## Linguistique
 
@@ -36,6 +57,12 @@ pour vous donner envie de poursuivre vos expérimentations avec LaTeX.
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
+=======
+## Linguistics
+### [`forest`](https://texdoc.net/pkg/forest)
+```latex
+\documentclass{article}
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 \usepackage{forest}
 \begin{document}
 \begin{forest}
@@ -51,13 +78,20 @@ pour vous donner envie de poursuivre vos expérimentations avec LaTeX.
 \end{document}
 ```
 
+<<<<<<< HEAD
 ## Échecs
+=======
+## Chess
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 
 <!-- not 2017 -->
 ### [`xskak`](https://texdoc.net/pkg/xskak)
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
 \usepackage[T1]{fontenc}
+=======
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 \usepackage{xskak}
 \begin{document}
 \newchessgame
@@ -70,6 +104,7 @@ Position after 2.\,\xskakget{lan}
 ```
 
 
+<<<<<<< HEAD
 ## Poésie
 
 ### [`memoir`](https://texdoc.net/pkg/memoir)
@@ -77,6 +112,15 @@ Position after 2.\,\xskakget{lan}
 ```latex
 \documentclass{memoir}
 \usepackage[T1]{fontenc}
+=======
+## Poetry
+
+### [`memoir`](https://texdoc.net/pkg/memoir)
+
+
+```latex
+\documentclass{memoir}
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 \begin{document}
 \settowidth{\versewidth}{Nay, nay, I leave thee not,
                                        thou goest too}
@@ -105,6 +149,7 @@ Today will I depart. \\*
 \end{document}
 ```
 
+<<<<<<< HEAD
 
 ## Dessin
 
@@ -115,6 +160,16 @@ Today will I depart. \\*
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
+=======
+## Drawing
+<!-- not 2017 -->
+### [`tikz`](https://texdoc.net/pkg/tikz)
+
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 \usepackage{tikz}
 \usetikzlibrary {perspective}
 
@@ -146,6 +201,7 @@ x
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
 
 ## Tracé de fonction mathématique
 
@@ -155,12 +211,22 @@ x
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
+=======
+## Function plotting
+### [`pgfplots`](https://texdoc.net/pkg/plots)
+
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 \usepackage{pgfplots}
 \pgfplotsset{width=7cm,compat=1.17}
 
 \begin{document}
 
 \begin{tikzpicture}
+<<<<<<< HEAD
 \begin{axis}
     % density of Normal distribution:
     \addplot [red,
@@ -168,6 +234,16 @@ x
               samples=201,
              ]
        {exp(-x^2 / (2e-3^2)) / (1e-3 * sqrt(2*pi))} ;
+=======
+\begin{axis}[]
+      % density of Normal distribution:
+      \addplot [
+            red,
+            domain=-3e-3:3e-3,
+            samples=201,
+      ]
+            {exp(-x^2 / (2e-3^2)) / (1e-3 * sqrt(2*pi))};
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 \end{axis}
 \end{tikzpicture}
 
@@ -175,6 +251,7 @@ x
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
 
 ## Musique
 
@@ -184,6 +261,17 @@ x
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
+=======
+## Music
+
+
+### [`musixtex`](https://texdoc.net/pkg/musixtex)
+
+
+<!-- {% raw %} -->
+```latex
+\documentclass{article}
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 \usepackage{musixtex}
 
 \begin{document}

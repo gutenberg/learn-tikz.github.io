@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Références croisées : pour aller plus loin"
 ---
 
@@ -7,11 +8,22 @@ title: "Références croisées : pour aller plus loin"
 Vous pouvez transformer vos références croisées en hyperliens cliquables en
 utilisant le package `hyperref`. Dans la plupart des cas, `hyperref` doit être
 chargé après tout autre package du préambule de votre document.
+=======
+title: "More on: Cross-referencing"
+---
+
+## Making cross-references into links
+
+You can make your cross-references into hyperlinks using the `hyperref` package.
+In most cases, `hyperref` should be loaded after any other packages specified
+in the document preamble.
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
 \usepackage[hidelinks]{hyperref}
+<<<<<<< HEAD
 
 \begin{document}
 
@@ -27,3 +39,19 @@ Avec des détails.
 
 Nous avons choisi de faire les liens de la même couleur que le texte normal ;
 enlevez l'option `hidelinks` pour comprendre pourquoi ! &#128521;
+=======
+\begin{document}
+
+\section{Introduction}
+Some exciting text with a reference~\ref{sec:next}.
+
+\section{Next thing}
+\label{sec:next}
+
+More text here.
+\end{document}
+```
+
+We have chosen to make the links the same color as the normal text; try removing
+`hidelinks` to see why! 
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
