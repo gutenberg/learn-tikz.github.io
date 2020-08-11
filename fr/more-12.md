@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Bibliographies et références biblio : pour aller plus loin"
 ---
 
@@ -42,6 +43,8 @@ il vaut bien sûr mieux utiliser le champ `url`, fait pour ça.
 Pour mettre à profit tout le potentiel du style que vous aurez choisi, il vous
 faudra découvrir l'ensemble des champs qu'il supporte et leur sémantique.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 title: "More on: Citations and references"
 ---
 
@@ -81,4 +84,7 @@ but with the newer styles it is of course preferable to use the dedicated
 
 In order to be able to make use of the full potential of your used style you
 will have to find out the set of fields it supports and their semantic.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.

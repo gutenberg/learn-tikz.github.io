@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Exemples avancés, comme sources d'inspiration"
 ---
 
@@ -18,6 +19,8 @@ pour vous donner envie de poursuivre vos expérimentations avec LaTeX.
 
 ## Chimie
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 title: "Examples for further study"
 ---
 
@@ -32,22 +35,30 @@ The examples are taken from the package documentation unless otherwise noted.
   showing a range of areas not otherwise covered in this course.
 
 ## Chemistry
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ### [`mhchem`](https://texdoc.net/pkg/mhchem)
 
 ```latex
 \documentclass{article}
 <<<<<<< HEAD
+<<<<<<< HEAD
 \usepackage[T1]{fontenc}
 =======
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{mhchem}
 \begin{document}
 \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-}
 \end{document}
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 ## Linguistique
@@ -58,11 +69,17 @@ The examples are taken from the package documentation unless otherwise noted.
 \documentclass{article}
 \usepackage[T1]{fontenc}
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ## Linguistics
 ### [`forest`](https://texdoc.net/pkg/forest)
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{forest}
 \begin{document}
 \begin{forest}
@@ -79,19 +96,27 @@ The examples are taken from the package documentation unless otherwise noted.
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Échecs
 =======
 ## Chess
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+## Chess
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- not 2017 -->
 ### [`xskak`](https://texdoc.net/pkg/xskak)
 ```latex
 \documentclass{article}
 <<<<<<< HEAD
+<<<<<<< HEAD
 \usepackage[T1]{fontenc}
 =======
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{xskak}
 \begin{document}
 \newchessgame
@@ -105,6 +130,7 @@ Position after 2.\,\xskakget{lan}
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Poésie
 
 ### [`memoir`](https://texdoc.net/pkg/memoir)
@@ -113,6 +139,8 @@ Position after 2.\,\xskakget{lan}
 \documentclass{memoir}
 \usepackage[T1]{fontenc}
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ## Poetry
 
 ### [`memoir`](https://texdoc.net/pkg/memoir)
@@ -120,7 +148,11 @@ Position after 2.\,\xskakget{lan}
 
 ```latex
 \documentclass{memoir}
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \begin{document}
 \settowidth{\versewidth}{Nay, nay, I leave thee not,
                                        thou goest too}
@@ -150,6 +182,7 @@ Today will I depart. \\*
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## Dessin
 
@@ -161,6 +194,8 @@ Today will I depart. \\*
 \documentclass{article}
 \usepackage[T1]{fontenc}
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ## Drawing
 <!-- not 2017 -->
 ### [`tikz`](https://texdoc.net/pkg/tikz)
@@ -169,7 +204,11 @@ Today will I depart. \\*
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{tikz}
 \usetikzlibrary {perspective}
 
@@ -202,6 +241,7 @@ x
 <!-- {% endraw %} -->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## Tracé de fonction mathématique
 
@@ -212,6 +252,8 @@ x
 \documentclass{article}
 \usepackage[T1]{fontenc}
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ## Function plotting
 ### [`pgfplots`](https://texdoc.net/pkg/plots)
 
@@ -219,13 +261,18 @@ x
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{pgfplots}
 \pgfplotsset{width=7cm,compat=1.17}
 
 \begin{document}
 
 \begin{tikzpicture}
+<<<<<<< HEAD
 <<<<<<< HEAD
 \begin{axis}
     % density of Normal distribution:
@@ -235,6 +282,8 @@ x
              ]
        {exp(-x^2 / (2e-3^2)) / (1e-3 * sqrt(2*pi))} ;
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \begin{axis}[]
       % density of Normal distribution:
       \addplot [
@@ -243,7 +292,10 @@ x
             samples=201,
       ]
             {exp(-x^2 / (2e-3^2)) / (1e-3 * sqrt(2*pi))};
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \end{axis}
 \end{tikzpicture}
 
@@ -251,6 +303,7 @@ x
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 ## Musique
@@ -262,6 +315,8 @@ x
 \documentclass{article}
 \usepackage[T1]{fontenc}
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ## Music
 
 
@@ -271,7 +326,11 @@ x
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{musixtex}
 
 \begin{document}

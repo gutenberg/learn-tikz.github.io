@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Étendre les possibilités de LaTeX avec des packages : pour aller plus loin"
 ---
 
@@ -23,6 +24,8 @@ fournit des raccourcis pour créer des traits d'union conditionnels, et aussi
 un moyen de taper rapidement des _umlauts_ (trémas) sans avoir besoin d'un
 clavier allemand.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 title: "More on: Extending LaTeX using packages"
 ---
 
@@ -41,17 +44,24 @@ different hyphenation patterns. It does a lot more than that, depending on the
 language(s) being used. For example, in German, it provides some shorthands for
 creating 'soft' hyphens, and also a way to quickly type umlauts without needing
 a German keyboard.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 \usepackage[ngerman]{babel} % 'ngerman' est l'option pour Babel
 =======
 \usepackage[ngerman]{babel} % Notice that the option name is 'ngerman'
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage[ngerman]{babel} % Notice that the option name is 'ngerman'
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 \begin{document}
 
@@ -60,6 +70,7 @@ H"ohe
 \end{document}
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 D'autres paramètres linguistiques apportent des modifications à la mise en
 forme : par exemple, dans la typographie française traditionnelle, il y a une
@@ -77,6 +88,8 @@ passer la langue d'un document à tous les packages, on peut utiliser :
 ```latex
 \documentclass[ngerman]{article} % 'ngerman' est l'option pour tous les packages
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 Other language settings make design changes: for example, in traditional
 French typography, there is a space before some punctuation signs, like `:`,
 and this is added automatically if you load `babel` with the option `french`.
@@ -90,7 +103,10 @@ we might use:
 
 ```latex
 \documentclass[ngerman]{article} % Notice that the option name is 'ngerman'
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage[T1]{fontenc}
 
 \usepackage{babel}

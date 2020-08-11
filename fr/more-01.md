@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Qu'est-ce que LaTeX, et comment ça marche? Pour aller plus loin"
 ---
 
@@ -26,6 +27,8 @@ simplifient l'utilisation de TeX et a appelé cet ensemble de macros « LaTeX »
 Aujourd'hui, LaTeX est le moyen le plus courant d'interagir avec TeX. Une autre
 alternative est [ConTeXt](https://www.contextgarden.net/).
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 title: "More on: What is LaTeX and how does it work?"
 ---
 
@@ -49,4 +52,7 @@ set “LaTeX”.
 
 Today LaTeX is the most common way to interact with TeX. Another alternative is
 [ConTeXt](https://www.contextgarden.net/).
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.

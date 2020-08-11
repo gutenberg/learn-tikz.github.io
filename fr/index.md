@@ -4,6 +4,9 @@ title: learnlatex.org
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ## Welcome to learnlatex.org (French)!
 
 This site aims to help you take the first steps with LaTeX, a document
@@ -28,6 +31,7 @@ way if you do not.
 To support your learning, the site includes lots of examples. In
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Lesson 2](fr/lesson-02) we will talk about how you use LaTeX both online and with
 a local installation on your own PC. To get you started, we have set up
 our examples so you can edit and run them _in the page_ they are on. We
@@ -36,6 +40,8 @@ most popular online LaTeX editing sites. But don't worry, you can also
 use the examples on your own machine. You can read more about how to use the
 examples [in the site help](fr/help).
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 [Lesson 2](lesson-02) we will talk about how you use LaTeX both online and
 with a local installation on your PC. To get you started, we have set up
 our examples so you can edit and run them in this website. We
@@ -43,6 +49,7 @@ have also linked them to [Overleaf](https://www.overleaf.com), one of the
 most popular online LaTeX editing services. But don't worry, you can also
 use the examples on your machine. You can read more about how to use the
 examples in [the help page](help).
+<<<<<<< HEAD
 >>>>>>> 1af7671a... resync with en/index.md
 =======
 [Lesson 2](lesson-02) we will talk about how you use LaTeX both online and
@@ -53,6 +60,8 @@ most popular online LaTeX editing services. But don't worry, you can also
 use the examples on your machine. You can read more about how to use the
 examples in [the help page](help).
 >>>>>>> dddf7155... resync with en/index.md
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 Our examples are based around using an up-to-date LaTeX installation. They
 all work with both of our online demonstration systems, so if you get
@@ -60,6 +69,7 @@ errors with the examples we provide, you might want to check if your LaTeX
 system is up-to-date.
 
 ## The lessons
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> e2a0112e... French translation (#88)
@@ -115,10 +125,17 @@ d'abord que votre système LaTeX est à jour.
 
 
 ### Leçons spécifiques au français
+=======
+
+{% include toc.html  prefix="fr/lesson" %}
+
+### Additional lessons specific to learnlatex.org/fr
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 {% include toc.html  prefix="fr/language" %}
 
 
+<<<<<<< HEAD
 ## Et ensuite?
 
 Nos présentes leçons, très ciblées, ne sont pas censées couvrir tout ce dont
@@ -159,5 +176,19 @@ domaines, non couverts dans cette introduction, et différents packages LaTeX
 pour ces domaines.
 >>>>>>> e2a0112e... French translation (#88)
 
+=======
+## Going further
+
+The focused lessons here are not meant to cover everything you'll ever need to
+know about LaTeX; we want to give you enough to get started and to _understand_
+examples and advice elsewhere. We cover getting more information in [the last
+lesson](lesson-16), but it's worth saying now that getting access to a book
+about LaTeX is still the  best way to learn the details. We've given some
+recommendations in the last lesson.
+
+Finally we offer a gallery of small examples showing
+a range of different subject areas not covered in this introduction,
+and different LaTeX packages in those areas.
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
     
 {% include toc.html prefix="fr/extra" %}

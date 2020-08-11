@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Inclure des images et les faire « flotter » : pour aller plus loin"
 ---
 
@@ -36,6 +37,8 @@ sous-répertoire les contenant. Cela se fait en utilisant `\graphicspath`, qui
 nécessite une entrée pour chaque sous-répertoire, entre accolades `{...}`. Par
 exemple, pour inclure les sous-répertoires `figs` et `pics`, on aurait :
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 title: "More on: Including graphics and making things 'float'"
 ---
 
@@ -67,7 +70,10 @@ If you have a lot of graphics, you might want to set up the subdirectory
 in advance. That can be done using `\graphicspath`, which needs a braced entry
 for each subdirectory. For example, to include both `figs` and `pics`
 subdirectories, we would have:
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
@@ -75,6 +81,7 @@ subdirectories, we would have:
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Notez que les noms de répertoires doivent se terminer par un `/` final.
 
@@ -108,6 +115,8 @@ Le placement des flottants LaTeX est complexe, et parfois frustrant. La demande
 la plus courante consiste à placer l'image exactement là où elle se trouve dans
 le fichier d'entrée. C'est ce que fait le package `float`.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 Notice in particular the trailing `/` in these.
 
 ## Producing graphics
@@ -134,17 +143,24 @@ LaTeX's float placement is complex.
 The most common request is to have the figure placed
 in the output exactly where it lies in the input.
 The `float` package will do that.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 <<<<<<< HEAD
+<<<<<<< HEAD
 \usepackage{lipsum}  % Pour avoir du texte de remplissage
 =======
 \usepackage{lipsum}  % dummy text for filler
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage{lipsum}  % dummy text for filler
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{float}
 
 \begin{document}
@@ -153,15 +169,20 @@ The `float` package will do that.
   \centering
   \includegraphics[width=0.5\textwidth]{example-image}
 <<<<<<< HEAD
+<<<<<<< HEAD
   \caption{Une image d'exemple}
 =======
   \caption{An example image}
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+  \caption{An example image}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \end{figure}
 \lipsum[8-15]
 \end{document}
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 L'option `H` met l'image « absolument ici » (_**h**ere_). Cependant,
 en règle générale, il est déconseillé d'utiliser `H`, car ça a tendance à
@@ -180,6 +201,8 @@ indépendamment. Ça se fait avec le package [`trivfloat`](https://ctan.org/pkg/
 qui fournit une commande unique, `\trivfloat`, pour créer de nouveaux type
 d'environnements de flottants.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 Note the `H` option, which puts the figure 'absolutely Here'.
 However it is often not recommended to use `H`, because it may
 create large portions of white space in your document.
@@ -195,17 +218,24 @@ You might want to have other types of floating environment; each type is
 inserted independently. You can do that using the
 [`trivfloat`](https://ctan.org/pkg/trivfloat) package. This provides a single
 command, `\trivfloat`, to make new types of float.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 <<<<<<< HEAD
+<<<<<<< HEAD
 \usepackage{lipsum}  % Pour avoir du texte de remplissage
 =======
 \usepackage{lipsum}  % dummy text for filler
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage{lipsum}  % dummy text for filler
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{trivfloat}
 \trivfloat{image}
 
@@ -214,10 +244,14 @@ command, `\trivfloat`, to make new types of float.
   \centering
   \includegraphics[width=0.5\textwidth]{example-image}
 <<<<<<< HEAD
+<<<<<<< HEAD
   \caption{Une image d'exemple}
 =======
   \caption{An example image}
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+  \caption{An example image}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \end{image}
 \end{document}
 ```
