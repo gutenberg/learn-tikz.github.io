@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Les tableaux"
 ---
 
@@ -13,23 +14,26 @@ que vous utilisez des tableaux. Mettez donc ce qui suit dans votre prÃ©ambule et
 nous serons prÃªts Ã  commencer :
 =======
 title: "Tables"
+=======
+title: "Les tableaux"
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ---
 
 
-## Basic tables
+## Tableaux simples
 
-Tables in LaTeX are set using the `tabular` environment. This lesson will assume
-you load the `array` package, which adds more functionality to LaTeX tables, and
-which is not built into the LaTeX kernel only for historic reasons. So put the
-following in your preamble and we're good to go:
-
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+En LaTeX, un tableau se construit dans un environnement `tabular`. Cette leçon suppose que vous chargez le package `array`, qui ajoute des fonctionnalités aux tableaux LaTeX. Il n'est pas intégré dans le noyau LaTeX, mais c'est uniquement pour des raisons historiques et vous avez intérêt à le charger dès que vous utilisez des tableaux. Mettez donc ce qui suit dans votre préambule et nous sommes prêts à commencer :
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \usepackage{array}
 ```
 {: .noedit :}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Pour composer un tableau dans un environnement `tabular`, nous devons indiquer
 Ã  LaTeX combien de colonnes seront nÃ©cessaires et comment elles doivent Ãªtre
@@ -89,57 +93,63 @@ needed and how they should be aligned. This is done in a mandatory argument
 &ndash; often referred to as the table preamble &ndash; to the `tabular`
 environment, in which you specify the columns by using single-letter names,
 called preamble-tokens. The available column types are:
+=======
+Pour composer un tableau dans un environnement `tabular`, nous devons indiquer à LaTeX combien de colonnes seront nécessaires et comment elles doivent être alignées. Cela se fait dans un argument obligatoire de l'environnement &ndash; souvent appelé _préambule_ du tableau &ndash; dans lequel vous spécifiez les colonnes en utilisant des noms à une lettre (les _preamble-tokens_). Les types de colonnes disponibles sont les suivants :
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
-<!-- don't line wrap this table, markdown seems to not support this -->
+<!-- Don't line wrap this table, markdown seems to not support this. -->
 
 | type       | description |
 | ---        |:-- |
-| `l`        | left aligned column |
-| `c`        | centered column |
-| `r`        | right aligned column |
-| `p{width}` | a column with fixed width `width`; the text will be automatically line wrapped and fully justified |
-| `m{width}` | like `p`, but vertically centered compared to the rest of the row |
-| `b{width}` | like `p`, but bottom aligned |
-| `w{align}{width}` | prints the contents with a fixed `width`, silently overprinting if things get larger. You can choose the horizontal alignment using `l`, `c`, or `r`. |
-| `W{align}{width}` | like `w`, but this will issue an overfull box warning if things get too wide. |
+| `l`        | colonne alignée à gauche (_**l**eft_). |
+| `c`        | colonne centrée (_**c**entered_). |
+| `r`        | colonne alignée à droite (_**r**ight_). |
+| `p{width}` | colonne de largeur fixée, égale à `width`; le texte sera automatiquement justifié, avec des saurs de lignes si nécessaire. |
+| `m{width}` | comme `p`, mais centré verticalement par rapport au reste de la ligne. |
+| `b{width}` | comme `p`, mais positionné en bas par rapport au reste de la ligne. |
+| `w{align}{width}` | fixe la largeur de la colonne à `width`, mais le contenu peut déborder s'il est trop grand. L'alignement horizontal `align` peut être `l`, `c`, or `r`, comme décrit ci-dessus. |
+| `W{align}{width}` | comme `w`, mais vous aurez un avertissement en ca de débordement. |
 
-In addition, a few other preamble-tokens are available which don't define a
-column but might be useful as well:
 
-<!-- don't line wrap this table, markdown seems to not support this -->
+En outre, il existe quelques autres _preamble-tokens_ qui ne définissent pas une colonne mais s'avèrent utiles :
+
+<!-- Don't line wrap this table, markdown seems to not support this. -->
 
 | type | description |
 | ---  | :-- |
-| `*{num}{string}` | repeats `string` for `num` times in the preamble. With this you can define multiple identical columns. |
-| `>{decl}` | this will put `decl` before the contents of every cell in the following column (this is useful, e.g., to set a different font for this column) |
-| `<{decl}` | this will put `decl` after the contents of each cell in the previous column |
-| <span>`|`</span>  | add a vertical rule |
-| `@{decl}` | replace the space between two columns with `decl` |
-| `!{decl}` | add `decl` in the center of the existing space |
+| `*{num}{string}` | répète `num`  fois la chaîne `string` dans le préambule. Permet de définir plusieurs colonnes identiques. |
+| `>{decl}` | ajoute la chaîne `decl` devant le contenu de chaque cellule de la colonne qui suit (permet par exemple de changer la police de cette colonne). |
+| `<{decl}` | ajoute la chaîne `decl` après le contenu de chaque cellule de la colonne qui précède. |
+| <span>`|`</span>  | trace un trait vertical. |
+| `@{decl}` | remplace l'espace entre deux colonne par la chaîne `decl`. |
+| `!{decl}` | ajout la chaîne `decl` au centre de l'espace entre deux colonnes. |
 
-These two tables list all the available column types from LaTeX and the `array`
-package. A few additional column types, from different packages, are presented
-in the [further details page](more-08) for this lesson.
+Ces deux tableaux répertorient tous les types de colonnes disponibles avec LaTeX et le package `array`. Quelques types de colonnes supplémentaires, provenant d'autres paquets, sont présentés [en approfondissement](more-08) de cette leçon.
 
-The columns `l`, `c`, and `r` will have the natural width of the widest cell.
-Each column has to be declared, so if you want three centered columns, you'd use
-`ccc` in the table preamble. Spaces are ignored, so `c c c` is the same.
+Les colonnes `l`, `c` et `r` auront la largeur naturelle de la cellule la plus large. Chaque colonne doit être déclarée, donc si vous voulez trois colonnes centrées, vous utiliserez `ccc` dans le préambule du tableau. Les espaces sont ignorées, donc `c c c` donne la même chose.
 
-In a table body columns are separated using an ampersand `&` and a new row is
-started using `\\`.
+Dans le corps du tableau, les colonnes sont séparées par une esperluette `&` et une nouvelle ligne est commencée avec `\\`. Il n'y a pas besoin de déclarer à l'avance le nombre de lignes du tableau.
 
+<<<<<<< HEAD
 We have everything we need for our first table. In the following code the
 `&` and `\\` are aligned. This isn't necessary in LaTeX, but helps reading the
 source.
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+Nous avons maintenant tout ce qu'il faut pour construire notre première table. Dans le code suivant, les `&` et `\\` sont alignés. Ce n'est pas nécessaire en LaTeX, mais ça aide à lire le code source et à trouver les erreurs éventuelles.
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
 <<<<<<< HEAD
+<<<<<<< HEAD
 \usepackage[T1]{fontenc}
 =======
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{array}
 
 \begin{document}
@@ -161,25 +171,34 @@ source.
 <!-- {% endraw %} -->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Si une colonne de tableau contient beaucoup de texte, vous aurez du mal Ã  avoir
 un joli rÃ©sultat avec seulement `l`, `c` et `r`. Regardez l'exemple suivant :
 =======
 If a table column contains a lot of text you will have issues to get that
 right with only `l`, `c`, and `r`. See what happens in the following example:
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+Si une colonne de tableau contient beaucoup de texte, vous aurez du mal à avoir un beau résultat avec seulement `l`, `c` et `r`. Regardez l'exemple suivant :
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
 <<<<<<< HEAD
+<<<<<<< HEAD
 \usepackage[T1]{fontenc}
 =======
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{array}
 
 \begin{document}
 \begin{tabular}{cl}
   Animal & Description \\
+<<<<<<< HEAD
 <<<<<<< HEAD
   Chien  & Le chien est un membre du genre Canis, qui fait partie des CanidÃ©s
            proches du loup, et est le carnivore terrestre le plus
@@ -197,11 +216,21 @@ right with only `l`, `c`, and `r`. See what happens in the following example:
            to as the domestic cat to distinguish it from the wild members of the
            family. \\
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+  Chien  & Le chien est un membre du genre Canis, qui fait partie des Canidés
+           proches du loup, et est le carnivore terrestre le plus
+           répandu. \\
+  Cat    & Le chat est une espèce domestique de petit mammifère carnivore. C'est
+           la seule espèce domestiquée de la famille des Félins et on l'appelle
+           souvent le chat domestique pour le distinguer des autres membres de la
+           famille, tous sauvages. \\
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \end{tabular}
 \end{document}
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Le problÃ¨me est qu'une colonne de type `l` dÃ©roule son contenu sur une seule
 ligne, et prend sa largeur naturelle, mÃªme si la page n'est pas assez large.
@@ -217,19 +246,27 @@ typesets its contents as paragraphs with the width you specify as an argument
 and vertically aligns them at the top &ndash; which you'll want most of the
 time. Compare the above outcome to the following:
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+Le problème est qu'une colonne de type `l` déroule son contenu sur une seule ligne, et prend sa largeur naturelle, même si la page n'est pas assez large. Pour résoudre ce problème, vous pouvez utiliser une colonne de type `p`. Celle-ci met son contenu sous forme de paragraphes avec la largeur que vous spécifiez, et aligne ces paragraphe verticalement en haut et en bas. Comparez le résultat de ce nouvel exemple avec le précédent :
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
 <<<<<<< HEAD
+<<<<<<< HEAD
 \usepackage[T1]{fontenc}
 =======
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{array}
 
 \begin{document}
 \begin{tabular}{cp{9cm}}
   Animal & Description \\
+<<<<<<< HEAD
 <<<<<<< HEAD
   Chien  & Le chien est un membre du genre Canis, qui fait partie des CanidÃ©s
            proches du loup, et est le carnivore terrestre le plus
@@ -247,11 +284,21 @@ time. Compare the above outcome to the following:
            to as the domestic cat to distinguish it from the wild members of the
            family. \\
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+  Chien  & Le chien est un membre du genre Canis, qui fait partie des Canidés
+           proches du loup, et est le carnivore terrestre le plus
+           répandu. \\
+  Chat   & Le chat est une espèce domestique de petit mammifère carnivore. C'est
+           la seule espèce domestiquée de la famille des Félins et on l'appelle
+           souvent le chat domestique pour le distinguer des autres membres de la
+           famille, tous sauvages. \\
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \end{tabular}
 \end{document}
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Si votre tableau comporte de nombreuses colonnes du mÃªme type, vous pouvez vous
 faciliter la vie en utilisant `*{nombre}{chaÃ®ne}`, qui rÃ©pÃ¨te `nombre` de fois
@@ -265,14 +312,21 @@ by using `*{num}{string}`, which repeats the `string`  `num` times.
 So `*{6}{c}` is equivalent to `cccccc`. To show you that it works here is the first
 table of this lesson with the newly learned syntax:
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+Si votre tableau comporte de nombreuses colonnes du même type, vous pouvez vous faciliter la viee en utilisant `*{nombre}{chaîne}`, qui répète `nombre` de fois la `chaîne`. Ainsi, `*{6}{c}` est équivalent à `cccccc`. Pour vous montrer que cela fonctionne, voici le premier tableau de cette leçon avec cette nouvelle syntaxe :
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
 <<<<<<< HEAD
+<<<<<<< HEAD
 \usepackage[T1]{fontenc}
 =======
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{array}
 
 \begin{document}
@@ -294,6 +348,7 @@ table of this lesson with the newly learned syntax:
 <!-- {% endraw %} -->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## Tirer des traits entre les lignes
 
@@ -311,13 +366,12 @@ Les trois principales commandes sont : `\toprule` (pour le haut du tableau),
 `\midrule` (pour le corps du tableau) et `\bottomrule` (pour le bas du tableau) :
 =======
 ## Adding rules (lines)
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
-A word of advice prior to introducing rules; lines should be used really
-sparsely in tables, and normally vertical ones look unprofessional. In fact,
-for professional tables you shouldn't use any of the standard lines; instead you
-should get familiar with the facilities of the `booktabs` package, which is why
-it is covered here first. For the sake of completeness the standard
-lines are shown in the [more-info](more-08) page.
+## Tirer des traits entre les lignes
+
+Un conseil avant de parler des traits : ceux-ci doivent être utilisés parcimonieusement dans les tableaux, et de façon générale, les traits verticaux donnent un rendu peu professionnel. En fait, pour obtenir des  tableaux au look professionnel, il vaut mieux se passer des traits fournis en standard par LaTeX, et utiliser à la place le package `booktabs`. C'est pourquoi nous en parlons en premier lieu. Par souci d'exhaustivité, les lignes standards sont [présentées en approfondissement](more-08).
 
 `booktabs` provides four different types of lines. Each of those commands has to
 be used as the first thing in a row or following another rule.
@@ -325,9 +379,12 @@ Three of the rule commands are: `\toprule`, `\midrule`, and
 `\bottomrule`. From their names the intended place of use should be clear:
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 
+Le package `booktabs` propose quatre types de traits différents. Chacune de ces commandes doit être utilisée au début d'une ligne, ou juste après un autre trait. Les trois principales commandes sont : `\toprule` (pour le haut du tableau), `\midrule` (pour le corps du tableau) et `\bottomrule` (pour le bas du tableau) :
+
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
 <<<<<<< HEAD
 \usepackage[T1]{fontenc}
 \usepackage{array}
@@ -342,9 +399,11 @@ Three of the rule commands are: `\toprule`, `\midrule`, and
   cheval     & foin       & gros   \\
   grenouille & mouches    & petit  \\
 =======
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{array}
 \usepackage{booktabs}
-
 
 \begin{document}
 \begin{tabular}{lll}
@@ -361,6 +420,7 @@ Three of the rule commands are: `\toprule`, `\midrule`, and
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 La quatriÃ¨me commande fournie par `booktabs` pour tracer des filets est
 `\cmidrule`. Elle peut Ãªtre utilisÃ©e pour tracer un filet qui ne couvre pas
@@ -376,14 +436,21 @@ column range. A column range is entered as a number span: `{`_number_`-`_number_
 Even if you only want to draw the rule for a single
 column you need to specify that as a range (with both numbers matching).
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+La quatrième commande fournie par `booktabs` pour tracer des traits est `\cmidrule`. Elle peut être utilisée pour tirer un trait qui ne couvre pas toute la largeur du tableau mais seulement une plage de colonnes spécifiée. La plage de colonnes est entrée comme une plage de numéros de colonnes : `{`_numéro_`-`_numéro_`}`. Même si vous ne voulez dessiner le trait que pour une seule colonne, vous devez la spécifier comme une plage (avec deux numéros identiques: `{2-2}`).
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
 <<<<<<< HEAD
+<<<<<<< HEAD
 \usepackage[T1]{fontenc}
 =======
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{array}
 \usepackage{booktabs}
 
@@ -415,6 +482,7 @@ column you need to specify that as a range (with both numbers matching).
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 Il existe une autre fonctionnalitÃ© de `\cmidrule` qui contribue Ã  un rendu de
@@ -424,14 +492,22 @@ optionnel entre parenthÃ¨ses :
 There is another useful feature of `\cmidrule`. You can shorten it on either end
 with an optional argument enclosed in parentheses:
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+
+Il existe une autre fonctionnalité de `\cmidrule` qui contribue à un rendu de qualité: on peut raccourcir le trait à chaque extrémité avec un argument optionnel entre parenthèses :
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
 <<<<<<< HEAD
+<<<<<<< HEAD
 \usepackage[T1]{fontenc}
 =======
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{array}
 \usepackage{booktabs}
 
@@ -465,6 +541,7 @@ with an optional argument enclosed in parentheses:
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Vous avez sans doute devinÃ© que `r` et `l` signifient que le filet est raccourci
 Ã  son extrÃ©mitÃ© droite (_**r**ight_) et  gauche (_**l**eft_), respectivement.
@@ -481,14 +558,23 @@ Sometimes a rule would be too much of a separation for two rows but to get
 across the meaning more clearly you want to separate them by some means. In this
 case you can use `\addlinespace` to insert a small skip.
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+Vous avez sans doute deviné que `r` et `l` signifient que le trait est raccourci à son extrémité droite (_**r**ight_) et  gauche (_**l**eft_), respectivement.
+
+Parfois, un trait serait une séparation trop forte entre deux lignes, mais vous souhaitez quand même ajouter une forme de séparation pour aider à la lecture du tableau. Dans ce cas, vous pouvez utiliser `\addlinespace` pour insérer un petit peu plus d'espace entre les lignes.
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
 <<<<<<< HEAD
+<<<<<<< HEAD
 \usepackage[T1]{fontenc}
 =======
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{array}
 \usepackage{booktabs}
 
@@ -497,6 +583,7 @@ case you can use `\addlinespace` to insert a small skip.
   \toprule
   Animal & Description \\
   \midrule
+<<<<<<< HEAD
 <<<<<<< HEAD
   Chien  & Le chien est un membre du genre Canis, qui fait partie des CanidÃ©s
            proches du loup, et est le carnivore terrestre le plus
@@ -516,6 +603,16 @@ case you can use `\addlinespace` to insert a small skip.
            to as the domestic cat to distinguish it from the wild members of the
            family. \\
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+  Chien  & Le chien est un membre du genre Canis, qui fait partie des Canidés
+           proches du loup, et est le carnivore terrestre le plus
+           répandu. \\
+  \addlinespace
+  Chat   & Le chat est une espèce domestique de petit mammifère carnivore. C'est
+           la seule espèce domestiquée de la famille des Félins et on l'appelle
+           souvent le chat domestique pour le distinguer des autres membres de la
+           famille, tous sauvages. \\
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
   \bottomrule
 \end{tabular}
 \end{document}
@@ -523,6 +620,7 @@ case you can use `\addlinespace` to insert a small skip.
 <!-- {% endraw %} -->
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Fusionner des cellules
 
@@ -538,22 +636,28 @@ L'alignement peut contenir tout ce qui est autorisÃ© dans le prÃ©ambule d'un
 tableau, mais _seulement un seul type de colonne_:
 =======
 ## Merging cells
+=======
+## Fusionner des cellules
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
-In LaTeX you can merge cells horizontally by using the `\multicolumn` command. It
-has to be used as the first thing in a cell. `\multicolumn` takes three
-arguments:
+En LaTeX, vous pouvez fusionner des cellules horizontalement en utilisant la commande `\multicolumn`. Elle doit apparaître en premier dans une cellule. `\multicolumn` prend trois arguments :
 
-1. The number of cells which should be merged
-2. The alignment of the merged cell
-3. The contents of the merged cell
+1. Le nombre de cellules à fusionner,
+2. L'alignement de la cellule résultante,
+3. Le contenu de la cellule résultante.
 
+<<<<<<< HEAD
 The alignment can contain anything legal in a `tabular`'s preamble, but _only a
 single column type_.
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+L'alignement peut contenir tout ce qui est autorisé dans le préambule d'un tableau, mais _seulement un seul type de colonne_:
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
 <<<<<<< HEAD
 \usepackage[T1]{fontenc}
 \usepackage{array}
@@ -569,9 +673,11 @@ single column type_.
   grenouille & mouches    & petit  \\
   snark      & \multicolumn{2}{c}{unknown} \\
 =======
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{array}
 \usepackage{booktabs}
-
 
 \begin{document}
 \begin{tabular}{lll}
@@ -590,6 +696,7 @@ single column type_.
 <!-- {% endraw %} -->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 Vous pouvez Ã©galement utiliser `\multicolumn` sur une seule cellule pour empÃªcher
 l'application de ce que vous avez dÃ©fini dans le prÃ©ambule du tableau pour la
@@ -602,10 +709,15 @@ current column.  The following uses this method to center the
 table's head row:
 
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+
+Vous pouvez également utiliser `\multicolumn` sur une seule cellule pour empêcher l'application de ce que vous avez défini dans le préambule du tableau pour la colonne actuelle.  L'exemple suivant utilise cette méthode pour centrer la ligne d'en-tête du tableau :
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
 <<<<<<< HEAD
 \usepackage[T1]{fontenc}
 \usepackage{array}
@@ -621,9 +733,11 @@ table's head row:
   grenouille & mouches    & petit  \\
   snark      & \multicolumn{2}{c}{unknown} \\
 =======
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{array}
 \usepackage{booktabs}
-
 
 \begin{document}
 \begin{tabular}{lll}
@@ -642,6 +756,7 @@ table's head row:
 <!-- {% endraw %} -->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 La fusion verticale des cellules n'est pas prise en charge par LaTeX. En gÃ©nÃ©ral,
 il suffit de laisser les cellules vides pour donner au lecteur une idÃ©e correcte
@@ -652,10 +767,15 @@ Merging cells vertically isn't supported by LaTeX.
 Usually it suffices to leave cells empty to give the reader the
 correct idea of what was meant without explicitly making cells span rows.
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+
+La fusion verticale des cellules n'est pas prise en charge par LaTeX. En général, il suffit de laisser les cellules vides pour donner au lecteur une idée correcte de ce que l'on veut dire, sans que les cellules s'étendent réellement sur plusieurs lignes.
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
 \documentclass{article}
+<<<<<<< HEAD
 <<<<<<< HEAD
 \usepackage[T1]{fontenc}
 \usepackage{array}
@@ -678,9 +798,11 @@ correct idea of what was meant without explicitly making cells span rows.
             & ours      & large  \\
             & cochon    & medium \\
 =======
+=======
+\usepackage[T1]{fontenc}
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \usepackage{array}
 \usepackage{booktabs}
-
 
 \begin{document}
 \begin{tabular}{lll}
@@ -707,6 +829,7 @@ correct idea of what was meant without explicitly making cells span rows.
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Travaux pratiques
 
 Utilisez le premier exemple ci-dessus pour expÃ©rimenter avec les tableaux.
@@ -722,3 +845,8 @@ different alignments using the `l`, `c` and `r` column types. What happens if
 you have too few items in a table row? How about too many? Experiment with the
 `\multicolumn` command to span across columns.
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+## Travaux pratiques
+
+Utilisez le premier exemple ci-dessus pour expérimenter avec les tableaux. Essayez différents alignements en utilisant les types de colonnes `l`, `c` et `r`. Que se passe-t-il si vous avez trop peu d'éléments dans une ligne de tableau ? Et si vous en avez trop ? Essayez la commande `\multicolumn` pour étendre le contenu sur plusieurs colonnes.
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.

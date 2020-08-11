@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Utiliser les classes de documents pour changer l'apparence : pour aller plus loin"
 ---
 
@@ -25,6 +26,8 @@ destinées à un vidéo-projecteur. Deux classes ont été développées à cet 
 et sont largement utilisées : `beamer` et `powerdot`. Actuellement, `beamer`
 est la plus largement utilisée, voici donc un exemple de son fonctionnement :
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 title: "More on: Using document classes to influence design"
 ---
 
@@ -45,13 +48,17 @@ have any special support for on-screen presentations. Two classes
 have been developed to do just that, and that are widely used:
 `beamer` and `powerdot`. As `beamer` is probably the more common one, we will
 give you an example of how it works:
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass{beamer}
 \usepackage[T1]{fontenc}
 \begin{document}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 \begin{frame}{Première diapositive}
   Un peu de texte.
@@ -63,6 +70,8 @@ give you an example of how it works:
     \item<1-> Premier item,
     \item<2-> Second item.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \begin{frame}{A first frame}
   Some text
 \end{frame}
@@ -72,13 +81,17 @@ give you an example of how it works:
   \begin{itemize}
     \item<1-> First item
     \item<2-> Second item
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
   \end{itemize}
 \end{frame}
 
 \end{document}
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Cela montre deux choses importantes. Premièrement, `beamer` divise un document
 en `frames` (« cadres »), chacun d'eux pouvant donner une diapositive ou
@@ -98,6 +111,8 @@ le PDF final, sans le reste de la page. Le plus simple est d'utiliser la classe
 [`standalone`](https://ctan.org/pkg/standalone). Elle définit automatiquement la
 taille de la page pour qu'elle contienne tout juste le contenu imprimé.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 This shows two important ideas. First, `beamer` divides a document into frames,
 each of which can make more than one slide (page). Second, `beamer` adds to the
 normal LaTeX syntax to allow parts of the source to appear 'a bit at a time'.
@@ -112,16 +127,23 @@ There are occasions when you need to make an image (which might be text-heavy)
 using LaTeX. Often, you do not want anything other than the content itself on
 the 'page'. That is easiest to do using the [`standalone`](https://ctan.org/pkg/standalone)
 class. It automatically sets the size of the page to surround the printed content.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass{standalone}
 \usepackage[T1]{fontenc}
 \begin{document}
 <<<<<<< HEAD
+<<<<<<< HEAD
 Un document très simple: il va tenir dans une toute petite boîte!
 =======
 A simple document: this will be a very small box!
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+A simple document: this will be a very small box!
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \end{document}
 ```

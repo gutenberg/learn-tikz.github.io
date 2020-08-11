@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Trouver de la documentation et demander de l'aide : pour aller plus loin"
 ---
 
@@ -21,6 +22,8 @@ Tapez `texdoc interface3` pour consulter la
 `texdoc source3` pour voir le
 [code source complet d'`expl3`](http://texdoc.net/pkg/source3).
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 title: "More on: Accessing documentation and getting help"
 ---
 
@@ -45,4 +48,7 @@ or
 
 
 
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.

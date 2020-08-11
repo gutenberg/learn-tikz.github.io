@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Les tables : pour aller plus loin"
 ---
 
@@ -22,6 +23,8 @@ contenu de chaque cellule d'une colonne. Vous pouvez donc les utiliser pour
 _ajouter des commandes_ qui changent la mise en forme de la colonne. Par exemple,
 ceci mettra en italique la première colonne et insérera un deux-points après :
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 title: "More on: Tables"
 ---
 
@@ -42,7 +45,10 @@ Since `>` and `<` can be used to put things before and after the cell contents
 of a column, you can use these to add commands which affect the look
 of a column. For instance, if you want to italicize the first column and put a
 colon after it, you can do the following:
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
@@ -55,24 +61,31 @@ colon after it, you can do the following:
 \begin{tabular}{>{\itshape}l<{:} *{2}{l}}
   \toprule
 <<<<<<< HEAD
+<<<<<<< HEAD
   Animal     & Nourriture & Taille \\
   \midrule
   chien      & viande     & moyen  \\
   cheval     & foin       & gros   \\
   grenouille & mouches    & petit  \\
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
   Animal & Food  & Size   \\
   \midrule
   dog    & meat  & medium \\
   horse  & hay   & large  \\
   frog   & flies & small  \\
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
   \bottomrule
 \end{tabular}
 \end{document}
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 `\itshape` met tout le texte qui suit en italique, mais son effet est limité à
 la cellule du tableau. Nous examinerons le formatage manuel des polices
@@ -83,6 +96,8 @@ en forme différemment du reste. Pour obtenir ce résultat, on peut utiliser
 `\multicolumn`. Pensez aussi que cette commande peut être utilisée pour modifier
 l'alignement d'une seule cellule ici :
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 `\itshape` makes all the following text italic, but its effect is 'contained'
 by the table cell. We will look at manual font formatting [in a few lessons
 time](lesson-11).
@@ -90,7 +105,10 @@ time](lesson-11).
 You may want the first cell not to be affected
 because it is the table head. Here `\multicolumn` may be used. Remember that
 it can be used to change a single cell's alignment as shown below.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
@@ -103,24 +121,31 @@ it can be used to change a single cell's alignment as shown below.
 \begin{tabular}{>{\itshape}l<{:} *{2}{l}}
   \toprule
 <<<<<<< HEAD
+<<<<<<< HEAD
   \multicolumn{1}{l}{Animal} & Nourriture & Taille \\
   \midrule
   chien      & viande     & moyen  \\
   cheval     & foin       & gros   \\
   grenouille & mouches    & petit  \\
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
   \multicolumn{1}{l}{Animal} & Food  & Size   \\
   \midrule
   dog    & meat  & medium \\
   horse  & hay   & large  \\
   frog   & flies & small  \\
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
   \bottomrule
 \end{tabular}
 \end{document}
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 ### Modifier l'espacement des colonnes
@@ -132,6 +157,8 @@ a un `\tabcolsep` à chaque extrémité du tableau, et deux `\tabcolsep` entre l
 différentes colonnes (un venant de chaque colonne). La largeur de cet espace
 peut être changée avec `\setlength` :
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ### Manipulating the space between columns
 
 Usually LaTeX pads each column by some space on both sides to give a balanced
@@ -139,7 +166,10 @@ look and separate them. This space is defined with the length `\tabcolsep`. Due
 to the fact that each column is padded on both sides you get one `\tabcolsep` on
 either end of the table, and `2\tabcolsep` between two columns &ndash; one from
 each column. You can adjust this space to any length using `\setlength`:
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
@@ -152,21 +182,28 @@ each column. You can adjust this space to any length using `\setlength`:
 \begin{document}
 \begin{tabular}{lll}
 <<<<<<< HEAD
+<<<<<<< HEAD
   Animal     & Nourriture & Taille \\
   chien      & viande     & moyen  \\
   cheval     & foin       & gros   \\
   grenouille & mouches    & petit  \\
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
   Animal & Food  & Size   \\
   dog    & meat  & medium \\
   horse  & hay   & large  \\
   frog   & flies & small  \\
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \end{tabular}
 \end{document}
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Cet espace peut être remplacé par n'importe quoi, avec `@`. Cela supprimera
 l'espace des deux colonnes voisines (ou celui à chaque extrémité du tableau),
@@ -176,6 +213,11 @@ You can change this space to something arbitrary using `@`. This will remove the
 padding between two columns or on either end, and instead put anything in
 between the columns you specify as an argument:
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+You can change this space to something arbitrary using `@`. This will remove the
+padding between two columns or on either end, and instead put anything in
+between the columns you specify as an argument:
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
@@ -186,21 +228,28 @@ between the columns you specify as an argument:
 \begin{document}
 \begin{tabular}{l@{ : }l@{\hspace{2cm}}l}
 <<<<<<< HEAD
+<<<<<<< HEAD
   Animal     & Nourriture & Taille \\
   chien      & viande     & moyen  \\
   cheval     & foin       & gros   \\
   grenouille & mouches    & petit  \\
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
   Animal & Food  & Size   \\
   dog    & meat  & medium \\
   horse  & hay   & large  \\
   frog   & flies & small  \\
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \end{tabular}
 \end{document}
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 (Nous verrons `\hspace` [très bientôt](lesson-11) ; vous devinez qu'il ajoute un
 espacement horizontal).
@@ -209,12 +258,17 @@ Dans le préambule du tableau, `!` fait quelque chose d'assez similaire. La
 différence est qu'il _ajoute_ son argument au centre de l'espace entre deux
 colonnes, au lieu de le remplacer.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 (We'll see `\hspace` [again shortly](lesson-11); you might guess that it adds a
 horizontal space.)
 
 The `!` preamble token does something pretty similar. The difference is, that it
 _adds_ its argument in center of the space between two columns.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
@@ -225,22 +279,29 @@ _adds_ its argument in center of the space between two columns.
 \begin{document}
 \begin{tabular}{l!{:}ll}
 <<<<<<< HEAD
+<<<<<<< HEAD
   Animal     & Nourriture & Taille \\
   chien      & viande     & moyen  \\
   cheval     & foin       & gros   \\
   grenouille & mouches    & petit  \\
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
   Animal & Food  & Size   \\
   dog    & meat  & medium \\
   horse  & hay   & large  \\
   frog   & flies & small  \\
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \end{tabular}
 \end{document}
 ```
 <!-- {% endraw %} -->
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ### Filets verticaux
 
@@ -252,6 +313,11 @@ besoin :
 
 Sometimes you have to use vertical rules.
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+### Vertical rules
+
+Sometimes you have to use vertical rules.
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
@@ -262,21 +328,28 @@ Sometimes you have to use vertical rules.
 \begin{document}
 \begin{tabular}{l|ll}
 <<<<<<< HEAD
+<<<<<<< HEAD
   Animal     & Nourriture & Taille \\[2pt]
   chien      & viande     & moyen  \\
   cheval     & foin       & gros   \\
   grenouille & mouches    & petit  \\
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
   Animal & Food  & Size   \\[2pt]
   dog    & meat  & medium \\
   horse  & hay   & large  \\
   frog   & flies & small  \\
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \end{tabular}
 \end{document}
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Le comportement de `|` est assez similaire à celui de `!{arg}` : il ajoute un
 filet vertical entre deux colonnes en laissant intact l'espacement initial.
@@ -295,6 +368,8 @@ acceptent un argument optionnel entre crochets pour spécifier l'épaisseur du
 trait. En outre, le petit retrait de `\cmidrule` peut être personnalisé en
 spécifiant une longueur entre accolades après `r` ou `l`.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 You might notice that the behavior of `|` is pretty similar to `!{decl}`; it
 adds the vertical rule between two columns leaving the padding as it is. There
 is a huge downside to this though; vertical rules don't work with the
@@ -309,7 +384,10 @@ All the `booktabs` rules and also `\addlinespace` support an optional argument
 in brackets with which you can specify the rule's thickness. In addition the
 trimming provided by `\cmidrule` can be customized by specifying a length in
 braces after `r` or `l`.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
@@ -321,23 +399,30 @@ braces after `r` or `l`.
 \begin{document}
 \begin{tabular}{@{} lll@{}} \toprule[2pt]
 <<<<<<< HEAD
+<<<<<<< HEAD
   Animal     & Nourriture & Taille \\ \midrule[1pt]
   chien      & viande     & moyen  \\
   \cmidrule[0.5pt](r{1pt}l{1cm}){1-2}
   cheval     & foin       & gros   \\
   grenouille & mouches    & petit  \\ \bottomrule[2pt]
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
   Animal & Food  & Size   \\ \midrule[1pt]
   dog    & meat  & medium \\
   \cmidrule[0.5pt](r{1pt}l{1cm}){1-2}
   horse  & hay   & large  \\
   frog   & flies & small  \\ \bottomrule[2pt]
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \end{tabular}
 \end{document}
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 ## Alignement des nombres dans les colonnes
@@ -347,19 +432,25 @@ L'alignement des nombres dans les tableaux peut être géré par le type de colo
 
 Voici un exemple simple avec deux colonnes numériques alignées :
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ## Numeric alignment in columns
 
 The alignment of numbers in tables can be handled by the column type `S` 
 that is provided by the `siunitx` package.
 
 A simple example with two aligned numeric columns would be:
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
 \usepackage{booktabs}
 \usepackage{siunitx}
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 \begin{document}
@@ -368,11 +459,16 @@ A simple example with two aligned numeric columns would be:
 \toprule
 {Quelques valeurs} & {D'autres valeurs} \\
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \begin{document}
 \begin{tabular}{SS}
 \toprule
 {Values} &  {More Values} \\
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \midrule
 1        &   2.3456 \\
 1.2      &   34.2345 \\
@@ -382,6 +478,7 @@ A simple example with two aligned numeric columns would be:
 0.2      &    1e4 \\
 \bottomrule
 \end{tabular}
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 \end{document}
@@ -418,6 +515,8 @@ point dans le préambule. Il est presque toujours utilisé avec `\fill`, un espa
 spécial qui s'étire pour être aussi large que nécessaire.
 
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \end{document}
 ```
 
@@ -446,7 +545,10 @@ to the table using the `\extracolsep` command. This space is added
 between all columns from that point in the preamble. It is almost
 always used with `\fill`, a special space that stretches to be as large
 as necessary.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass{article}
@@ -464,10 +566,14 @@ C & D\\
 \end{center}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 \begin{center}
 =======
 \begin{center}  
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\begin{center}  
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \begin{tabular*}{.5\textwidth}{@{\extracolsep{\fill}}cc@{}}
 \hline
 A & B\\
@@ -477,10 +583,14 @@ C & D\\
 \end{center}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 \begin{center}
 =======
 \begin{center}  
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\begin{center}  
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}cc@{}}
 \hline
 A & B\\
@@ -495,18 +605,24 @@ C & D\\
 ### `tabularx`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 L'environnement `tabularx`, fourni par le package du même nom, a une syntaxe
 similaire à `tabular*` mais au lieu d'ajuster l'espace inter-colonne, il ajuste
 la largeur des colonnes spécifiées par un nouveau type de colonne, `X`. C'est
 équivalent à une spécification `p{...}` mais sa largeur est déterminée
 automatiquement.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 The `tabularx` environment, provided by the package of
 the same name, has a similar syntax to `tabular*` but instead of
 adjusting the inter-column space, adjusts the widths of columns
 specified by a new column type, `X`. This is equivalent to a
 specification of `p{...}` for an automatically determined width.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass{article}
@@ -524,10 +640,14 @@ C & D D D D D D D\\
 \end{center}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 \begin{center}
 =======
 \begin{center}  
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\begin{center}  
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \begin{tabularx}{.5\textwidth}{lX}
 \hline
 A & B B B B B B B B B B B B B B B B B B B B B B B B\\
@@ -537,10 +657,14 @@ C & D D D D D D D\\
 \end{center}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 \begin{center}
 =======
 \begin{center}  
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+\begin{center}  
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \begin{tabularx}{\textwidth}{lX}
 \hline
 A & B B B B B B B B B B B B B B B B B B B B B B B B\\
@@ -552,6 +676,7 @@ C & D D D D D D D\\
 \end{document}
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 À la différence des autres packages abordés dans cette leçon, `tabularx` doit
 compiler le tableau plusieurs fois, en essayant différentes largeurs, pour
@@ -569,6 +694,8 @@ environnement `table` pour en faire un flottant.
 Plusieurs packages fournissent des variantes avec une syntaxe similaire, mais
 permettant des sauts de page. Nous présentons ici le package `longtable` :
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 Unlike the other forms discussed in these lessons, `tabularx` needs to
 typeset the table several times with trial widths to determine the
 final setting. This means that there are several restrictions on the
@@ -582,7 +709,10 @@ on one page, and is often placed in a floating `table` environment.
 
 Several packages provide variants with similar syntax that do allow
 page breaking. Here we show the `longtable` package:
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```
 \documentclass{article}
@@ -597,6 +727,7 @@ Left Side & Right Side\\
 \endhead
 \hline
 \endfoot
+<<<<<<< HEAD
 <<<<<<< HEAD
 aa & bb\\
 Entry & b\\
@@ -616,6 +747,8 @@ a & b b b b b\\
 a & b b\\
 A Wider Entry & b\\
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 aa & bb\\  
 Entry & b\\  
 a & b\\  
@@ -633,12 +766,16 @@ a & b b b b b b\\
 a & b b b b b\\  
 a & b b\\  
 A Wider Entry & b\\  
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \end{longtable}
 
 \end{document}
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Le package `longtable` est remarquable parce qu'il préserve la largeur des
 colonnes sur toutes les pages du tableau ; cependant, pour y parvenir, il faut
@@ -657,6 +794,8 @@ un bloc de la même largeur que le tableau lui-même. Reportez-vous
 mais voici un exemple simple :
 
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 `longtable` is notable in that it preserves the column widths
 over all pages of the table; however in order to achieve this it
 may take several runs of LaTeX so that wide entries encountered later
@@ -670,7 +809,10 @@ markup for such tables, arranging that the notes are set in a
 block the same width as the table. Refer to the
 [package documentation](https://texdoc.net/pkg/threeparttable)
 for full details, but we show a simple example here.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass{article}
@@ -682,6 +824,7 @@ for full details, but we show a simple example here.
 \begin{table}
 \begin{threeparttable}
 <<<<<<< HEAD
+<<<<<<< HEAD
    \caption{Un exemple}
    \begin{tabular}{ll}
     Voyelles          & A noir\tnote{1}\\
@@ -691,6 +834,8 @@ for full details, but we show a simple example here.
    \item [1] Arthur Rimbaud.
    \item [2] Paul Verlaine.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
    \caption{An Example}
    \begin{tabular}{ll}
     An entry & 42\tnote{1}\\
@@ -699,7 +844,10 @@ for full details, but we show a simple example here.
    \begin{tablenotes}
    \item [1] the first note.
    \item [2] the second note.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
    \end{tablenotes}
 \end{threeparttable}
 \end{table}
@@ -707,6 +855,7 @@ for full details, but we show a simple example here.
 \end{document}
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Composer dans des colonnes étroites
 
@@ -728,6 +877,8 @@ Une autre technique, comme le montre le quatrième tableau, consiste à utiliser
 une police plus petite afin que les colonnes ne soient pas aussi étroites par
 rapport à la taille du texte.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ## Typesetting in narrow columns
 
 The default line breaking settings assume relatively long lines to
@@ -745,7 +896,10 @@ Note the use of `\arraybackslash` here, which resets the definition of
 An alternative technique, as shown in the fourth table, is to use a
 smaller font so that the columns are not so narrow relative to the
 text size.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass[a4paper]{article}
@@ -759,6 +913,7 @@ text size.
 \begin{tabular}[t]{lp{3cm}}
 One & A long text set in a narrow paragraph, with some more example text.\\
 <<<<<<< HEAD
+<<<<<<< HEAD
 Two & A different long text set in a narrow paragraph, with some more hard to hyphenate words.
 \end{tabular}%
 \begin{tabular}[t]{l>{\raggedright\arraybackslash}p{3cm}}
@@ -769,6 +924,8 @@ Two & A different long text set in a narrow paragraph, with some more hard to hy
 One & A long text set in a narrow paragraph, with some more example text.\\
 Two & A different long text set in a narrow paragraph, with some more hard to hyphenate words.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate words.
 \end{tabular}%
 \begin{tabular}[t]{l>{\raggedright\arraybackslash}p{3cm}}
@@ -778,17 +935,24 @@ Two & A different long text set in a narrow paragraph, with some more  hard to h
 \begin{tabular}[t]{l>{\RaggedRight}p{3cm}}
 One & A long text set in a narrow paragraph, with some more example text.\\
 Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate words.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \end{tabular}
 
 \footnotesize
 \begin{tabular}[t]{lp{3cm}}
 One & A long text set in a narrow paragraph, with some more example text.\\
 <<<<<<< HEAD
+<<<<<<< HEAD
 Two & A different long text set in a narrow paragraph, with some more hard to hyphenate words.
 =======
 Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate words.
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate words.
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \end{tabular}
 
 \end{table}
@@ -797,6 +961,7 @@ Two & A different long text set in a narrow paragraph, with some more  hard to h
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Définir de nouveaux types de colonnes
 
 Comme l'a montré [la leçon principale](lesson-08), le package`\array` permet des
@@ -804,17 +969,23 @@ constructions comme `>{\bfseries}c` pour formater une colonne centrée en gras.
 On peut définir un nouveau type de colonne, avec `\newcolumntype` pour encapsuler
 cette définition :
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ## Defining new column types
 
 As demonstrated in the [main lesson](lesson-08), the `array` package allows
 constructs such as `>{\bfseries}c`  to denote a bold centered column.
 It is often convenient to define a new column type to encapsulate such
 use, for example
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \newcolumntype{B}{>{\bfseries}c}
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 qui permettra l'utilisation de `B` dans les préambules de tableaux pour spécifier
 une colonne centrée en gras.
@@ -827,6 +998,8 @@ lignes, il est préférable d'utiliser une seule ligne dans laquelle certaines
 cellules sont divisées verticalement par l'utilisation d'environnements
 `\tabular` imbriqués :
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 would allow the use of `B` in table preambles to specify a bold
 centered column.
 
@@ -836,7 +1009,10 @@ centered column.
 Often, rather than making a cell span multiple rows it is better to instead have
 a single row in which some cells are split vertically by the use of nested
 `tabular` environments.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
@@ -860,6 +1036,7 @@ a single row in which some cells are split vertically by the use of nested
 <!-- {% endraw %} -->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 L'alignement vertical peut être contrôlé par un argument optionnel de
 l'environnement `\tabular` ; cet argument peut valoir `t`, `c`, ou `b` pour
 avoir un alignement eu haut (_**t**op_), au milieu (_**c**entered_) ou en bas
@@ -869,6 +1046,11 @@ Note that you can control vertical alignment by an optional argument to the
 `tabular`; it supports the usage of `t`, `c`, or `b` for top, centered, or
 bottom aligned respectively and is used like this:
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+Note that you can control vertical alignment by an optional argument to the
+`tabular`; it supports the usage of `t`, `c`, or `b` for top, centered, or
+bottom aligned respectively and is used like this:
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 <!-- {% raw %} -->
 ```latex
@@ -892,6 +1074,7 @@ bottom aligned respectively and is used like this:
 <!-- {% endraw %} -->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## Espacement des lignes dans les tableaux
 
@@ -901,6 +1084,8 @@ Dans la leçon principale, nous avons présenté `\addlinespace` du package
 Il y a aussi deux paramètres généraux qui contrôlent l'espacement des lignes :
 `\arraystretch` et `\extrarowheight` (ce dernier du package `array`).
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ## Line spacing in tables
 
 In the main lesson we demonstrated `\addlinespace` from the `booktabs`
@@ -909,16 +1094,22 @@ package, which is useful for adding extra space between specific lines.
 There are two general parameters that control line spacing,
 `\arraystretch` and `\extrarowheight` (the latter from the `array`
 package).
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \renewcommand\arraystretch{1.5}
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 augmentera de 50% l'espace entre les lignes.
 
 Souvent, surtout quand on utilise `\hline`, il est préférable de simplement augmenter la hauteur des lignes, sans augmenter leur profondeur en-dessous de la ligne de base. Cet exemple illustre le paramètre `\extrarowheight` :
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 will increase the baseline spacing by 50%.
 
@@ -926,7 +1117,10 @@ will increase the baseline spacing by 50%.
 Often, especially when using `\hline`, it is better just to increase
 the height of rows, without increasing their depth below the baseline.
 The following example demonstrates the `\extrarowheight` parameter.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass[a4paper]{article}
@@ -935,6 +1129,7 @@ The following example demonstrates the `\extrarowheight` parameter.
 \begin{document}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 \begin{center}
 \begin{tabular}{cc}
 \hline
@@ -942,6 +1137,8 @@ Carré & $x^2$ \\
 \hline
 Cube  & $x^3$ \\
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 \begin{center}
 \begin{tabular}{cc}
@@ -949,19 +1146,27 @@ Cube  & $x^3$ \\
 Square& $x^2$\\
 \hline
 Cube& $x^3$\\
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \hline
 \end{tabular}
 \end{center}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \begin{center}
 \setlength\extrarowheight{2pt}
 \begin{tabular}{cc}
 \hline
+<<<<<<< HEAD
 <<<<<<< HEAD
 Carré & $x^2$ \\
 \hline
@@ -971,6 +1176,11 @@ Square& $x^2$\\
 \hline
 Cube& $x^3$\\
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+Square& $x^2$\\
+\hline
+Cube& $x^3$\\
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \hline
 \end{tabular}
 \end{center}

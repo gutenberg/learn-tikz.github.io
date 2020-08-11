@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Choisir des polices de caractères et utiliser Unicode : pour aller plus loin"
 ---
 
@@ -19,6 +20,8 @@ Nous ne parlerons pas de la programmation en Lua ici, mais voici un exemple
 de calcul de 2π :
 
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 title: "More on: Selecting fonts and using Unicode engines"
 ---
 
@@ -39,7 +42,10 @@ modify the behaviour by substituting new code written in Lua.
 
 Lua programming is not covered by this course but a simple example to
 calculate 2π is shown here.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 %!TEX lualatex

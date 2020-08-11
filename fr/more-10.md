@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Écrire les mathématiques : pour aller plus loin"
 ---
 
@@ -13,6 +14,8 @@ d'alignement, et `multline` pour fractionner une grosse expression sur plusieurs
 tous les cas, la forme étoilée (avec `*`) supprime la numérotation des
 équations.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 title: "More on: Mathematics"
 ---
 
@@ -25,7 +28,10 @@ for multi-line displays that do not need alignment, and `multline` for
 splitting a larger single expression over multiple lines, aligning the
 first line to the left, and the last to the right. In all cases the `*`
 form  omits the equation numbers by default.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass[a4paper]{article}
@@ -35,9 +41,13 @@ form  omits the equation numbers by default.
 
 \begin{document}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 Gather
 \begin{gather}
   P(x)=ax^{5}+bx^{4}+cx^{3}+dx^{2}+ex +f\\
@@ -54,6 +64,7 @@ Multline
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ### Les colonnes dans les alignements mathématiques
 
@@ -62,13 +73,18 @@ colonnes par paires, la première colonne de chaque paire étant alignée à dro
 et la seconde à gauche. Cela permet d'afficher plusieurs équations, chacune
 étant alignée sur son symbole de relation.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ### Columns in math alignments
 
 The `amsmath` alignment environments are designed to take pairs of
 columns with the first column of each pair aligned to the right and
 the second aligned to the left. This allows multiple equations to be
 shown, each aligned towards its relation symbol.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass{article}
@@ -85,16 +101,22 @@ r &= s^{2} &  t &=u^{3} &  v &= w^{4}
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 En outre, il existe des variantes des environnements mathématiques « en
 exergue » se terminant par `ed`, qui permettent de composer une sous-formule
 destinée à être incluse dans une formule plus grande. Par exemple, `aligned`
 and `gathered` sont les variantes de `align` and `gather`, respectivement :
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 In addition there are variants of the display environments ending
 in `ed` that make a subterm of a larger display for example, `aligned` and
 `gathered`.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass{article}
@@ -117,6 +139,7 @@ d&=c
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 L'environnement `aligned` prend un argument optionnel similaire à `tabular`,
 utile pour aligner une formule mathématique sur sa ligne supérieure. Comparez
 par exemple les différents éléments de la liste :
@@ -125,6 +148,11 @@ par exemple les différents éléments de la liste :
 This is often useful to align an inline math formula on its top row;
 compare the items in the list in the following example.
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+`aligned` takes a positional optional argument similar to `tabular`.
+This is often useful to align an inline math formula on its top row;
+compare the items in the list in the following example.
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass{article}
@@ -147,6 +175,7 @@ c&=d
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## La gras en mode mathématique
 
 En LaTeX standard, il y a deux façons de mettre en gras des symboles
@@ -154,12 +183,17 @@ mathématiques. Pour mettre une expression entière en gras, utilisez `\boldmath
 avant l'expression. La commande `\mathbf`, elle, est faite pour mettre des
 lettres individuelles ou des mots en romain gras.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ## Bold Math
 Standard LaTeX has two methods to give bold symbols in math. To make
 an entire expression bold, use `\boldmath` before entering the
 expression. The command `\mathbf` is also available to set individual
 letters or words in upright bold roman.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass[a4paper]{article}
@@ -178,6 +212,7 @@ $\mathbf{\pi} r^2$ % bad use of \mathbf
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Si vous souhaitez accéder à des symboles en gras (comme le ferait `\boldmath`)
 dans une expression non-grasse, vous pouvez utiliser la commande `\bm` du package
 `bm`. La commande `\bm` fonctionne également avec des symboles tels que `=` et
@@ -185,12 +220,17 @@ les lettres grecques (alors que `\mathbf` n'avait aucun effet sur `\pi` dans
 l'exemple ci-dessus).
 
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 If you want to access bold symbols (as would be used by `\boldmath`)
 within an otherwise normal weight expression, then you can use the
 command `\bm` from the `bm` package. Note that `\bm` also works with
 symbols such as `=` and Greek letters. (Note that `\mathbf` has no effect
 on `\pi` in the example above.)
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass[a4paper]{article}
@@ -209,6 +249,7 @@ $\alpha + \bm{\alpha} < \beta + \bm{\beta}$
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Le package `mathtools`
 
 Le package `mathtools` charge `amsmath` et ajoute des fonctionnalités
@@ -216,11 +257,16 @@ supplémentaires, telles que des environnements pour les matrices comme
 ceux de `amsmath`, mais permettant de spécifier l'alignement des colonnes.
 
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ## Mathtools
 The package `mathtools` loads `amsmath` and adds several additional
 features, such as variants of the `amsmath` matrix environments that
 allow the column alignment to be specified.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ```latex
 \documentclass[a4paper]{article}
 \usepackage[T1]{fontenc}
@@ -240,6 +286,7 @@ allow the column alignment to be specified.
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Mathématiques et Unicode
 
 Comme nous le verrons dans [la leçon 14](lesson-14), il existe des variantes de
@@ -250,6 +297,8 @@ OpenType. Les détails de ce package ne sont pas couverts par ce cours et nous
 vous renvoyons [à sa documentation](https://texdoc.net/pkg/unicode-math).
 Cependant, voici un petit exemple :
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ## Unicode Math
 
 As will be seen in [Lesson 14](lesson-14), there are variant TeX
@@ -259,7 +308,10 @@ to use OpenType Math fonts. The details of this package are beyond
 this course and we refer you to the
 [package documentation](https://texdoc.net/pkg/unicode-math).
 However, we give a small example here.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```
 % !TEX lualatex

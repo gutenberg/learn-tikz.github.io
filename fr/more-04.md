@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Structure logique de votre document : pour aller plus loin"
 ---
 
@@ -8,6 +9,8 @@ title: "Structure logique de votre document : pour aller plus loin"
 LaTeX offre un balisage logique pour le titre des documents : trois commandes
 pour définir les « méta-données » et une pour les utiliser.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 title: "More on: Logical structure"
 ---
 
@@ -15,11 +18,15 @@ title: "More on: Logical structure"
 
 LaTeX offers some logical markup for the title of documents: three commands
 to set up 'meta-data' and one to use it.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 \begin{document}
@@ -55,6 +62,8 @@ classes de base de LaTeX, comme `book`, et l'adapter à vos besoins.
 Outre les types de listes « ordonnées » et « non ordonnées », LaTeX en fournit
 une autre, moins courante : les « listes descriptives ».
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \begin{document}
 \author{A.~N.~Other \and D.~Nobacon}
 \title{Some things I did}
@@ -81,11 +90,15 @@ as a starting point.
 ## Descriptive lists
 In addition to the "ordered" and "unordered" types of lists, LaTeX provides
 another one, less common: the "descriptive lists".
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 \begin{document}
@@ -98,6 +111,8 @@ another one, less common: the "descriptive lists".
   souvent le chat domestique pour le distinguer des autres membres de la
   famille, tous sauvages.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \begin{document}
 
 \begin{description}
@@ -106,12 +121,16 @@ another one, less common: the "descriptive lists".
 \item[Cat:] domestic species of small carnivorous mammal. It is the only
   domesticated species in the family Felidae and is often referred to as the
   domestic cat to distinguish it from the wild members of the family.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 \end{description}
 
 \end{document}
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 ## Travaux pratiques
@@ -124,6 +143,8 @@ argument ?
 Dressez des listes descriptives, et imbriquez certaines d'entre elles dans
 d'autres (ordonnées, non ordonnées ou descriptives).
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 ## Exercises
 
 Try setting up different `\author`, `\title` and `\date` information to test
@@ -132,4 +153,7 @@ have an author, a title and a date in them?
 
 Make some descriptive lists, and nest some of them inside another ones (ordered,
 unordered or descriptive).
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.

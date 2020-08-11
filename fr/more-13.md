@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "S'organiser pour écrire un document long : pour aller plus loin"
 ---
 
@@ -14,6 +15,8 @@ auxiliaires. Vous aurez besoin de trois instructions :
 - La commande `\index`, qui permet de définir les entrées de l'index au fil du texte,
 - La commande `\printindex`, qui insère l'index dans le document.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 title: "More on: Structuring longer documents"
 ---
 
@@ -27,7 +30,10 @@ instructions to LaTeX:
 - The `\makeindex` command, which enables creation of an index
 - The `\index` command, which marks up index entries
 - The `\printindex` command, which prints the index
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 
 ```latex
 \documentclass{article}
@@ -49,14 +55,20 @@ Even more text\index{gamma@$\gamma$}.
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Nous avons illustré ici deux fonctionnalités de la création d'un index : la
 subdivision en utilisant `!`, et l'affichage de quelque chose de différent du
 « texte de tri » d'une entrée d'index en utilisant `@`. On peut personnaliser
 beaucoup de choses dans un index ; testez l'exemple et regardez comment ça
 fonctionne.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 We've shown two features of indexing here: subdivision using `!`, and printing
 something different from the 'sort text' of an index entry using `@`. There
 is a lot of customisation possible with an index; try out the example and see
 how it works.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.

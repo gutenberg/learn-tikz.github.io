@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Votre premier document avec LaTeX: pour aller plus loin"
 ---
 
@@ -52,6 +53,8 @@ car `\\` est utilisé pour indiquer un retour à la ligne, et `\~` et `\^` sont
 utilisés pour produire des accents tilde et circonflexe lorsqu'on utilise
 uniquement des caractères ASCII en entrée.
 =======
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 title: "More on: Your first LaTeX document"
 ---
 
@@ -98,4 +101,7 @@ For the last three symbols there are no short commands available,
 because `\\` is used to indicate a linebreak and `\~` and `\^` are used
 to produce tilde and circumflex accents when using only ASCII
 characters as input.
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+>>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
