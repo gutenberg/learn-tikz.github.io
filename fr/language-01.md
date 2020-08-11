@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Quelques particularités pour le français"
 next: "extra-01"
 ---
@@ -109,5 +110,23 @@ n'est pas prévu:
 \AE{}, \ae{} & A, E dans l'A \\
 \hline
 \end{tabular}
+=======
+title: "Language-specifics for English"
+next: "extra-01"
+---
+
+## hyphenation
+
+LaTeX was written for use with English, and so there are very few
+language-specific issues facing authors in English. The main one
+is hyphenation: UK and US traditions are different. LaTeX starts out
+using US English patterns, but you can switch to UK ones using `babel`.
+
+```latex
+\documentclass{article}
+\usepackage[UKenglish]{babel}
+\begin{document}
+Some text
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 \end{document}
 ```

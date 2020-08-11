@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Écrire les mathématiques : pour aller plus loin"
 ---
 
@@ -11,6 +12,20 @@ d'alignement, et `multline` pour fractionner une grosse expression sur plusieurs
  lignes, en alignant la première ligne à gauche, et la dernière à droite. Dans
 tous les cas, la forme étoilée (avec `*`) supprime la numérotation des
 équations.
+=======
+title: "More on: Mathematics"
+---
+
+
+## Further `amsmath` alignments
+
+In addition to the `align*` environment shown in the main lesson,
+`amsmath` has several other display math constructs, notably `gather`
+for multi-line displays that do not need alignment, and `multline` for
+splitting a larger single expression over multiple lines, aligning the
+first line to the left, and the last to the right. In all cases the `*`
+form  omits the equation numbers by default.
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 
 ```latex
 \documentclass[a4paper]{article}
@@ -19,6 +34,10 @@ tous les cas, la forme étoilée (avec `*`) supprime la numérotation des
 \usepackage{amsmath}
 
 \begin{document}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 Gather
 \begin{gather}
   P(x)=ax^{5}+bx^{4}+cx^{3}+dx^{2}+ex +f\\
@@ -34,6 +53,7 @@ Multline
 \end{document}
 ```
 
+<<<<<<< HEAD
 
 ### Les colonnes dans les alignements mathématiques
 
@@ -41,6 +61,14 @@ Les environnements d'alignement `amsmath` sont conçus pour considérer les
 colonnes par paires, la première colonne de chaque paire étant alignée à droite
 et la seconde à gauche. Cela permet d'afficher plusieurs équations, chacune
 étant alignée sur son symbole de relation.
+=======
+### Columns in math alignments
+
+The `amsmath` alignment environments are designed to take pairs of
+columns with the first column of each pair aligned to the right and
+the second aligned to the left. This allows multiple equations to be
+shown, each aligned towards its relation symbol.
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 
 ```latex
 \documentclass{article}
@@ -56,10 +84,17 @@ r &= s^{2} &  t &=u^{3} &  v &= w^{4}
 \end{document}
 ```
 
+<<<<<<< HEAD
 En outre, il existe des variantes des environnements mathématiques « en
 exergue » se terminant par `ed`, qui permettent de composer une sous-formule
 destinée à être incluse dans une formule plus grande. Par exemple, `aligned`
 and `gathered` sont les variantes de `align` and `gather`, respectivement :
+=======
+
+In addition there are variants of the display environments ending
+in `ed` that make a subterm of a larger display for example, `aligned` and
+`gathered`.
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 
 ```latex
 \documentclass{article}
@@ -81,9 +116,15 @@ d&=c
 \end{document}
 ```
 
+<<<<<<< HEAD
 L'environnement `aligned` prend un argument optionnel similaire à `tabular`,
 utile pour aligner une formule mathématique sur sa ligne supérieure. Comparez
 par exemple les différents éléments de la liste :
+=======
+`aligned` takes a positional optional argument similar to `tabular`.
+This is often useful to align an inline math formula on its top row;
+compare the items in the list in the following example.
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 
 ```latex
 \documentclass{article}
@@ -105,12 +146,20 @@ c&=d
 \end{document}
 ```
 
+<<<<<<< HEAD
 ## La gras en mode mathématique
 
 En LaTeX standard, il y a deux façons de mettre en gras des symboles
 mathématiques. Pour mettre une expression entière en gras, utilisez `\boldmath`
 avant l'expression. La commande `\mathbf`, elle, est faite pour mettre des
 lettres individuelles ou des mots en romain gras.
+=======
+## Bold Math
+Standard LaTeX has two methods to give bold symbols in math. To make
+an entire expression bold, use `\boldmath` before entering the
+expression. The command `\mathbf` is also available to set individual
+letters or words in upright bold roman.
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 
 ```latex
 \documentclass[a4paper]{article}
@@ -128,12 +177,20 @@ $\mathbf{\pi} r^2$ % bad use of \mathbf
 \end{document}
 ```
 
+<<<<<<< HEAD
 Si vous souhaitez accéder à des symboles en gras (comme le ferait `\boldmath`)
 dans une expression non-grasse, vous pouvez utiliser la commande `\bm` du package
 `bm`. La commande `\bm` fonctionne également avec des symboles tels que `=` et
 les lettres grecques (alors que `\mathbf` n'avait aucun effet sur `\pi` dans
 l'exemple ci-dessus).
 
+=======
+If you want to access bold symbols (as would be used by `\boldmath`)
+within an otherwise normal weight expression, then you can use the
+command `\bm` from the `bm` package. Note that `\bm` also works with
+symbols such as `=` and Greek letters. (Note that `\mathbf` has no effect
+on `\pi` in the example above.)
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 
 ```latex
 \documentclass[a4paper]{article}
@@ -151,12 +208,19 @@ $\alpha + \bm{\alpha} < \beta + \bm{\beta}$
 \end{document}
 ```
 
+<<<<<<< HEAD
 ## Le package `mathtools`
 
 Le package `mathtools` charge `amsmath` et ajoute des fonctionnalités
 supplémentaires, telles que des environnements pour les matrices comme
 ceux de `amsmath`, mais permettant de spécifier l'alignement des colonnes.
 
+=======
+## Mathtools
+The package `mathtools` loads `amsmath` and adds several additional
+features, such as variants of the `amsmath` matrix environments that
+allow the column alignment to be specified.
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 ```latex
 \documentclass[a4paper]{article}
 \usepackage[T1]{fontenc}
@@ -175,6 +239,7 @@ ceux de `amsmath`, mais permettant de spécifier l'alignement des colonnes.
 \end{document}
 ```
 
+<<<<<<< HEAD
 ## Mathématiques et Unicode
 
 Comme nous le verrons dans [la leçon 14](lesson-14), il existe des variantes de
@@ -184,6 +249,17 @@ utiliser le package `unicode-math` pour utiliser des polices mathématiques
 OpenType. Les détails de ce package ne sont pas couverts par ce cours et nous
 vous renvoyons [à sa documentation](https://texdoc.net/pkg/unicode-math).
 Cependant, voici un petit exemple :
+=======
+## Unicode Math
+
+As will be seen in [Lesson 14](lesson-14), there are variant TeX
+engines that use OpenType fonts. By default, these engines still use
+classic TeX math fonts but you may use the `unicode-math` package
+to use OpenType Math fonts. The details of this package are beyond
+this course and we refer you to the
+[package documentation](https://texdoc.net/pkg/unicode-math).
+However, we give a small example here.
+>>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 
 ```
 % !TEX lualatex
