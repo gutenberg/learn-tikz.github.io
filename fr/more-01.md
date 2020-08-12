@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Qu'est-ce que LaTeX, et comment ça marche? Pour aller plus loin"
 ---
 
@@ -34,6 +35,9 @@ title: "More on: What is LaTeX and how does it work?"
 =======
 title: "Qu'est-ce que LaTeX, et comment ça marche? Pour aller plus loin"
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+title: "Qu'est-ce que LaTeX, et comment ça marche? Pour aller plus loin"
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 ---
 
 Le mot « LaTeX » se compose en fait de deux éléments, _La_ et _TeX_. Dans ce qui suit, nous allons décrire brièvement leur origine.
@@ -45,6 +49,7 @@ En mai 1977, le développement de TeX commença.
 Le TeX original était plutôt compliqué à utiliser, même Donald Knuth utilisait diverses macros pour éditer ses livres. Leslie Lamport, qui travaille aujourd'hui pour Microsoft, a également développé un ensemble de macros qui simplifient l'utilisation de TeX et a appelé cet ensemble de macros « LaTeX ».
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Today LaTeX is the most common way to interact with TeX. Another alternative is
 [ConTeXt](https://www.contextgarden.net/).
 <<<<<<< HEAD
@@ -54,3 +59,6 @@ Today LaTeX is the most common way to interact with TeX. Another alternative is
 =======
 Aujourd'hui, LaTeX est le moyen le plus courant d'interagir avec TeX. Une autre alternative est [ConTeXt](https://www.contextgarden.net/).
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+Aujourd'hui, LaTeX est le moyen le plus courant d'interagir avec TeX. Une autre alternative est [ConTeXt](https://www.contextgarden.net/).
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.

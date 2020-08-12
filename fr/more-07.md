@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Inclure des images et les faire Â« flotter Â» : pour aller plus loin"
 ---
 
@@ -44,6 +45,9 @@ title: "More on: Including graphics and making things 'float'"
 =======
 title: "Inclure des images et les faire « flotter »: pour aller plus loin"
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+title: "Inclure des images et les faire « flotter »: pour aller plus loin"
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 ---
 
 ## Nommer les fichiers d'images
@@ -58,6 +62,7 @@ La prise en charge des caractères accentués est quelque peu variable ; certains 
 ## Stocker les images dans un sous-répertoire
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 If you have a lot of graphics, you might want to set up the subdirectory
 in advance. That can be done using `\graphicspath`, which needs a braced entry
 for each subdirectory. For example, to include both `figs` and `pics`
@@ -71,6 +76,11 @@ Une façon courante de ranger ses fichiers sources est de placer toutes les image
 
 Si vous avez beaucoup d'images, vous souhaiterez peut-être définir à l'avance le sous-répertoire les contenant. Cela se fait en utilisant `\graphicspath`, qui nécessite une entrée (entre accolades `{...}`) pour chaque sous-répertoire. Par exemple, pour inclure les sous-répertoires `figs` et `pics`, on aurait :
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+Une façon courante de ranger ses fichiers sources est de placer toutes les images dans un sous-répertoire. Vous pouvez alors les inclure par leur chemin relatif, comme illustré ci-dessus ; notez que le caractère `/` est utilisé pour séparer des parties du chemin _même sous Windows_.
+
+Si vous avez beaucoup d'images, vous souhaiterez peut-être définir à l'avance le sous-répertoire les contenant. Cela se fait en utilisant `\graphicspath`, qui nécessite une entrée (entre accolades `{...}`) pour chaque sous-répertoire. Par exemple, pour inclure les sous-répertoires `figs` et `pics`, on aurait :
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 
 <!-- {% raw %} -->
 ```latex
@@ -78,6 +88,7 @@ Si vous avez beaucoup d'images, vous souhaiterez peut-être définir à l'avance le
 ```
 <!-- {% endraw %} -->
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,6 +131,10 @@ Notice in particular the trailing `/` in these.
 Notez que les noms de répertoires doivent se terminer par un `/` final.
 
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+Notez que les noms de répertoires doivent se terminer par un `/` final.
+
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 
 ## Produire des graphiques
 
@@ -128,6 +143,7 @@ Comme nous l'avons vu, il est facile d'inclure dans un document LaTeX des images
 Vous pouvez également créer des dessins et graphiques parfaitement adaptés à votre document LaTeX, utilisant la même police de caractères, éventuellement avec des formules mathématiques et des `\labels` auxquels avec vous pourrez vous référer en utilisant des packages LaTeX. Pour cela, vous pouvez dessiner directement à l'intérieur de votre document, avec [Ti*k*Z](https://ctan.org/pkg/pgf) ou son alternative, [PSTricks](https://ctan.org/pkg/pstricks-base). Attention, c'est pratique et puissant, mais rend rapidement le code-source de vos documents plus complexe.
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 LaTeX's float placement is complex.
 The most common request is to have the figure placed
@@ -142,11 +158,17 @@ The `float` package will do that.
 
 Le placement des flottants LaTeX est complexe, et parfois frustrant. La demande la plus courante consiste à placer l'image exactement là où elle se trouve dans le fichier d'entrée. C'est ce que fait le package `float`.
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+## Positionner des flottants
+
+Le placement des flottants LaTeX est complexe, et parfois frustrant. La demande la plus courante consiste à placer l'image exactement là où elle se trouve dans le fichier d'entrée. C'est ce que fait le package `float`.
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,6 +182,9 @@ Le placement des flottants LaTeX est complexe, et parfois frustrant. La demande 
 =======
 \usepackage{lipsum}  % Pour avoir du texte de remplissage
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+\usepackage{lipsum}  % Pour avoir du texte de remplissage
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 \usepackage{float}
 
 \begin{document}
@@ -170,6 +195,7 @@ Le placement des flottants LaTeX est complexe, et parfois frustrant. La demande 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   \caption{Une image d'exemple}
 =======
   \caption{An example image}
@@ -180,11 +206,15 @@ Le placement des flottants LaTeX est complexe, et parfois frustrant. La demande 
 =======
   \caption{Une image d'exemple}
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+  \caption{Une image d'exemple}
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 \end{figure}
 \lipsum[8-15]
 \end{document}
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -231,11 +261,22 @@ command, `\trivfloat`, to make new types of float.
 =======
 On peut définir d'autres types de flottants ; chaque type est inséré indépendamment. Ça se fait avec le package [`trivfloat`](https://ctan.org/pkg/trivfloat), qui fournit une commande unique, `\trivfloat`, pour créer de nouveaux type d'environnements de flottants.
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+Notez l'option `H`, qui met l'image « absolument ici » (_**h**ere_). Cependant, en règle générale, il est déconseillé d'utiliser `H`, car ça a tendance à laisser de grands espaces vides dans votre document.
+
+
+## D'autres types de flottants
+
+Nous [allons bientôt voir](lesson-08) qu'on peut mettre des tableaux dans des flottants, dans un environnement `table`. Cependant, rien n'oblige à mettre les images dans des environnement `figures`, et les tableaux dans des environnements `tables` ; c'est juste une convention.
+
+On peut définir d'autres types de flottants ; chaque type est inséré indépendamment. Ça se fait avec le package [`trivfloat`](https://ctan.org/pkg/trivfloat), qui fournit une commande unique, `\trivfloat`, pour créer de nouveaux type d'environnements de flottants.
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -249,6 +290,9 @@ On peut définir d'autres types de flottants ; chaque type est inséré indépendamm
 =======
 \usepackage{lipsum}  % Pour avoir du texte de remplissage
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+\usepackage{lipsum}  % Pour avoir du texte de remplissage
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 \usepackage{trivfloat}
 \trivfloat{image}
 
@@ -259,6 +303,7 @@ On peut définir d'autres types de flottants ; chaque type est inséré indépendamm
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   \caption{Une image d'exemple}
 =======
   \caption{An example image}
@@ -269,6 +314,9 @@ On peut définir d'autres types de flottants ; chaque type est inséré indépendamm
 =======
   \caption{Une image d'exemple}
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+  \caption{Une image d'exemple}
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 \end{image}
 \end{document}
 ```

@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "RÃ©fÃ©rences croisÃ©es : pour aller plus loin"
 ---
 
@@ -17,10 +18,14 @@ title: "More on: Cross-referencing"
 =======
 title: "Références croisées: pour aller plus loin"
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+title: "Références croisées: pour aller plus loin"
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 ---
 
 ## Transformer les références croisées en hyperliens
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 You can make your cross-references into hyperlinks using the `hyperref` package.
 In most cases, `hyperref` should be loaded after any other packages specified
@@ -32,6 +37,9 @@ in the document preamble.
 =======
 Vous pouvez transformer vos références croisées en hyperliens cliquables en utilisant le package `hyperref`. Dans la plupart des cas, `hyperref` doit être chargé après tout autre package du préambule de votre document.
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+Vous pouvez transformer vos références croisées en hyperliens cliquables en utilisant le package `hyperref`. Dans la plupart des cas, `hyperref` doit être chargé après tout autre package du préambule de votre document.
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 
 ```latex
 \documentclass{article}
@@ -70,6 +78,7 @@ More text here.
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 We have chosen to make the links the same color as the normal text; try removing
 `hidelinks` to see why! 
 <<<<<<< HEAD
@@ -79,3 +88,6 @@ We have chosen to make the links the same color as the normal text; try removing
 =======
 Nous avons choisi de faire les liens de la même couleur que le texte normal ; enlevez l'option `hidelinks` pour comprendre pourquoi !     :)
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+Nous avons choisi de faire les liens de la même couleur que le texte normal ; enlevez l'option `hidelinks` pour comprendre pourquoi !     :)
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.

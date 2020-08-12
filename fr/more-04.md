@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Structure logique de votre document : pour aller plus loin"
 ---
 
@@ -16,10 +17,14 @@ title: "More on: Logical structure"
 =======
 title: "Structure logique de votre document: pour aller plus loin"
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+title: "Structure logique de votre document: pour aller plus loin"
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 ---
 
 ## Titre du document
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 LaTeX offers some logical markup for the title of documents: three commands
 to set up 'meta-data' and one to use it.
@@ -30,6 +35,9 @@ to set up 'meta-data' and one to use it.
 =======
 LaTeX offre un balisage logique pour le titre des documents : trois commandes pour définir les « méta-données » et une pour les utiliser.
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+LaTeX offre un balisage logique pour le titre des documents : trois commandes pour définir les « méta-données » et une pour les utiliser.
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 
 ```latex
 \documentclass{article}
@@ -87,6 +95,7 @@ Comme vous pouvez le voir, les commandes `\author`, `\title` et `\date` enregist
 L'apparence de la sortie de `\maketitle` dépend de la classe du document ([voir la leçon 5](lesson-05)). Il existe un environnement `titlepage` pour une mise en page personnalisée, mais ça dépasse la cadre de cette introduction.  Si vous voulez faire vos propres maquettes de documents, vous pouvez soit utiliser une classe personnalisable, comme `memoir`, soit partir d'une des classes de base de LaTeX, comme `book`, et l'adapter à vos besoins.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Descriptive lists
 In addition to the "ordered" and "unordered" types of lists, LaTeX provides
 another one, less common: the "descriptive lists".
@@ -95,11 +104,16 @@ another one, less common: the "descriptive lists".
 =======
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 =======
+=======
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 
 ## Listes descriptives
 
 Outre les types de listes « ordonnées » et « non ordonnées », LaTeX en fournit une autre, moins courante : les « listes descriptives ».
+<<<<<<< HEAD
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 
 ```latex
 \documentclass{article}
@@ -116,6 +130,7 @@ Outre les types de listes « ordonnées » et « non ordonnées », LaTeX en fou
   C'est la seule espèce domestiquée de la famille des Félins et on l'appelle
   souvent le chat domestique pour le distinguer des autres membres de la
   famille, tous sauvages.
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
@@ -140,11 +155,14 @@ Outre les types de listes « ordonnées » et « non ordonnées », LaTeX en fou
   souvent le chat domestique pour le distinguer des autres membres de la
   famille, tous sauvages.
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 \end{description}
 
 \end{document}
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -179,3 +197,11 @@ unordered or descriptive).
 =======
 Dressez des listes descriptives, et imbriquez certaines d'entre elles dans d'autres (ordonnées, non ordonnées ou descriptives).
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+
+## Travaux pratiques
+
+Essayez de changer les informations passées à`\author`, `\title` and `\date` et observez la sortie de `\maketitle`. Quels champs sont obligatoires? Toutes ces commandes doivent-elles comporter un auteur, un titre et une date dans leur argument ?
+
+Dressez des listes descriptives, et imbriquez certaines d'entre elles dans d'autres (ordonnées, non ordonnées ou descriptives).
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
