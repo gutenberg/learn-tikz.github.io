@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Inclure des images et les faire Â« flotter Â»"
 ---
 
@@ -379,3 +380,8 @@ Explorez ce que vous pouvez faire en utilisant les options `height`, `width`, `a
 
 Utilisez le package `lipsum` pour constuire un exemple assez long, puisplacez des flotteurs en utilisant les différents spécificateurs de position. Comment les différents spécificateurs interagissent-ils entre eux ?
 >>>>>>> 42e0f333... Add lessons 7, 8 and 9.
+=======
+title: "Including graphics and making things 'float' (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> ce039efd... Revert lesson 7 to English.
