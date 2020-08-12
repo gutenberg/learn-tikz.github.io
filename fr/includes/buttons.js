@@ -2,6 +2,7 @@ var buttons ={
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "edit":             "éditer",
     "copy":             "copier",
     "Open in Overleaf": "Ouvrir dans Overleaf",
@@ -32,4 +33,12 @@ var buttons ={
     "Delete Output":    "Excluir saída",
     "Compiling PDF":    "Compiling PDF"
 >>>>>>> a00a654b... Test of Github pages with original English files.
+=======
+    "edit":             "éditer",
+    "copy":             "copier",
+    "Open in Overleaf": "Ouvrir dans Overleaf",
+    "LaTeX Online":     "LaTeX Online",
+    "Delete Output":    "Fermer l'affichage",
+    "Compiling PDF":    "Compilation du PDF"
+>>>>>>> 2994ace7... Add the includes dir.
 }
