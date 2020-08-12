@@ -192,6 +192,7 @@ Nos exemples supposent l'utilisation d'une installation LaTeX à jour. Tous fonc
 
 
 ### Leçons spécifiques au français
+<<<<<<< HEAD
 >>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 =======
 
@@ -212,10 +213,13 @@ Nos exemples supposent l'utilisation d'une installation LaTeX à jour. Tous fonc
 
 ### Leçons spécifiques au français
 >>>>>>> d181a80a... French version of 'index.md' to test compilation by Jekyll.
+=======
+>>>>>>> 8d8118e2... Add back the TOCs.
 
 {% include toc.html  prefix="fr/language" %}
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307,3 +311,13 @@ and different LaTeX packages in those areas.
 {% include toc.html prefix="fr/extra" %}
 =======
 >>>>>>> ff2c4060... Try without the tables of contents.
+=======
+## Et ensuite?
+
+Nos présentes leçons, très ciblées, ne sont pas censées couvrir tout ce dont vous aurez besoin sur LaTeX ; nous voulons vous en donner suffisamment pour vous permettre de démarrer et de _comprendre_ des exemples et des conseils que vous pourrez trouver ailleurs. La question de la recherche de documentation supplémentaire est abordée [dans la dernière leçon] (lesson-16), mais la lecture d'un livre sur LaTeX reste sans doute le meilleur moyen d'en apprendre les détails. Nous vous donnons quelques recommandations dans la dernière leçon.
+
+Enfin, nous proposons une galerie de petits exemples montrant différents domaines, non couverts dans cette introduction, et différents packages LaTeX pour ces domaines.
+
+    
+{% include toc.html prefix="fr/extra" %}
+>>>>>>> 8d8118e2... Add back the TOCs.
