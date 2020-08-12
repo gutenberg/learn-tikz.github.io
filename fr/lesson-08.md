@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Les tableaux"
 ---
 
@@ -1202,3 +1203,8 @@ La fusion verticale des cellules n'est pas prise en charge par LaTeX. En général
 
 Utilisez le premier exemple ci-dessus pour expérimenter avec les tableaux. Essayez différents alignements en utilisant les types de colonnes `l`, `c` et `r`. Que se passe-t-il si vous avez trop peu d'éléments dans une ligne de tableau ? Et si vous en avez trop ? Essayez la commande `\multicolumn` pour étendre le contenu sur plusieurs colonnes.
 >>>>>>> 42e0f333... Add lessons 7, 8 and 9.
+=======
+title: "Tables (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> db557e12... Revert lesson 8 to English.
