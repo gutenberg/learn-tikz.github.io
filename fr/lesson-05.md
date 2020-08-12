@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Utiliser les classes de documents pour changer l'apparence"
 ---
 
@@ -262,3 +263,8 @@ Changez la commande `\section` ci-dessus en `\chapitre` et observez l'effet des 
 - `headings=big`,
 - `numbers=enddot`.
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
+=======
+title: "Using document classes to influence design (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Bibliographies et références biblio : pour aller plus loin"
 ---
 
@@ -80,3 +81,8 @@ Par exemple l'URL: certains anciens styles BibTeX `.bst` (notamment les « style
 
 Pour mettre à profit tout le potentiel du style que vous aurez choisi, il vous faudra découvrir l'ensemble des champs qu'il supporte et leur sémantique.
 >>>>>>> 34d927e0... End of translation of the supplemental lessons into French.
+=======
+title: "More on: Citations and references (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

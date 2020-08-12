@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Travailler avec LaTeX : pour aller plus loin"
 ---
 
@@ -81,3 +82,8 @@ Nous aborderons [XeTeX et LuaTeX plus tard](lesson-14) : tout ce que nous devons
 
 Si vous êtes au Japon, ou si vous écrivez beaucoup de japonais, vous pouvez aussi rencontrer pTeX et upTeX. Ce sont des moteurs spécialisés pour la composition verticale. LuaTeX peut faire beaucoup de choses, mais pour le moment, upTeX est le système le plus populaire pour le japonais.
 >>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
+=======
+title: "More on: Working with LaTeX (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Trouver de la documentation et demander de l'aide : pour aller plus loin"
 ---
 
@@ -57,3 +58,8 @@ Les versions actuelles de LaTeX ont également préchargé le code du langage de pr
 =======
 Les versions actuelles de LaTeX ont également préchargé le code du langage de programmation LaTeX3, précédemment disponible sous la forme du package `expl3`. Tapez `texdoc interface3` pour consulter la [description de l'interface expl3](http://texdoc.net/pkg/interface3), ou `texdoc source3` pour voir le [code source  complet d'`expl3`](http://texdoc.net/pkg/source3).
 >>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
+=======
+title: "More on: Accessing documentation and getting help (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

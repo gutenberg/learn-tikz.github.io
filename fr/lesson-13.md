@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "S'organiser pour écrire un document long"
 ---
 =======
@@ -349,3 +350,8 @@ The back cover
 <!-- {% endraw %} -->
 
 ----
+=======
+title: "Structuring longer documents (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

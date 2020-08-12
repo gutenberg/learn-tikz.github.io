@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Structure logique de votre document : pour aller plus loin"
 ---
 
@@ -205,3 +206,8 @@ Essayez de changer les informations passées à`\author`, `\title` and `\date` e
 
 Dressez des listes descriptives, et imbriquez certaines d'entre elles dans d'autres (ordonnées, non ordonnées ou descriptives).
 >>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
+=======
+title: "More on: Logical structure (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

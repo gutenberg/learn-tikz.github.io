@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Étendre les possibilités de LaTeX avec des packages"
 ---
 
@@ -230,3 +231,8 @@ document. Can you guess why this package is useful for making examples?
 =======
 Essayez de charger le package `lipsum` et ajoutez ensuite la commande `\lipsum` à votre document. Vous devinez pourquoi ce package est utile pour concevoir des exemples ?
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
+=======
+title: "Extending LaTeX using packages (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

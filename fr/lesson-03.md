@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Votre premier document avec LaTeX"
 ---
 
@@ -226,3 +227,8 @@ your PDF. Try adding some hard spaces and see how they influence line-breaking.
 =======
 Essayez d'ajouter du texte à votre premier document, de le composer et de voir les changements dans votre PDF. Faites des paragraphes différents et ajoutez des espaces variables. Explorez le fonctionnement de votre éditeur ; cliquez sur votre source et trouvez comment aller à la même ligne dans votre PDF. Essayez d'ajouter des espaces insécables et voyez comment ils modifient les sauts de lignes.
 >>>>>>> 7469f067... Translation of lessons 03 and 04 to French.
+=======
+title: "Your first LaTeX document (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

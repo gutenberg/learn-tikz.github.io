@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Trouver de la documentation et demander de l'aide"
 ---
 
@@ -269,3 +270,8 @@ work out which file it is.
 =======
 Vous devez garder sous la main votre fichier journal ; celui-ci est généré par LaTeX à chaque exécution, et porte le même nom que votre fichier d'entrée mais se termine par `.log`. Selon l'interface de votre bureau, vous devrez peut-être « afficher les extensions » pour savoir de quel fichier il s'agit.
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
+=======
+title: "Accessing documentation and getting help (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

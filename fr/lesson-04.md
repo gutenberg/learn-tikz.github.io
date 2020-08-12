@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Structure logique de votre document"
 ---
 
@@ -286,3 +287,8 @@ but more than four nested lists tends to be a bad sign anyway!
 
 Faites des listes, et emboîtez les unes dans les autres. Comment le format des chiffres ou des marqueurs change-t-il ? Vous ne pouvez utiliser que quatre niveaux d'imbrication avec le LaTeX standard, mais si vous devez aller plus loin, c'est soit que vous avez un besoin particulier et que les listes ne sont pas le bon outil, soit que vous devriez repenser la structure de ces listest.
 >>>>>>> 7469f067... Translation of lessons 03 and 04 to French.
+=======
+title: "Logical structure (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

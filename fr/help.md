@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Using the learnlatex.org site (French)"
 =======
 =======
@@ -287,3 +288,9 @@ the comment.
       and we thank the developers of those services for making updates to enable
       the examples on this site to be available at an early stage.
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
+=======
+title: "Using the learnlatex.org site (French)"
+permalink: /fr/help
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

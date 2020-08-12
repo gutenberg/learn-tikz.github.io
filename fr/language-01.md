@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Quelques particularités pour le français"
 next: "extra-01"
 ---
@@ -130,3 +131,8 @@ Some text
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 \end{document}
 ```
+=======
+title: "Language-specifics for French"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

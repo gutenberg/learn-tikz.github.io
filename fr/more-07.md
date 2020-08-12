@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Inclure des images et les faire Â« flotter Â» : pour aller plus loin"
 ---
 
@@ -320,3 +321,8 @@ On peut définir d'autres types de flottants ; chaque type est inséré indépendamm
 \end{image}
 \end{document}
 ```
+=======
+title: "More on: Including graphics and making things 'float' (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

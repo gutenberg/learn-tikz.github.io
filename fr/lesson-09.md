@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Références croisées"
 ---
 
@@ -160,3 +161,8 @@ What happens if you put a `\label` for an equation _after_ the `\end{equation}`?
 =======
 Que se passe-t-il si vous mettez un `\label` pour une équation après le `\end{equation}`?
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
+=======
+title: "Cross-referencing (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.
