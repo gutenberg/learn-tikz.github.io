@@ -8,6 +8,7 @@ title: learnlatex.org
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 =======
@@ -109,6 +110,8 @@ gêner si vous n'en avez pas besoin.
 =======
 =======
 >>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
+=======
+>>>>>>> d181a80a... French version of 'index.md' to test compilation by Jekyll.
 ## Bienvenue sur learnlatex.org (version française)!
 
 Ce site web a pour but de vous aider à faire les premiers pas avec LaTeX, un système de composition de documents conçu pour produire des documents de haute qualité. LaTeX peut paraître effrayant pour de nouveaux utilisateurs car ce _n'est pas_ un traitement de texte, et parce que ce n'est pas un programme unique. Notre objectif est de vous aider à démarrer facilement et rapidement, sans essayer de _tout_ vous montrer en une seule fois.
@@ -117,13 +120,17 @@ Pour ce faire, nous avons pris 16 des notions les plus importantes pour commence
 
 Nous savons que les gens voudront en savoir plus que le contenu de ces 16 courtes leçons. Afin de vous guider lorsque vous avez besoin de plus d'informations, nous avons donc inclus une page « pour aller plus loin » à la fin de chaque leçon. Ces informations supplémentaires sont là pour vous aider lorsque vous avez besoin de détails, mais ne doivent pas vous gêner si vous n'en avez pas besoin.
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
 =======
 >>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
+=======
+>>>>>>> d181a80a... French version of 'index.md' to test compilation by Jekyll.
 
 
 ## Comment fonctionnent les exemples
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Pour vous aider à apprendre, le site comprend de nombreux exemples.
@@ -191,10 +198,24 @@ Nos exemples supposent l'utilisation d'une installation LaTeX à jour. Tous fonc
 
 ### Additional lessons specific to learnlatex.org/fr
 >>>>>>> a00a654b... Test of Github pages with original English files.
+=======
+Pour vous aider à apprendre, le site comprend de nombreux exemples. Dans le but de vous aider à démarrer, nous avons configuré nos exemples de manière à ce que vous puissiez les exécuter et les modifier directement dans la page web. Nous les avons également reliés à [Overleaf](https://www.overleaf.com/), l'un des services d'édition LaTeX en ligne les plus populaires. Mais [dans la leçon 2](lesson-02), nous parlerons de la façon dont vous pouvez utiliser LaTeX à la fois en ligne et avec une installation locale sur votre PC. Donc ne vous inquiétez pas, vous pouvez aussi utiliser les exemples sur votre machine. Pour en savoir plus sur la façon d'utiliser les exemples, [regardez la page d'aide](help).
+
+Nos exemples supposent l'utilisation d'une installation LaTeX à jour. Tous fonctionnent avec nos deux systèmes de démonstration en ligne, donc si vous obtenez des erreurs avec les exemples que nous fournissons, vérifiez d'abord que votre système LaTeX est à jour.
+
+
+## Les leçons principales
+
+{% include toc.html  prefix="fr/lesson" %}
+
+
+### Leçons spécifiques au français
+>>>>>>> d181a80a... French version of 'index.md' to test compilation by Jekyll.
 
 {% include toc.html  prefix="fr/language" %}
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -263,14 +284,15 @@ Nos présentes leçons, très ciblées, ne sont pas censées couvrir tout ce don
 =======
 ## Going further
 >>>>>>> a00a654b... Test of Github pages with original English files.
+=======
+## Et ensuite?
 
-The focused lessons here are not meant to cover everything you'll ever need to
-know about LaTeX; we want to give you enough to get started and to _understand_
-examples and advice elsewhere. We cover getting more information in [the last
-lesson](lesson-16), but it's worth saying now that getting access to a book
-about LaTeX is still the  best way to learn the details. We've given some
-recommendations in the last lesson.
+Nos présentes leçons, très ciblées, ne sont pas censées couvrir tout ce dont vous aurez besoin sur LaTeX ; nous voulons vous en donner suffisamment pour vous permettre de démarrer et de _comprendre_ des exemples et des conseils que vous pourrez trouver ailleurs. La question de la recherche de documentation supplémentaire est abordée [dans la dernière leçon] (lesson-16), mais la lecture d'un livre sur LaTeX reste sans doute le meilleur moyen d'en apprendre les détails. Nous vous donnons quelques recommandations dans la dernière leçon.
+>>>>>>> d181a80a... French version of 'index.md' to test compilation by Jekyll.
 
+Enfin, nous proposons une galerie de petits exemples montrant différents domaines, non couverts dans cette introduction, et différents packages LaTeX pour ces domaines.
+
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 =======
@@ -278,5 +300,7 @@ Finally we offer a gallery of small examples showing
 a range of different subject areas not covered in this introduction,
 and different LaTeX packages in those areas.
 >>>>>>> a00a654b... Test of Github pages with original English files.
+=======
+>>>>>>> d181a80a... French version of 'index.md' to test compilation by Jekyll.
     
 {% include toc.html prefix="fr/extra" %}
