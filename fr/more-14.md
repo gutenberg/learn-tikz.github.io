@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Choisir des polices de caractères et utiliser Unicode : pour aller plus loin"
 ---
 
@@ -67,3 +68,8 @@ $ 2\pi \approx \directlua{ tex.print(2 * math.pi) } $
 \end{document}
 ```
 
+=======
+title: "More on: Selecting fonts and using Unicode engines (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

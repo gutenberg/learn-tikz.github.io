@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Travailler avec LaTeX"
 ---
 
@@ -217,3 +218,8 @@ Mettez en place une installation LaTeX locale _ou_ un compte avec un service LaT
 
 Vous pourrez [réaliser tous nos exercices dans votre navigateur](help.md), mais nous voulons vous aider à travailler sur de vrais documents, c'est donc le moment idéal pour vous préparer.
 >>>>>>> e20f53d8... Translation of lessons 01 and 02 to French.
+=======
+title: "Working with LaTeX (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

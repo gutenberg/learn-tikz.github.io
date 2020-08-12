@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "More on: Accessing documentation and getting help (French)"
 =======
 title: "Comprendre les erreurs : pour aller plus loin"
@@ -324,3 +325,8 @@ Dans cet exemple, le changement de taille est fermé par erreur avec une parenth
       if(editors['pre6'] != null) editors['pre6'].moveCursorTo(4, 30, false);
   }, false);
 </script>
+=======
+title: "More on: Dealing with errors (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

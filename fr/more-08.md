@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Les tables : pour aller plus loin"
 ---
 
@@ -1296,3 +1297,8 @@ Cube& $x^3$\\
 \end{center}
 \end{document}
 ```
+=======
+title: "More on: Tables (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

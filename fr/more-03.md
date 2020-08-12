@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Votre premier document avec LaTeX: pour aller plus loin"
 ---
 
@@ -136,3 +137,8 @@ Pour les trois derniers symboles, il n'y a pas de commandes courtes disponibles,
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
 =======
 >>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
+=======
+title: "More on: Your first LaTeX document (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Accessing documentation and getting help (French)"
 =======
 title: "Comprendre les erreurs"
@@ -397,3 +398,8 @@ Produce small documents with different errors and note the form of the error mes
       if(editors['pre9'] != null) editors['pre9'].moveCursorTo(7, 0, false);
   }, false);
 </script>
+=======
+title: "Dealing with errors (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

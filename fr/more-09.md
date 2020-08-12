@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "RÃ©fÃ©rences croisÃ©es : pour aller plus loin"
 ---
 
@@ -91,3 +92,8 @@ Nous avons choisi de faire les liens de la même couleur que le texte normal ; en
 =======
 Nous avons choisi de faire les liens de la même couleur que le texte normal ; enlevez l'option `hidelinks` pour comprendre pourquoi !     :)
 >>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
+=======
+title: "More on: Cross-referencing (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

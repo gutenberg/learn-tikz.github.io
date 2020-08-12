@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Écrire les mathématiques : pour aller plus loin"
 ---
 
@@ -385,3 +386,8 @@ Unicode Math Alphanumerics
 
 \end{document}
 ```
+=======
+title: "More on: Mathematics (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

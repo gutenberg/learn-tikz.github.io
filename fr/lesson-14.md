@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Choisir des polices de caractères et utiliser Unicode"
 ---
 
@@ -223,3 +224,8 @@ change things like hyphenation patterns and so on, and the `babel` and
 =======
 Lors du passage d'une langue à l'autre, il est important de modifier également des éléments comme les motifs de césure, etc. Les packages `babel` et `polyglossia` sont là pour s'occuper de ça de façon robuste.
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
+=======
+title: "Selecting fonts and using Unicode engines (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

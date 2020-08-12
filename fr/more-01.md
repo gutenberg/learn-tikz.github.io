@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Qu'est-ce que LaTeX, et comment ça marche? Pour aller plus loin"
 ---
 
@@ -62,3 +63,8 @@ Aujourd'hui, LaTeX est le moyen le plus courant d'interagir avec TeX. Une autre 
 =======
 Aujourd'hui, LaTeX est le moyen le plus courant d'interagir avec TeX. Une autre alternative est [ConTeXt](https://www.contextgarden.net/).
 >>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
+=======
+title: "More on: What is LaTeX and how does it work? (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

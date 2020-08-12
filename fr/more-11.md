@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Mise en forme du texte : fontes et espacements -- Pour aller plus loin"
 ---
 
@@ -94,3 +95,8 @@ vous puissiez en voir l'effet ici !
 >>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 \end{document}
 ```
+=======
+title: "More on: Formatting: fonts and spacing (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "S'organiser pour écrire un document long : pour aller plus loin"
 ---
 
@@ -97,3 +98,8 @@ Nous avons illustré ici deux fonctionnalités de la création d'un index : la s
 =======
 Nous avons illustré ici deux fonctionnalités de la création d'un index : la subdivision en utilisant `!`, et l'affichage de quelque chose de différent du « texte de tri » d'une entrée d'index en utilisant `@`. On peut personnaliser beaucoup de choses dans un index ; testez l'exemple et regardez comment ça fonctionne.
 >>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
+=======
+title: "More on: Structuring longer documents (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

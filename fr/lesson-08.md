@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Les tableaux"
 ---
 
@@ -850,3 +851,8 @@ you have too few items in a table row? How about too many? Experiment with the
 
 Utilisez le premier exemple ci-dessus pour expérimenter avec les tableaux. Essayez différents alignements en utilisant les types de colonnes `l`, `c` et `r`. Que se passe-t-il si vous avez trop peu d'éléments dans une ligne de tableau ? Et si vous en avez trop ? Essayez la commande `\multicolumn` pour étendre le contenu sur plusieurs colonnes.
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
+=======
+title: "Tables (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

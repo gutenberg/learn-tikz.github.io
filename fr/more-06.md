@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Étendre les possibilités de LaTeX avec des packages : pour aller plus loin"
 ---
 
@@ -155,3 +156,8 @@ H"ohe
 
 \end{document}
 ```
+=======
+title: "More on: Extending LaTeX using packages (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

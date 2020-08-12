@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Mise en forme du texte: fontes et espacements"
 ---
 
@@ -301,3 +302,8 @@ the group?
 =======
 Que se passe-t-il si vous changez la taille de la police d'un grand paragraphe (essayez avec `\tiny` puis avec `\huge`) mais que vous n'émettez pas de `\par` final avant de fermer le groupe ?
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
+=======
+title: "Formatting: fonts and spacing (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

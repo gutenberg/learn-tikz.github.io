@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Exemples avancés, comme sources d'inspiration"
 ---
 
@@ -360,3 +361,8 @@ x
 \end{document}
 ```
 <!-- {% endraw %} -->
+=======
+title: "Examples for further study (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

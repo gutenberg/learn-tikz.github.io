@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Qu'est-ce que LaTeX, et comment ça marche?"
 ---
 
@@ -86,3 +87,8 @@ Pour les documents simples, on n'a besoin de compiler le fichier qu'une seule fo
 
 [Dans la prochaine leçon](lesson-02), nous allons voir que LaTeX n'est pas un programme unique. Pour simplifier les choses, nous allons nous concentrer sur un programme LaTeX particulier, pdfLaTeX, pour créer vos PDF. Plus tard dans le cours, nous jetterons un œil à d'autres programmes, et vous comprendez quand les utiliser.
 >>>>>>> e20f53d8... Translation of lessons 01 and 02 to French.
+=======
+title: "What is LaTeX and how does it work? (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

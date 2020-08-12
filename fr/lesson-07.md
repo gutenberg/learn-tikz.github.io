@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Inclure des images et les faire Â« flotter Â»"
 ---
 
@@ -265,3 +266,8 @@ specifiers interact?
 =======
 Utilisez le package `lipsum` pour constuire un exemple assez long, puisplacez des flotteurs en utilisant les différents spécificateurs de position. Comment les différents spécificateurs interagissent-ils entre eux ?
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
+=======
+title: "Including graphics and making things 'float' (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

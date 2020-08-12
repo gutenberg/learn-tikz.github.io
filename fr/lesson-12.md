@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Bibliographies et références biblio"
 =======
 title: "Citations and references"
@@ -599,3 +600,8 @@ Essayez les exemples `natbib` et `biblatex`. Pour `natbib`, vous devrez exécute
 
 Regardez ce qui se passe lorsque vous créez de nouvelles entrées dans la base de données et de nouvelles citations. Ajoutez une citation qui n'est pas dans la base de données et observez comment elle apparaît. Expérimentez avec l'option `numeric` de `natbib` et l'option `style=numeric` de `biblatex`.
 >>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
+=======
+title: "Citations and references (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.

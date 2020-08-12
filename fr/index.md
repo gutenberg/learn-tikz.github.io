@@ -7,8 +7,11 @@ title: learnlatex.org
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
+=======
+>>>>>>> a00a654b... Test of Github pages with original English files.
 ## Welcome to learnlatex.org (French)!
 
 This site aims to help you take the first steps with LaTeX, a document
@@ -34,6 +37,7 @@ To support your learning, the site includes lots of examples. In
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Lesson 2](fr/lesson-02) we will talk about how you use LaTeX both online and with
 a local installation on your own PC. To get you started, we have set up
 our examples so you can edit and run them _in the page_ they are on. We
@@ -44,6 +48,8 @@ examples [in the site help](fr/help).
 =======
 =======
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
+=======
+>>>>>>> a00a654b... Test of Github pages with original English files.
 [Lesson 2](lesson-02) we will talk about how you use LaTeX both online and
 with a local installation on your PC. To get you started, we have set up
 our examples so you can edit and run them in this website. We
@@ -51,6 +57,7 @@ have also linked them to [Overleaf](https://www.overleaf.com), one of the
 most popular online LaTeX editing services. But don't worry, you can also
 use the examples on your machine. You can read more about how to use the
 examples in [the help page](help).
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1af7671a... resync with en/index.md
 =======
@@ -64,6 +71,8 @@ examples in [the help page](help).
 >>>>>>> dddf7155... resync with en/index.md
 =======
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
+=======
+>>>>>>> a00a654b... Test of Github pages with original English files.
 
 Our examples are based around using an up-to-date LaTeX installation. They
 all work with both of our online demonstration systems, so if you get
@@ -71,6 +80,7 @@ errors with the examples we provide, you might want to check if your LaTeX
 system is up-to-date.
 
 ## The lessons
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -175,10 +185,17 @@ Nos exemples supposent l'utilisation d'une installation LaTeX à jour. Tous fonc
 
 ### Leçons spécifiques au français
 >>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
+=======
+
+{% include toc.html  prefix="fr/lesson" %}
+
+### Additional lessons specific to learnlatex.org/fr
+>>>>>>> a00a654b... Test of Github pages with original English files.
 
 {% include toc.html  prefix="fr/language" %}
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,9 +260,23 @@ and different LaTeX packages in those areas.
 ## Et ensuite?
 
 Nos présentes leçons, très ciblées, ne sont pas censées couvrir tout ce dont vous aurez besoin sur LaTeX ; nous voulons vous en donner suffisamment pour vous permettre de démarrer et de _comprendre_ des exemples et des conseils que vous pourrez trouver ailleurs. La question de la recherche de documentation supplémentaire est abordée [dans la dernière leçon] (lesson-16), mais la lecture d'un livre sur LaTeX reste sans doute le meilleur moyen d'en apprendre les détails. Nous vous donnons quelques recommandations dans la dernière leçon.
+=======
+## Going further
+>>>>>>> a00a654b... Test of Github pages with original English files.
 
-Enfin, nous proposons une galerie de petits exemples montrant différents domaines, non couverts dans cette introduction, et différents packages LaTeX pour ces domaines.
+The focused lessons here are not meant to cover everything you'll ever need to
+know about LaTeX; we want to give you enough to get started and to _understand_
+examples and advice elsewhere. We cover getting more information in [the last
+lesson](lesson-16), but it's worth saying now that getting access to a book
+about LaTeX is still the  best way to learn the details. We've given some
+recommendations in the last lesson.
 
+<<<<<<< HEAD
 >>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
+=======
+Finally we offer a gallery of small examples showing
+a range of different subject areas not covered in this introduction,
+and different LaTeX packages in those areas.
+>>>>>>> a00a654b... Test of Github pages with original English files.
     
 {% include toc.html prefix="fr/extra" %}

@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Écrire les mathématiques"
 ---
 
@@ -561,3 +562,8 @@ Les mathématiques « en exergue » sont centrées par défaut ; essayez d'ajout
 =======
 Les mathématiques « en exergue » sont centrées par défaut ; essayez d'ajouter l'option de classe de document `[fleqn]` (_flush left equation_) à certains des exemples ci-dessus pour voir un alignement différent. De même, les numéros d'équation sont généralement à droite. Essayez d'ajouter l'option de classe de document `[leqno]` (_left equation number_).
 >>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
+=======
+title: "Mathematics (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> a00a654b... Test of Github pages with original English files.
