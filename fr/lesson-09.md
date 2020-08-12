@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Références croisées"
 ---
 
@@ -229,3 +230,8 @@ Ajoutez des flottants et voyez ce qui se passe quand vous mettez `\label` _avant
 
 Que se passe-t-il si vous mettez un `\label` pour une équation après le `\end{equation}`?
 >>>>>>> 42e0f333... Add lessons 7, 8 and 9.
+=======
+title: "Cross-referencing (French)"
+---
+Translation to be added _after_ English text completed.
+>>>>>>> 09877550... Revert lesson 9 to English.
