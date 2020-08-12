@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Écrire les mathématiques"
 ---
 
@@ -130,6 +131,9 @@ title: "Mathematics"
 =======
 title: "Écrire les mathématiques"
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+title: "Écrire les mathématiques"
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 ---
 
 ## Le mode mathématique
@@ -206,17 +210,22 @@ Ce mode est notamment utile pour les intégrales:
 
 \begin{document}
 <<<<<<< HEAD
+<<<<<<< HEAD
 A paragraph about a larger equation
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 =======
 Paragraphe à propos d'une formule volumineuse:
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+Paragraphe à propos d'une formule volumineuse:
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 \[
 \int_{-\infty}^{+\infty} e^{-x^2} \, dx
 \]
 \end{document}
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Vous voyez comment la notation des indices et exposants est utilisée pour fixer
@@ -240,6 +249,9 @@ integration.
 =======
 Vous voyez comment la notation des indices et exposants est utilisée pour fixer les limites de l'intégrale?
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+Vous voyez comment la notation des indices et exposants est utilisée pour fixer les limites de l'intégrale?
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 
 Nous avons inséré un espacement manuel ici : `\,` ajoute une espace fine avant le `dx`, dont nous avons besoin pour que cela ne ressemble pas à un produit.
 
@@ -251,17 +263,22 @@ On a l'habitude de souvent numéroter les formules. Ça se fait automatiquement 
 
 \begin{document}
 <<<<<<< HEAD
+<<<<<<< HEAD
 A paragraph about a larger equation
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 =======
 Paragraphe à propos d'une formule volumineuse:
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+Paragraphe à propos d'une formule volumineuse:
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 \begin{equation}
 \int_{-\infty}^{+\infty} e^{-x^2} \, dx
 \end{equation}
 \end{document}
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Le numéro de la formule est incrémenté automatiquement et peut être un simple
@@ -294,6 +311,9 @@ are set up by the document class and not described here.
 =======
 Le numéro de la formule est incrémenté automatiquement et peut être un simple nombre ordinal comme dans cet exemple ou peut être préfixé par le numéro de la section, donc _(2.5)_ pour la 5<sup>e</sup> équation de la section 2. Les détails de la mise en forme sont définis par la classe de document et ne sont pas décrits ici.
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+Le numéro de la formule est incrémenté automatiquement et peut être un simple nombre ordinal comme dans cet exemple ou peut être préfixé par le numéro de la section, donc _(2.5)_ pour la 5<sup>e</sup> équation de la section 2. Les détails de la mise en forme sont définis par la classe de document et ne sont pas décrits ici.
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 
 
 ## Le package `amsmath`
@@ -307,11 +327,15 @@ L'écriture mathématique est très riche, ce qui signifie que les outils intég
 
 \begin{document}
 <<<<<<< HEAD
+<<<<<<< HEAD
 Solve the following recurrence for $ n,k\geq 0 $:
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 =======
 Résoudre la récurrence suivante pour $ n,k\geq 0 $:
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+Résoudre la récurrence suivante pour $ n,k\geq 0 $:
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 \begin{align*}
   Q_{n,0} &= 1   \quad Q_{0,k} = [k=0];  \\
   Q_{n,k} &= Q_{n-1,k}+Q_{n-1,k-1}+\binom{n}{k}, \quad\text{for $n$, $k>0$.}
@@ -319,6 +343,7 @@ Résoudre la récurrence suivante pour $ n,k\geq 0 $:
 \end{document}
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 L'environnement `\align*` fait que les équations s'alignent sur les esperluettes
@@ -348,6 +373,9 @@ another math mode command, `\binom`, for a binomial.
 =======
 L'environnement `\align*` fait que les équations s'alignent sur les esperluettes (les symboles `&`), comme dans un tableau. Remarquez comment nous avons utilisé `\quad` pour insérer un peu d'espace, et `\text` pour mettre du texte normal dans le mode mathématique. Nous avons également utilisé une autre commande en mode mathématique, `\binom`, pour une binomiale.
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+L'environnement `\align*` fait que les équations s'alignent sur les esperluettes (les symboles `&`), comme dans un tableau. Remarquez comment nous avons utilisé `\quad` pour insérer un peu d'espace, et `\text` pour mettre du texte normal dans le mode mathématique. Nous avons également utilisé une autre commande en mode mathématique, `\binom`, pour une binomiale.
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 
 Nous avons utilisé ici `align*` (avec une étoile), ce qui fait que l'équation n'est pas numérotée. La plupart des environnements mathématiques numérotent les équations par défaut, et la variante étoilée (avec un `*`) désactive cette numérotation.
 
@@ -358,10 +386,14 @@ Le package propose également plusieurs autres environnements bien pratiques, pa
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 =======
 
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 \begin{document}
 AMS matrices.
 \[
@@ -384,6 +416,7 @@ d & e & f
 ```
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ## Les fontes en mode mathématique
@@ -462,6 +495,9 @@ document `[leqno]` (_left equation number_).
 =======
 ## Les fontes en mode mathématique
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+## Les fontes en mode mathématique
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 
 Contrairement au texte normal, les changements de police en mode mathématique véhiculent souvent une signification très particulière. Elles sont donc la plupart du temps écrites explicitement. Vous aurez besoin d'un petit ensemble de commandes :
 
@@ -511,6 +547,7 @@ Essayez d'ajouter d'autres lettres grecques, en minuscules et en majuscules. Vou
 Expérimentez les commandes de changement de police : que se passe-t-il lorsque vous essayez de les imbriquer ?
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Displayed math is centered by default; try adding the document class
 option `[fleqn]` (flush
 left equation) option to some of the above examples to see a different
@@ -521,3 +558,6 @@ document class option.
 =======
 Les mathématiques « en exergue » sont centrées par défaut ; essayez d'ajouter l'option de classe de document `[fleqn]` (_flush left equation_) à certains des exemples ci-dessus pour voir un alignement différent. De même, les numéros d'équation sont généralement à droite. Essayez d'ajouter l'option de classe de document `[leqno]` (_left equation number_).
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+Les mathématiques « en exergue » sont centrées par défaut ; essayez d'ajouter l'option de classe de document `[fleqn]` (_flush left equation_) à certains des exemples ci-dessus pour voir un alignement différent. De même, les numéros d'équation sont généralement à droite. Essayez d'ajouter l'option de classe de document `[leqno]` (_left equation number_).
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.

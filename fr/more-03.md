@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Votre premier document avec LaTeX: pour aller plus loin"
 ---
 
@@ -60,6 +61,9 @@ title: "More on: Your first LaTeX document"
 =======
 title: "Votre premier document avec LaTeX: pour aller plus loin"
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+title: "Votre premier document avec LaTeX: pour aller plus loin"
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 ---
 
 ## Exécuter LaTeX
@@ -75,14 +79,20 @@ ou
 `pdflatex first.tex`
 
 pour compiler votre PDF. Notez que l'extension `.tex` est optionnelle : LaTeX supposera que les fichiers se terminent par `.tex`, sauf indication contraire de votre part.
+<<<<<<< HEAD
 
 
+=======
+
+
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 ## Caractères spéciaux
 
 If you need to type in a special character, most of the time you can simply
 use a backslash in front of it, so for example `\{` is used to print a literal
 `{`. There are a few cases where you need to use a longer command instead:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 | Symbol | Short Command (math and text) | Long Command (for text only) |
 | `{`    | `\{`          | `\textbraceleft`  |
@@ -105,6 +115,8 @@ characters as input.
 =======
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 =======
+=======
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 Si vous avez besoin de taper un caractère spécial, la plupart du temps vous pouvez simplement utiliser une barre oblique inversée devant ce caractère, par exemple `\{` est utilisé pour imprimer un '{' littéral. Dans certains cas, vous devrez utiliser une commande plus longue :
 
 | Symbole | Commande courte (maths et texte) | Commande longue (texte seulement) |
@@ -120,4 +132,7 @@ Si vous avez besoin de taper un caractère spécial, la plupart du temps vous pouv
 | `~`     |                 | `\textasciitilde`  |
 
 Pour les trois derniers symboles, il n'y a pas de commandes courtes disponibles, car `\\` est utilisé pour indiquer un retour à la ligne et `\~` et `\^` sont utilisés pour produire des accents tilde et circonflexe lorsqu'on utilise uniquement des caractères ASCII en entrée.
+<<<<<<< HEAD
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.

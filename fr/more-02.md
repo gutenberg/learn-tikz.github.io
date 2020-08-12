@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Travailler avec LaTeX : pour aller plus loin"
 ---
 
@@ -42,6 +43,9 @@ title: "More on: Working with LaTeX"
 =======
 title: "Travailler avec LaTeX: pour aller plus loin"
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+title: "Travailler avec LaTeX: pour aller plus loin"
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 ---
 
 Pour la plupart de nos exemples, nous n'utilisons pas le programme `latex` lui-même mais plutôt `pdflatex`. Il fait partie d'une famille de programmes apparentés, qui sont tous des « descendants » de `latex`. Nous avons choisi `pdflatex` parce que c'est peut-être le système le plus utilisé et qu'il produit directement des fichiers PDF.
@@ -58,6 +62,7 @@ Il y a trois moteurs courants en usage aujourd'hui :
 - LuaTeX.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 If you are in Japan, or writing lots of Japanese, you might also come across
 pTeX and upTeX. These are specialised engines for vertical typesetting. LuaTeX
 can also do a lot of this, but at the moment upTeX, in particular, is still
@@ -71,3 +76,8 @@ Nous aborderons [XeTeX et LuaTeX plus tard](lesson-14) : tout ce que nous devons
 
 Si vous êtes au Japon, ou si vous écrivez beaucoup de japonais, vous pouvez aussi rencontrer pTeX et upTeX. Ce sont des moteurs spécialisés pour la composition verticale. LuaTeX peut faire beaucoup de choses, mais pour le moment, upTeX est le système le plus populaire pour le japonais.
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+Nous aborderons [XeTeX et LuaTeX plus tard](lesson-14) : tout ce que nous devons savoir pour l'instant est qu'ils sont capables de charger les polices du système d'exploitation, alors que pdfTeX ne peut pas le faire.
+
+Si vous êtes au Japon, ou si vous écrivez beaucoup de japonais, vous pouvez aussi rencontrer pTeX et upTeX. Ce sont des moteurs spécialisés pour la composition verticale. LuaTeX peut faire beaucoup de choses, mais pour le moment, upTeX est le système le plus populaire pour le japonais.
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.

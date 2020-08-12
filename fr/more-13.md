@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "S'organiser pour écrire un document long : pour aller plus loin"
 ---
 
@@ -22,12 +23,16 @@ title: "More on: Structuring longer documents"
 =======
 title: "S'organiser pour écrire un document long: pour aller plus loin"
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+title: "S'organiser pour écrire un document long: pour aller plus loin"
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 ---
 
 ## Ajouter un index
 
 Selon le type de document que vous rédigez, vous pouvez vouloir un index. Sa construction est automatisée par le package `imakeidx`, et ça fonctionne en interne un peu comme une bibliographie: LaTeX écrit puis relit des fichiers auxiliaires. Vous aurez besoin de trois instructions :
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 - The `\makeindex` command, which enables creation of an index
 - The `\index` command, which marks up index entries
@@ -41,6 +46,11 @@ Selon le type de document que vous rédigez, vous pouvez vouloir un index. Sa co
 - La commande `\index`, qui permet de définir les entrées de l'index au fil du texte,
 - La commande `\printindex`, qui insère l'index dans le document.
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+- La commande `\makeindex`, qui initialise la création d'un index,
+- La commande `\index`, qui permet de définir les entrées de l'index au fil du texte,
+- La commande `\printindex`, qui insère l'index dans le document.
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
 
 ```latex
 \documentclass{article}
@@ -64,6 +74,7 @@ Even more text\index{gamma@$\gamma$}.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Nous avons illustré ici deux fonctionnalités de la création d'un index : la
 subdivision en utilisant `!`, et l'affichage de quelque chose de différent du
 « texte de tri » d'une entrée d'index en utilisant `@`. On peut personnaliser
@@ -83,3 +94,6 @@ how it works.
 =======
 Nous avons illustré ici deux fonctionnalités de la création d'un index : la subdivision en utilisant `!`, et l'affichage de quelque chose de différent du « texte de tri » d'une entrée d'index en utilisant `@`. On peut personnaliser beaucoup de choses dans un index ; testez l'exemple et regardez comment ça fonctionne.
 >>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
+=======
+Nous avons illustré ici deux fonctionnalités de la création d'un index : la subdivision en utilisant `!`, et l'affichage de quelque chose de différent du « texte de tri » d'une entrée d'index en utilisant `@`. On peut personnaliser beaucoup de choses dans un index ; testez l'exemple et regardez comment ça fonctionne.
+>>>>>>> 90a16055... Translation of remaining lessons into French + all the "moree" lessons except 08, 10 and 15.
