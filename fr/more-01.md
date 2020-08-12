@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Qu'est-ce que LaTeX, et comment ça marche? Pour aller plus loin"
 ---
 
@@ -30,29 +31,26 @@ alternative est [ConTeXt](https://www.contextgarden.net/).
 =======
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
 title: "More on: What is LaTeX and how does it work?"
+=======
+title: "Qu'est-ce que LaTeX, et comment ça marche? Pour aller plus loin"
+>>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
 ---
 
-The word “LaTeX” actually consists of two components, “La” and “TeX”. In the
-following we will briefly describe where they come from.
+Le mot « LaTeX » se compose en fait de deux éléments, _La_ et _TeX_. Dans ce qui suit, nous allons décrire brièvement leur origine.
 
-TeX was originally invented by Stanford professor Donald Knuth. Knuth is
-well known for a series of books called the “Art of Computer Programming”
-(known as "TAOCP"). In
-1973 a new edition of the books was to be made; this was the time when the
-typesetting industry switched from traditional typesetting with lead to
-photo-based typesetting. Donald Knuth did not like the quality of the print and
-therefore decided to implement his own typesetting system.
+TeX a été inventé à l'origine par le professeur Donald Knuth de l'université de Stanford (Californie). Knuth est bien connu pour une série de livres, _The Art of Computer Programming_ (« L'Art de la programmation », surnommés « _TAOCP_ »). En 1973, une nouvelle édition de ces livres devait être publiée ; à cette époque, le monde de l'édition est passé de l'impression traditionnelle utilisant des caractères en plomb à la photocomposition. Donald Knuth fut déçu par la qualité typographique du résultat et décida donc de développer son propre système de composition.
 
-In May 1977 the development of TeX started.
+En mai 1977, le développement de TeX commença.
 
-The original TeX was rather complicated to use, even Donald Knuth used various
-macros to edit his books. Leslie Lamport, who works for Microsoft nowadays, also
-developed a set of macros that simplify the use of TeX and called this macro
-set “LaTeX”.
+Le TeX original était plutôt compliqué à utiliser, même Donald Knuth utilisait diverses macros pour éditer ses livres. Leslie Lamport, qui travaille aujourd'hui pour Microsoft, a également développé un ensemble de macros qui simplifient l'utilisation de TeX et a appelé cet ensemble de macros « LaTeX ».
 
+<<<<<<< HEAD
 Today LaTeX is the most common way to interact with TeX. Another alternative is
 [ConTeXt](https://www.contextgarden.net/).
 <<<<<<< HEAD
 >>>>>>> 7231b5ea... Copy of English files (en/*) to fr/ directory, for translation.
 =======
 >>>>>>> eb42fac9... Translation of lessons 05-16 (except 10 and 12) to French.
+=======
+Aujourd'hui, LaTeX est le moyen le plus courant d'interagir avec TeX. Une autre alternative est [ConTeXt](https://www.contextgarden.net/).
+>>>>>>> b410f7ef... Translation of remaining lessons into French + all the "more" lessons except 08, 10 and 15.
