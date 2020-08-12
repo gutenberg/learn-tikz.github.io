@@ -171,6 +171,7 @@ Pour vous aider à apprendre, le site comprend de nombreux exemples. Dans le but
 
 Nos exemples supposent l'utilisation d'une installation LaTeX à jour. Tous fonctionnent avec nos deux systèmes de démonstration en ligne, donc si vous obtenez des erreurs avec les exemples que nous fournissons, vérifiez d'abord que votre système LaTeX est à jour.
 
+<<<<<<< HEAD
 
 ## Les leçons principales
 
@@ -304,3 +305,5 @@ and different LaTeX packages in those areas.
 >>>>>>> d181a80a... French version of 'index.md' to test compilation by Jekyll.
     
 {% include toc.html prefix="fr/extra" %}
+=======
+>>>>>>> ff2c4060... Try without the tables of contents.
