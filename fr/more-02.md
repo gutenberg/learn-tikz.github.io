@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Travailler avec LaTeX : pour aller plus loin"
 ---
 
@@ -90,6 +91,9 @@ Translation to be added _after_ English text completed.
 >>>>>>> a00a654b... Test of Github pages with original English files.
 =======
 title: "Travailler avec LaTeX: pour aller plus loin"
+=======
+title: "Travailler avec LaTeX : pour aller plus loin"
+>>>>>>> faf19621... I've made spacing around : and ; consistent.
 ---
 
 Pour la plupart de nos exemples, nous n'utilisons pas le programme `latex` lui-même mais plutôt `pdflatex`. Il fait partie d'une famille de programmes apparentés, qui sont tous des « descendants » de `latex`. Nous avons choisi `pdflatex` parce que c'est peut-être le système le plus utilisé et qu'il produit directement des fichiers PDF.

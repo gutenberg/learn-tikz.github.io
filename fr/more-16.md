@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Trouver de la documentation et demander de l'aide : pour aller plus loin"
 ---
 
@@ -66,6 +67,9 @@ Translation to be added _after_ English text completed.
 >>>>>>> a00a654b... Test of Github pages with original English files.
 =======
 title: "Trouver de la documentation et demander de l'aide: pour aller plus loin"
+=======
+title: "Trouver de la documentation et demander de l'aide : pour aller plus loin"
+>>>>>>> faf19621... I've made spacing around : and ; consistent.
 ---
 
 ## Le code-source documenté de {{site.latex}}

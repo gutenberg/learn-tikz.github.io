@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Choisir des polices de caractères et utiliser Unicode : pour aller plus loin"
 ---
 
@@ -76,6 +77,9 @@ Translation to be added _after_ English text completed.
 >>>>>>> a00a654b... Test of Github pages with original English files.
 =======
 title: "Choisir des polices de caractères et utiliser Unicode: pour aller plus loin"
+=======
+title: "Choisir des polices de caractères et utiliser Unicode : pour aller plus loin"
+>>>>>>> faf19621... I've made spacing around : and ; consistent.
 ---
 
 ## Lua
