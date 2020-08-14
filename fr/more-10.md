@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Écrire les mathématiques : pour aller plus loin"
 ---
 
@@ -394,6 +395,9 @@ Translation to be added _after_ English text completed.
 >>>>>>> a00a654b... Test of Github pages with original English files.
 =======
 title: "Écrire les mathématiques: pour aller plus loin"
+=======
+title: "Écrire les mathématiques : pour aller plus loin"
+>>>>>>> faf19621... I've made spacing around : and ; consistent.
 ---
 
 ## Plus d'alignements avec `amsmath`
@@ -557,7 +561,7 @@ Le paquet `mathtools` charge `amsmath` et ajoute des fonctionnalités supplémen
 
 ## Mathématiques et Unicode
 
-Comme nous le verrons dans [la leçon 14](lesson-14), il existe des variantes de moteurs TeX qui utilisent des polices OpenType. Par défaut, ces moteurs utilisent toujours les polices mathématiques TeX classiques, mais vous pouvez utiliser le package `unicode-math` pour utiliser des polices mathématiques OpenType. Les détails de ce paquet ne sont pas couverts par ce cours et nous vous renvoyons [à sa documentation](https://texdoc.net/pkg/unicode-math). Cependant, voici un petit exemple:
+Comme nous le verrons dans [la leçon 14](lesson-14), il existe des variantes de moteurs TeX qui utilisent des polices OpenType. Par défaut, ces moteurs utilisent toujours les polices mathématiques TeX classiques, mais vous pouvez utiliser le package `unicode-math` pour utiliser des polices mathématiques OpenType. Les détails de ce paquet ne sont pas couverts par ce cours et nous vous renvoyons [à sa documentation](https://texdoc.net/pkg/unicode-math). Cependant, voici un petit exemple :
 
 ```
 % !TEX lualatex

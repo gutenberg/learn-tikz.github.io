@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Utiliser les classes de documents pour changer l'apparence : pour aller plus loin"
 ---
 
@@ -218,6 +219,9 @@ Translation to be added _after_ English text completed.
 >>>>>>> a00a654b... Test of Github pages with original English files.
 =======
 title: "Utiliser les classes de documents pour changer l'apparence: pour aller plus loin"
+=======
+title: "Utiliser les classes de documents pour changer l'apparence : pour aller plus loin"
+>>>>>>> faf19621... I've made spacing around : and ; consistent.
 ---
 
 ## Classes spécifiques d'un journal

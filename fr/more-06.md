@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Étendre les possibilités de LaTeX avec des packages : pour aller plus loin"
 ---
 
@@ -164,6 +165,9 @@ Translation to be added _after_ English text completed.
 >>>>>>> a00a654b... Test of Github pages with original English files.
 =======
 title: "Étendre les possibilités de LaTeX avec des packages: pour aller plus loin"
+=======
+title: "Étendre les possibilités de LaTeX avec des packages : pour aller plus loin"
+>>>>>>> faf19621... I've made spacing around : and ; consistent.
 ---
 
 ## Charger plusieurs packages à la fois

@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Mise en forme du texte : fontes et espacements -- Pour aller plus loin"
 ---
 
@@ -103,11 +104,14 @@ Translation to be added _after_ English text completed.
 >>>>>>> a00a654b... Test of Github pages with original English files.
 =======
 title: "Mise en forme du texte: fontes et espacements -- Pour aller plus loin"
+=======
+title: "Mise en forme du texte : fontes et espacements -- Pour aller plus loin"
+>>>>>>> faf19621... I've made spacing around : and ; consistent.
 ---
 
 ## Supprimer l'indentation d'un paragraphe particulier
 
-Si vous voulez supprimer l'indentation d'un seul paragraphe, vous pouvez le précéder de `\noindent`. C'est à réserver pour les cas exceptionnels; en général, LaTeX sait s'en occuper automatiquement.
+Si vous voulez supprimer l'indentation d'un seul paragraphe, vous pouvez le précéder de `\noindent`. C'est à réserver pour les cas exceptionnels ; en général, LaTeX sait s'en occuper automatiquement.
 
 ```latex
 \documentclass{article}

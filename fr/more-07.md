@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Inclure des images et les faire « flotter » : pour aller plus loin"
 ---
 
@@ -329,6 +330,9 @@ Translation to be added _after_ English text completed.
 >>>>>>> a00a654b... Test of Github pages with original English files.
 =======
 title: "Inclure des images et les faire « flotter »: pour aller plus loin"
+=======
+title: "Inclure des images et les faire « flotter » : pour aller plus loin"
+>>>>>>> faf19621... I've made spacing around : and ; consistent.
 ---
 
 ## Nommer les fichiers d'images

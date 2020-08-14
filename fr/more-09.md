@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Références croisées : pour aller plus loin"
 ---
 
@@ -100,6 +101,9 @@ Translation to be added _after_ English text completed.
 >>>>>>> a00a654b... Test of Github pages with original English files.
 =======
 title: "Références croisées: pour aller plus loin"
+=======
+title: "Références croisées : pour aller plus loin"
+>>>>>>> faf19621... I've made spacing around : and ; consistent.
 ---
 
 ## Transformer les références croisées en liens hypertextes
@@ -122,5 +126,9 @@ More text here.
 \end{document}
 ```
 
+<<<<<<< HEAD
 Nous avons choisi de faire les liens de la même couleur que le texte normal ; enlevez l'option `hidelinks` pour comprendre pourquoi !  \U0001f601
 >>>>>>> 91fc72e5... Conversion of all files to UTF-8.
+=======
+Nous avons choisi de faire les liens de la même couleur que le texte normal ; enlevez l'option `hidelinks` pour comprendre pourquoi !  &#128578;
+>>>>>>> faf19621... I've made spacing around : and ; consistent.
