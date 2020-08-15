@@ -15,6 +15,7 @@ Selon le type de document que vous rédigez, vous pouvez vouloir un index. Sa
 construction est automatisée par le package `imakeidx`, et ça fonctionne en
 interne un peu comme une bibliographie : LaTeX écrit puis relit des fichiers
 auxiliaires. Vous aurez besoin de trois instructions :
+<<<<<<< HEAD
 
 - La commande `\makeindex`, qui initialise la création d'un index,
 - La commande `\index`, qui permet de définir les entrées de l'index au fil du texte,
@@ -115,6 +116,8 @@ title: "S'organiser pour écrire un document long : pour aller plus loin"
 ## Ajouter un index
 
 Selon le type de document que vous rédigez, vous pouvez vouloir un index. Sa construction est automatisée par le package `imakeidx`, et ça fonctionne en interne un peu comme une bibliographie : LaTeX écrit puis relit des fichiers auxiliaires. Vous aurez besoin de trois instructions :
+=======
+>>>>>>> 5fff9b4b... Line wrapping to 80 columns.
 
 - La commande `\makeindex`, qui initialise la création d'un index,
 - La commande `\index`, qui permet de définir les entrées de l'index au fil du texte,
@@ -139,5 +142,13 @@ Even more text\index{gamma@$\gamma$}.
 \end{document}
 ```
 
+<<<<<<< HEAD
 Nous avons illustré ici deux fonctionnalités de la création d'un index : la subdivision en utilisant `!`, et l'affichage de quelque chose de différent du « texte de tri » d'une entrée d'index en utilisant `@`. On peut personnaliser beaucoup de choses dans un index ; testez l'exemple et regardez comment ça fonctionne.
 >>>>>>> 91fc72e5... Conversion of all files to UTF-8.
+=======
+Nous avons illustré ici deux fonctionnalités de la création d'un index : la
+subdivision en utilisant `!`, et l'affichage de quelque chose de différent du
+« texte de tri » d'une entrée d'index en utilisant `@`. On peut personnaliser
+beaucoup de choses dans un index ; testez l'exemple et regardez comment ça
+fonctionne.
+>>>>>>> 5fff9b4b... Line wrapping to 80 columns.

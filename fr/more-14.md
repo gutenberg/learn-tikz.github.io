@@ -23,6 +23,7 @@ leur comportement par du code Lua.
 
 Nous ne parlerons pas de la programmation en Lua ici, mais voici un exemple
 de calcul de 2π :
+<<<<<<< HEAD
 
 =======
 =======
@@ -89,6 +90,8 @@ Le moteur LuaTeX donne accès aux polices OpenType de la même manière que XeTe
 LuaTeX étend les fonctionnalités TeX d'autres façons, notamment en intégrant le langage de script Lua. Ce langage permet de programmer dans un style plus familier aux personnes habituées aux langages de programmation courants. Dans LuaTeX, il offre la possibilité d'accéder aux rouages internes de TeX et de modifier leur comportement par du code Lua.
 
 Nous ne parlerons pas de la programmation en Lua ici, mais voici un exemple de calcul de 2π :
+=======
+>>>>>>> 5fff9b4b... Line wrapping to 80 columns.
 
 
 ```latex
