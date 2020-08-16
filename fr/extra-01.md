@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Exemples avancés, comme sources d'inspiration"
 ---
 
@@ -369,6 +370,9 @@ Translation to be added _after_ English text completed.
 >>>>>>> a00a654b... Test of Github pages with original English files.
 =======
 title: "Examples for further study"
+=======
+title: "Exemples avancés, comme sources d'inspiration"
+>>>>>>> a7f8934d... Corrected barbarisms and typos.
 ---
 
 Ce cours a donné un aperçu des principales fonctionnalités de LaTeX.
@@ -530,14 +534,13 @@ x
 \begin{document}
 
 \begin{tikzpicture}
-\begin{axis}[]
-      % density of Normal distribution:
-      \addplot [
-            red,
-            domain=-3e-3:3e-3,
-            samples=201,
-      ]
-            {exp(-x^2 / (2e-3^2)) / (1e-3 * sqrt(2*pi))};
+\begin{axis}
+    % density of Normal distribution:
+    \addplot [red,
+              domain=-3e-3:3e-3,
+              samples=201,
+             ]
+       {exp(-x^2 / (2e-3^2)) / (1e-3 * sqrt(2*pi))} ;
 \end{axis}
 \end{tikzpicture}
 
