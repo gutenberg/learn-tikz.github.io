@@ -138,5 +138,9 @@ Nous avons choisi de faire les liens de la même couleur que le texte normal ; e
 >>>>>>> faf19621... I've made spacing around : and ; consistent.
 =======
 Nous avons choisi de faire les liens de la même couleur que le texte normal ;
+<<<<<<< HEAD
 enlevez l'option `hidelinks` pour comprendre pourquoi !  &#128578;
 >>>>>>> 5fff9b4b... Line wrapping to 80 columns.
+=======
+enlevez l'option `hidelinks` pour comprendre pourquoi ! &#128521;
+>>>>>>> c0850bfd... Translated some more examples. Fixed typos.
