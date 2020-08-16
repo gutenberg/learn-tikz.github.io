@@ -17,6 +17,7 @@ ce qui permet d'en charger plusieurs en une seule fois :
 options à `\usepackage`, elles s'appliqueront à tous les package de la liste,
 ce qui n'est pas forcément ce que vous voulez. De plus, il est sans doute plus
 <<<<<<< HEAD
+<<<<<<< HEAD
 facile de commenter les packages s'ils sont chargés séparément. Nous nous en
 tiendrons donc ici à charger chaque package sur une ligne séparée.
 
@@ -176,6 +177,9 @@ title: "Étendre les possibilités de LaTeX avec des packages : pour aller plus 
 La commande `\usepackage` prend une liste de packages séparés par des virgules, ce qui permet d'en charger plusieurs en une seule fois : `\usepackage{color,graphicx}` par exemple. Dans ce cas, si vous passez des options à `\usepackage`, elles s'appliqueront à tous les package de la liste, ce qui n'est pas forcément ce que vous voulez. De plus, il est sans doute plus facile de commenter les packages s'ils sont chargés séparément.  Nous nous en tiendrons donc ici à charger chaque package sur une ligne séparée.
 =======
 facile de commenter les packages s'ils sont chargés séparément.  Nous nous en
+=======
+facile de commenter les packages s'ils sont chargés séparément. Nous nous en
+>>>>>>> c0850bfd... Translated some more examples. Fixed typos.
 tiendrons donc ici à charger chaque package sur une ligne séparée.
 >>>>>>> 5fff9b4b... Line wrapping to 80 columns.
 

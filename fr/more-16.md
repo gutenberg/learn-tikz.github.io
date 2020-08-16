@@ -99,5 +99,9 @@ programmation LaTeX3, précédemment disponible sous la forme du package `expl3`
 Tapez `texdoc interface3` pour consulter la
 [description de l'interface expl3](http://texdoc.net/pkg/interface3), ou
 `texdoc source3` pour voir le
+<<<<<<< HEAD
 [code source  complet d'`expl3`](http://texdoc.net/pkg/source3).
 >>>>>>> c1d94734... Line-wrapping at 80 columns.
+=======
+[code source complet d'`expl3`](http://texdoc.net/pkg/source3).
+>>>>>>> c0850bfd... Translated some more examples. Fixed typos.

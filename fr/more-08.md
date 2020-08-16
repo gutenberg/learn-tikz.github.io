@@ -1317,7 +1317,7 @@ title: "Les tables : pour aller plus loin"
 La leçon n'ayant pas couvert tous les options disponibles pour les en-têtes de tableaux, quelques autres sont expliqués ici avec des exemples.  N'hésitez pas à revoir le début de la leçon pour avoir en tête toutes les possibilités existantes. Les courtes descriptions fournies devraient suffire à comprendre ce que font les différents types de colonnes `m`, `b`, `w`, et `W` après que vous ayez compris `l`, `c`, `r`, et `p`. Si ce n'est pas le cas, utilisez les exemples pour expérimenter un peu. Il restera ensuite à voir les autres « _preamble-tokens_ » disponibles, bien pratiques : `>`, `<`, `@`, `!` et `|`.
 =======
 La leçon n'ayant pas couvert tous les options disponibles pour les en-têtes de
-tableaux, quelques autres sont expliqués ici avec des exemples.  N'hésitez pas
+tableaux, quelques autres sont expliqués ici avec des exemples. N'hésitez pas
 à revoir le début de la leçon pour avoir en tête toutes les possibilités
 existantes. Les courtes descriptions fournies devraient suffire à comprendre ce
 que font les différents types de colonnes `m`, `b`, `w`, et `W` après que vous
@@ -1374,7 +1374,7 @@ l'alignement d'une seule cellule ici :
 \begin{document}
 \begin{tabular}{>{\itshape}l<{:} *{2}{l}}
   \toprule
-  \multicolumn{1}{l}{Animal} & Food  & Size   \\
+  \multicolumn{1}{l}{Animal} & Food & Size \\
   \midrule
   dog    & meat  & medium \\
   horse  & hay   & large  \\
@@ -1594,7 +1594,7 @@ C & D\\
 \end{tabular}
 \end{center}
 
-\begin{center}  
+\begin{center}
 \begin{tabular*}{.5\textwidth}{@{\extracolsep{\fill}}cc@{}}
 \hline
 A & B\\
@@ -1603,7 +1603,7 @@ C & D\\
 \end{tabular*}
 \end{center}
 
-\begin{center}  
+\begin{center}
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}cc@{}}
 \hline
 A & B\\
@@ -1638,7 +1638,7 @@ C & D D D D D D D\\
 \end{tabular}
 \end{center}
 
-\begin{center}  
+\begin{center}
 \begin{tabularx}{.5\textwidth}{lX}
 \hline
 A & B B B B B B B B B B B B B B B B B B B B B B B B\\
@@ -1647,7 +1647,7 @@ C & D D D D D D D\\
 \end{tabularx}
 \end{center}
 
-\begin{center}  
+\begin{center}
 \begin{tabularx}{\textwidth}{lX}
 \hline
 A & B B B B B B B B B B B B B B B B B B B B B B B B\\
@@ -1688,23 +1688,23 @@ Left Side & Right Side\\
 \endhead
 \hline
 \endfoot
-aa & bb\\  
-Entry & b\\  
-a & b\\  
-a & b\\  
-a & b\\  
-a & b\\  
-a & bbb\\  
-a & b\\  
-a & b\\  
-a & b\\  
-a & b\\  
-a & b\\  
-a & b\\  
-a & b b b b b b\\  
-a & b b b b b\\  
-a & b b\\  
-A Wider Entry & b\\  
+aa & bb\\
+Entry & b\\
+a & b\\
+a & b\\
+a & b\\
+a & b\\
+a & bbb\\
+a & b\\
+a & b\\
+a & b\\
+a & b\\
+a & b\\
+a & b\\
+a & b b b b b b\\
+a & b b b b b\\
+a & b b\\
+A Wider Entry & b\\
 \end{longtable}
 
 \end{document}
@@ -1782,21 +1782,21 @@ rapport à la taille du texte.
 
 \begin{tabular}[t]{lp{3cm}}
 One & A long text set in a narrow paragraph, with some more example text.\\
-Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate words.
+Two & A different long text set in a narrow paragraph, with some more hard to hyphenate words.
 \end{tabular}%
 \begin{tabular}[t]{l>{\raggedright\arraybackslash}p{3cm}}
 One & A long text set in a narrow paragraph, with some more example text.\\
-Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate words.
+Two & A different long text set in a narrow paragraph, with some more hard to hyphenate words.
 \end{tabular}%
 \begin{tabular}[t]{l>{\RaggedRight}p{3cm}}
 One & A long text set in a narrow paragraph, with some more example text.\\
-Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate words.
+Two & A different long text set in a narrow paragraph, with some more hard to hyphenate words.
 \end{tabular}
 
 \footnotesize
 \begin{tabular}[t]{lp{3cm}}
 One & A long text set in a narrow paragraph, with some more example text.\\
-Two & A different long text set in a narrow paragraph, with some more  hard to hyphenate words.
+Two & A different long text set in a narrow paragraph, with some more hard to hyphenate words.
 \end{tabular}
 
 \end{table}
@@ -1875,7 +1875,7 @@ avoir un alignement supérieur (_**t**op_), centré (_**c**entered_) ou inférie
 
 ## Espacement des lignes dans les tableaux
 
-Dans la leçon principale, nous avons présenté  `\addlinespace` du package
+Dans la leçon principale, nous avons présenté `\addlinespace` du package
 `booktabs`, qui sert à ajouter de l'espace entre des lignes spécifiques.
 
 Il y a aussi deux paramètres généraux qui contrôlent l'espacement des lignes :
