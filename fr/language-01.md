@@ -55,6 +55,7 @@ Cyrano répond au Vicomte :
 \og{}Vous\dots{} vous avez un nez\dots{} heu\dots{} un nez\dots{} très grand.\fg{}
 \end{document}
 ```
+<<<<<<< HEAD
 
 
 Notez au passage la bonne façon de composer les points de suspension, avec `\dots`.
@@ -193,6 +194,8 @@ avec les bons espacements autour d'eux :
 Cyrano répond au Vicomte :
 \og{}Vous\dots{} vous avez un nez\dots{} heu\dots{} un nez\dots{} très grand.\fg{}
 \end{document} 
+=======
+>>>>>>> a7f8934d... Corrected barbarisms and typos.
 
 
 Notez au passage la bonne façon de composer les points de suspension, avec `\dots`.

@@ -13,6 +13,7 @@ title: "Trouver de la documentation et demander de l'aide : pour aller plus loin
 
 La commande `texdoc` vue précédemment n'est pas limitée à la documentation des
 <<<<<<< HEAD
+<<<<<<< HEAD
 packages. Si vous voulez en apprendre beaucoup plus que les 16&nbsp;leçons de ce
 cours, vous pouvez étudier l'implémentation de LaTeX en détail, en suivant ces
 liens :
@@ -78,6 +79,9 @@ title: "Trouver de la documentation et demander de l'aide : pour aller plus loin
 La commande `texdoc` vue précédemment n'est pas limitée à la documentation des packages. Si vous voulez en apprendre beaucoup plus que les 16 leçons de ce cours, vous pouvez étudier l'implémentation de LaTeX en détail, en suivant ces liens :
 =======
 packages. Si vous voulez en apprendre beaucoup plus que les 16 leçons de ce
+=======
+packages. Si vous voulez en apprendre beaucoup plus que les 16&nbsp;leçons de ce
+>>>>>>> a7f8934d... Corrected barbarisms and typos.
 cours, vous pouvez étudier l'implémentation de LaTeX en détail, en suivant ces
 liens :
 >>>>>>> c1d94734... Line-wrapping at 80 columns.

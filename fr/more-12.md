@@ -102,7 +102,7 @@ Le programme BibTeX a été écrit principalement pour traiter des références 
 =======
 >>>>>>> 5fff9b4b... Line wrapping to 80 columns.
 
-Donc si vous voulez triez votre bibliographie dans un ordre autre que l'ordre
+Donc si vous voulez trier votre bibliographie dans un ordre autre que l'ordre
 anglais, vous avez vraiment intérêt à utiliser `biblatex` et Biber, plutôt que
 `natbib` et BibTeX.
 
