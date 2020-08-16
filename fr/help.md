@@ -1,7 +1,10 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Using the learnlatex.org site (French)"
 =======
+=======
+>>>>>>> e2a0112e... French translation (#88)
 title: "Utiliser le site learnlatex.org"
 permalink: /fr/help
 >>>>>>> 08062c9f... French translation (#88)

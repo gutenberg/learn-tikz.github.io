@@ -1,9 +1,13 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "More on: Accessing documentation and getting help (French)"
 =======
 title: "Comprendre les erreurs : pour aller plus loin"
 >>>>>>> 08062c9f... French translation (#88)
+=======
+title: "Comprendre les erreurs : pour aller plus loin"
+>>>>>>> e2a0112e... French translation (#88)
 ---
 
 ## Les erreurs à la fermeture des environnements

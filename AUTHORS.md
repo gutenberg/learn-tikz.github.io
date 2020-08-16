@@ -11,7 +11,10 @@ The following people have made contributions to learnlatex.org:
 - David Carlisle
 - Jim Hefferon
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> e2a0112e... French translation (#88)
 - Jérémy Just
 - Marcel Fabian Krüger
 - Frank Mittelbach

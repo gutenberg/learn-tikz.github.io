@@ -3,6 +3,7 @@ title: learnlatex.org
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Welcome to learnlatex.org (French)!
 
 This site aims to help you take the first steps with LaTeX, a document
@@ -60,6 +61,8 @@ system is up-to-date.
 
 ## The lessons
 =======
+=======
+>>>>>>> e2a0112e... French translation (#88)
 ## Bienvenue sur learnlatex.org (version française)!
 
 Ce site web a pour but de vous aider à faire vos premiers pas avec LaTeX,
@@ -103,7 +106,10 @@ d'abord que votre système LaTeX est à jour.
 
 
 ## Les leçons principales
+<<<<<<< HEAD
 >>>>>>> 08062c9f... French translation (#88)
+=======
+>>>>>>> e2a0112e... French translation (#88)
 
 {% include toc.html  prefix="fr/lesson" %}
 
@@ -124,6 +130,7 @@ d'un livre sur LaTeX reste sans doute le meilleur moyen d'en apprendre les
 détails. Nous vous donnons quelques recommandations dans la dernière leçon
 également.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 The focused lessons here are not meant to cover everything you'll ever need to
 know about LaTeX; we want to give you enough to get started and to _understand_
@@ -146,6 +153,11 @@ Enfin, nous proposons une galerie de petits exemples montrant différents
 domaines, non couverts dans cette introduction, et différents packages LaTeX
 pour ces domaines.
 >>>>>>> 08062c9f... French translation (#88)
+=======
+Enfin, nous proposons une galerie de petits exemples montrant différents
+domaines, non couverts dans cette introduction, et différents packages LaTeX
+pour ces domaines.
+>>>>>>> e2a0112e... French translation (#88)
 
     
 {% include toc.html prefix="fr/extra" %}

@@ -1,9 +1,13 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "Accessing documentation and getting help (French)"
 =======
 title: "Comprendre les erreurs"
 >>>>>>> 08062c9f... French translation (#88)
+=======
+title: "Comprendre les erreurs"
+>>>>>>> e2a0112e... French translation (#88)
 ---
 
 Contrairement à un système de traitement de texte typique, LaTeX a un cycle
