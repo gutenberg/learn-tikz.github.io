@@ -297,7 +297,7 @@ Translation to be added _after_ English text completed.
 title: "Structure logique de votre document"
 ---
 
-LaTeX vous permet de se concentrer sur la structure logique de votre document,
+LaTeX vous permet de vous concentrer sur la structure logique de votre document,
 et vous laisse en même temps la possibilité de choisir son apparence. La plupart
 du temps, il est préférable maintenir une certaine séparation du fond (le
 contenu) et de la forme (l'apparence), en privilégiant un balisage qui décrit la
@@ -330,7 +330,7 @@ pour des textes imbriqués. Voyez comment `\emph` gère l'imbrication. Il y a
 aussi des cas où on veut autre chose que de l'italique pour mettre du texte en
 évidence ; par exemple, dans les présentations, la couleur ou le gras sont de
 meilleurs choix. Avec le balisage logique, nous n'avons pas à nous soucier de ce
-détail dans le corps du document, ce sera géné automatiquement, ou bien nous
+détail dans le corps du document, ce sera géré automatiquement, ou bien nous
 pourrons décider de ça plus tard, en modifiant un seul paramètre.
 
 Nous parlerons [du formatage manuel plus tard](lesson 11), mais pour l'instant
@@ -340,9 +340,9 @@ en gras.
 
 ## Commandes de sectionnement
 
-Vous avez probablement déjà utilisé un traitement de texte. Avec ces logiciels,
-pour commencer une section, la plupart des gens entrent le texte du titre, puis
-le rendent simplement plus grand et plus gras, et le font suivre d'une nouvelle
+Vous avez probablement déjà utilisé un traitement de texte. Avec ce genre de
+logiciel, pour commencer une section, la plupart des gens entrent le texte du
+titre, puis le rendent simplement plus grand et plus gras, et le font suivre d'une nouvelle
 ligne. En LaTeX, l'utilisation du balisage logique est beaucoup plus facile que
 ce formatage manuel : il suffit d'utiliser la commande `\section`. Celle-ci gère
 les changements de police, les espaces verticaux, etc., et permet de garder une
@@ -362,7 +362,9 @@ C'est mon premier document LaTeX.
 
 Texte de la première section.
 
-Second paragraphe.
+Second paragraphe
+(les retraits de paragraphes ont pour l'instant une apparence étrange,
+mais on verra plus tard comment respecter les règles de typographie françaises).
 
 \subsection{Sous-section de la première section}
 
@@ -391,10 +393,10 @@ vous en arrivez là, c'est peut-être que votre plan est trop détaillé, à vou
 voir. (Oui, `\paragraph` est une commande de sectionnement, _pas_ une façon de
 commencer un nouveau paragraphe.)
 
-Vous vous demandez peut-être si on peut définir le titre d'un document par un
-balisage logique? En effet, il existe des commandes spéciales pour ça, mais tous
-les documents ne les utilisent pas, c'est pourquoi nous en parlons
-[dans la leçon d'approfondissement](more-04).
+Comment définir le titre d'un document par le balisage logique? Il existe des
+commandes spéciales pour ça, mais tous les documents ne les utilisent pas,
+c'est pourquoi nous en parlons dans [la leçon d'approfondissement](more-04).
+
 
 ## Les listes
 
@@ -404,6 +406,7 @@ Il existe deux types de listes courantes intégrées à LaTeX.
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
+
 \begin{document}
 
 Les listes ordonnées, numérotées:
@@ -453,5 +456,9 @@ Faites des listes, et emboîtez les unes dans les autres. Comment le format des
 chiffres ou des marqueurs change-t-il ? On ne peut utiliser que quatre niveaux
 d'imbrication avec le LaTeX standard, mais si vous devez aller plus loin, c'est
 soit que vous avez un besoin particulier et que les listes ne sont pas le bon
+<<<<<<< HEAD
 outil, soit que vous devriez repenser la structure de ces listes.
 >>>>>>> c1d94734... Line-wrapping at 80 columns.
+=======
+outil, soit que vous devriez repenser la structure de vos listes.
+>>>>>>> 833874ce... Correction of barbarisms and typos, up to lesson-08.

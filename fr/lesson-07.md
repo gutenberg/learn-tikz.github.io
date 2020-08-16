@@ -469,8 +469,9 @@ pivoter avec `angle`. L'autre chose que vous pouvez faire est de découper
 Traditionnellement, dans la composition de documents, et en particulier pour les
 documents techniques, les images et les tableaux peuvent être déplacés une ou
 quelques pages plus loin dans le document, ou regroupés à plusieurs sur une
-page, pour mieux utiliser l'espace disponible et ne pas laisser vides de grands
-morceaux de pages. Ce type d'image ou de tableau s'appelle un _flottant_.
+seule page, pour mieux utiliser l'espace disponible et ne pas laisser vides de
+grands morceaux de pages. Ce type d'image ou de tableau s'appelle un _flottant_
+(en anglais, « _float_ »).
 
 ```latex
 \documentclass{article}
@@ -485,14 +486,14 @@ Emplacement initial
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.5\textwidth]{example-image-a.png}
-  \caption{An example image}
+  \caption{Une image d'exemple}
 \end{figure}
 
 \lipsum[6-10] % Quelques paragraphes de texte
 \end{document}
 ```
 
-Si l'on n'utilisait pas le mécanisme des flottants, l'image appraîtrait juste
+Si l'on n'utilisait pas le mécanisme des flottants, l'image apparaîtrait juste
 sous le texte `Emplacement initial`. Mais quand on permet à l'image de flotter,
 elle est positionnée en haut de la deuxième page, car il n'y a pas de place pour
 elle au bas de la première page. L'option `ht` influence l'endroit où LaTeX peut
@@ -507,7 +508,7 @@ page. Vous pouvez utiliser jusqu'à quatre spécificateurs de position :
 
 [Plus tard](lesson-09), nous verrons comment faire référence à des flottants
 dans votre texte, afin que le lecteur puisse les trouver facilement même s'ils
-sont été déplacés de quelques pages.
+sont été déplacés de quelques pages par LaTeX.
 
 Vous avez sans doute remarqué qu'ici nous avons centré l'image en utilisant la
 commande `\centering` plutôt que l'environnement `center`. À l'intérieur d'un
@@ -529,6 +530,6 @@ Utilisez le package `lipsum` pour constuire un exemple assez long, puis placez d
 >>>>>>> 8eaa2a0e... Add back lesson 7 after UTF-8 reenconding.
 =======
 Utilisez le package `lipsum` pour constuire un exemple assez long, puis placez
-des flotteurs en utilisant les différents spécificateurs de position. Comment
+des flottants en utilisant les différents spécificateurs de position. Comment
 les différents spécificateurs interagissent-ils entre eux ?
 >>>>>>> c1d94734... Line-wrapping at 80 columns.

@@ -14,15 +14,20 @@ title: "Utiliser les classes de documents pour changer l'apparence : pour aller 
 De nombreuses journaux scientifiques proposent leur classe LaTeX pour les
 soumissions d'articles. Celle-ci donne généralement une mise en page proche de
 <<<<<<< HEAD
+<<<<<<< HEAD
 celle du journal publié, bien que cela dépende de l'utilisation des polices de
 =======
 celle du journal final, bien que cela dépende de l'utilisation des polices de
 >>>>>>> 5fff9b4b... Line wrapping to 80 columns.
+=======
+celle du journal publié, bien que cela dépende de l'utilisation des polices de
+>>>>>>> 833874ce... Correction of barbarisms and typos, up to lesson-08.
 caractères, etc. ; parfois, la mise en forme reste générique, mais l'utilisation
 de la classe du journal facilite l'import de votre article dans leur chaîne de
 traitement. Si une classe est disponible, elle est normalement mise à disposition
 directement par l'éditeur du journal (sur son site web), qui doit donner les
 détails nécessaires à son utilisation. Nombre d'entre elles sont également
+<<<<<<< HEAD
 <<<<<<< HEAD
 disponibles sur CTAN et dans les distributions TeX standards.
 
@@ -235,6 +240,9 @@ De nombreuses journaux scientifiques proposent leur classe LaTeX pour les soumis
 =======
 disponibles sur CTAN et dans des distributions TeX standards.
 >>>>>>> 5fff9b4b... Line wrapping to 80 columns.
+=======
+disponibles sur CTAN et dans les distributions TeX standards.
+>>>>>>> 833874ce... Correction of barbarisms and typos, up to lesson-08.
 
 
 ## Classes pour les diaporamas
@@ -244,7 +252,7 @@ Microsoft Powerpoint). La classe `slides` avait été conçue pour la production
 de diapositives 24x36mm et n'est pas vraiment faite pour les présentations
 destinées à un vidéo-projecteur. Deux classes ont été développées à cet effet
 et sont largement utilisées : `beamer` et `powerdot`. Actuellement, `beamer`
-est le plus largement utilisé, voici donc un exemple de son fonctionnement :
+est la plus largement utilisée, voici donc un exemple de son fonctionnement :
 
 ```latex
 \documentclass{beamer}
@@ -252,11 +260,11 @@ est le plus largement utilisé, voici donc un exemple de son fonctionnement :
 \begin{document}
 
 \begin{frame}{Première diapositive}
-  Un peu de texte
+  Un peu de texte.
 \end{frame}
 
 \begin{frame}{Deuxième diapositive}
-  Autre texte
+  Et maintenant une liste:
   \begin{itemize}
     \item<1-> Premier item,
     \item<2-> Second item.
@@ -267,13 +275,13 @@ est le plus largement utilisé, voici donc un exemple de son fonctionnement :
 ```
 
 Cela montre deux choses importantes. Premièrement, `beamer` divise un document
-en `frames` (« cadres »), chacun d'eux pouvant donner plus d'une diapositive.
-Deuxièmement, `beamer` ajoute des possibilités à la syntaxe LaTeX normale pour
-permettre à certaines parties du document d'apparaître petit à petit, formant
-des animations. C'est un outil puissant, mais plus compliqué que ce que nous
-pouvons couvrir ici :
+en `frames` (« cadres »), chacun d'eux pouvant donner une diapositive ou
+plusieurs. Deuxièmement, `beamer` ajoute des possibilités à la syntaxe LaTeX
+de base pour permettre à certaines parties du document d'apparaître petit à
+petit, formant des animations. C'est un outil puissant, mais plus compliqué
+que ce que nous pouvons couvrir ici :
 [consultez cet article de blog](https://www.texdev.net/2014/01/17/the-beamer-slide-overlay-concept/)
-pour en savoir plus.
+(en anglais) pour en savoir plus.
 
 
 ## Classe pour produire des images
@@ -282,7 +290,7 @@ Parfois vous devez composer une image (qui peut avoir un code-source très long)
 avec LaTeX. Dans ce cas, souvent, vous ne voulez rien d'autre que l'image dans 
 le PDF final, sans le reste de la page. Le plus simple est d'utiliser la classe
 [`standalone`](https://ctan.org/pkg/standalone). Elle définit automatiquement la
-taille de la page pour qu'elle entoure le contenu imprimé.
+taille de la page pour qu'elle contienne tout juste le contenu imprimé.
 
 ```latex
 \documentclass{standalone}
