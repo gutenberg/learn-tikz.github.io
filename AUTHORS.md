@@ -5,6 +5,22 @@ permalink: /AUTHORS
 
 The following people have made contributions to learnlatex.org:
 
+<<<<<<< HEAD
+=======
+=======
+- David Carlisle
+- Jim Hefferon
+<<<<<<< HEAD
+=======
+- Jérémy Just
+- Marcel Fabian Krüger
+- Frank Mittelbach
+- Phelype Oleinik
+- Will Robertson
+- Jonathan P. Spratte
+- Moritz Wemheuer
+>>>>>>> 08062c9f... French translation (#88)
+>>>>>>> 61a70c84... French translation (#88)
 - Joseph Wright
 <<<<<<< HEAD
 =======
