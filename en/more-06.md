@@ -150,4 +150,7 @@ is slightly more verbose but allows many more forms of commands to be
 defined. Here we just give this simple example where the first
 argument is optional, defaulting to blue (`O{blue}`) and the second
 argument is mandatory (`m`).
+<<<<<<< HEAD
 >>>>>>> eeeda314... Sync with main repository.
+=======
+>>>>>>> 9a2e269b... Merge in changes from PR #95
