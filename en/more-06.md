@@ -151,6 +151,10 @@ defined. Here we just give this simple example where the first
 argument is optional, defaulting to blue (`O{blue}`) and the second
 argument is mandatory (`m`).
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> eeeda314... Sync with main repository.
 =======
 >>>>>>> 9a2e269b... Merge in changes from PR #95
+=======
+
+>>>>>>> 6cc3ccdf... merge in changes from PR #95
