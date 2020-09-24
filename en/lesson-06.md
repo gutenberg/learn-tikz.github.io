@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: Extending LaTeX using packages
+=======
+title: "Extending LaTeX using packages and definitions"
+>>>>>>> eeeda314... Sync with main repository.
 ---
 <<<<<<< HEAD
 =======
@@ -175,5 +179,9 @@ list.
 Try loading the `lipsum` package and then add the command `\lipsum` to your
 document. Can you guess why this package is useful for making examples?
 
+<<<<<<< HEAD
 Try altering the definition of `\kw` to achieve a different style.
 >>>>>>> 92155bf3... Addressing review comments
+=======
+Try altering the definition of `\kw` to achieve a different style.
+>>>>>>> eeeda314... Sync with main repository.
