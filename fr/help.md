@@ -1,5 +1,10 @@
 ---
+<<<<<<< HEAD
 title: "Utiliser le site learn-tikz.org"
+=======
+lang: "fr"
+title: "Utiliser le site learnlatex.org"
+>>>>>>> cc3dbe3e...  added page language attribute to front matter for all french pages
 permalink: /fr/help
 ---
 
