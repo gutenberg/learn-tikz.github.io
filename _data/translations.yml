@@ -1,0 +1,36 @@
+# TRANSLATIONS
+# Generic, site wide translations
+#
+# Usage:
+# {{ site.data.translations['ITEM'][page.lang] }}
+#
+# (in alphabetical order)
+
+change-language:
+  de: "Lesen Sie diese Seite in einer anderen Sprache"
+  en: "Read this page in a different language"
+  es: "Lea esta página en un idioma diferente"
+  fr: "Lisez cette page dans une autre langue"
+  pt: "Leia esta página em um idioma diferente"
+  vi: "Đọc trang này bằng một ngôn ngữ khác"
+skip-link:
+  de: "Zum Hauptinhalt springen"
+  en: "Skip to main content"
+  es: "Saltar al contenido principal"
+  fr: "Passer au contenu principal"
+  pt: "Ir para o conteúdo principal"
+  vi: "Chuyển đến nội dung chính"
+mission-statement_heading:
+  de: "Leitbild"
+  en: "Mission statement"
+  es: ""
+  fr: ""
+  pt: ""
+  vi: ""
+mission-statement_text:
+  de: "Lernen Sie Schriftsetzen mit LaTeX in 16 kleinen, anfängerfreundlichen Lektionen."
+  en: "Learn typesetting with LaTeX in 16 small, beginner friendly lessons."
+  es: ""
+  fr: ""
+  pt: ""
+  vi: ""
