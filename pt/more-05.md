@@ -1,9 +1,7 @@
 ---
-title: "More on: Using document classes to influence design (Portuguese)"
+lang: "pt"
+title: "Veja mais sobre: Usando classes de documentos para influenciar o design"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 ## Classes específicas de revistas
 
@@ -66,4 +64,3 @@ o tamanho da página para conter o conteúdo impresso:
 Um documento simples:  esta será uma caixa bem pequena!
 \end{document}
 ```
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

@@ -1,0 +1,115 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="no-referrer">
+    {% if site.title and site.title == page.title %}
+      <title>{{ page.title }}</title>
+      {% else %}
+      <title>{{ page.title }} | {{site.title}}</title>
+    {% endif %}
+
+    <link rel="icon" href="{{ "/assets/images/favicon.svg" | relative_url }}" type="image/svg+xml" sizes="any">
+    
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+
+    <link rel="canonical" href="https://www.learnlatex.org/">
+
+  </head>
+  <body class="home">
+
+    <!-- skip link start -->
+    <a 
+      href="#main" 
+      class="visually-hidden focusable skip-link"
+      >{{ site.data.translations['skip-link'][page.lang] }}
+    </a>
+    <!-- skip link end -->
+
+    <!-- website header start -->
+    <header class="website-header">
+
+      <!-- wrapper start -->
+      <div 
+        class="wrapper">
+
+        <!-- website logo start -->
+        <a 
+          class="website-header--logo" 
+          href="/">
+          <img 
+            src="{{ "/assets/images/logo-1.svg" | relative_url }}" 
+            alt="Learn LaTeX logo"
+            height="56"
+            width="300">
+          <h1
+            class="visually-hidden">Learn LaTeX</h1>
+        </a>
+        <!-- website logo end -->
+
+      </div>
+      <!-- wrapper end -->
+
+    </header>
+    <!-- website header end -->
+
+    <!-- main content start -->
+    <main
+      id="main">
+
+      <!-- wrapper start -->
+      <div class="wrapper">
+
+        <img 
+          alt="Language selection icon"
+          class="language-icon"
+          src="{{ "/assets/images/language-icon.svg" | relative_url }}"
+          height="80"
+          width="69"
+          >
+
+        <!-- language selection start -->
+        <nav
+          class="language-navigation">
+            <h2 class="visually-hidden">Select your language</h2>
+            <ul
+              class="language-navigation__list">
+                <!-- Loop over languages in _data/languages.yml -->
+                {%- for language in site.data.languages -%}
+                  <li
+                    class="language-navigation__list-item">
+                    <a 
+                      class="language-navigation__anchor"
+                      href="/{{language.language-code}}/"
+                      hreflang="{{ language.language-code }}"
+                      title="{{language.label-english}}">
+                      <span 
+                        class="language-navigation__label-regional"
+                        lang="{{language.language-code}}"
+                        >{{ language.label-regional }}</span>
+                      <br>
+                      <span 
+                        class="language-navigation__label-english"
+                        lang="en"
+                        >({{ language.label-english }})</span>
+                    </a>
+                  </li>
+                {%- endfor -%}
+            </ul>
+        </nav>
+        <!-- language selection end -->
+
+        {{ content }}
+
+      </div>
+      <!-- wrapper end -->
+
+    </main>
+    <!-- main content end -->
+
+  </body>
+</html>

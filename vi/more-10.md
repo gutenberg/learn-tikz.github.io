@@ -1,4 +1,5 @@
 ---
+lang: "vi"
 title: "Bổ sung: Các công thức toán học"
 ---
 
@@ -173,7 +174,7 @@ này nên ta sẽ không đi sâu vào nó mà chỉ đưa ra một ví dụ đ�
 bạn có thể đọc thêm trong
 [hướng dẫn sử dụng gói](https://texdoc.net/pkg/unicode-math).
 
-```
+```latex
 % !TEX lualatex
 \documentclass[a4paper]{article}
 \usepackage{unicode-math}

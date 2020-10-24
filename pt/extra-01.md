@@ -1,9 +1,7 @@
 ---
-title: "Examples for further study (Portuguese)"
+lang: "pt"
+title: "Exemplos para estudo adicional"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 Este curso deu uma visão geral das funcionalidades básicas do LaTeX e alguns
 pacotes fundamentais.  O LaTeX conta com uma vasta biblioteca de pacotes de
@@ -213,4 +211,3 @@ x
 \end{document}
 ```
 <!-- {% endraw %} -->
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

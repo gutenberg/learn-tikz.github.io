@@ -1,9 +1,7 @@
 ---
-title: "Accessing documentation and getting help (Portuguese)"
+lang: "pt"
+title: "Lidando com erros"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 Diferente de um sistema típico de processamento de texto, o LaTeX tem um ciclo
 de Editar/Executar/Visualizar mais próximo a uma linguagem de programação, e
@@ -200,4 +198,3 @@ erro.
       if(editors['pre9'] != null) editors['pre9'].moveCursorTo(7, 0, false);
   }, false);
 </script>
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

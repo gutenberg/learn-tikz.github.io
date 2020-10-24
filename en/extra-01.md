@@ -1,5 +1,8 @@
 ---
+lang: "en"
 title: "Examples for further study"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis orci, faucibus eget sollicitudin vel, varius eget ipsum. Duis sed sodales leo."
+toc-anchor-text: "Examples for further study"
 ---
 
 This course has given an overview of the core features of LaTeX.

@@ -1,9 +1,7 @@
 ---
-title: "Cross-referencing (Portuguese)"
+lang: "pt"
+title: "Referências cruzadas"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 ## O mecanismo de `\label` e `\ref`
 
@@ -84,4 +82,3 @@ _antes_ do `\caption` ao invés de depois;  você consegue prever o resultado?
 
 O que acontece se você colocar uma `\label` para uma equação _depois_ do
 `\end{equation}`?
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

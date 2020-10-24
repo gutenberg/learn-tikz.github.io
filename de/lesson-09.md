@@ -1,4 +1,5 @@
 ---
-title: "Cross-referencing (German)"
+lang: "de"
+title: "Querverweise"
 ---
 Translation to be added _after_ English text completed.

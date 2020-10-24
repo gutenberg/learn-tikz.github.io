@@ -1,8 +1,9 @@
 ---
-title: More on: Controlling spacing
+lang: "en"
+title: "More on: Cross-referencing"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis orci, faucibus eget sollicitudin vel, varius eget ipsum. Duis sed sodales leo."
+toc-anchor-text: "More on: Cross-referencing"
 ---
-<<<<<<< HEAD
-=======
 
 ## Making cross-references into links
 
@@ -28,4 +29,3 @@ More text here.
 
 We have chosen to make the links the same color as the normal text; try removing
 `hidelinks` to see why! 
->>>>>>> 176abfad... comments from Barbara (2)

@@ -1,32 +1,30 @@
 ---
-title: Structuring longer documents
+lang: "en"
+title: "Structuring longer documents"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis orci, faucibus eget sollicitudin vel, varius eget ipsum. Duis sed sodales leo."
+toc-anchor-text: "Structuring sources"
+toc-description: "Spliting up sources in a controlled way."
 ---
-<<<<<<< HEAD
-=======
 
 <script>
 preincludes = {
  "pre0": {
-    "pre1": "pref.tex",
-    "pre2": "chap1.tex",
-    "pre3": "chap2.tex",
-    "pre4": "append.tex",
-    "pre5": "frontcover.tex",
-    "pre6": "dedication.tex",
-    "pre7": "copyright.tex",
-    "pre8": "backcover.tex",
+    "pre1": "front.tex",
+    "pre2": "pref.tex",
+    "pre3": "chap1.tex",
+    "pre4": "chap2.tex",
+    "pre5": "append.tex",
+    "pre6": "frontcover.tex",
+    "pre7": "dedication.tex",
+    "pre8": "copyright.tex",
+    "pre9": "backcover.tex",
    }
 }
 </script>
 
-<<<<<<< HEAD
-This is the skeleton of a book.
-It includes front and back covers, preface, table of contents,
-chapters, and appendix, a bibliography, and an index.
-=======
 ## Structuring your sources
 
-When you are writing a longer document, it's likely you'll want to split up
+When you are writing a longer document, you’ll likely want to split up
 the source into multiple files. For example, it's very common to have
 one 'main'/'root' file, then one source file per chapter (for a book or thesis),
 or per significant section (for a long article).
@@ -39,22 +37,10 @@ and makes some internal adjustments. But it has a big advantage: it allows us to
 be selective in which chapters to include, so you can work on part of your
 document rather than the whole thing.
 
-A longer document might therefore look something like the following
->>>>>>> 76c0ac2e... Corrections from Barbara (2)
+A longer document might therefore look something like the following:
 
 <!-- pre0 {% raw %} -->
 ```latex
-<<<<<<< HEAD
-\documentclass[titlepage]{book}
-\usepackage{makeidx}\makeindex
-
-\title{Life at Sea}
-\author{John Aubrey and Stephen Maturin}
-
-\includeonly{% comment out lines to reduce output
-  pref,
-  chap1,
-=======
 \documentclass{book}
 \usepackage[T1]{fontenc}
 \usepackage{biblatex}
@@ -68,19 +54,18 @@ A longer document might therefore look something like the following
 \includeonly{
 %  front,
 %  chap1,
->>>>>>> 4eedd471... use fixed name append as main document aux unreliable in some back ends
   chap2,
-  append
+%  append
   }
+}
+{
+% Do a full document initially to generate
+% all the aux files
+}
 
 \begin{document}
 \frontmatter
-\input{frontcover}
-\maketitle
-\input{dedication}
-\input{copyright}
-\tableofcontents
-\include{pref}
+\include{front}
 
 % =========================
 \mainmatter
@@ -91,18 +76,13 @@ A longer document might therefore look something like the following
 
 % ========================
 \backmatter
-\bibliographystyle{apalike}
-\addcontentsline{toc}{chapter}{Bibliography}
-\bibliography{document}
-\addcontentsline{toc}{chapter}{Index}
-\printindex
+\printbibliography
+\newpage
 \input{backcover}
 \end{document}
 ```
 <!-- {% endraw %} -->
 
-<<<<<<< HEAD
-=======
 We'll look at the various aspects of this file below. (The various support files
 are at the end of this page.)
 
@@ -124,44 +104,9 @@ comma-separated list of file names. When you use `\includeonly`, you can shorten
 how long your typesetting takes and produce a 'selective' PDF for proofreading.
 In addition, the key advantage of `\includeonly` is that LaTeX will use all of
 the cross reference information from the `.aux` files of other included files.
->>>>>>> 76c0ac2e... Corrections from Barbara (2)
 
-LaTeX lets you split a large document into several files.
-This simplifies editing, speeds processing, and lets multiple authors work
-simultaneously.
-The above file `document.tex` is referred to as the *root*.
-It has four included files, `pref.tex`, `chap1.tex`, `chap2.tex`,
-and `append.tex`.
+## Creating a table of contents
 
-Notice the `\includeonly{...}`.
-If you compile the root document, and then use percent signs to
-comment out all of the lines inside `\includeonly`
-except for the one with `chap1` and compile again,
-then your output will show only the material from the first chapter.
-So it will be faster to compile and shorter to print.
-In addition, the key advantage of `\includeonly` is that LaTeX will
-use all of the cross reference information from other
-included files.
-
-The `\include{...}` command always starts a new page.
-To bring in material without that page use `\input{...}`
-(although you lose the referencing advantage of `\includeonly`).
-
-Notice also that
-in the preamble, the `\title{...}` and `\author{...}` commands remember the
-information, and after the `\begin{document}` the `\maketitle`
-puts that information into the output.
-(Because of the first line's `[titlepage]` that will appear on a
-separate page.)
-
-<<<<<<< HEAD
-The `\tableofcontents` command uses the information from
-sectioning commands to populate the table of contents.
-It has its own auxiliary file, so you may need to run
-LaTeX twice to resolve the information.
-Add information to that auxiliary file using the
-`\addcontentsline{...}`.
-=======
 The `\tableofcontents` command uses the information from sectioning
 commands to populate the table of contents.  It has its own auxiliary
 file, with extension `.toc`, so you may need to run LaTeX twice to
@@ -171,42 +116,48 @@ section titles. There are similar commands for `\listoffigures` and
 use files with extension `.lof` and `.lot` respectively.
 
 ## Splitting the document into parts
->>>>>>> 76c0ac2e... Corrections from Barbara (2)
 
 The `\frontmatter`, `\mainmatter`, and `\backmatter` commands
 affect the formatting.
 For instance, `\frontmatter` changes the page numbering to
 Roman numbers.
-<<<<<<< HEAD
-<<<<<<< HEAD
+The `\appendix` command changes the numbering to `A`, `B`, etc.,
+so for instance in the first chapter after `\appendix`,
+the header says `Appendix A`.
 
-<<<<<<< HEAD
-=======
 ## Exercises
->>>>>>> a545fb3e... Corrections from Barbara (2)
 
+Experiment with the basic structure of the demonstration document,
+try adding and removing entries for `\includeonly` and see the effect.
 
->>>>>>> 5b2cddbd... raw
-=======
->>>>>>> 440b64f7... Remove titles covered by YAML
-=======
-The `appendix` command changes the numbering to `A`, `B`, etc.,
-so for instance in the first chapter after it the header says `Appendix A`. 
-
-
+Add some floats and produce a list of figures and tables.
+If using a locally installed LaTeX, do you see
+how many LaTeX runs are required? (The online systems re-run LaTeX
+"behind the scenes" so the additional required runs are not so obvious.)
 
 ----
 
-#### pref.tex
+### front.tex
 <!-- pre1 {% raw %} -->
 ```latex
-\chapter*{Preface}
-The preface text.
+\input{frontcover}
+\maketitle
+\input{dedication}
+\input{copyright}
+\tableofcontents
+\input{pref}
+```
+
+#### pref.tex
+<!-- pre2 {% raw %} -->
+```latex
+\chapter{Preface}
+The preface text. See \cite{doody}.
 ```
 <!-- {% endraw %} -->
 
 #### chap1.tex
-<!-- pre2 {% raw %} -->
+<!-- pre3 {% raw %} -->
 ```latex
 \chapter{Introduction}
 The first chapter text.
@@ -214,7 +165,7 @@ The first chapter text.
 <!-- {% endraw %} -->
 
 #### chap2.tex
-<!-- pre3 {% raw %} -->
+<!-- pre4 {% raw %} -->
 ```latex
 \chapter{Something}
 The second chapter text.
@@ -222,7 +173,7 @@ The second chapter text.
 <!-- {% endraw %} -->
 
 ####  append.tex
-<!-- pre4 {% raw %} -->
+<!-- pre5 {% raw %} -->
 ```latex
 \chapter*{Appendix}
 The first appendix text.
@@ -230,7 +181,7 @@ The first appendix text.
 <!-- {% endraw %} -->
 
 #### frontcover.tex
-<!-- pre5 {% raw %} -->
+<!-- pre6 {% raw %} -->
 ```latex
 \begin{center}
 The front cover
@@ -239,7 +190,7 @@ The front cover
 <!-- {% endraw %} -->
 
 #### dedication.tex
-<!-- pre6 {% raw %} -->
+<!-- pre7 {% raw %} -->
 ```latex
 \begin{center}
 \large
@@ -249,7 +200,7 @@ For \ldots
 <!-- {% endraw %} -->
 
 #### copyright.tex
-<!-- pre7 {% raw %} -->
+<!-- pre8 {% raw %} -->
 ```latex
 \begin{center}
 Copyright 2020 learnlatex.
@@ -258,7 +209,7 @@ Copyright 2020 learnlatex.
 <!-- {% endraw %} -->
 
 #### backcover.tex
-<!-- pre8 {% raw %} -->
+<!-- pre9 {% raw %} -->
 ```latex
 \begin{center}
 The back cover
@@ -267,5 +218,3 @@ The back cover
 <!-- {% endraw %} -->
 
 ----
-
->>>>>>> 7c4c718b... filecontents

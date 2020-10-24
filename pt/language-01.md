@@ -1,9 +1,8 @@
 ---
-title: "Language-specifics for Portuguese"
+lang: "pt"
+title: "Lição específica para a língua Portuguesa"
+next: "extra-01"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 Como a língua Portuguesa usa o alfabeto Latino, assim como a língua Inglesa, o
 LaTeX funciona quase corretamente com a língua Portuguesa por padrão; há poucos
@@ -29,4 +28,3 @@ modificam os textos localizados de acordo (há pequenas diferenças nesses texto
 entre as duas versões do idioma: por exemplo com `brazilian` o comando
 `\tableofcontents` cria um "Sumário", enquanto que com `portuguese` o título
 do caopitulo fica "Conteúdo").
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

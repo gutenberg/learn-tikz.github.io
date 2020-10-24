@@ -1,14 +1,7 @@
-exclude: ['README.md']
-
-theme: jekyll-theme-primer
-
 title: learnlatex.org
-description: Learn LaTeX on-line
+description: Learn LaTeX online
 
-<<<<<<< HEAD
-logo: learnlatex-logo.png
-=======
-logo: learnlatex.png
+repository: learnlatex/learnlatex.github.io
 
 plugins:
   - jekyll-sitemap
@@ -17,40 +10,72 @@ kramdown:
     syntax_highlighter_opts:
       disable: true
 
+sass:
+    style: compressed
+
 latex: "<span>L<span style='font-variant: small-caps; vertical-align:.35ex;margin-left:-.15em;margin-right:-.05em;'>a</span>T<span style='text-transform:uppercase; vertical-align:-.4ex;margin-left:-.1em;'>e</span>X</span>"
 tex: "<span>T<span style='text-transform:uppercase; vertical-align:-.4ex;margin-left:-.1em;'>e</span>X</span>"
-<<<<<<< HEAD
-<<<<<<< HEAD
-
->>>>>>> 5cf5ffe2... Updated logo files
-=======
->>>>>>> 92eaef88... Try auto-generating a sitemap
-=======
-
-langs:
-   - en
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 2de37f8a... language switching
-=======
-   - de
-   - fr
-   - pt
-<<<<<<< HEAD
-=======
-   - ja
-=======
-   - fr
-   - pt
->>>>>>> d3fffecf... drop incomplete translations from the menu #92
-   - vi
-<<<<<<< HEAD
-   - zh-Hans
->>>>>>> 2b8821e5... add zh-Hans and adjust JavaScript and liquid as language code not two letter
-=======
-   - es
 
 
->>>>>>> cbfa4b58... add zh-Hans and adjust JavaScript and liquid as language code not two letter
 
->>>>>>> b3cec993... language stubs
+
+
+# LANGUAGES 
+# Settings for multilingual set up (in alphabetical order)
+# https://jekyllrb.com/docs/configuration/front-matter-defaults/
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      lang: "en"
+      layout: "home"
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
+      label: "English"
+      layout: "default"
+  - 
+    scope:
+      path: "es"
+    values:
+      lang: "es"
+      label: "Español"
+      layout: "default"
+  -
+    scope:
+      path: "fr"
+    values:
+      lang: "fr"
+      label: "Français"
+      layout: "default"
+  -
+    scope:
+      path: "de"
+    values:
+      lang: "de"
+      label: "German"
+      layout: "default"
+  -
+    scope:
+      path: "pt"
+    values:
+      lang: "pt"
+      label: "Português"
+      layout: "default"
+  -
+    scope:
+      path: "vi"
+    values:
+      lang: "vi"
+      label: "Tiếng Việt"
+      layout: "default"
+  -
+    scope:
+      path: "ja"
+    values:
+      lang: "ja"
+      label: "日本語"
+      layout: "default"

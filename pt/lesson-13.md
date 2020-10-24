@@ -1,9 +1,7 @@
 ---
-title: "Structuring longer documents (Portuguese)"
+lang: "pt"
+title: "Estruturando documentos longos"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 <script>
 preincludes = {
@@ -218,4 +216,3 @@ The back cover
 <!-- {% endraw %} -->
 
 ----
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

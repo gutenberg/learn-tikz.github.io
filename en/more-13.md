@@ -1,8 +1,9 @@
 ---
-title: More on: Structuring longer documents
+lang: "en"
+title: "More on: Structuring longer documents"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis orci, faucibus eget sollicitudin vel, varius eget ipsum. Duis sed sodales leo."
+toc-anchor-text: "More on: Structuring longer documents"
 ---
-<<<<<<< HEAD
-=======
 
 ## Making an index
 
@@ -24,6 +25,12 @@ instructions to LaTeX:
 Some text about Foo\index{foo}.
 More text\index{baz!bar}.
 Even more text\index{alpha@$\alpha$}.
+More text about a different part of baz\index{baz!wibble}.
+
+\clearpage
+Some text about Foo\index{foo} again, on a different page.
+Even more text\index{beta@$\beta$}.
+Even more text\index{gamma@$\gamma$}.
 \printindex
 \end{document}
 ```
@@ -32,4 +39,3 @@ We've shown two features of indexing here: subdivision using `!`, and printing
 something different from the 'sort text' of an index entry using `@`. There
 is a lot of customisation possible with an index; try out the example and see
 how it works.
->>>>>>> 44185a1f... Corrections from Barbara (2)

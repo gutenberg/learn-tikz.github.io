@@ -1,19 +1,15 @@
 ---
-title: More on: Accessing documentation and getting help
+lang: "en"
+title: "More on: Dealing with errors"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis orci, faucibus eget sollicitudin vel, varius eget ipsum. Duis sed sodales leo."
+toc-anchor-text: "More on: Dealing with errors"
 ---
-<<<<<<< HEAD
-=======
 
-## Errors reported at ends of environments.
+## Errors reported at ends of environments
 
 Some environments (notably `amsmath` alignments and `tabularx` tables)
-<<<<<<< HEAD
-Scan the whole envionment body before processing the content. This means that
-any error within the environment is reported on the last line. However as seen in the
-=======
 scan the whole environment body before processing the content. This means that
 any error within the environment is reported on the last line. However, as seen in the
->>>>>>> 00f7de68... remove 'by hand' formatting and use markdown code blocks, position cursor with ace API
 main lesson, TeX's display of the error context should still pinpoint the error location.
 
 ```latex
@@ -51,12 +47,12 @@ Although the real error is on line 9 as shown by the context lines:
 {: .noedit :}
 
 
-## Spurious errors due to earlier errors.
+## Spurious errors due to earlier errors
 
 When calling LaTeX interactively from the command line it is possible
 to stop the processing at the  first error with `x`, edit the document
 and re-run. However if you scroll past the error or use an editor or
-online system that does this for you then TeX will try to recover,
+online system that does this for you then TeX will try to recover;
 however this may lead to several more errors being reported.
 
 So do not be too concerned about the _number_ of errors reported and
@@ -103,9 +99,6 @@ l.5 Text_word  $\alpha
 ```
 {: .noedit :}
 
-<<<<<<< HEAD
->>>>>>> 34f3c2e2... bring styling closer to rouge div layout
-=======
 
 ## Errors that do not trigger an error prompt
 
@@ -147,4 +140,3 @@ error as the `)` is seen as "normal text".
       if(editors['pre6'] != null) editors['pre6'].moveCursorTo(4, 30, false);
   }, false);
 </script>
->>>>>>> 00f7de68... remove 'by hand' formatting and use markdown code blocks, position cursor with ace API

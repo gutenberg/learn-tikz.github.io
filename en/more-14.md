@@ -1,5 +1,8 @@
 ---
-title: More on: Selecting fonts and using Unicode engines
+lang: "en"
+title: "More on: Selecting fonts and using Unicode engines"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis orci, faucibus eget sollicitudin vel, varius eget ipsum. Duis sed sodales leo."
+toc-anchor-text: "More on: Selecting fonts and using Unicode engines"
 ---
 
 
@@ -26,7 +29,7 @@ calculate 2π is shown here.
 
 \begin{document}
 
-$ \pi \approx \directlua{ tex.print(math.pi) } $
+$ 2\pi \approx \directlua{ tex.print(2 * math.pi) } $
 
 \end{document}
 ```

@@ -1,9 +1,9 @@
 ---
-title: "Using the learnlatex.org site (German)"
+lang: "de"
+title: "Learnlatex.org verwenden"
+permalink: /de/help
 ---
 Translation to be added _after_ English text completed.
-<<<<<<< HEAD
-=======
 
 Jedes Beispiel besteht aus einem kleinen, aber vollständigen LaTeX-Dokument, 
 das in einer Seite wie dieser gezeigt wird:
@@ -15,4 +15,3 @@ das in einer Seite wie dieser gezeigt wird:
 Example text.
 \end{document}
 ```
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

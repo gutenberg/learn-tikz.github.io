@@ -1,9 +1,7 @@
 ---
-title: "Formatting: fonts and spacing (Portuguese)"
+lang: "pt"
+title: "Formatação: fontes e espaçamento"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 ## Espaçamento entre parágrafos
 
@@ -62,7 +60,7 @@ Ainda mais texto.
 
 ## Formatação explícita do texto
 
-Nós vimos [mais no início do curso](pt/lesson-03) que na maioria das vezes a
+Nós vimos [mais no início do curso](lesson-03) que na maioria das vezes a
 estrutura lógica é preferível.  Mas às vezes você quer fazer texto negrito ou
 itálico ou monoespaçado, etc.  Há dois tipos de comando para isso:  para trechos
 curtos de texto, e para material potencialmente longo.
@@ -131,4 +129,3 @@ combinamos mudanças de fonte?  Como isso se compara com o modo matemático?
 O que acontece se você mudar o tamanho da fonte de um parágrafo longo (tente
 usar `\tiny` e depois `\huge`) mas não colocar o `\par` ao final antes de
 terminar o grupo?
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

@@ -1,5 +1,7 @@
 ---
+lang: "ja"
 title: "Using the learnlatex.org site (Japanese)"
+permalink: /ja/help
 ---
 Translation to be added _after_ English text completed.
 

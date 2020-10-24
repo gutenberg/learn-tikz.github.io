@@ -1,9 +1,7 @@
 ---
-title: "Logical structure (Portuguese)"
+lang: "pt"
+title: "Estrutura Lógica"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 O LaTeX possui meios de você focar na estrutura lógica do seu documento, assim
 como lhe permite modificar a aparência diretamente.  A maioria das vezes, é
@@ -33,7 +31,7 @@ Também há ocasiões em que ênfase não é o mesmo que itálico;  por exemplo,
 apresentações, cores são geralmente uma opção melhor.  Com marcação lógica, não
 temos que nos preocupar com os detalhes no corpo do documento.
 
-Vamos ver sobre [formatação manual mais adiante](pt/lession-11), mas para o
+Vamos ver sobre [formatação manual mais adiante](lession-11), mas para o
 momento vamos adicionar `\textbf` aos comandos que conhecemos:  ele deixa texto
 negrito.
 
@@ -73,7 +71,7 @@ Texto da segunda seção.
 
 Usando a configuração pardrão da classe `article`, o LaTeX numera as seções e
 subseções e inclui títulos em negrito.  Vamos ver como mudar a aparência na
-[próxima lição](pt/lesson-05).
+[próxima lição](lesson-05).
 
 O LaTeX pode dividir documentos em alguns níveis por padrão:
 
@@ -89,7 +87,7 @@ _não_ uma forma de iniciar um novo parágrafo!)
 
 Você pode se pergutar sobre o título de um documento.  Há vários comandos
 especiais para isso, mas nem todos os documentos os usam, então abordamos isso
-na [lição extra paralela a esta](pt/more-04).
+na [lição extra paralela a esta](more-04).
 
 ## Listas
 
@@ -133,4 +131,3 @@ Faça algumas listas, e insira uma lista dentro da outra.  Como o formato dos
 números ou marcadores muda?  Você pode ter apenas quatro níveis de listas por
 pardão no LaTeX, mas mais que quatro níveis nesse caso tende a ser um mau sinal
 de qualquer forma!
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

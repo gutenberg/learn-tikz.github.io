@@ -1,9 +1,7 @@
 ---
-title: "More on: Cross-referencing (Portuguese)"
+lang: "pt"
+title: "Veja mais sobre: Referências cruzadas"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 ## Transformando referências em links
 
@@ -29,4 +27,3 @@ Mais texto aqui.
 
 Nós escolhemos deixar os links com a mesma cor do texto;  tente remover a opção
 `hidelinks` para ver o porquê!
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

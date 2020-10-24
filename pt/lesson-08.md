@@ -1,9 +1,7 @@
 ---
-title: "Tables (Portuguese)"
+lang: "pt"
+title: "Tabelas"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 ## Tabelas básicas
 
@@ -52,7 +50,7 @@ coluna, mas também são úteis:
 
 Essas duas tabelas listam todos os tipos de colunas disponíveis no LaTeX e no
 pacote `array`.  Alguns tipos adicionais de colunas, de pacotes diferentes, são
-apresentados na [página de detalhes adicionais](pt/more-08) dessa lição.
+apresentados na [página de detalhes adicionais](more-08) dessa lição.
 
 As colunas `l`, `c`, e `r` terão a largura natural da célula mais larga daquela
 coluna.  Cada coluna deve ser declarada, então se você quer três colunas
@@ -163,7 +161,7 @@ moderação em tabelas, e normalmente linhas verticais devem ser completamente
 evitadas.  De fato, tabelas 'profissionais' não devem usar nenhuma das linhas
 padrão fornecidas pelo LaTeX;  ao invés disso você deve se familiarizar com os
 recursos do pacote `booktabs`, que é porque ele é mostrado aqui.  Para constar,
-as linhas padrão são mostradas na página de [mais informações](pt/more-08).
+as linhas padrão são mostradas na página de [mais informações](more-08).
 
 O pacote `booktabs` fornece quatro tipos diferentes de linhas.  Cada um desses
 comandos deve ser a primeira coisa em uma linha ou deve seguir outra linha.
@@ -390,4 +388,3 @@ Tente alinhamentos diferentes usando tipos de colunas `l`, `c`, e `r`.  O que
 acontece se você escreve menos colunas do que declaradas em uma linha.  E se
 tiver mais colunas do que foram declaradas?  Experimente com o comando
 `\multicolumn` para unir colunas.
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
