@@ -2,8 +2,8 @@ exclude: ['README.md']
 
 theme: jekyll-theme-primer
 
-title: learnlatex.org
-description: Learn LaTeX online
+title: learn-tikz.org
+description: Learn TikZ online
 
 logo: learnlatex.png
 
@@ -18,10 +18,5 @@ latex: "<span>L<span style='font-variant: small-caps; vertical-align:.35ex;margi
 tex: "<span>T<span style='text-transform:uppercase; vertical-align:-.4ex;margin-left:-.1em;'>e</span>X</span>"
 
 langs:
-   - en
    - fr
-   - pt
-   - vi
-   - es
-
-
+   - en

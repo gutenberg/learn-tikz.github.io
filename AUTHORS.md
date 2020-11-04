@@ -3,6 +3,7 @@ title: Contributors
 permalink: /AUTHORS
 ---
 
+<<<<<<< HEAD
 The following people have made contributions to learnlatex.org:
 
 <<<<<<< HEAD
@@ -43,3 +44,11 @@ The following people have made contributions to learnlatex.org:
 - Uwe Ziegenhagen
 - Denis Bitouzé
 >>>>>>> c2a7923e... Synchronisation with learnlatex.github.io
+=======
+The following people have made contributions to learn-tikz.github.io:
+
+- David Carlisle
+- Jérémy Just
+- Phelype Oleinik
+- Joseph Wright
+>>>>>>> 5921131e... Keep only French and English pages.
