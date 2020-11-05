@@ -1,6 +1,11 @@
 ---
 lang: "en"
 title: "More on: Your first LaTeX document"
+<<<<<<< HEAD
+=======
+description: "This lesson gives more detail on how to run LaTeX, and the special characters it uses and how to insert them in the output PDF."
+toc-anchor-text: "More on: Your first LaTeX document"
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 ## Running LaTeX

@@ -1,6 +1,12 @@
 ---
 lang: "en"
 title: "Formatting: fonts and spacing"
+<<<<<<< HEAD
+=======
+description: "This lesson shows how to change the spacing elements in a document and how to add explicit formatting instructions to the LaTeX source."
+toc-anchor-text: "Fonts & spacing"
+toc-description: "Text formatting for visual presentation."
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 ## Paragraph spacing

@@ -1,6 +1,11 @@
 ---
 lang: "en"
 title: "More on: Mathematics"
+<<<<<<< HEAD
+=======
+description: "This lesson show more amsmath alignment environments, how to make math bold, the math extension package mathtools, and using Unicode input for maths."
+toc-anchor-text: "More on: Mathematics"
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 

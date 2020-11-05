@@ -1,6 +1,12 @@
 ---
 lang: "en"
 title: "Citations and references"
+<<<<<<< HEAD
+=======
+description: "This lesson show the basics of reference databases and how to build your own, how to use this databases in your documents using the two major workflows available, and how to choose between them."
+toc-anchor-text: "Citations & references"
+toc-description: "Working with reference databases."
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 <script>
 preincludes = {

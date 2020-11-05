@@ -1,6 +1,11 @@
 ---
 lang: "en"
 title: "More on: Logical structure"
+<<<<<<< HEAD
+=======
+description: "This lesson shows how to set the document title, and how to make description lists."
+toc-anchor-text: "More on: Logical structure"
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 ## Document titles

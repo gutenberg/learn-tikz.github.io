@@ -1,6 +1,11 @@
 ---
 lang: "en"
 title: "More on: Cross-referencing"
+<<<<<<< HEAD
+=======
+description: "This lesson shows how you can make links of cross-references by loading the hyperref package."
+toc-anchor-text: "More on: Cross-referencing"
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 ## Making cross-references into links

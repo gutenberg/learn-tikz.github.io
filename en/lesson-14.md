@@ -1,6 +1,12 @@
 ---
 lang: "en"
 title: "Selecting fonts and using Unicode engines"
+<<<<<<< HEAD
+=======
+description: "This lesson gives context on how LaTeX interprets Unicode input and how that affects what you type and the fonts you use, and how that changes in modern engines with Unicode and OpenType fonts support."
+toc-anchor-text: "Fonts & Unicode engines"
+toc-description: "Selecting fonts and file encoding."
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 When TeX and LaTeX first started being widely used they largely only handled

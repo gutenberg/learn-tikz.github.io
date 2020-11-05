@@ -1,6 +1,12 @@
 ---
 lang: "en"
 title: "Including graphics and making things 'float'"
+<<<<<<< HEAD
+=======
+description: "This lesson shows how you can include external graphics files into your document, how to change their appearance, and how to make them float automatically to the proper location in the PDF."
+toc-anchor-text: "Using graphics"
+toc-description: "Appearance, spacing and positioning."
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 ## Including graphics

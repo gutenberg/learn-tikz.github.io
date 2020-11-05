@@ -1,6 +1,11 @@
 ---
 lang: "en"
 title: "More on: Accessing documentation and getting help"
+<<<<<<< HEAD
+=======
+description: "This lesson show you where you can find the sources of LaTeX itself."
+toc-anchor-text: "More on: Accessing documentation and getting help"
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 

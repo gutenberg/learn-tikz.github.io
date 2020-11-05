@@ -1,6 +1,10 @@
 ---
 lang: "en"
 title: "Using the learnlatex.org site"
+<<<<<<< HEAD
+=======
+description: "This page explains the learnlatex.org website itself and how to best make use of it."
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 permalink: /en/help
 ---
 

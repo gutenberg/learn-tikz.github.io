@@ -1,6 +1,12 @@
 ---
 lang: "en"
 title: "Cross-referencing"
+<<<<<<< HEAD
+=======
+description: "This lesson shows how to refer to numbered elements in a document, like figures, tables and sections."
+toc-anchor-text: "Cross-referencing"
+toc-description: "Refering to figures, tables, etc."
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 ## The `\label` and `\ref` mechanism

@@ -1,6 +1,11 @@
 ---
 lang: "en"
 title: "Examples for further study"
+<<<<<<< HEAD
+=======
+description: "This lesson shows assorted examples of other popular packages that were not covered in the main lessons."
+toc-anchor-text: "Examples for further study"
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 This course has given an overview of the core features of LaTeX.

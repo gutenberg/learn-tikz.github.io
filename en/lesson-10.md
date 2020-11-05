@@ -1,6 +1,12 @@
 ---
 lang: "en"
 title: "Mathematics"
+<<<<<<< HEAD
+=======
+description: "This lesson presents LaTeX's math mode and how you can type inline and display formulas, the extensions provided by the amsmath package, and how to change fonts in math."
+toc-anchor-text: "Mathematics"
+toc-description: "Math mode and mathematical notation."
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 ## Math mode

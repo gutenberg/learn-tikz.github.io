@@ -1,6 +1,11 @@
 ---
 lang: "en"
 title: "More on: Working with LaTeX"
+<<<<<<< HEAD
+=======
+description: "This lesson gives more detail on what LaTeX is and the engines it runs on."
+toc-anchor-text: "More on: Working with LaTeX"
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 For most of our examples, we don't use a program called `latex` but instead

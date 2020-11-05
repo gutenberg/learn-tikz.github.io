@@ -1,6 +1,12 @@
 ---
 lang: "en"
 title: "Logical structure"
+<<<<<<< HEAD
+=======
+description: "This lesson shows some basic formatting commands, and compares them with semantic formatting with sectioning commands and lists."
+toc-anchor-text: "Logical structure"
+toc-description: "Structure and visual presentation."
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 LaTeX provides ways to concentrate on the logical structure of your document, as well as the

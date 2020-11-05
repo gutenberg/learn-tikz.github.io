@@ -1,6 +1,11 @@
 ---
 lang: "en"
 title: "More on: Structuring longer documents"
+<<<<<<< HEAD
+=======
+description: "This lesson shows how to make an index, and how to use the imakeidx package to automate the process."
+toc-anchor-text: "More on: Structuring longer documents"
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 ## Making an index

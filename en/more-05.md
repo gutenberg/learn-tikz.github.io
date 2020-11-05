@@ -1,6 +1,11 @@
 ---
 lang: "en"
 title: "More on: Using document classes to influence design"
+<<<<<<< HEAD
+=======
+description: "This lesson gives information on more specialized document classes for LaTeX."
+toc-anchor-text: "More on: Using document classes to influence design"
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 ## Journal-specific classes

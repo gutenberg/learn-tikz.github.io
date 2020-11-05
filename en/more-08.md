@@ -1,6 +1,11 @@
 ---
 lang: "en"
 title: "More on: Tables"
+<<<<<<< HEAD
+=======
+description: "This lesson shows more ways to customize a table by styling a column, changing spacing and rules, and further packages that provide different extensions to tables."
+toc-anchor-text: "More on: Tables"
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 

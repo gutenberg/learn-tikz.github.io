@@ -1,6 +1,12 @@
 ---
 lang: "en"
 title: "Accessing documentation and getting help"
+<<<<<<< HEAD
+=======
+description: "This lesson shows the main sources of documentation for LaTeX-related software and packages, and how to seek help when you are in trouble."
+toc-anchor-text: "Help & documentation"
+toc-description: "Accessing help and documentation."
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 

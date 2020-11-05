@@ -1,6 +1,12 @@
 ---
 lang: "en"
 title: "Extending LaTeX using packages and definitions"
+<<<<<<< HEAD
+=======
+description: "This lesson shows how you can extend LaTeX to your needs and change its layout further by using different packages, and shows how you can define your own commands."
+toc-anchor-text: "Extending LaTeX"
+toc-description: "Using packages and definitions."
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 After having declared a class, in the preamble you can modify functionality in

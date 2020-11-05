@@ -1,6 +1,12 @@
 ---
 lang: "en"
 title: "Tables"
+<<<<<<< HEAD
+=======
+description: "This lesson shows how you can build tables in LaTeX, influence the alignment of the cells, add rules to the table, and merge cells."
+toc-anchor-text: "LaTeX tables"
+toc-description: "Fundamentals of working with tables."
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 

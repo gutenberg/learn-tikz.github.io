@@ -1,6 +1,12 @@
 ---
 lang: "en"
 title: "Working with LaTeX"
+<<<<<<< HEAD
+=======
+description: "This lesson explains what a TeX system is and which are the most common ones, it lists some of the text editors usually used with LaTeX, and the online systems which have integrated editors."
+toc-anchor-text: "Working with LaTeX"
+toc-description: "TeX systems and LaTeX text editors."
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 Unlike many computer programs, LaTeX is not a single application containing

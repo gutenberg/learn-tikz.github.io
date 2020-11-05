@@ -1,6 +1,12 @@
 ---
 lang: "en"
 title: "Your first LaTeX document"
+<<<<<<< HEAD
+=======
+description: "This lesson shows the basic structure of a LaTeX document, and how to build it into a PDF file, as well as the main special characters used to control LaTeX."
+toc-anchor-text: "LaTeX documents"
+toc-description: "The mixture of text and commands."
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 Our first LaTeX document is going to be very simple: the idea is to show you

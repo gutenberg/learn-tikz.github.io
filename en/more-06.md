@@ -1,6 +1,11 @@
 ---
 lang: "en"
 title: "More on: Extending LaTeX using packages and definitions"
+<<<<<<< HEAD
+=======
+description: "This lesson gives more details on package loading, shows the babel package for language selection, and gives more details on custom commands."
+toc-anchor-text: "More on: Extending LaTeX using packages and definitions"
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 ## Loading multiple packages

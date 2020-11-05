@@ -1,6 +1,11 @@
 ---
 lang: "en"
 title: "More on: Citations and references"
+<<<<<<< HEAD
+=======
+description: "This lesson gives details on non-English bibliographies, how to make references into hyperlinks, and highlights the main differences between BibTeX styles."
+toc-anchor-text: "More on: Citations and references"
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 ## Dealing with non-English sorting

@@ -1,6 +1,11 @@
 ---
 lang: "en"
 title: "More on: Formatting: fonts and spacing"
+<<<<<<< HEAD
+=======
+description: "This lesson shows how to suppress the paragraph intentation for a single paragraph."
+toc-anchor-text: "More on: Formatting: fonts and spacing"
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 ## Suppressing the indent for one paragraph

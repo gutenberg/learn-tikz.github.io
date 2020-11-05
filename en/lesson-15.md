@@ -1,6 +1,12 @@
 ---
 lang: "en"
 title: "Dealing with errors"
+<<<<<<< HEAD
+=======
+description: "This lesson shows some common errors in LaTeX documents, what they mean, and how to work around them."
+toc-anchor-text: "Error handling"
+toc-description: "Dealing with unexpected behaviors."
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
 
 

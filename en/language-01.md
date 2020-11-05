@@ -1,6 +1,10 @@
 ---
 lang: "en"
 title: "Language-specifics for English"
+<<<<<<< HEAD
+=======
+description: "This lesson shows language-specific details for typesetting text in English."
+>>>>>>> fcb3bc38... Write 'description' elements for en pages
 next: "extra-01"
 ---
 
