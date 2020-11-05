@@ -71,6 +71,7 @@ layout: compress
               class="language-navigation__list">
                 <!-- Loop over languages in _data/languages.yml -->
                 {%- for language in site.data.languages -%}
+<<<<<<< HEAD
                     <li
                       class="language-navigation__list-item">
                       <a 
@@ -80,6 +81,26 @@ layout: compress
                         lang="{{language.language-code}}"
                         title="{{language.label-english}}">{{ language.label-regional }}</a>
                     </li>
+=======
+                  <li
+                    class="language-navigation__list-item">
+                    <a 
+                      class="language-navigation__anchor"
+                      href="/{{language.language-code}}/"
+                      hreflang="{{ language.language-code }}"
+                      title="{{language.label-english}}">
+                      <span 
+                        class="language-navigation__label-regional"
+                        lang="{{language.language-code}}"
+                        >{{ language.label-regional }}</span>
+                      <br>
+                      <span 
+                        class="language-navigation__label-english"
+                        lang="en"
+                        >({{ language.label-english }})</span>
+                    </a>
+                  </li>
+>>>>>>> 0eb6d6ef...  fixed lang attributes
                 {%- endfor -%}
             </ul>
         </nav>
