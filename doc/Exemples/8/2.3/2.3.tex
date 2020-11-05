@@ -1,0 +1,144 @@
+\documentclass{article}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\newcommand{\E}{(-4,-1) rectangle (4,4)}
+
+\newcommand{\A}{(0,0) ++(135:2) circle (2)}
+
+\newcommand{\B}{(0,0) ++(45:2) circle (2)}
+
+\begin{center}
+\begin{tikzpicture}
+\fill[color=magenta!50] \E;
+\fill[opacity=0.5,red]  \A;
+\fill[opacity=0.5,blue] \B;
+\draw (-4,-1) node[above right]{$E$};
+\draw (-2,0) node{$A$};
+\draw (2,0) node{$B$};
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture} [scale=0.7]
+\draw[magenta] \E;
+\fill[color=magenta!50] \A;
+\draw (-2,0) node{$A$};
+\end{tikzpicture}
+\quad
+\begin{tikzpicture} [scale=0.7]
+\fill[color=magenta!50] \E;
+\fill[white]  \A;
+\draw (2,0) node{$\overline{A}$};
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture} [scale=0.7]
+\draw[magenta] \E;
+\fill[color=magenta!50] \B;
+\draw (2,0) node{$B$};
+\end{tikzpicture}
+\quad
+\begin{tikzpicture} [scale=0.7]
+\fill[color=magenta!50] \E;
+\fill[white]  \B;
+\draw (-2,0) node{$\overline{B}$};
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture} [scale=0.7]
+\draw[magenta] \E;
+\fill[color=magenta!50] \A;
+\fill[color=magenta!50] \B;
+\draw (0,0) node[above]{$A\cup B$};
+\end{tikzpicture}
+\quad
+\begin{tikzpicture} [scale=0.7]
+\fill[color=magenta!50] \E;
+\fill[white]  \A;
+\fill[white]  \B;
+\draw (0,-1) node[above]{$\overline{A\cup B}$};
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture} [scale=0.7]
+\draw[magenta] \E;
+\begin{scope}
+    \clip \B;
+    \fill[color=magenta!50] \A;
+\end{scope}
+\draw (0,1) node[above]{$A\cap B$};
+\end{tikzpicture}
+\quad
+\begin{tikzpicture} [scale=0.7]
+\fill[color=magenta!50] \E;
+\begin{scope}
+    \clip \B;
+    \fill[white] \A;
+\end{scope}
+\draw (0,-1) node[above]{$\overline{A\cap B}$};
+\end{tikzpicture}
+\end{center}
+
+
+\begin{center}
+\begin{tikzpicture} [scale=0.7]
+\draw[magenta] \E;
+\fill[color=magenta!50] \A;
+\fill[white] \B;
+\draw (-2,0) node[above]{$A-B$};
+\end{tikzpicture}
+\quad
+\begin{tikzpicture} [scale=0.7]
+\fill[color=magenta!50] \E;
+\fill[white] \A;
+\fill[color=magenta!50] \B;
+\draw (2,0) node[above]{$\overline{A-B}$};
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture} [scale=0.7]
+\draw[magenta] \E;
+\fill[color=magenta!50] \B;
+\fill[white] \A;
+\draw (2,0) node[above]{$B-A$};
+\end{tikzpicture}
+\quad
+\begin{tikzpicture} [scale=0.7]
+\fill[color=magenta!50] \E;
+\fill[white] \B;
+\fill[color=magenta!50] \A;
+\draw (-2,0) node[above]{$\overline{B-A}$};
+\end{tikzpicture}
+\end{center}
+\begin{center}
+\begin{tikzpicture} [scale=0.7]
+\draw[magenta] \E;
+\fill[color=magenta!50] \A;
+\fill[color=magenta!50] \B;
+\begin{scope}
+    \clip \B;
+    \fill[white] \A;
+\end{scope}
+\draw (0,0) node{$A\Delta B$};
+\end{tikzpicture}
+\quad
+\begin{tikzpicture} [scale=0.7]
+\fill[color=magenta!50] \E;
+\fill[white] \A;
+\fill[white] \B;
+\begin{scope}
+    \clip \B;
+    \fill[color=magenta!50] \A;
+\end{scope}
+\draw (0,-1) node[above]{$\overline{A \Delta B}$};
+\end{tikzpicture}
+\end{center}
+
+\end{document}

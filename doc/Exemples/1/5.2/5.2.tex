@@ -1,0 +1,16 @@
+\documentclass{article}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{tikzpicture} 
+  \draw (-2,0) -- (1,1) -- (2,0) -- (-1,-1) -- cycle;
+  \draw (-1,-1) -- (1,1);
+  \draw (-2,0) -- (2,0);
+  \draw (0,0) node{$\bullet$} ;
+  \draw (-1,0) node{$||$} (1,0) node{$||$};
+  \draw (-0.5,-0.5) node{\textbackslash} (0.5,0.5) node{\textbackslash};
+\end{tikzpicture}
+
+\end{document}

@@ -1,0 +1,20 @@
+\documentclass{article}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{tikzpicture}
+  \draw [double distance=3pt, thick] (0.5,0) arc (0:60:0.5);
+  \draw (-1.5,0) arc (0:30:0.5);
+  \draw [color=gray](0,0) circle (2cm);
+  \draw[thick] (0,0)-- (1,1.73);
+  \draw [thick] (0,0) -- (2,0);
+  \draw  [densely dotted] (-2,0)-- (1,1.73);
+  \draw  [densely dotted](-2,0)-- (2,0);
+  \draw (1.26,-1.29) arc (60:90:0.5);
+  \draw [densely dotted] (1,-1.73) -- (2,0);
+  \draw [densely dotted] (1,-1.73) -- (1,1.73);
+\end{tikzpicture}
+
+\end{document}

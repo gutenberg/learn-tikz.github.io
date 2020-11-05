@@ -1,0 +1,18 @@
+\documentclass{article}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{tikzpicture}
+	\tikzstyle{point}=[circle,fill=blue!25,minimum width=5em]
+	\tikzstyle{fleche}=[<->,>=latex,line width=2mm]
+	\node[point] (N) at (2,0){Nord};
+	\node[point] (S) at (-2,0){Sud};
+	\node[point] (E) at (0,2){Est};
+	\node[point] (O) at (0,-2){Ouest};
+	\draw[fleche] (N)--(S);
+	\draw[fleche] (E)--(O);
+\end{tikzpicture}
+
+\end{document}

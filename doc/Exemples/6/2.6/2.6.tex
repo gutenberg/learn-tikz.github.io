@@ -1,0 +1,59 @@
+\documentclass{article}
+
+\usepackage[french]{babel} % pour les \og{} guillemets francais \fg{}
+\usepackage[T1]{fontenc}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+
+\begin{document}
+
+\begin{tikzpicture}
+% styles des noeuds et des fleches
+  \tikzset{
+      noeud/.style={minimum width=5cm,minimum height=3cm,
+           rectangle,rounded corners=10pt,draw,
+           fill=yellow!75,text=red,font=\bfseries},
+      etiquetteA/.style={ellipse,fill=blue!35,scale=0.8},
+      etiquetteB/.style={ellipse,fill=blue!20,scale=0.8},
+      fleche/.style={->,>=stealth',very thick,blue}
+  }
+% neud central
+  \node[noeud] (N) at (0,0) {\Large node \ \og{}N\fg{}};
+% noeuds des etiquettes
+  \node[etiquetteA] (etiquetteN)   at (-3.3,4) {(N)};
+  \node[etiquetteA] (etiquetteNc)  at (-2.7,5) {(N.center)};
+  \node[etiquetteA] (etiquetteNn)  at (0,3)    {(N.north)};
+  \node[etiquetteA] (etiquetteNs)  at (0,-3)   {(N.south)};
+  \node[etiquetteA] (etiquetteNw)  at (-5,0)   {(N.west)};
+  \node[etiquetteA] (etiquetteNe)  at (5,0)    {(N.east)};
+  
+  \node[etiquetteB] (etiquetteNnw) at (-5,3)   {(N.north west)};
+  \node[etiquetteB] (etiquetteNne) at (5,3)    {(N.north east)};
+  \node[etiquetteB] (etiquetteNsw) at (-5,-3)  {(N.south west)};
+  \node[etiquetteB] (etiquetteNse) at (5,-3)   {(N.south east)};
+  \node[etiquetteB] (etiquetteNb)  at (-3,-4)  {(N.base)};
+  \node[etiquetteB] (etiquetteNt)  at (-5.5,-1.5) {(N.text)};
+  \node[etiquetteB] (etiquetteN15) at (15:5)   {(N.15)};
+  \node[etiquetteB] (etiquetteN40) at (40:3.5) {(N.40)};
+% fleches
+  \draw[dashed,blue] (etiquetteN) -- (N.center);
+  \draw[fleche] (etiquetteN)   -- (N);
+  \draw[fleche] (etiquetteNc)  -- (N.center);
+  \draw[fleche] (etiquetteNn)  -- (N.north);
+  \draw[fleche] (etiquetteNs)  -- (N.south);
+  \draw[fleche] (etiquetteNw)  -- (N.west);
+  \draw[fleche] (etiquetteNe)  -- (N.east);
+  \draw[fleche] (etiquetteNnw) -- (N.north west);
+  \draw[fleche] (etiquetteNne) -- (N.north east);
+  \draw[fleche] (etiquetteNsw) -- (N.south west);
+  \draw[fleche] (etiquetteNse) -- (N.south east);
+  \draw[fleche] (etiquetteNb)  -- (N.base);
+  \draw[fleche] (etiquetteNt)  -- (N.text);
+  \draw[dashed,blue] (etiquetteN15) -- (N.center);
+  \draw[dashed,blue] (etiquetteN40) -- (N.center);
+  \draw[fleche] (etiquetteN15) -- (N.15);
+  \draw[fleche] (etiquetteN40) -- (N.40);
+\end{tikzpicture}
+
+\end{document}

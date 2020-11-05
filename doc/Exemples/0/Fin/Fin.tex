@@ -1,0 +1,19 @@
+\documentclass{article}
+
+\usepackage{tikz}
+\usetikzlibrary{fadings}
+
+\begin{document}
+
+\newcommand{\Fin}{node[xshift=-1.5ex,rotate=10]{F}
+                  node[rotate=170]{i}
+                  node[xshift=1.5ex,rotate=45]{n}}
+
+\begin{tikzpicture}[scale=10,transform shape] 
+   \draw (0,0) \Fin;
+   \draw (-1em,-1ex) -- (1em,-1ex);
+   \path[scope fading=south] (-1em,-0.25em) rectangle (1em,-3.75ex);
+   \draw[yscale=-1] (0,2ex) \Fin;
+\end{tikzpicture}
+
+\end{document}

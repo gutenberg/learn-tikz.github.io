@@ -1,0 +1,17 @@
+\documentclass{article}
+
+\usepackage{tikz}
+
+%--------------------------------------------------
+%: math3d
+\tikzset{math3d/.style={x={(-0.353cm,-0.353cm)},z={(0cm,1cm)},y={(1cm,0cm)}}}
+
+%--------------------------------------------------
+\begin{document}
+
+\begin{tikzpicture}[math3d]
+  \draw [domain=-4*pi:4*pi, samples=80, smooth] 
+      plot (\x/pi, {cos(\x r)}, {sin(\x r)}) ;
+\end{tikzpicture}
+
+\end{document}

@@ -1,0 +1,28 @@
+\documentclass{article}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\def\arete{3}   \def\epaisseur{5}   \def\rayon{2}
+
+\newcommand{\ruban}{(0,0)
+  ++(0:0.57735*\arete-0.57735*\epaisseur+2*\rayon)
+  ++(-30:\epaisseur-1.73205*\rayon)
+  arc (60:0:\rayon)   -- ++(90:\epaisseur)
+  arc (0:60:\rayon)   -- ++(150:\arete)
+  arc (60:120:\rayon) -- ++(210:\epaisseur)
+  arc (120:60:\rayon) -- cycle}
+   
+\begin{tikzpicture}[very thick,top color=white,bottom color=gray]
+  \shadedraw \ruban;
+  \shadedraw [rotate=120] \ruban;
+  \shadedraw [rotate=-120] \ruban;
+  \draw (-60:4) node[scale=5,rotate=30]{Ti\textit{k}Z};
+  \draw (180:4) node[scale=3,rotate=-90]{l'impatient};
+  \clip (0,-6) rectangle (6,6); % pour croiser
+  \shadedraw  \ruban;
+  \draw (60:4) node [gray,xscale=-3,yscale=3,rotate=30]{pour};
+\end{tikzpicture}
+
+\end{document}

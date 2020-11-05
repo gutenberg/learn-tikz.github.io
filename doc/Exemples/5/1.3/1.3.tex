@@ -1,0 +1,19 @@
+\documentclass{article}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\newcommand{\nombresCopiesParNote}
+{(0,0) (1,0) (2,2) (3,0) (4,6) (5,4) (6,7) (7,4) (8,3) (9,0) (10,1)}
+
+\begin{tikzpicture}
+  \draw (-1,0) grid (11,7);
+  \draw[thick] plot[mark=*] coordinates {\nombresCopiesParNote};
+  \foreach \x in {0,1,...,10} \draw (\x,0) node[below]{\x};
+  \foreach \y in {1,2,...,7} \draw (-1,\y) node[left]{\y};
+  \draw (5.5,-0.75) node{Notes};
+  \draw (-1.75,3.5) node[rotate=90]{Nombre de notes};
+\end{tikzpicture}
+
+\end{document}

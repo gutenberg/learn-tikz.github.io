@@ -1,0 +1,17 @@
+\documentclass{article}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{tikzpicture}
+  \tikzstyle{sommet}=[circle,draw,thick,fill=yellow]
+  \draw  (90:2)  node[sommet]{}
+    -- (162:2) node[sommet]{}
+    -- (234:2) node[sommet]{}
+    -- (306:2) node[sommet]{}
+    -- (378:2) node[sommet]{}
+    -- cycle;
+\end{tikzpicture}
+
+\end{document}

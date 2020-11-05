@@ -1,0 +1,28 @@
+\documentclass{article}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+
+\begin{document}
+
+\tikzstyle{lien}=[->,>=stealth,rounded corners=5pt,thick]
+
+\tikzset{individu/.style={draw,thick,fill=#1!25},individu/.default={green}}
+
+\begin{center}
+\begin{tikzpicture}[edge from parent path={[->,>=stealth',thick](\tikzparentnode) to [out=90,in=-90] (\tikzchildnode)}]
+\node [individu] {Bibi}[grow'=up,level distance=2cm,sibling distance=6cm]
+child{
+  node [individu=blue]{Papa} [sibling distance=3cm]
+  child{node [individu=blue]{P\'ep\'e}}
+  child{node [individu=red]{M\'em\'e}}
+}
+child{
+  node [individu=red]{Maman} [sibling distance=3cm]
+  child{node [individu=blue]{Papy}}
+  child{node [individu=red]{Mamie}}
+};
+\end{tikzpicture}
+\end{center}
+
+\end{document}

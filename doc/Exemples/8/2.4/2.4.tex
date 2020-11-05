@@ -1,0 +1,74 @@
+\documentclass{article}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\newcommand{\E}{(-4,-1) rectangle (4,4)}
+
+\newcommand{\A}{(0,0) ++(135:2) circle (2)}
+
+\newcommand{\B}{(0,0) ++(45:2) circle (2)}
+
+\newcommand{\AuB}{(0,0) arc(-135:135:2) arc(45:315:2)}
+
+\newcommand{\AnB}{(0,0) arc(-45:45:2) arc(135:225:2)}
+
+\newcommand{\AmB}{(0,0) arc(225:135:2) arc(45:315:2)}
+
+\newcommand{\BmA}{(0,0) arc(-135:135:2) arc(45:-45:2)}
+
+\begin{center}
+\begin{tikzpicture}
+\fill[color=magenta!50] \E;
+\fill[opacity=0.5,red]  \A;
+\fill[opacity=0.5,blue] \B;
+\draw (-4,-1) node[above right]{$E$};
+\draw (-2,0) node{$A$};
+\draw (2,0) node{$B$};
+\end{tikzpicture}
+\end{center}
+\begin{center}
+\begin{tikzpicture} [scale=0.35]
+\draw[magenta] \E; \fill[color=magenta!50] \AuB;
+\end{tikzpicture}
+\begin{tikzpicture} [scale=0.35]
+\draw[magenta] \E; \fill[color=magenta!50] \AnB;
+\end{tikzpicture}
+\quad
+\begin{tikzpicture} [scale=0.35]
+\draw[magenta] \E; \fill[color=magenta!50] \AmB;
+\end{tikzpicture}
+\begin{tikzpicture} [scale=0.35]
+\draw[magenta] \E; \fill[color=magenta!50] \BmA;
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture} [scale=0.35]
+\fill[color=magenta!50,even odd rule] \E \AuB;
+\end{tikzpicture}
+\begin{tikzpicture} [scale=0.35]
+\fill[color=magenta!50,even odd rule] \E \AnB;
+\end{tikzpicture}
+\quad
+\begin{tikzpicture} [scale=0.35]
+\fill[color=magenta!50,even odd rule] \E \AmB;
+\end{tikzpicture}
+\begin{tikzpicture} [scale=0.35]
+\fill[color=magenta!50,even odd rule] \E \BmA;
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture} [scale=0.7]
+\draw[magenta] \E;
+\fill[color=magenta!50,even odd rule] \A \B;
+\end{tikzpicture}
+\quad
+\begin{tikzpicture} [scale=0.7]
+\fill[color=magenta!50,even odd rule] \E \A \B;
+\end{tikzpicture}
+\end{center}
+
+\end{document}

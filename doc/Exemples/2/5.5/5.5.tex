@@ -1,0 +1,23 @@
+\documentclass{article}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{tikzpicture}[>=latex]
+  \draw (0,0) node[below] {$M_1$} -- (1,2) node[midway]{$-$};
+  \draw (1,2)-- (2,4)  node[midway]{$-$} node[above]{$M$};
+  \draw (0,0)-- (3,1)  node[midway]{$||$};
+  \draw (3,1)-- (6,2) node[midway]{$||$};
+  \draw [dashed,->] (1,2)
+       node[left]{$I_1$}
+       node {$\bullet$}
+       -- (3,1) node[midway,above] {$\overrightarrow{v}$}
+                node[below right] {$I_2$}
+                node {$\bullet$};
+  \draw [dashed,->] (2,4)-- (6,2)
+       node[midway,above] {$2 \overrightarrow{v}$}
+       node[right] {$M_2$};
+\end{tikzpicture}
+
+\end{document}

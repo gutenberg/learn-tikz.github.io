@@ -1,0 +1,12 @@
+\documentclass{article}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{tikzpicture}
+  \foreach \k in {0,2,...,8} 
+    \draw  plot [domain=-1:1,samples=80] (\x+\k,\x^2);
+\end{tikzpicture}
+
+\end{document}

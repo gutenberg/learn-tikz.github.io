@@ -1,0 +1,48 @@
+\documentclass{article}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+
+\begin{document}
+
+\tikzstyle{element}=[rectangle,draw,fill=white]
+\tikzstyle{terminal}=[circle,draw]
+\tikzstyle{fleche}=[->,>=stealth',thick,rounded corners=4pt]
+
+\begin{center}
+\fbox{\begin{tikzpicture}
+  \node[above right] at (-1,0) {Expression};
+  \node[element] (T) at (4,0) {Terme};
+  \node[terminal] (p) at (4,-1) {$+$};
+  \draw[fleche] (0,0) -- (T);  \draw[fleche] (T) -- (8,0);
+  \draw[fleche] (6,0) |- (p);  \draw[fleche] (p) -| (2,0);
+\begin{scope}[yshift=-2.5cm]
+  \node[above right] at (-1,0) {Terme};
+  \node[element] (F) at (4,0) {Facteur};
+  \node[terminal] (m) at (4,-1) {$\times$};
+  \draw[fleche]  (0,0) -- (F);  \draw[fleche]  (F) -- (8,0);
+  \draw[fleche]  (6,0) |- (m);  \draw[fleche]  (m) -| (2,0);
+\end{scope}
+\begin{scope}[yshift=-5cm]
+  \node[above right] at (-1,0) {Facteur};
+  \node[element] (V) at (4,0) {Variable};
+  \node[terminal] (po) at (2,-1) {$($};
+  \node[element] (E) at (4,-1) {Expression};
+  \node[terminal] (pf) at (6,-1) {$)$};
+  \draw[fleche] (0,0) -- (V);  \draw[fleche] (V) -- (8,0);
+  \draw[fleche] (1,0) |- (po); \draw[fleche] (po)--(E);
+  \draw[fleche] (E) -- (pf);   \draw[fleche] (pf) -| (7,0);
+\end{scope}
+\begin{scope}[yshift=-7.5cm]
+  \node[above right] at (-1,0) {Variable};
+  \node[terminal] (x) at (4,0) {$X$};
+  \node[terminal] (y) at (4,-1) {$Y$};
+  \node[terminal] (z) at (4,-2) {$Z$};
+  \draw[fleche] (0,0) -- (x);  \draw[fleche] (x) -- (8,0);
+  \draw[fleche] (2,0) |- (y);  \draw[fleche] (y) -| (6,0);
+  \draw[fleche] (1,0) |- (z);  \draw[fleche] (z) -| (7,0);
+\end{scope}
+\end{tikzpicture}}
+\end{center}
+
+\end{document}

@@ -1,0 +1,19 @@
+\documentclass{article}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{tikzpicture}
+	\tikzstyle{fleche}=[<->,>=latex,very thick]
+	\node[draw] (H) at (0,0){Horizontal};
+	\node[draw,rotate=45] (M) at (2,0){Montée à 45°};
+	\node[draw,rotate=180] (S) at (4,0){Sur le Dos};
+	\node[draw,rotate=-60] (D) at (6,0){Descente à 60°};
+	\node[draw,rotate=90] (V) at (9,0){Vertical};
+	\draw[fleche] (H.south) to[bend right=90] (S.north);
+	\draw[fleche] (M.east) to[bend left] (D.west);
+	\draw[fleche] (D.east) to[out=-60,in=-90] (V.west);
+\end{tikzpicture}
+
+\end{document}

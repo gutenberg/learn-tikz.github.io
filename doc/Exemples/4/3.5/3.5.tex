@@ -1,0 +1,18 @@
+\documentclass{article}
+
+\usepackage{tikz}
+
+%--------------------------------------------------
+%: math3d
+\tikzset{math3d/.style={x={(-0.353cm,-0.353cm)},z={(0cm,1cm)},y={(1cm,0cm)}}}
+
+%--------------------------------------------------
+\begin{document}
+
+\begin{tikzpicture}[math3d,fill=gray!20]
+   \foreach \t in {0,0.1,...,1.5}
+      \filldraw plot[samples=50,domain=0:2*pi]
+          ({sqrt(\t)*cos(\x r)}, {sqrt(\t)*sin(\x r)}, \t);
+\end{tikzpicture}
+
+\end{document}

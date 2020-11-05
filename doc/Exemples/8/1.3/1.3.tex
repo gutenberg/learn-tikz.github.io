@@ -1,0 +1,34 @@
+\documentclass{article}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\newcommand{\anneau}[2]%
+{\fill[#2,even odd rule] (#1) circle (2.5) circle (3);}
+
+\newcommand{\recouvrement}[3]%
+{\fill[#3]   (#1) ++(#2:3)
+   arc (#2:{#2-30}:3)    -- ++({#2-30}:-0.5)
+   arc ({#2-30}:#2:2.5)  -- cycle;}
+   
+\begin{center}
+	\begin{tikzpicture} [scale=0.75]
+		\coordinate (A) at (-6.4,0);
+		\coordinate (B) at (-3.2,-3.2);
+		\coordinate (C) at (0,0);
+		\coordinate (D) at (3.2,-3.2);
+		\coordinate (E) at (6.4,0);
+		\anneau{A}{blue}
+		\anneau{B}{yellow}
+		\anneau{C}{black}
+		\anneau{D}{green}
+		\anneau{E}{red}
+		\recouvrement{A}{0} {blue}
+		\recouvrement{B}{90}{yellow}
+		\recouvrement{C}{0} {black}
+		\recouvrement{D}{90}{green}
+	\end{tikzpicture}
+\end{center}
+
+\end{document}
