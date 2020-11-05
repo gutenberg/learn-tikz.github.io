@@ -1,5 +1,5 @@
 ---
-title: "Utiliser le site learn-tikz.org"
+title: "Utiliser le site learnlatex.org"
 permalink: /fr/help
 ---
 
@@ -26,14 +26,8 @@ dans la page sous cette forme :
 \documentclass{article}
 \usepackage[T1]{fontenc}
 
-\usepackage{tikz}
-
 \begin{document}
-
-\begin{tikzpicture}
-  \fill[red] (0,0) circle (1cm) ;
-\end{tikzpicture}
-
+Texte d'exemple.
 \end{document}
 ```
 
