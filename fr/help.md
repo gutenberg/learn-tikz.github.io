@@ -4,7 +4,11 @@ title: "Utiliser le site learn-tikz.org"
 =======
 lang: "fr"
 title: "Utiliser le site learnlatex.org"
+<<<<<<< HEAD
 >>>>>>> cc3dbe3e...  added page language attribute to front matter for all french pages
+=======
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis orci, faucibus eget sollicitudin vel, varius eget ipsum. Duis sed sodales leo."
+>>>>>>> 9270e632... "toc-anchor-text" added to French translation (#101).
 permalink: /fr/help
 ---
 

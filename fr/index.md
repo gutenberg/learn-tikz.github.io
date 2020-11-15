@@ -1,6 +1,7 @@
 ---
 lang: "fr"
 title: learnlatex.org
+permalink: /fr/
 ---
 
 ## Bienvenue sur learn-tikz.org (version française)!
