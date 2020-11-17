@@ -1,8 +1,6 @@
 ---
-title: More on: Logical structure
+title: "More on: Logical structure"
 ---
-<<<<<<< HEAD
-=======
 
 ## Document titles
 
@@ -63,4 +61,3 @@ have an author, a title and a date in them?
 
 Make some descriptive lists, and nest some of them inside another ones (ordered,
 unordered or descriptive).
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

@@ -1,9 +1,7 @@
 ---
-title: "Using the learnlatex.org site (Portuguese)"
+title: "Usando o learnlatex.org"
+permalink: /pt/help
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 ## Navegando no site
 
@@ -100,7 +98,7 @@ funcione, mas não exige o `program=`, e atualmente é restrito a apenas um dos
 cinco interpretadores suportados nos sistemas online usados.
 
 Você pode ver um exemplo de um comentário sendo usado para especificar o
-LuaLaTeX em um [exemplo neste site](pt/more-14).
+LuaLaTeX em um [exemplo neste site](more-14).
 
 Se o `platex` ou `uplatex` for especificado, então o programa `dvipdfmx` também
 é usado para produzir o PDF final do arquivo DVI que estes interpretadores
@@ -131,4 +129,3 @@ solicitado usando `log` no comentário acima.
       [LaTeX-on-HTTP](https://github.com/YtoTech/latex-on-http)
       e agradecemos aos desenvolvedores desses serviços por atualizações e por
       permitir os exemplos deste site em fases anteriores.
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

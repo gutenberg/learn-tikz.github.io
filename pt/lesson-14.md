@@ -1,9 +1,6 @@
 ---
-title: "Selecting fonts and using Unicode engines (Portuguese)"
+title: "Trocando fontes e usando interpretadores Unicode"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 Quando o TeX e o LaTeX começaram a ser amplamente utilizados eles funcionavam
 apenas com idiomas Europeus, embora houvesse alguma capacidade para usar outros
@@ -79,7 +76,6 @@ letras do alfabeto Latino e Grego, assim como alguns ideogramas chineses:
 
 ```latex
 \documentclass{article}
-\usepackage[T1]{fontenc}
 \usepackage{fontspec}
 \setmainfont{texgyretermes-regular.otf}
 \newfontfamily\cjkfont{FandolSong-Regular.otf}
@@ -93,4 +89,3 @@ ABC → αβγ → {\cjkfont 你好}
 Quando trocar idiomas, também é importante trocar coisas como padrões de
 hifenização entre outras especificidades que os pacotes `babel` e `polyglossia`
 conseguem fazer de forma robusta.
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

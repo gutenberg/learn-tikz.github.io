@@ -5,17 +5,9 @@ var buttons ={
     "edit":             "edit",
     "copy":             "copy",
     "Open in Overleaf": "Open in Overleaf",
-<<<<<<< HEAD
-    "Latex.Online":     "Latex.Online",
-=======
     "LaTeX Online":     "LaTeX Online",
-<<<<<<< HEAD
->>>>>>> 790d3101... 2 latex online services
-    "Delete Output":    "Delete Output"
-=======
     "Delete Output":    "Delete Output",
     "Compiling PDF":    "Compiling PDF"
->>>>>>> f16db7a4... change and localise Loading..... flash text
 }
 
 var editors=[];
@@ -66,116 +58,10 @@ function llexamples() {
 }
 
 const commentregex = / %.*/;
-const engineregex = /% *!TEX.*[^a-zA-Z]((pdf|xe|lua|u?p)latex) *\n/i;
+const engineregex = /% *!TEX.*[^a-zA-Z]((pdf|xe|lua|u?p)latex(-dev)?) *\n/i;
 const returnregex = /% *!TEX.*[^a-zA-Z](pdfjs|pdf|log) *\n/i;
+const makeindexregex = /% *!TEX.*[^a-zA-Z]makeindex( [a-z0-9\.\- ]*)\n/ig;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-function latexonlinecc(nd) {
-<<<<<<< HEAD
-    var fconts="";
-    if(typeof(preincludes) == "object") {
-	if(typeof(preincludes[nd]) == "object") {
-	    fconts= "\n\\makeatletter\\def\\input@path{{latex.out/}}\\makeatother\n";
-	    var incl=preincludes[nd];
-	    for(prop in incl) {
-		fconts=fconts+"\n\\begin{filecontents}{" +
-		    incl[prop] +
-		    "}\n" +
-		    document.getElementById(prop).innerText +
-		    "\n\\end{filecontents}\n";
-	    }
-	}
-    }
-    "\\makeatletter\\def\\input@path{{latex.out/}}\\makeatother\n"
-    var p = document.getElementById(nd);
-    if(p.innerText.indexOf("biblatex") !== -1) {
-	fconts=fconts + "\n\\RequirePackage[backend=bibtex]{biblatex}\n";
-    }
-    var b = document.getElementById('lo-' + nd);
-    var ifr= document.getElementById(nd + "ifr");
-    if(ifr == null) {
-	ifr=document.createElement("iframe");
-	ifr.setAttribute("width","100%");
-	ifr.setAttribute("height","500em");
-	ifr.setAttribute("id",nd + "ifr");
-	p.parentNode.insertBefore(ifr, b.nextSibling);
-	d=document.createElement("button");
-	d.innerText=buttons["Delete Output"];
-	d.setAttribute("id","del-" + nd);
-	d.setAttribute("onclick",'deleteoutput("' + nd + '")');
-	p.parentNode.insertBefore(d, b.nextSibling);
-    }
-    // that looks to have all lines but still need to zap comments for some reason..
-    // alert(encodeURIComponent(fconts));
-    var p = document.getElementById(nd);
-=======
-    var p = document.getElementById(nd);
->>>>>>> eb851494... conditional use of latex-on-http
-    var t = p.innerText;
-    var cmd="";
-    var eng=t.match(engineregex);
-    if(eng != null) {
-	cmd="&command=" + eng[1].toLowerCase();
-    } else if(t.indexOf("fontspec") !== -1) {
-	cmd="&command=xelatex";
-    }
-<<<<<<< HEAD
-    ifr.setAttribute("src","https://texlive2020.latexonline.cc/compile?text=" + encodeURIComponent(fconts.replace(commentregex,'') + t.replace(engineregex,'')) + cmd);
-=======
-    // no platex on latexonlinecc
-    // checking User Agent isn't great but better than looping
-    if(window.navigator.userAgent.match(/Android.*Firefox/) ||
-       cmd == "&command=platex" ||
-       cmd == "&command=uplatex" ){ 
-	latexonhttp(nd);
-    } else {
-	var fconts="";
-	if(typeof(preincludes) == "object") {
-	    if(typeof(preincludes[nd]) == "object") {
-		fconts= "\n\\makeatletter\\def\\input@path{{latex.out/}}\\makeatother\n";
-		var incl=preincludes[nd];
-		for(prop in incl) {
-		    fconts=fconts+"\n\\begin{filecontents}{" +
-			incl[prop] +
-			"}\n" +
-			document.getElementById(prop).innerText +
-			"\n\\end{filecontents}\n";
-		}
-	    }
-	}
-	// no biber support currently
-	if(t.indexOf("biblatex") !== -1) {
-	    t=t.replace(/usepackage\{biblatex/,'usepackage[]\{biblatex');
-	    t=t.replace(/\]\{biblatex/,',backend=bibtex]\{biblatex');
-	}
-	var b = document.getElementById('lo-' + nd);
-	var ifr= document.getElementById(nd + "ifr");
-	if(ifr == null) {
-	    ifr=document.createElement("iframe");
-	    ifr.setAttribute("width","100%");
-	    ifr.setAttribute("height","500em");
-	    ifr.setAttribute("id",nd + "ifr");
-	    ifr.setAttribute("name",nd + "ifr");
-	    p.parentNode.insertBefore(ifr, b.nextSibling);
-	    d=document.createElement("button");
-	    d.innerText=buttons["Delete Output"];
-	    d.setAttribute("id","del-" + nd);
-	    d.setAttribute("onclick",'deleteoutput("' + nd + '")');
-	    p.parentNode.insertBefore(d, b.nextSibling);
-	}
-	// that looks to have all lines but still need to zap comments for some reason..
-	ifr.setAttribute("src","https://texlive2020.latexonline.cc/compile?text=" + encodeURIComponent(fconts.replace(commentregex,'') + t.replace(engineregex,'')) + cmd);
-    }
->>>>>>> eb851494... conditional use of latex-on-http
-}
-
-
-=======
->>>>>>> ae32bda3... switch to latexcgi server
-
-=======
->>>>>>> cfaecd1f... add ace editor
 // https://www.overleaf.com/devs
 function addinput(f,n,v) {
     var inp=document.createElement("input");
@@ -206,13 +92,17 @@ function openinoverleaf(nd) {
     fm.innerHTML="";
     var p = document.getElementById(nd);
     var t = editors[nd].getValue();
-    addinput(fm,"encoded_snip[]",t.replace(engineregex,''));
+    addinput(fm,"encoded_snip[]","\n" + t);
     addinput(fm,"snip_name[]","document.tex");
     if(typeof(preincludes) == "object") {
 	if(typeof(preincludes[nd]) == "object") {
 	    var incl=preincludes[nd];
 	    for(prop in incl) {
-		addinput(fm,"encoded_snip[]",editors[prop].getValue());
+		if(editors[prop]==null) {
+		    addinput(fm,"encoded_snip[]",document.getElementById(prop).textContent);
+		} else {
+		    addinput(fm,"encoded_snip[]",editors[prop].getValue());
+		}
 		addinput(fm,"snip_name[]",incl[prop]);
 	    }
 	}
@@ -221,7 +111,7 @@ function openinoverleaf(nd) {
     var eng=t.match(engineregex);
     if(eng != null) {
 	engv=eng[1].toLowerCase();
-	if(engv == "platex" || engv == "uplatex") {
+	if(engv.indexOf("platex") != -1) {
 	    addinput(fm,"encoded_snip[]","$latex = '" + engv + "';\n$bibtex = 'pbibtex';\n$dvipdf = 'dvipdfmx %O -o %D %S';");
 	    addinput(fm,"snip_name[]","latexmkrc");
 	    engv="latex_dvipdf";
@@ -270,7 +160,11 @@ function latexcgi(nd) {
 	if(typeof(preincludes[nd]) == "object") {
 	    var incl=preincludes[nd];
 	    for(prop in incl) {
-		addtextarea(fm,"filecontents[]",editors[prop].getValue());
+		if(editors[prop]==null) {
+		    addtextarea(fm,"filecontents[]",document.getElementById(prop).textContent);
+		} else {
+		    addtextarea(fm,"filecontents[]",editors[prop].getValue());
+		}
 		addinputnoenc(fm,"filename[]",incl[prop]);
 	    }
 	}
@@ -291,7 +185,12 @@ function latexcgi(nd) {
     } else {
 	rtnv=rtn[1].toLowerCase();
 	addinput(fm,"return",rtnv);
-    }    
+    }
+    var mki = makeindexregex.exec(t);
+    while (mki != null) {
+	addinputnoenc(fm,"makeindex[]",mki[1]);
+	mki = makeindexregex.exec(t);
+    }
     var b = document.getElementById('lo-' + nd);
     var ifr= document.getElementById(nd + "ifr");
     if(ifr == null) {
@@ -317,7 +216,7 @@ function latexcgi(nd) {
 	window.scrollBy(0,150);
     }
     setTimeout(function () {
-	p.parentNode.removeChild(document.getElementById(nd+"load"));0
+	p.parentNode.removeChild(document.getElementById(nd+"load"));
     }, 1000);
     fm.submit();
 }

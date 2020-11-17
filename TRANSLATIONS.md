@@ -28,33 +28,17 @@ Once the initial site is working, you can make add the new language files by tak
 ISO 639-1 two letter language code for your language, which we shall assume is `zz`
 
 1. Make a new directory `zz` as a copy of the english pages in `en`, including the subdirectory `en/includes`
-<<<<<<< HEAD:TRANSLATIONS
-<<<<<<< HEAD:TRANSLATIONS
-2. Copy top level `index.html` into the `zz` directort and change references to `en` to `zz`.
-=======
 2. Copy top level `index.md` into the `zz` directory and change references to `en` to `zz`.
-<<<<<<< HEAD:TRANSLATIONS
-<<<<<<< HEAD:TRANSLATIONS
->>>>>>> 7403be14... index.md not .html:TRANSLATIONS.md
-=======
-2. Copy top level `index.md` into the `zz` directory and change references to `en` to `zz`.
->>>>>>> 4cd5983c... index.md not .html:TRANSLATIONS.md
-   (See the examples for existing languages, such as `de`).
-3. Add the two level code `zz` to the `langs:` array in the `_config.yml` file.
-=======
-=======
->>>>>>> 67c7af35... document that the zz/index.html should be deleted:TRANSLATIONS.md
    **Delete** the `zz/index.html` which would force a redirect to the English home page.
    (See the examples for existing languages, such as `de`).
 
 3. Add the two letter code `zz` to the `langs:` array in the `_config.yml` file.
->>>>>>> 1c733dff... document that the zz/index.html should be deleted:TRANSLATIONS.md
 4. Translate the fixed strings in the files in `zz/includes` into your language.
    This is for site navigation such as "next lesson" and
    for the buttons used in examples such as "Open in Overleaf".
 
 
-At this point your language should appear im the drop down menu to
+At this point your language should appear in the drop down menu to
 select languages, and the navigation between pages. Obviously the main
 text is still English!
 
@@ -94,7 +78,7 @@ and lesson-03 with the first document have forward references to the
 
 Apart from these forward references the examples should stay as close
 to the current examples as possible even if they are set up to run
-with a different engine (which can be accomplished by adding a `! TEX`
+with a different engine (which can be accomplished by adding a `!TEX`
 comment to the example.)
 
 ## Language specific lessons
@@ -119,7 +103,7 @@ pull request using the GitHub site to request the files are added to
 the main site.
 
 At this point you can close the initial issue raised that flagged your
-intentionto provide a translation.
+intention to provide a translation.
 
 ## Making changes after the files have been merged
 

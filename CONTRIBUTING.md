@@ -57,14 +57,12 @@ the site useful. There are a few things to watch out for
   to typographical quotes: `"abc" 'abc' abc's` produces "abc" 'abc' abc's.
 
 - Please wrap source lines to keep them below 80 characters long
-<<<<<<< HEAD
-=======
 
 ## Language
 
 At present, we have full content only in English, but the longer-term plan is
 to add additional languages: notice that the content is within a `/en/` tree.
-There are sample translations unde `de`, `fr` and `pt` but only teh page titles are translated until the English version is more stable.
+There are sample translations under `de`, `fr` and `pt` but only the page titles are translated until the English version is more stable.
 
 For the avoidance of doubt, we are using US English spelling (and idiom)
 on the site, as this is the most widely-understood approach.
@@ -82,21 +80,4 @@ The translation should be placed in a two-letter directory using the
 ISO 639-1 language code.  The yml `langs` array in `_config.yml` will
 need to be extended to include the language.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-A test site showing the language switching (but without real
-translated text) is [viewable](https://davidcarlisle.github.io/ll)
->>>>>>> bebe68f8... language switching notes
-=======
->>>>>>> 9e0bbbb5... remove link  to ll test site as language switching now enabled here
-=======
-See also the [specific guidelines for translators](TRANSLATIONS).
->>>>>>> abf0fa15... link to TRANSLATORS
-=======
 See also the [specific guidelines for translators](TRANSLATIONS.md).
->>>>>>> 006a9def... relative links issue #79
-=======
-See also the [specific guidelines for translators](TRANSLATIONS.md).
->>>>>>> db21eee1... relative links issue #79

@@ -1,19 +1,18 @@
 ---
-title: Cross-referencing
+title: "Formatting: fonts and spacing"
 ---
-<<<<<<< HEAD
-=======
 
-To have LaTeX remember a spot in your document you label it,
-and then in other places you refer to it.
+## Paragraph spacing
 
-Change the document to this.
+We have already seen that a blank line in your input will generate a new
+paragraph in LaTeX. This shows up as the paragraph will start with an
+indent.
+One common style is to have no indents for paragraphs, but instead
+to have a 'blank line' between them. We can achieve that using the `parskip`
+package.
+
 ```latex
 \documentclass{article}
-<<<<<<< HEAD
-\usepackage{amsmath,amssymb,amsthm}
-
-=======
 \usepackage[T1]{fontenc}
 \usepackage[parfill]{parskip}
 \usepackage{lipsum} % Just for some filler text
@@ -51,21 +50,25 @@ for that.
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 \begin{document}
-Hey world!
+Some text \hspace{1cm} more text.
 
-This is a first document.
+\vspace{10cm}
 
+Even more text.
+\end{document}
+```
 
-\section{Title of the first section}
+## Explicit text formatting
 
-Text of material for the first section.
+We saw [a while ago](lesson-03) that most of the time logical structure is
+preferable. But sometimes you want to make text bold, or italic, or monospaced,
+etc. There are two types of command for this: ones for short pieces of text,
+and ones for 'running' material.
 
+For short bits of text, we use `\textbf`, `\textit`, `\textrm`, `\textsf`,
+`\texttt` and `\textsc`.
 
-<<<<<<< HEAD
-\subsection{Subsection of the first section}\label{subsec:labelone}
-=======
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
@@ -74,22 +77,10 @@ Let's have some font fun: \textbf{bold}, \textit{italic}, \textrm{roman},
 \textsf{sans serif}, \texttt{monospaced} and \textsc{small caps}.
 \end{document}
 ```
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Text of material for the first subsection.
-\begin{equation}
-  e^{i\pi}+1 = 0
-\label{eq:labeltwo}
-\end{equation}
-=======
-For running text, we use commands that alter the font set up: the commands
-=======
 For running text, we use commands that alter the font setup; the commands
->>>>>>> ce8dc718... Corrections from Barbara (3)
 here are for example `\bfseries` and `\itshape`. Because these don't 'stop',
-we need to place them in a _group_ if we want to prevent them applying to
+we need to place them in a _group_ if we want to prevent them from applying to
 the whole document. LaTeX environments are groups, as are table cells,
 or we can use `{...}` to make an explicit group.
 
@@ -113,7 +104,7 @@ We can set font size in a similar way; these commands all work on an ongoing
 basis. The sizes we set are relative: `\huge`, `\large`, `\normalsize`,
 `\small` and `\footnotesize` are common. It's important to finish a paragraph
 _before_ changing the font size back; see how we add an explicit `\par`
-(paragraph) here.
+(paragraph break) here.
 
 ```latex
 \documentclass{article}
@@ -126,38 +117,16 @@ Normal text.
 Normal text
 {\bfseries\small Much smaller text\par}
 \end{center}
->>>>>>> 95d515f2... Corrections from Barbara (2)
 
-In subsection~\ref{subsec:labelone} is equation~\ref{eq:labeltwo}.
 \end{document}
 ```
 
-There are two `\label{...}` commands, one after the subsection
-and one inside the equation environment.
-They are associated with the last sentence's `\ref{...}` commands.
-When you run LaTeX, it saves information in the labels to an auxiliary file.
-For `\label{subsec:labelone}` LaTeX knows that it is now in a subsection and
-so it saves the subsection's number.
-For `\label{eq:labeltwo}` LaTeX knows that the most recent environment
-of interest is an equation so it saves the information for the equation.
-When you ask for the reference, LaTeX gets it from the auxiliary file.
-(The `subsec:` and `eq:` aren't used by LaTeX;
-rather, it just keeps track of what it has most
-recently processed.
-But when you are writing these help you remember what the label
-is about.)
+## Exercises
 
-You may see references that show in an output PDF
-as boldface double question marks, **??**.
-The explanation is that because of this auxiliary file work,
-the first time that you compile a document the label has not
-yet been saved.
-Run LaTeX once more time and you'll be all set.
-(Usually while writing you will run LaTeX a number of times anyway,
-so in practice this is not a bother.)
+Experiment with manual formatting: create a `titlepage` environment and
+try inserting different spaces and font changes. What happens when we
+combine font changes? How does this compare to math mode?
 
-Notice the twiddles, the `~` characters before the references.
-You don't want a line break between `subsection` and its number, or
-between `equation` and its number.
-Putting in a twiddle means LaTeX won't break the line there.
->>>>>>> a70db997... Top-level titles will come from YAML
+What happens if you change the font size of a large paragraph (try with
+`\tiny` then with `\huge`) but don't issue a final `\par` before closing
+the group?

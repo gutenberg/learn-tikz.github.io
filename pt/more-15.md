@@ -1,16 +1,13 @@
 ---
-title: "More on: Accessing documentation and getting help (Portuguese)"
+title: "Veja mais sobre: Lidando com erros"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 ## Erros reportados no final de ambientes
 
 Alguns ambientes (notavelmente alinhamentos do `amsmath` e tabelas do
 `tabularx`) leem todo o corpo do ambiente antes de processar o conteúdo.  Isso
 significa que qualquer erro dentro do ambiente será relatado na última linha.
-No entanto, como visto na [lição principal](pt/lesson-15), o contexto do erro
+No entanto, como visto na [lição principal](lesson-15), o contexto do erro
 mostrado pelo TeX ainda deve mostrar a localização exata do erro.
 
 ```latex
@@ -141,4 +138,3 @@ pois o `)` é visto como "texto normal".
       if(editors['pre6'] != null) editors['pre6'].moveCursorTo(4, 30, false);
   }, false);
 </script>
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

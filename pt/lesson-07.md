@@ -1,9 +1,6 @@
 ---
-title: "Including graphics and making things 'float' (Portuguese)"
+title: "Incluindo gráficos e fazendo coisas 'flutuarem'"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 ## Incluindo gráficos
 
@@ -30,7 +27,7 @@ você pode escrever, por exemplo, `example-image.png`. (O pacote `graphicx` vai
 tentar adivinhar a extensão se você não der uma.)
 
 Você vai perceber que usamos um novo ambiente aqui, `center`, para colocar a
-imagem centralizada horizontalmente na página.  [Mais adiante](pt/lesson-11),
+imagem centralizada horizontalmente na página.  [Mais adiante](lesson-11),
 vamos falar mais sobre espaçamento e posicionamento.
 
 ## Alterando a aparência de imagens
@@ -115,7 +112,7 @@ especificadores diferentes:
 - `b` final da página (`bottom`)
 - `p` uma página dedicada para _floats_ (float `page`)
 
-[Mais adiante](pt/lesson-09) vamos ver como fazer referências cruzadas a
+[Mais adiante](lesson-09) vamos ver como fazer referências cruzadas a
 _floats_ para que você possa indicá-los do texto.
 
 Você provavelmente percebeu que centralizamos a imagem usando `\centering` ao
@@ -134,4 +131,3 @@ Explore o que você pode fazer usando as opções `height`, `width`, `angle` e
 Use `lipsum` para fazer uma demonstração razoavelmente longa, então tente
 colocar floats usando diferentes especificadores de posição.  Como
 especificadores diferentes interagem?
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

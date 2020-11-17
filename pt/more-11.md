@@ -1,9 +1,6 @@
 ---
-title: "More on: Formatting: fonts and spacing (Portuguese)"
+title: "Veja mais sobre: Formatação: fontes e espaçamento"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 ## Suprimindo a indentação de um parágrafo
 
@@ -25,4 +22,3 @@ consiga ver o efeito aqui!
 consiga ver o efeito aqui!
 \end{document}
 ```
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

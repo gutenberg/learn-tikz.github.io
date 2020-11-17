@@ -1,20 +1,14 @@
 ---
-<<<<<<< HEAD
-title: More on: Extending LaTeX using packages
-=======
 title: "More on: Extending LaTeX using packages and definitions"
->>>>>>> eeeda314... Sync with main repository.
 ---
-<<<<<<< HEAD
-=======
 
 ## Loading multiple packages
 
 The `\usepackage` command takes a comma-separated list of packages, so you can
 load several in one go: `\usepackage{color,graphicx}` for example. If you are
 passing options to a package, they will apply to each of the packages in the list.
-It's also easier to comment out packages if they are loaded separately. So we
-will stick to loading each package on a separate line.
+It's also easier to comment out packages if they are loaded
+separately.  So we will stick to loading each package on a separate line.
 
 ## The `babel` package
 
@@ -49,11 +43,6 @@ Birnen sind gelb.
 ```
 
 Other language settings make design changes: for example, in traditional
-<<<<<<< HEAD
-French typography, there is a space before `:`, and this is added if you
-load `babel` with the option `french`.
->>>>>>> 3b5c2b8f... corrections from Barbara
-=======
 French typography, there is a space before some punctuation signs, like `:`,
 and this is added automatically if you load `babel` with the option `french`.
 
@@ -84,9 +73,6 @@ Birnen sind gelb.
 
 \end{document}
 ```
-<<<<<<< HEAD
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
-=======
 
 ## More definitions
 
@@ -95,7 +81,7 @@ Birnen sind gelb.
 If we take the example from the main lesson, we could make the color
 optional, defaulting to blue.
 
-```
+```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
 
@@ -121,7 +107,7 @@ here for compatibility.
 
 We can repeat the above example but using `\NewDocumentCommand`
 
-```
+```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
 
@@ -150,11 +136,3 @@ is slightly more verbose but allows many more forms of commands to be
 defined. Here we just give this simple example where the first
 argument is optional, defaulting to blue (`O{blue}`) and the second
 argument is mandatory (`m`).
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> eeeda314... Sync with main repository.
-=======
->>>>>>> 9a2e269b... Merge in changes from PR #95
-=======
-
->>>>>>> 6cc3ccdf... merge in changes from PR #95

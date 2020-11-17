@@ -1,9 +1,6 @@
 ---
-title: "More on: Including graphics and making things 'float' (Portuguese)"
+title: "Veja mais sobre: Incluindo gráficos e fazendo coisas 'flutuarem'"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 ## Nomeando arquivos de gráficos
 
@@ -93,7 +90,7 @@ documento.
 
 ## Outros tipos de _float_
 
-[Em breve veremos](pt/lesson-08) que podemos colocar tabelas em _floats_;  elas
+[Em breve veremos](lesson-08) que podemos colocar tabelas em _floats_;  elas
 vão em um ambiente `table`.  No entanto não temos que _necessariamente_ colocar
 figuras no ambiente `figure` nem tabelas no ambiente `table`;  isto é apenas
 convenção.
@@ -119,4 +116,3 @@ inserido independentemente.  Você pode fazer isso usando o pacote
 \end{image}
 \end{document}
 ```
->>>>>>> acecd968... trivloat as reported in Isuue #66

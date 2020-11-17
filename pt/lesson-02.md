@@ -1,9 +1,6 @@
 ---
-title: "Working with LaTeX (Portuguese)"
+title: "Trabalhando com LaTeX"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 Diferente de muitos programas de computador, o LaTeX não é uma única aplicação
 que contém 'tudo em um'.  Ao invés disso, há diversos programas que trabalham
@@ -86,4 +83,3 @@ o LaTeX.
 Você poderá [executar todos os outros exercícios no seu navegador](help.md),
 mas nós queremos ajudar você a trabalhar com documentos reais, então agora é
 uma ótima oportunidade para se preparar.
->>>>>>> 1e1ba808... help not pt/help in relative link

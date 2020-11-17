@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel=icon href=/learnlatex-favicon.png>
+    {% if site.title and site.title == page.title %}
+    <title>{{ page.title }}</title>
+    {% else %}
+    <title>{{ page.title }} | {{site.title}}</title>
+    {% endif %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-<<<<<<< HEAD
-    {% if page.path contains "-" %}
-=======
     {% if page.path contains "-" or page.path contains "help" %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.min.js"></script>
     <style type="text/css" media="screen">
@@ -23,13 +25,9 @@
 	  margin-top:16px;
       }
     </style>
->>>>>>> cfaecd1f... add ace editor
     <script src="../scripts/runlatex.js"></script>
-<<<<<<< HEAD
-=======
     <script src="includes/buttons.js"></script>
     <style> td code {white-space: nowrap}</style>
->>>>>>> d36f38d4... buttons
     {% endif %}
     <script>
  {% if site.title and site.title == page.title %}

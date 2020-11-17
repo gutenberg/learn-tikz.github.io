@@ -1,9 +1,6 @@
 ---
-title: "More on: Logical structure (Portuguese)"
+title: "Veja mais sobre: Estrutura Lógica"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 ## Título do documento
 
@@ -31,7 +28,7 @@ ser usados no preâmbulo (exceto `\maketitle`), mas se você usar atalhos do
 pacote `babel` eles não estarão ativos lá.
 
 A aparência fornecida pelo comando `\maketitle` depende da classe de documento
-(ver [lição 5](pt/lesson-05)).  Há um ambiente `titlepage` para quando você
+(ver [lição 5](lesson-05)).  Há um ambiente `titlepage` para quando você
 quiser um design próprio, mas isso está fora do escopo dessa introdução.  Se
 você quer fazer seus próprios designs de documento você pode usar uma classe
 personalizável, como `memoir`, ou começar com uma das classes base do LaTeX,
@@ -65,4 +62,3 @@ um título e uma data aos comandos?
 
 Faça algumas listas descritivas, então coloque-as em outras listas (ordenadas,
 não-ordenadas, ou descritivas).
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

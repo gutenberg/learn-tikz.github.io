@@ -1,13 +1,10 @@
 ---
-title: "More on: Mathematics (Portuguese)"
+title: "Veja mais sobre: Matemática"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 ## Mais ambientes de alinhamento do `amsmath`
 
-Além do ambiente `align*` apresentado na [lição principal](pt/lesson-10), o
+Além do ambiente `align*` apresentado na [lição principal](lesson-10), o
 `amsmath` tem diversos outras estruturas de equações em exibição, notavelmente
 `gather` para equações de várias linhas que não precisam alinhamento, e
 `multline` para dividir uma única expressão em várias linhas, alinhando a
@@ -66,7 +63,8 @@ r &= s^{2} &  t &=u^{3} &  v &= w^{4}
 ```
 
 Adicionalmente, há variantes dos ambientes com nome terminando em `ed`, que
-formam um sub termo de uma equação maior, por exemplo `aligned` e `gathered`:
+formam um sub termo dentro de uma equação maior.  Por exemplo, `aligned` e
+`gathered` são variantes de `align` e `gather` respectivamente.
 
 ```latex
 \documentclass{article}
@@ -182,7 +180,7 @@ que permitem escolher o alinhamento das colunas:
 
 ## Unicode Math
 
-Como será visto na [lição 14](pt/lesson-14), há outros interpretadores TeX que
+Como será visto na [lição 14](lesson-14), há outros interpretadores TeX que
 usam fontes _OpenType_.  Por padrão, esses interpretadores ainda vão usar as
 fontes matemáticas clássicas do TeX, mas você pode usar o pacote `unicode-math`
 para usar fontes matemáticas _OpenType_.  Os detalhes desse pacote vão além
@@ -190,7 +188,7 @@ deste curso, então sugerimos consultar a
 [documentação do pacote](https://texdoc.net/pkg/unicode-math).
 Ainda assim, aqui vai um pequeno exemplo:
 
-```
+```latex
 % !TEX lualatex
 \documentclass[a4paper]{article}
 \usepackage{unicode-math}
@@ -209,4 +207,3 @@ Símbolos alfanuméricos Unicode
 
 \end{document}
 ```
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

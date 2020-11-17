@@ -1,8 +1,6 @@
 ---
-title: More on: Your first LaTeX document
+title: "More on: Your first LaTeX document"
 ---
-<<<<<<< HEAD
-=======
 
 ## Running LaTeX
 
@@ -23,20 +21,27 @@ or
 `pdflatex first.tex`
 
 to typeset your PDF. Notice that the `.tex` extension is optional: LaTeX will
-assume files end with`.tex` unless you specify otherwise.
+assume files end with `.tex` unless you specify otherwise.
 
 ## Special characters
 
 If you need to type in a special character, most of the time you can simply
 use a backslash in front of it, so for example `\{` is used to print a literal
-`{`. There are a few cases where you need a command instead
+`{`. There are a few cases where you need to use a longer command instead:
 
-| Symbol | Command           |
-| `{`    | `\{`              |
-| `}`    | `\}`              |
-| `$`    | `\$`              |
-| `%`    | `\%`              |
-| `&`    | `\&`              |
-| `~`    | `\textasciitilde` |
-| ``\``  | `\textbackslash`  |
->>>>>>> 1b622bce... use single backtick to avoid edit/copy
+| Symbol | Short Command (math and text) | Long Command (for text only) |
+| `{`    | `\{`          | `\textbraceleft`  |
+| `}`    | `\}`          | `\textbraceright` |
+| `$`    | `\$`          | `\textdollar`     |
+| `%`    | `\%`          |                   |
+| `&`    | `\&`          |                   |
+| `#`    | `\#`          |                   |
+| `_`    | `\_`          | `\textunderscore` |
+| ``\``  |               | `\textbackslash`  |
+| `^`    |               | `\textasciicircum`|
+| `~`    |               | `\textasciitilde` |
+
+For the last three symbols there are no short commands available,
+because `\\` is used to indicate a linebreak and `\~` and `\^` are used
+to produce tilde and circumflex accents when using only ASCII
+characters as input.

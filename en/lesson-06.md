@@ -1,20 +1,10 @@
 ---
-<<<<<<< HEAD
-title: Extending LaTeX using packages
-=======
 title: "Extending LaTeX using packages and definitions"
->>>>>>> eeeda314... Sync with main repository.
 ---
-<<<<<<< HEAD
-=======
 
-After having declared a class, in the preamble
-you can modify the document in relatively small ways by using
-*packages*.
+After having declared a class, in the preamble you can modify functionality in
+LaTeX by adding one or more *packages*. These can
 
-<<<<<<< HEAD
-For example, we can change the margins with a new second line.
-=======
 - Change how some parts of LaTeX work
 - Add new commands to LaTeX
 - Change document design
@@ -23,9 +13,10 @@ For example, we can change the margins with a new second line.
 
 The LaTeX 'kernel' (the core of LaTeX) is rather limited in user customisation,
 and so some add-on packages deal with very common ideas. The first is to
-change how LaTeX hyphenates material. Different languages have different rules,
-so it's important to tell LaTeX which one to use. This is handled by the `babel`
-package.
+change how LaTeX deals with language-specific typesetting (hyphenation,
+punctuation, quotations, localisation, etc.). Different languages have different
+rules, so it's important to tell LaTeX which one to use. This is handled by the
+`babel` package.
 
 ```latex
 \documentclass{article}
@@ -46,8 +37,7 @@ material, and which will be able to give us at least one hyphenation point.
 ```
 
 Try un-commenting the (clearly misleading) line to load `babel` and see the
-effect. (The standard hyphenation rules are US English; use the `UKenglish`
-option to tell `babel` if you are in UK.)
+effect. (The standard hyphenation rules are US English.)
 
 The `babel` package does a lot more than hyphenation, depending on the language
 involved; we've given [some more details](more-06) if you need them.
@@ -58,7 +48,6 @@ It's useful to be able to adjust some aspects of design independent of the
 document class. The most obvious one are the page margins. We've just used
 the `geometry` package in the example above, but let's now have an example
 specifically about margins.
->>>>>>> efa53f6a... corrections from Barbara
 
 ```latex
 \documentclass{book}
@@ -94,14 +83,6 @@ Text of the second section.
 \end{document}
 ```
 
-<<<<<<< HEAD
-One of LaTeX's strengths is that you can choose from
-thousands of packages, including ones for writing
-mathematical text, for hyperlinking, for sophisticated capabilities
-with color, etc.
-We will introduce some of these in later lessons.
->>>>>>> 10ae12a9... More YAML adjustments
-=======
 You should see the effect here compared to not loading `geometry`.
 
 ## Adding new functionality
@@ -121,7 +102,7 @@ to enter a common expression that is used multiple times.
 The following example shows a command to produce keywords with a
 specific style applied.
 
-```
+```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
 
@@ -134,7 +115,8 @@ Something about \kw{apples} and \kw{oranges}.
 \end{document}
 ```
 
-In the definition `#1` denotes the first argument that is supplied
+In the definition `[1]` denotes the number of arguments (here one)
+and `#1` denotes the first argument that is supplied
 (`apples` or `oranges` in this example). You may have up to nine
 arguments, but it is usually best to have just one argument, or
 sometimes none at all.
@@ -146,7 +128,7 @@ edit the entire document, you simply need to use a different
 definition. Here we load the `xcolor` package to provide colors, and
 use blue in place of bold in the formatting.
 
-```
+```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
 
@@ -179,9 +161,4 @@ list.
 Try loading the `lipsum` package and then add the command `\lipsum` to your
 document. Can you guess why this package is useful for making examples?
 
-<<<<<<< HEAD
 Try altering the definition of `\kw` to achieve a different style.
->>>>>>> 92155bf3... Addressing review comments
-=======
-Try altering the definition of `\kw` to achieve a different style.
->>>>>>> eeeda314... Sync with main repository.

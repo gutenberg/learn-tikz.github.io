@@ -1,21 +1,9 @@
 ---
-title: Using document classes to influence design
+title: "Using document classes to influence design"
 ---
-<<<<<<< HEAD
-=======
 
-One thing that may not be clear after
-the prior lesson is the first line's
-`article`.
-This is a document *class*.
-It gives the basic design of the document: margins, fonts,
-spacing, etc.
-For instance, LaTeX articles have no chapters and so the top-level
-unit is `\section{..}`.
+## What a document class does
 
-<<<<<<< HEAD
-To get chapters, instead declare `\documentclass{book}`.
-=======
 You might have noticed that all of the LaTeX documents we have created
 so far have started with a `\documentclass` line, and that
 `\documentclass{article}` has been the far most common choice. (We needed
@@ -52,12 +40,8 @@ but with some variations:
 The `article`, `report` and `book` classes have very similar commands available,
 as we've already seen. When writing a `letter`, the commands available are
 a bit different
->>>>>>> be339595... corrections from Barbara, and mention amscls
 
 ```latex
-<<<<<<< HEAD
-\documentclass{book}
-=======
 \documentclass{letter}
 \usepackage[T1]{fontenc}
 \begin{document}
@@ -65,12 +49,7 @@ a bit different
 \begin{letter}{Some Address\\Some Street\\Some City}
 
 \opening{Dear Sir or Madam,}
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 
-<<<<<<< HEAD
-\begin{document}
-Hey world!
-=======
 The text goes Here
 
 \closing{Yours,}
@@ -81,64 +60,70 @@ The text goes Here
 ```
 
 See how ``\\`` is used to separate lines of the address; we'll look at line
-breaking [a bit later](lesson-09). Also see how the `letter` class creates  a
+breaking [a bit later](lesson-11). Also see how the `letter` class creates  a
 new environment for each letter and has specialised commands.
->>>>>>> be339595... corrections from Barbara, and mention amscls
 
-This is a first document.
+The standard `article`, `report` and `book` classes take the options `10pt`,
+`11pt` and `12pt` to change font size, and `twocolumn` to make a two-column
+document.
 
+## Function-rich classes
 
-% ================
-\chapter{Chapter One}
-Introduction to the first chapter.
+The core classes are very stable, but that means they are also quite
+conservative in both design and the range of commands available. Over time, a
+number of more powerful classes have been written, that let you alter the design
+without having to do things manually (which we'll mention [a bit
+later](lesson-11)).
 
-<<<<<<< HEAD
-
-\section{Title of the first section}
-Text of material in the first section
-=======
 The American Mathematical Society provide variants of the standard
 classes (`amsart`, `amsbook`) with a more traditional design closer to
 that used in mathematics journal publications.
 
-The two largest and most popular 'extended' classes are the KOMA-script bundle
-and the memoir class. KOMA-Scipt offers a set of classes which 'parallel' the
+The two largest and most popular 'extended' classes are the KOMA-Script bundle
+and the memoir class. KOMA-Script offers a set of classes which 'parallel' the
 standard ones: `scrartcl`, `scrreprt` and `scrbook`, while there is a single
 `memoir` class that is most like an extension of `book`.
 
 These extended classes have lots of customisation hooks, which we'll explore a
 bit in an exercise. You might wonder how we can know about the hooks they
-provide; we will cover that [in the last lesson](lesson-15), but you can always
+provide; we will cover that [in a later lesson](lesson-15), but you can always
 jump ahead!
->>>>>>> be339595... corrections from Barbara, and mention amscls
 
-Second paragraph.
+## Presentations
 
-<<<<<<< HEAD
-\subsection{Subsection of the first section}
-=======
+The `slides` class was developed for making physical slides in the mid-1980s, so
+doesn't have any features for creating interactive PDF-based presentations.
+There are modern classes that do exactly that: they are somewhat specialist
+compared to general LaTeX documents, so we've [covered them in the additional
+information](more-05).
+
+## Exercises
+
 Explore how changing the document class between the standard ones, the KOMA
 bundle and `memoir` affects the appearance of the document.
->>>>>>> be339595... corrections from Barbara, and mention amscls
 
-<<<<<<< HEAD
-Text of material in the subsection.
-=======
 ```latex
 \documentclass{article} % Change the class here
 \usepackage[T1]{fontenc}
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
 
+\begin{document}
 
-% ================
-\section{Second section}
+\section{Introduction}
 
-Text of the second section.
+This is a sample document with some dummy
+text\footnote{and a footnote}. This paragraph is quite
+long as we might want to see the effect of making the
+document have two columns.
 
 \end{document}
 ```
 
-LaTeX has hundreds of document classes available.
-Many journals offer one for download that suits their requirements,
-and similarly many universities have one for dissertations.
->>>>>>> 10ae12a9... More YAML adjustments
+Add the class option `twocolumn` and see how the layout changes.
+
+Change the `\section` above for `\chapter` and find out what effect the
+following class options have when using the `scrreprt` class.
+
+- `chapterprefix`
+- `headings=small`
+- `headings=big`
+- `numbers=enddot`

@@ -1,9 +1,6 @@
 ---
-title: "Mathematics (Portuguese)"
+title: "Matemática"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 ## Modo matemático
 
@@ -253,7 +250,7 @@ $\text{bad use } size  \neq \mathit{size} \neq \mathrm{size} $
 ```
 
 Se você precisa deixa outros símbolos em negrito, veja
-[os detalhes adicionais](pt/more-10)
+[os detalhes adicionais](more-10)
 
 ## Exercícios
 
@@ -271,4 +268,3 @@ Equações em exibição são centralizadas por padrão;  tente adicionar a opç
 exemplos acima para ver uma configuração diferente.  De forma similar, números
 de equações geralmente ficam à direita.  Experimente adicionar a opção `[leqno]`
 (do inglês, _left equation numbers_) no `\documentclass`.
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers

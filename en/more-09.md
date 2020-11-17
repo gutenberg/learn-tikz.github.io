@@ -1,8 +1,6 @@
 ---
-title: More on: Controlling spacing
+title: "More on: Cross-referencing"
 ---
-<<<<<<< HEAD
-=======
 
 ## Making cross-references into links
 
@@ -28,4 +26,3 @@ More text here.
 
 We have chosen to make the links the same color as the normal text; try removing
 `hidelinks` to see why! 
->>>>>>> 176abfad... comments from Barbara (2)

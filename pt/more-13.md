@@ -1,9 +1,6 @@
 ---
-title: "More on: Structuring longer documents (Portuguese)"
+title: "Veja mais sobre: Estruturando documentos longos"
 ---
-<<<<<<< HEAD
-Translation to be added _after_ English text completed.
-=======
 
 ## Criando um índice remissivo
 
@@ -40,4 +37,3 @@ Mostramos duas funcionalidades de índices aqui: a subdivisão usando `!`, e
 imprimir algo diferente do texto usado para organizar em ordem alfabética usando
 `@`.  Há muitas formas de personalizar um índice;  experimente o exemplo e veja
 como ele funciona.
->>>>>>> 7ea6c909... add [T1]{fontenc} and adjust error line numbers
