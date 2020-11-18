@@ -85,11 +85,32 @@
       </h1>
       {% endif %}
 
+<<<<<<< HEAD
       {{ content }}
 
       {% if site.github.private != true and site.github.license %}
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
         <a href="{{ "/" | absolute_url }}about">This site</a> is under construction <a href="{{ site.github.repository_url }}/tree/master/{{ page.path }}">Git Source</a>.
+=======
+    <!-- main content start -->
+    <main
+      id="main">
+
+      <!-- wrapper start -->
+      <div class="wrapper">
+
+      <!-- inter-lesson links start -->
+      <!-- FIXME: Links on top should only include inter lesson links, not "more on this topic" links -->
+      {% include inter-lesson-links.html %}
+      <!-- inter-lesson links end -->
+
+      {{ content }}
+
+      <!-- inter-lesson links start -->
+      {% include inter-lesson-links.html %}
+      <!-- inter-lesson links end -->
+
+>>>>>>> 830105b6...  added inter lesson links to top of content as well
       </div>
 <<<<<<< HEAD
       {% endif %}
