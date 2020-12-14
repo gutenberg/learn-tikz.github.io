@@ -554,23 +554,57 @@ div.spacer {
 >>>>>>> 4c65f908...  first step for introduction content restructuring
 
   &__flex-items {
+    flex-basis: 10rem;
     flex-grow: 1;
+<<<<<<< HEAD
     min-width: 100px;
     padding: 0 1rem;
     text-align: center;
 
     &:first-of-type {
       padding: 0 1rem 0 0;
+=======
+    padding: 0 1rem;
+    text-align: center;
+    
+    &:first-of-type {
+      padding: 0 1rem 0 0;
+    
+      @media (max-width: 35rem) {
+        padding: 0 1rem;
+      }
+>>>>>>> 8f7442eb...  aligned footer items, adopted visuals to new root font-size
     }
+    
     &:last-of-type {
       padding: 0 0 0 1rem;
+<<<<<<< HEAD
+=======
+      @media (max-width: 35rem) {
+        padding: 0 1rem;
+      }
+    }
+
+    @media (max-width: 35rem) {
+      padding: 0 1rem;
+>>>>>>> 8f7442eb...  aligned footer items, adopted visuals to new root font-size
     }
   }
 
   &__heading {
     border-bottom: 0.01rem solid var(--color_grey-2);
+<<<<<<< HEAD
     margin: 0 0 .8rem;
     padding: 0 0 .8rem;
+=======
+    margin: 2.5rem 0 .8rem;
+    padding: 0 0 .6rem;
+
+    .anchorjs-link {
+      display: none;
+      visibility: hidden;
+    }
+>>>>>>> 8f7442eb...  aligned footer items, adopted visuals to new root font-size
   }
 
   &__list {
@@ -580,7 +614,7 @@ div.spacer {
 
   &__list-item {
     margin: 0;
-    padding: 0 1em 0 0;
+    padding: 0;
   }
 
   &__anchor {
@@ -596,12 +630,12 @@ div.spacer {
 
 .website-footer-languages {
   background: var(--color_white-0);
-  border-top: 2rem solid var(--color_blue-0);
+  border-top: 2.5rem solid var(--color_blue-0);
   padding: 1rem 0 1.4rem;
   text-align: center;
 
   .language-icon {
-    margin: -1.87rem 0 1.2rem;
+    margin: -2.1rem 0 1.4rem;
   }
 
   .language-navigation {
@@ -618,6 +652,9 @@ div.spacer {
       line-height: 1rem;
       margin: 0 1.2rem 1.2rem;
       padding: 0;
+      &:first-child {
+        padding: 0;
+      }
     }
 
     &__anchor {
@@ -767,11 +804,24 @@ div.spacer {
     padding: .15rem 0 .25rem;
   }
 
+<<<<<<< HEAD
   .language-navigation__list-item {
     display: inline;
     font-size: 1.2rem;
     line-height: 2.6rem;
     padding: 0 1rem;
+=======
+/*----------------------------------------------------------------------------*/
+/*  # START PAGE                                                              */
+/*----------------------------------------------------------------------------*/
+.start {
+  
+  main h1 {
+    font-family: var(--font_default-light);
+    font-size: 2em;
+    font-weight: normal;
+    margin: 0 0 0.6em;
+>>>>>>> 8f7442eb...  aligned footer items, adopted visuals to new root font-size
   }
 
   .language-navigation__anchor {
@@ -780,9 +830,19 @@ div.spacer {
     overflow-wrap: break-word;
   }
 
+<<<<<<< HEAD
   .language-navigation__anchor:hover {
     color: var(--color_white-0);
     text-decoration: underline;
+=======
+  main h2.heading__toc {
+    border-bottom: 0.01rem solid var(--color_grey-2);
+    font-family: var(--font_default-regular);
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin: 2.5rem 0 1.2rem;
+    padding: 0 0 .8rem;
+>>>>>>> 8f7442eb...  aligned footer items, adopted visuals to new root font-size
   }
 
 }
