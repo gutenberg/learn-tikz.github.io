@@ -570,6 +570,33 @@ table td code {
         }
       }
     }
+<<<<<<< HEAD
+=======
+    @media (max-width: 500px) {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      margin: 1.5rem 0;
+      padding: .4rem .2rem;
+      &__anchor {
+        flex-basis: 1.7rem;
+        &:last-of-type {
+          flex-basis: 1rem;
+        }
+        &--next,
+        &--nextmain {
+          text-align: left;
+          &:before {
+            content: "\f0a9";
+            font-family: "FontAwesome";
+            padding: 0 .5rem 0 0;
+          }
+          &:after {
+            content: "";
+          }
+        }
+      }
+    }
+>>>>>>> e6604080...  added toc to inter-lesson links on `more` pages, beautified responsive design
   } 
 }
 

@@ -27,8 +27,18 @@
   </nav>
 {% endif %}
 
+<<<<<<< HEAD
 {% if page.path contains "more-" %}
   <nav>
+=======
+  {% if page.path contains "more-" %}
+    <!-- Table of contents link start -->
+    <a
+      class="inter-lesson-navigation__anchor inter-lesson-navigation__anchor--toc"
+      href="{{ "/" | absolute_url | append: page.lang | append: "/" }}#toc"
+      >{{ site.data.translations['navigational-elements_toc'][page.lang] }}</a>
+    <!-- Table of contents link end -->
+>>>>>>> e6604080...  added toc to inter-lesson links on `more` pages, beautified responsive design
     <a 
       href="{{page.name | replace: "more-", "lesson-" | remove_first: ".md"}}"
       >{{ site.data.translations['navigational-elements_return'][page.lang] }}</a>
