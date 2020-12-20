@@ -191,6 +191,7 @@ html {
 
 
 /*----------------------------------------------------------------------------*/
+<<<<<<< HEAD
 /*  HEADINGS                                                                  */
 /*----------------------------------------------------------------------------*/
 h1,
@@ -243,6 +244,9 @@ h6,
 
 /*----------------------------------------------------------------------------*/
 /*  #TEXT-LEVEL                                                               */
+=======
+/*  # TEXT-LEVEL                                                              */
+>>>>>>> 5af77838...  added styles for lists and changed footer headings to h3 for better document outline
 /*----------------------------------------------------------------------------*/
 p {
   color: var(--color_black-1);
@@ -524,6 +528,114 @@ table td code {
 /*  # LESSONS                                                                 */
 /*----------------------------------------------------------------------------*/
 .lesson {
+<<<<<<< HEAD
+=======
+  .meta {
+    background: var(--color_grey-0);
+    color: var(--color_black-2);
+    font-family: var(--font_default-regular);
+    font-size: .6rem;
+    margin: 0 0 1.5rem;
+    padding: .1rem .2rem;
+  }
+  h1 {
+    font-family: var(--font_default-light);
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0 0 1.6rem;
+  }
+  h2 {
+    font-family: var(--font_default-regular);
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin: 1.7rem 0 0.7rem;
+  }
+  h3 {
+    font-family: var(--font_default-regular);
+    font-size: 1.3em;
+    font-weight: normal;
+    margin: 1.6rem 0 0.7rem;
+  }
+  h4 {
+    font-family: var(--font_default-regular);
+    font-size: 1.2rem;
+    margin: 1.5rem 0 0.7rem;
+  }
+  h5 {
+    font-family: var(--font_default-regular);
+    font-size: 1.1rem;
+    margin: 1.6rem 0 0.7rem;
+  }
+  h6 {
+    font-family: var(--font_default-regular);
+    font-size: 1rem;
+    margin: 1.7rem 0 0.8rem;
+  }
+  .summary {
+    display: block;
+    font-family: var(--font_default-regular-semicondensed);
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 1.6rem;
+    margin: 1.5rem 0 2.4rem;
+    code {
+      font-family: var(--font_default-mono-regular);
+      font-size: calc(100% - .05rem);
+    }
+  }
+  p {
+    color: var(--color_black-1);
+    font-family: var(--font_default-light);
+    font-size: 1rem;
+    margin: 0 0 1.2rem;
+    &:last-of-type {
+      margin: 0 0 2.5rem; 
+    }
+    code {
+      color: var(--color_black-2);
+      font-family: var(--font_default-mono-regular);
+      font-size: calc(100% - .05rem);
+    }
+    &.hint {
+      color: var(--color_black-2);
+      font-family: var(--font_default-regular);
+      font-size: .9rem;
+      margin: 2.4rem .5rem 2.4rem .5rem;
+      padding: 0 0 0 2.4rem;
+      i {
+        font-family: var(--font_default-regular-italic);
+      }
+      &:before {
+        content: "\f05a";
+        display: block;
+        float: left;
+        font-family: "FontAwesome";
+        font-size: calc(100% + .1rem);
+        margin: 0 0 0 -2rem;
+        padding: 0;
+        width: 2rem;
+      }
+    }
+  }
+  main {
+    ul {
+      list-style: outside;
+      margin: 1.5rem 0 2rem 1.4rem;
+      li {
+        line-height: 1.4rem;
+        margin: 0 0 .4rem;
+        &:last-of-type {
+          margin: 0;
+        }
+        code {
+          color: var(--color_black-2);
+          font-family: var(--font_default-mono-regular);
+          font-size: calc(100% - .05rem);
+        }
+      }
+    }
+  }
+>>>>>>> 5af77838...  added styles for lists and changed footer headings to h3 for better document outline
   .inter-lesson-navigation {
     align-content: flex-start;
     align-items: flex-start;
@@ -618,7 +730,11 @@ table td code {
 
 >>>>>>> 51f7af53...  added basic styles for inter lesson links
 /*----------------------------------------------------------------------------*/
+<<<<<<< HEAD
 /*  #ACE EDITOR - FIXME                                                       */
+=======
+/*  # ACE EDITOR                                                              */
+>>>>>>> 5af77838...  added styles for lists and changed footer headings to h3 for better document outline
 /*----------------------------------------------------------------------------*/
 .ace_editor {
   border: 1px solid lightgray;
@@ -686,16 +802,16 @@ div.spacer {
 =======
     padding: 0 1rem;
     text-align: center;
-    
+
     &:first-of-type {
       padding: 0 1rem 0 0;
-    
+
       @media (max-width: 35rem) {
         padding: 0 1rem;
       }
 >>>>>>> 8f7442eb...  aligned footer items, adopted visuals to new root font-size
     }
-    
+
     &:last-of-type {
       padding: 0 0 0 1rem;
 <<<<<<< HEAD
@@ -714,11 +830,17 @@ div.spacer {
   &__heading {
     border-bottom: 0.01rem solid var(--color_grey-2);
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin: 0 0 .8rem;
     padding: 0 0 .8rem;
 =======
+=======
+    font-family: var(--font_default-regular);
+    font-size: 1.2em;
+>>>>>>> 5af77838...  added styles for lists and changed footer headings to h3 for better document outline
     margin: 2.5rem 0 .8rem;
     padding: 0 0 .6rem;
+
 
     .anchorjs-link {
       display: none;
@@ -727,6 +849,7 @@ div.spacer {
 >>>>>>> 8f7442eb...  aligned footer items, adopted visuals to new root font-size
   }
 
+  ul,
   &__list {
     list-style: none;
     margin: 0;
