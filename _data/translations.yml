@@ -73,6 +73,50 @@ heading_meta:
   ja: "メタ"
   pt: "Meta"
   vi: "Meta"
+<<<<<<< HEAD
+=======
+  zh: "Missing"
+heading_navigation:
+  de: "Navigation"
+  en: "Navigation"
+  es: "Navegación"
+  fr: "Navigation"
+  ja: "ナビゲーション"
+  pt: "Navegação"
+  tr: "Navigation"
+  vi: "Điều hướng"
+  zh: "Missing"
+heading_planet:
+  de: "Planet"
+  en: "Planet"
+  es: "Planeta"
+  fr: "Planète"
+  ja: "惑星"
+  pt: "Planeta"
+  tr: "Planet"
+  vi: "Liên kết ngoài"
+  zh: "Missing"
+informational-elements_lesson:
+  de: "Lektion"
+  en: "Lesson"
+  es: "Lección"
+  fr: "Leçon"
+  ja: "レッスン"
+  pt: "Lição"
+  tr: "Ders"
+  vi: "Bài học"
+  zh: "課"
+informational-elements_search:
+  de: "Suche"
+  en: "Search"
+  es: "Buscar"
+  fr: "Chercher"
+  ja: "探す"
+  pt: "Pesquisa"
+  tr: "Arama"
+  vi: "Tìm kiếm"
+  zh: "搜索"
+>>>>>>> 010d10f6...  added translations for search placeholder, finished styles for universal navigation
 navigational-elements_home:
 >>>>>>> 3550a76f...  moved mission statement to index, more space for footer contents
   de: "Startseite"
