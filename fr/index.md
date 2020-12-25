@@ -71,15 +71,31 @@ Tous fonctionnent avec nos deux systèmes de démonstration en ligne, donc si
 vous obtenez des erreurs avec les exemples que nous fournissons, vérifiez
 d'abord que votre système LaTeX est à jour.
 
+<<<<<<< HEAD
 
 ## Les leçons principales
 
 {% include toc.html  prefix="fr/lesson" %}
+=======
+<h2 
+  class="heading__toc" 
+  id="toc"
+  >Leçons</h2>
+<p
+  class="paragraph__toc"
+  >We have included a <b>More on this topic</b> page for each lesson. This extra information is there to support you when you need the detail, but should not get in your way if you don't.</p>
 
+{% include toc-lessons.html prefix="fr/lesson" %}
+>>>>>>> 8bb64da5...  added language and extra lessons in french, also some toc heading changes
 
-### Leçons spécifiques au français
-
-{% include toc.html  prefix="fr/language" %}
+<h2
+  class="heading__toc"
+  >Cours supplémentaires</h2>
+<ul 
+  class="lessons-toc">
+  {% include toc-additional-lessons.html prefix="fr/language" %}
+  {% include toc-additional-lessons.html prefix="fr/extra" %}
+</ul>
 
 
 ## Et ensuite?
@@ -96,6 +112,3 @@ détails. Nous vous donnons quelques recommandations dans la dernière leçon
 Enfin, nous proposons une galerie de petits exemples montrant différents
 domaines, non couverts dans cette introduction, et différents packages Ti_k_Z
 pour ces domaines.
-
-    
-{% include toc.html prefix="fr/extra" %}
