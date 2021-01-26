@@ -1,19 +1,39 @@
 ---
 lang: "fr"
 title: "Exemples avancés, comme sources d'inspiration"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis orci, faucibus eget sollicitudin vel, varius eget ipsum. Duis sed sodales leo."
+description: "Cette leçon montre divers exemples d'autres extensions LaTeX très appréciées qui n'ont pas été présentées dans les leçons principales."
 toc-anchor-text: "Exemples LaTeX"
 toc-description: "Exemples avancés, comme sources d'inspiration"
 ---
 
+<<<<<<< HEAD
 Ce cours a donné un aperçu des principales fonctionnalités de Ti_k_Z.
 Mais Ti_kZ_ dispose d'une vaste panoplie d'extensions et est utilisé
+=======
+# Exemples LaTeX
+
+<span class="summary">Cette leçon montre divers exemples d'autres extensions LaTeX très appréciées qui n'ont pas été présentées dans les leçons principales.</span>
+
+Ce cours a donné un aperçu des principales fonctionnalités de LaTeX.
+Mais LaTeX dispose d'une vaste panoplie d'extensions et est utilisé
+>>>>>>> 9d84b212... Partial update of French translation.
 dans d'innombrables domaines. Nous présentons ici quelques exemples
 supplémentaires, sans explications supplémentaires.
 
 
+<<<<<<< HEAD
 ## Le ParaTriCube
 
+=======
+<p class="hint">_Nota bene:_ Ce n'est pas parce que nous illustrons un package ici que
+nous souhaitons spécialement le conseiller par rapport à d'autres packages
+similaires. Il s'agit simplement d'un petit échantillon un peu arbitraire,
+pour vous donner envie de poursuivre vos expérimentations avec LaTeX.</p>
+
+## Chimie
+
+Extension [`mhchem`](https://texdoc.net/pkg/mhchem)
+>>>>>>> 9d84b212... Partial update of French translation.
 
 ```latex
 \documentclass{article}
@@ -28,8 +48,12 @@ supplémentaires, sans explications supplémentaires.
 :Author: Jacques Duma
 :Site: http://math.et.info.free.fr/TikZ/index.html
 
+<<<<<<< HEAD
 Paradoxical triangle made of nine paradoxical cubes.
 \end{comment}
+=======
+Extension [`forest`](https://texdoc.net/pkg/forest)
+>>>>>>> 9d84b212... Partial update of French translation.
 
 \begin{document}
 
@@ -78,21 +102,70 @@ Paradoxical triangle made of nine paradoxical cubes.
 \ParaCube [shift={(6.1,8.6)}]{#4}{#5}
 \end{scope}}
 
+<<<<<<< HEAD
+=======
+<!-- not 2017 -->
+Extension [`xskak`](https://texdoc.net/pkg/xskak)
+```latex
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{xskak}
+>>>>>>> 9d84b212... Partial update of French translation.
 \begin{document}
 
 \pagestyle{empty}
 
+<<<<<<< HEAD
 \begin{center}
 \begin{tikzpicture}
   \ParaCube [shift={(-5,8)},scale=1.5,ultra thick] {black}{yellow!50}
   \ParaTriCube {red}{white} {green!25!black}{white} {blue}{white}
 \end{tikzpicture}
 \end{center}
+=======
+Extension [`memoir`](https://texdoc.net/pkg/memoir)
+
+```latex
+\documentclass{memoir}
+\usepackage[T1]{fontenc}
+\begin{document}
+\settowidth{\versewidth}{Nay, nay, I leave thee not,
+                                       thou goest too}
+\begin{verse}[\versewidth]
+\ldots \\*
+His judgement rendered, he dissolved the Thing. \\*
+\flagverse{Ingeborg} And your decision? \\*
+\flagverse{Fridthjof} \vinphantom{And your decision?}
+
+                                   Have I ought to choose? \\*
+Is not mine honour bound by his decree? \\*
+And that I will redeem through Angantyr \\*
+His paltry gold doth hide in Nastrand’s flood. \\*
+Today will I depart. \\*
+\flagverse{Ingeborg} \vinphantom{Today will I depart.}
+
+                                 And Ingeborg leave? \\*
+\flagverse{Fridthjof} Nay, nay, I leave thee not,
+
+                                   thou goest too. \\*
+\flagverse{Ingeborg} Impossible! \\*
+\flagverse{Fridthjof} \vinphantom{Impossible!}
+
+                                   O! hear me, ere thou answerest.
+\end{verse}
+>>>>>>> 9d84b212... Partial update of French translation.
 \end{document}
 ```
 
 
+<<<<<<< HEAD
 ## Des sphères percées
+=======
+## Dessin
+
+<!-- not 2017 -->
+Extension [`tikz`](https://texdoc.net/pkg/tikz)
+>>>>>>> 9d84b212... Partial update of French translation.
 
 ```latex
 \documentclass{article}
@@ -114,8 +187,12 @@ Three drilled spheres with north-south hole, using coordinate systems to modify 
 %: isometric  South West : X , South East : Y , North : Z
 \tikzset{isometricXYZ/.style={x={(-0.866cm,-0.5cm)}, y={(0.866cm,-0.5cm)}, z={(0cm,1cm)}}}
 
+<<<<<<< HEAD
 %: isometric South West : Z , South East : X , North : Y
 \tikzset{isometricZXY/.style={x={(0.866cm,-0.5cm)}, y={(0cm,1cm)}, z={(-0.866cm,-0.5cm)}}}
+=======
+Extension [`pgfplots`](https://texdoc.net/pkg/plots)
+>>>>>>> 9d84b212... Partial update of French translation.
 
 %: isometric South West : Y , South East : Z , North : X
 \tikzset{isometricYZX/.style={x={(0cm,1cm)}, y={(-0.866cm,-0.5cm)}, z={(0.866cm,-0.5cm)}}}
@@ -205,6 +282,10 @@ Three drilled spheres with north-south hole, using coordinate systems to modify 
 
 ## Une horloge
 
+<<<<<<< HEAD
+=======
+Extension [`musixtex`](https://texdoc.net/pkg/musixtex)
+>>>>>>> 9d84b212... Partial update of French translation.
 
 ```latex
 \documentclass{article}
