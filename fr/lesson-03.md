@@ -1,9 +1,9 @@
 ---
 lang: "fr"
 title: "Votre premier document avec LaTeX"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque felis orci, faucibus eget sollicitudin vel, varius eget ipsum. Duis sed sodales leo."
+description: "Cette leçon montre la structure de base d'un document LaTeX, et comment en faire un fichier PDF, ainsi que les principaux caractères spéciaux utilisés pour contrôler LaTeX."
 toc-anchor-text: "Les documents LaTeX"
-toc-description: "Un mélange de texte de commandes."
+toc-description: "Un mélange de texte et de commandes."
 ---
 
 Notre premier document LaTeX va être très simple : l'idée est de vous montrer
