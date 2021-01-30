@@ -6,6 +6,13 @@ toc-anchor-text: "Les tableaux en LaTeX"
 toc-description: "Principes de base pour travailler avec des tableaux."
 ---
 
+<<<<<<< HEAD
+=======
+# Les tableaux
+
+<span class="summary">Cette leçon montre comment construire des tableaux en LaTeX, modifier l'alignement des cellules, tirer des traits pour séparer les cellules d'un tableau et fusionner des cellules.</span>
+
+>>>>>>> 586de09e... Translation into French completed.
 ## Tableaux simples
 
 En LaTeX, un tableau se construit dans un environnement `tabular`. Cette leçon

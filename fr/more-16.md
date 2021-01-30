@@ -1,7 +1,7 @@
 ---
 lang: "fr"
 title: "Trouver de la documentation et demander de l'aide : pour aller plus loin"
-description: "This lesson show you where you can find the sources of LaTeX itself."
+description: "Cette leçon montre où trouver les sources de LaTeX lui-même."
 toc-anchor-text: "Trouver de la documentation et demander de l'aide : pour aller plus loin"
 ---
 

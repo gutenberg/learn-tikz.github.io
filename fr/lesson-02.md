@@ -6,6 +6,13 @@ toc-anchor-text: "Travailler avec LaTeX"
 toc-description: "Les systèmes TeX et les éditeurs de texte pour LaTeX."
 ---
 
+<<<<<<< HEAD
+=======
+# Travailler avec LaTeX
+
+<span class="summary">Cette leçon explique ce qu'est un système TeX et quels sont les plus courants, elle évoque les éditeurs de texte courament utilisés avec LaTeX, et les systèmes en ligne qui ont des éditeurs intégrés.</span>
+
+>>>>>>> 586de09e... Translation into French completed.
 Contrairement à de nombreux programmes informatiques, LaTeX n'est pas une
 application unique. Au contraire, il est composé de plusieurs programmes
 distincts qui fonctionnent ensemble. Il y a deux catégories indispensables :
@@ -53,9 +60,11 @@ Un éditeur de base, [TeXworks](https://tug.org/texworks), est inclus dans
 TeX Live et MiKTeX sous Windows et Linux, et
 [TeXShop](https://pages.uoregon.edu/koch/texshop/) est inclus dans MacTeX.
 
-Quel que soit l'éditeur que vous choisissez, nous vous recommandons de
+
+<p class="hint">Quel que soit l'éditeur que vous choisissez, nous vous recommandons de
 l'installer _après_ votre système TeX, afin que l'éditeur puisse « trouver » le
-système TeX et se configurer correctement tout seul.
+système TeX et se configurer correctement tout seul.</p>
+
 
 
 ## Travailler par internet

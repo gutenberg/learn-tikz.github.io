@@ -1,15 +1,25 @@
 ---
 lang: "fr"
 title: "Choisir des polices de caractères et utiliser Unicode"
-description: "This lesson gives context on how LaTeX interprets Unicode input and how that affects what you type and the fonts you use. Learn about Unicode and OpenType fonts support."
+description: "Cette leçon décrit comment LaTeX interprète les entrées Unicode et en quoi cela affecte ce que vous tapez et les polices que vous utilisez. Découvrez la prise en charge des polices Unicode et OpenType."
 toc-anchor-text: "Fontes & moteurs Unicode"
 toc-description: "Choisir les polices de caractères et l'encodage."
 ---
 
+<<<<<<< HEAD
+=======
+# Choisir des polices de caractères et utiliser Unicode
+
+<span
+  class="summary">Cette leçon décrit comment LaTeX interprète les entrées Unicode et en quoi cela affecte ce que vous tapez et les polices que vous utilisez. Découvrez la prise en charge des polices Unicode et OpenType.</span>
+
+
+>>>>>>> 586de09e... Translation into French completed.
 Lorsque TeX et LaTeX ont commencé à être largement utilisés, ils ne traitaient
 en général que les langues européennes, même s'il était déjà possible d'utiliser
 d'autres alphabets par exemple pour le grec et le russe.
 
+## Accents et lettres accentuées
 
 À l'origine, les accents et les lettres accentuées étaient saisis en utilisant
 des séquences de contrôle ou des macros telles que `\c{c}` pour « ç » et `\'e`
@@ -29,6 +39,8 @@ Cette approche est toujours utilisée en LaTeX moderne quand on utilise le moteu
 `pdflatex`. Par défaut, tous les fichiers sont supposés être en Unicode (encodés
 en UTF-8), sauf indication contraire. Bien que ce moteur soit limité aux polices
 8&nbsp;bits, la plupart des langues européennes sont supportées.
+
+## Sélection des polices de caractères
 
 La sélection des polices avec `pdflatex` utilise un mécanisme robuste, et de nos
 jours il existe de nombreuses polices prêtes à l'emploi dans une distribution
@@ -104,3 +116,8 @@ ABC → αβγ → {\cjkfont 你好}
 Lors du passage d'une langue à l'autre, il est important de modifier également
 des éléments comme les motifs de césure, etc. Les packages `babel` et
 `polyglossia` sont là pour s'occuper de ça de façon robuste.
+
+
+<p class="hint">Lors du passage d'une langue à l'autre, il est important de modifier également
+des éléments comme les motifs de césure, etc. Les packages <code>babel</code> et
+<code>polyglossia</code> sont là pour s'occuper de ça de façon robuste.</p>

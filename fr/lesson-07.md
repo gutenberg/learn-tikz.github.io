@@ -6,6 +6,13 @@ toc-anchor-text: "Les images"
 toc-description: "Apparance, espacement et positionnement."
 ---
 
+<<<<<<< HEAD
+=======
+# Inclure des images et les faire « flotter »
+
+<span class="summary">Cette leçon montre comment inclure des fichiers graphiques externes dans votre document, comment modifier leur apparence et comment les faire flotter automatiquement à l'endroit approprié du PDF.</span>
+
+>>>>>>> 586de09e... Translation into French completed.
 ## Inclure des images
 
 Pour insérer des images provenant d'autres logiciels que LaTeX, utilisez le

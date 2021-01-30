@@ -2,8 +2,12 @@
 lang: "en"
 title: "More on: Formatting: fonts and spacing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 description: "This lesson shows how to suppress the paragraph intentation for a single paragraph."
+=======
+description: "This lesson shows how to suppress the paragraph indentation for a single paragraph."
+>>>>>>> 586de09e... Translation into French completed.
 toc-anchor-text: "More on: Formatting: fonts and spacing"
 >>>>>>> fcb3bc38... Write 'description' elements for en pages
 ---
