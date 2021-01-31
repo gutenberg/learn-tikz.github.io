@@ -157,7 +157,12 @@ navigation-elements_open-an-issue:
   de: "Problem melden"
   en: "Open an issue"
   es: "Abrir un problema"
+<<<<<<< HEAD
   fr: "Ouvrez un problème"
+=======
+  fr: "Signaler un problème"
+  ja: "問題を開く"
+>>>>>>> 9f9e98de... Improved translation of navigation text.
   pt: "Abra um problema"
   vi: "Mở một vấn đề"
 navigation-elements_page-source:
